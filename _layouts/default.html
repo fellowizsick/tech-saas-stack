@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <meta name="description" content="{{ site.description }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
+  {% seo %}
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+      <a class="nav-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <span class="nav-tagline">{{ site.tagline }}</span>
+    </div>
+  </nav>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>{{ site.title }} &mdash; {{ site.tagline }}</p>
+      <p><small>Some links on this site are affiliate links. I may earn a commission at no extra cost to you.</small></p>
+    </div>
+  </footer>
+</body>
+</html>

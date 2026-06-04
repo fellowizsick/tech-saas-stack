@@ -1,0 +1,30 @@
+title: Tech & SaaS Stack
+tagline: Honest reviews, comparisons, and tutorials
+description: In-depth comparisons of web hosting, SaaS tools, and software for developers, creators, and online businesses.
+url: "https://1990j.github.io/tech-saas-stack"
+baseurl: "/tech-saas-stack"
+author: Jonathan
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Jonathan"
+
+permalink: /:year/:month/:title/
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

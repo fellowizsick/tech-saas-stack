@@ -23,6 +23,7 @@ defaults:
       author: "Jonathan Brown"
       toc: true
 
+future: true
 permalink: /:year/:month/:title/
 
 exclude:

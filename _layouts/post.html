@@ -1,18 +1,80 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="post" itemscope itemtype="{% if page.review %}https://schema.org/Review{% else %}https://schema.org/Article{% endif %}">
   <header class="post-header">
-    <h1>{{ page.title }}</h1>
+    <h1 itemprop="name headline">{{ page.title }}</h1>
     <div class="post-meta">
-      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
-      {% if page.categories %} &bull; {{ page.categories | join: ", " }}{% endif %}
+      <span>📅 <time datetime="{{ page.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time></span>
+      {% if page.last_modified %}
+      <span>🔄 Updated: <time datetime="{{ page.last_modified | date: '%Y-%m-%d' }}">{{ page.last_modified | date: "%B %d, %Y" }}</time></span>
+      {% endif %}
+      {% if page.categories %}
+      <span>📂 {{ page.categories | join: ", " }}</span>
+      {% endif %}
+      <span>📖 {{ content | strip_html | number_of_words }} words</span>
     </div>
   </header>
-  <div class="post-content">
+
+  <!-- Affiliate Disclosure -->
+  <div class="disclosure-bar">
+    🤝 <strong>Affiliate Disclosure:</strong> Some links in this post are affiliate links. If you purchase through them, I earn a commission at no extra cost to you. I only recommend products I've personally tested and trust.
+  </div>
+
+  <!-- Table of Contents (auto-generated) -->
+  {% if page.toc != false %}
+  <div class="toc">
+    <h4>📑 Table of Contents</h4>
+    <ul id="toc-list"></ul>
+  </div>
+  {% endif %}
+
+  <!-- Post Content -->
+  <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-  <div class="affiliate-disclosure">
-    <p><em>Disclosure: Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you. I only recommend products I genuinely believe in.</em></p>
+
+  <!-- Author Box -->
+  <div class="author-box" itemprop="author" itemscope itemtype="https://schema.org/Person">
+    <div class="author-avatar">JB</div>
+    <div class="author-info">
+      <h4 itemprop="name">Jonathan Brown</h4>
+      <p itemprop="description">Tech reviewer and affiliate content creator. I've spent years testing web hosting, SaaS tools, and WordPress solutions so you don't have to guess — you get honest, data-driven reviews you can trust.</p>
+    </div>
   </div>
+
+  <!-- Related Posts -->
+  {% if site.related_posts.size >= 1 %}
+  <div style="margin-top:32px; padding-top:24px; border-top:2px solid var(--border);">
+    <h3 style="margin-bottom:16px;">📖 You Might Also Like</h3>
+    <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
+    {% for related in site.related_posts limit:4 %}
+      <a href="{{ site.baseurl }}{{ related.url }}" style="display:block; padding:12px; background:var(--bg-alt); border-radius:var(--radius); border:1px solid var(--border); text-decoration:none; color:var(--text); font-size:14px; font-weight:500;">
+        {{ related.title }}
+      </a>
+    {% endfor %}
+    </div>
+  </div>
+  {% endif %}
 </article>
+
+<script>
+// Auto-generate Table of Contents from H2/H3 headings
+document.addEventListener('DOMContentLoaded', function() {
+  const toc = document.getElementById('toc-list');
+  if (!toc) return;
+  const headings = document.querySelectorAll('.post-content h2, .post-content h3');
+  headings.forEach(function(h, i) {
+    if (!h.id) {
+      h.id = 'section-' + i;
+    }
+    const li = document.createElement('li');
+    li.className = h.tagName === 'H2' ? 'toc-h2' : 'toc-h3';
+    const a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent;
+    li.appendChild(a);
+    toc.appendChild(li);
+  });
+});
+</script>

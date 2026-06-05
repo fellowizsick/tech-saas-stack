@@ -3,11 +3,130 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}</title>
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
+  <link rel="sitemap" type="application/xml" href="{{ site.baseurl }}/sitemap.xml">
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:site_name" content="{{ site.title }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
   {% seo %}
+
+  <!-- JSON-LD WebSite Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}{{ site.baseurl }}",
+    "description": "{{ site.description }}",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "{{ site.url }}{{ site.baseurl }}/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ site.url }}{{ site.baseurl }}/"
+      }{% if page.title and page.layout == 'post' %},
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ page.title | escape }}",
+        "item": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+      }{% endif %}
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD Person (Author) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jonathan Brown",
+    "url": "{{ site.url }}{{ site.baseurl }}/about/",
+    "description": "Tech reviewer and affiliate content creator specializing in web hosting, SaaS tools, and WordPress tutorials.",
+    "sameAs": [
+      "https://github.com/fellowizsick"
+    ]
+  }
+  </script>
+
+  {% if page.layout == 'post' and page.review %}
+  <!-- JSON-LD Review Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "itemReviewed": {
+      "@type": "Product",
+      "name": "{{ page.review.product }}",
+      "description": "{{ page.review.description }}"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Jonathan Brown"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "{{ page.review.rating }}",
+      "bestRating": "5"
+    },
+    "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+    "description": "{{ page.excerpt | strip_html | truncate: 200 | escape }}"
+  }
+  </script>
+  {% endif %}
+
+  {% if page.layout == 'post' %}
+  <!-- JSON-LD Article Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ page.title | escape }}",
+    "description": "{{ page.excerpt | strip_html | truncate: 160 | escape }}",
+    "author": {
+      "@type": "Person",
+      "name": "Jonathan Brown"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.title }}"
+    },
+    "datePublished": "{{ page.date | date: '%Y-%m-%dT%H:%M:%S' }}",
+    "dateModified": "{% if page.last_modified %}{{ page.last_modified | date: '%Y-%m-%dT%H:%M:%S' }}{% else %}{{ page.date | date: '%Y-%m-%dT%H:%M:%S' }}{% endif %}",
+    "wordCount": "{{ content | strip_html | number_of_words }}",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+    }
+  }
+  </script>
+  {% endif %}
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLHP59H7Z2"></script>
@@ -20,21 +139,71 @@
 </head>
 <body>
   <nav class="nav">
-    <div class="container">
+    <div class="container nav-inner">
       <a class="nav-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      <span class="nav-tagline">{{ site.tagline }}</span>
+      <div class="nav-links">
+        <a href="{{ site.baseurl }}/">Home</a>
+        {% assign categories = site.posts | map: "categories" | flatten | uniq | sort %}
+        {% for cat in categories limit:4 %}
+          <a href="{{ site.baseurl }}/category/{{ cat | slugify }}/">{{ cat }}</a>
+        {% endfor %}
+        <a href="{{ site.baseurl }}/about/">About</a>
+      </div>
     </div>
   </nav>
 
   <main class="container">
+    {% if page.layout == "post" or page.layout == "page" %}
+    <nav class="breadcrumbs">
+      <a href="{{ site.baseurl }}/">Home</a>
+      <span class="sep">›</span>
+      {% if page.categories %}
+        <a href="{{ site.baseurl }}/category/{{ page.categories[0] | slugify }}/">{{ page.categories[0] }}</a>
+        <span class="sep">›</span>
+      {% endif %}
+      <span>{{ page.title | truncate: 50 }}</span>
+    </nav>
+    {% endif %}
+
     {{ content }}
   </main>
 
   <footer class="footer">
     <div class="container">
+      <div class="footer-links">
+        <a href="{{ site.baseurl }}/">Home</a>
+        <a href="{{ site.baseurl }}/about/">About</a>
+        <a href="{{ site.baseurl }}/how-we-test/">How We Test</a>
+        <a href="{{ site.baseurl }}/privacy/">Privacy</a>
+      </div>
       <p>{{ site.title }} &mdash; {{ site.tagline }}</p>
-      <p><small>Some links on this site are affiliate links. I may earn a commission at no extra cost to you.</small></p>
+      <p style="margin-top:8px;"><small>Some links on this site are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you. I only recommend products I've personally tested and believe in.</small></p>
+      <p style="margin-top:4px;"><small>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</small></p>
     </div>
   </footer>
+
+  <button class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" id="scrollTopBtn" aria-label="Scroll to top">↑</button>
+
+  <script>
+    const scrollBtn = document.getElementById('scrollTopBtn');
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 400) {
+        scrollBtn.classList.add('visible');
+      } else {
+        scrollBtn.classList.remove('visible');
+      }
+    });
+
+    // Affiliate link click tracking
+    document.querySelectorAll('a[href*="wpengine"], a[href*="kinsta"], a[href*="siteground"], a[href*="hostinger"]').forEach(function(link) {
+      link.addEventListener('click', function() {
+        gtag('event', 'click', {
+          'event_category': 'affiliate',
+          'event_label': this.href,
+          'value': 1
+        });
+      });
+    });
+  </script>
 </body>
 </html>

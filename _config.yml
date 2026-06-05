@@ -1,9 +1,9 @@
 title: Tech & SaaS Stack
 tagline: Honest reviews, comparisons, and tutorials
-description: In-depth comparisons of web hosting, SaaS tools, and software for developers, creators, and online businesses.
-url: "https://fellowizsick.github.io/tech-saas-stack"
+description: In-depth, data-driven reviews of web hosting, SaaS tools, and software for developers, creators, and online businesses.
+url: "https://fellowizsick.github.io"
 baseurl: "/tech-saas-stack"
-author: Jonathan
+author: Jonathan Brown
 
 markdown: kramdown
 highlighter: rouge
@@ -12,6 +12,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-last-modified-at
 
 defaults:
   - scope:
@@ -19,7 +20,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Jonathan"
+      author: "Jonathan Brown"
+      toc: true
 
 permalink: /:year/:month/:title/
 

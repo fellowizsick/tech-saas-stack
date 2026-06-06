@@ -10,6 +10,8 @@ When you're launching a website — whether it's a personal blog, a small busine
 
 In this head-to-head comparison, I'll break down SiteGround vs Hostinger across pricing, performance, features, ease of use, and customer support to help you decide which one is the better fit for your project in 2026.
 
+<!--more-->
+
 > **Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.
 
 ## Quick Comparison: SiteGround vs Hostinger at a Glance

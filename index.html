@@ -13,18 +13,52 @@ title: Home
 </div>
 
 <!-- Category Filter -->
-<div class="category-filter">
-  <a class="category-tag active" href="{{ site.baseurl }}/">All</a>
+<div class="category-filter" id="categoryFilter">
+  <a class="category-tag active" href="javascript:void(0)" data-category="all">All</a>
   {% assign categories = site.posts | map: "categories" | flatten | uniq | sort %}
   {% for cat in categories %}
-  <a class="category-tag" href="{{ site.baseurl }}/category/{{ cat | slugify }}/">{{ cat }}</a>
+  <a class="category-tag" href="javascript:void(0)" data-category="{{ cat }}">{{ cat }}</a>
   {% endfor %}
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filter = document.getElementById('categoryFilter');
+  const cards = document.querySelectorAll('.post-card');
+
+  // Auto-filter from URL param ?category=
+  var urlCat = new URLSearchParams(window.location.search).get('category');
+  if (urlCat) {
+    var target = filter.querySelector('[data-category="' + urlCat + '"]');
+    if (target) target.click();
+  }
+
+  filter.querySelectorAll('.category-tag').forEach(function(tag) {
+    tag.addEventListener('click', function(e) {
+      filter.querySelectorAll('.category-tag').forEach(function(t) { t.classList.remove('active'); });
+      this.classList.add('active');
+      var cat = this.getAttribute('data-category');
+      cards.forEach(function(card) {
+        if (cat === 'all') { card.style.display = ''; }
+        else {
+          var cats = (card.getAttribute('data-categories') || '').split(',');
+          card.style.display = cats.indexOf(cat) > -1 ? '' : 'none';
+        }
+      });
+      // Update URL without reload
+      var url = new URL(window.location);
+      if (cat === 'all') url.searchParams.delete('category');
+      else url.searchParams.set('category', cat);
+      window.history.replaceState({}, '', url);
+    });
+  });
+});
+</script>
 
 <!-- Featured Post (most recent) -->
 {% assign latest = site.posts | first %}
 <section class="posts-list">
-  <article class="post-card featured-post">
+  <article class="post-card featured-post" data-categories="{{ latest.categories | join: ',' }}">
     <div class="post-meta">
       <span>📅 {{ latest.date | date: "%B %d, %Y" }}</span>
       {% if latest.categories %} <span>📂 {{ latest.categories | join: ", " }}</span> {% endif %}
@@ -36,7 +70,7 @@ title: Home
 
   <!-- Remaining Posts -->
   {% for post in site.posts offset:1 %}
-  <article class="post-card">
+  <article class="post-card" data-categories="{{ post.categories | join: ',' }}">
     <div class="post-meta">
       <span>📅 {{ post.date | date: "%B %d, %Y" }}</span>
       {% if post.categories %} <span>📂 {{ post.categories | join: ", " }}</span> {% endif %}

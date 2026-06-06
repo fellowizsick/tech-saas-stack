@@ -36,22 +36,23 @@ Semrush isn't the only SEO tool on the market, but it consistently ranks as a to
 
 ## Semrush vs Alternatives: Feature Comparison
 
-<div class="comparison-table">
-
-| Feature | Semrush | Ahrefs | Moz Pro | Google Search Console |
-|---|---|---|---|---|
-| **Crawl capacity (Pro)** | Up to 100,000 pages | Up to 100,000 pages | Up to 10,000 pages | Unlimited (GSC data) |
-| **Issue types detected** | 140+ | 100+ | 50+ | 20+ |
-| **Historical tracking** | Full crawl history | Full crawl history | 3-month history | 16-month history |
-| **Prioritized recommendations** | ✅ With traffic impact estimates | ✅ With traffic impact estimates | ⚠️ Basic priority only | ❌ Raw data only |
-| **Competitor comparison** | ✅ Full competitor analysis | ✅ Strong backlink analysis | ⚠️ Limited | ❌ |
-| **Keyword research** | ✅ 20B+ keyword database | ✅ 10B+ keyword database | ✅ 5B+ keyword database | ❌ Performance data only |
-| **Backlink analysis** | ✅ Comprehensive | ✅ Best in class | ✅ Good | ❌ Limited |
-| **Rank tracking** | ✅ Up to 500 keywords | ✅ Up to 200 keywords (Lite) | ✅ Up to 200 keywords | ✅ Search impressions only |
-| **Free tier availability** | ⚠️ 7-day trial | ⚠️ 7-day trial ($7) | ⚠️ 30-day trial | ✅ 100% free |
-| **Starting price** | $129.95/mo | $99/mo (Lite) | $99/mo (Standard) | Free |
-
-</div>
+<table class="comparison-table">
+<thead>
+<tr><th>Feature</th><th>Semrush</th><th>Ahrefs</th><th>Moz Pro</th><th>Google Search Console</th></tr>
+</thead>
+<tbody>
+<tr><td>**Crawl capacity (Pro)**</td><td>Up to 100,000 pages</td><td>Up to 100,000 pages</td><td>Up to 10,000 pages</td><td>Unlimited (GSC data)</td></tr>
+<tr><td>**Issue types detected**</td><td>140+</td><td>100+</td><td>50+</td><td>20+</td></tr>
+<tr><td>**Historical tracking**</td><td>Full crawl history</td><td>Full crawl history</td><td>3-month history</td><td>16-month history</td></tr>
+<tr><td>**Prioritized recommendations**</td><td>✅ With traffic impact estimates</td><td>✅ With traffic impact estimates</td><td>⚠️ Basic priority only</td><td>❌ Raw data only</td></tr>
+<tr><td>**Competitor comparison**</td><td>✅ Full competitor analysis</td><td>✅ Strong backlink analysis</td><td>⚠️ Limited</td><td>❌</td></tr>
+<tr><td>**Keyword research**</td><td>✅ 20B+ keyword database</td><td>✅ 10B+ keyword database</td><td>✅ 5B+ keyword database</td><td>❌ Performance data only</td></tr>
+<tr><td>**Backlink analysis**</td><td>✅ Comprehensive</td><td>✅ Best in class</td><td>✅ Good</td><td>❌ Limited</td></tr>
+<tr><td>**Rank tracking**</td><td>✅ Up to 500 keywords</td><td>✅ Up to 200 keywords (Lite)</td><td>✅ Up to 200 keywords</td><td>✅ Search impressions only</td></tr>
+<tr><td>**Free tier availability**</td><td>⚠️ 7-day trial</td><td>⚠️ 7-day trial ($7)</td><td>⚠️ 30-day trial</td><td>✅ 100% free</td></tr>
+<tr><td>**Starting price**</td><td>$129.95/mo</td><td>$99/mo (Lite)</td><td>$99/mo (Standard)</td><td>Free</td></tr>
+</tbody>
+</table>
 
 For most bloggers and small businesses, **Semrush offers the best all-in-one value** because it combines site audit, keyword research, competitor analysis, and rank tracking in one platform. Ahrefs is stronger for pure backlink analysis but lacks Semrush's breadth of built-in tools. Moz Pro is more beginner-friendly but has a smaller database and fewer audit features.
 

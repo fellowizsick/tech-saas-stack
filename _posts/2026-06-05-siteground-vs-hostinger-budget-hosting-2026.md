@@ -16,24 +16,25 @@ In this head-to-head comparison, I'll break down SiteGround vs Hostinger across 
 
 ## Quick Comparison: SiteGround vs Hostinger at a Glance
 
-<div class="comparison-table">
-
-| Feature | SiteGround | Hostinger |
-|---|---|---|
-| Starting Price | $2.99/mo (renewals ~$17.99/mo) | $2.69/mo (renews ~$7.99/mo) |
-| Free Domain | ❌ | ✅ (Premium plans) |
-| Free SSL | ✅ (Let's Encrypt) | ✅ (Let's Encrypt) |
-| Free CDN | ✅ (Cloudflare) | ✅ (Cloudflare) |
-| Storage | 10 GB NVMe SSD (StartUp) | 50 GB NVMe SSD (Business) |
-| Uptime Guarantee | 99.9% | 99.9% |
-| Daily Backups | ✅ Included | ✅ Included |
-| Managed WordPress | ✅ GoGeek plan | ✅ Business plan |
-| Staging | ✅ All plans | ✅ Premium+ plans |
-| Data Centers | 6 locations (US, EU, Asia, AU) | 8 locations (US, EU, Asia) |
-| Support | 24/7 live chat + tickets | 24/7 live chat |
-| Money-Back Guarantee | 30 days | 30 days |
-
-</div>
+<table class="comparison-table">
+<thead>
+<tr><th>Feature</th><th>SiteGround</th><th>Hostinger</th></tr>
+</thead>
+<tbody>
+<tr><td>Starting Price</td><td>$2.99/mo (renewals ~$17.99/mo)</td><td>$2.69/mo (renews ~$7.99/mo)</td></tr>
+<tr><td>Free Domain</td><td>❌</td><td>✅ (Premium plans)</td></tr>
+<tr><td>Free SSL</td><td>✅ (Let's Encrypt)</td><td>✅ (Let's Encrypt)</td></tr>
+<tr><td>Free CDN</td><td>✅ (Cloudflare)</td><td>✅ (Cloudflare)</td></tr>
+<tr><td>Storage</td><td>10 GB NVMe SSD (StartUp)</td><td>50 GB NVMe SSD (Business)</td></tr>
+<tr><td>Uptime Guarantee</td><td>99.9%</td><td>99.9%</td></tr>
+<tr><td>Daily Backups</td><td>✅ Included</td><td>✅ Included</td></tr>
+<tr><td>Managed WordPress</td><td>✅ GoGeek plan</td><td>✅ Business plan</td></tr>
+<tr><td>Staging</td><td>✅ All plans</td><td>✅ Premium+ plans</td></tr>
+<tr><td>Data Centers</td><td>6 locations (US, EU, Asia, AU)</td><td>8 locations (US, EU, Asia)</td></tr>
+<tr><td>Support</td><td>24/7 live chat + tickets</td><td>24/7 live chat</td></tr>
+<tr><td>Money-Back Guarantee</td><td>30 days</td><td>30 days</td></tr>
+</tbody>
+</table>
 
 On paper, Hostinger looks cheaper and offers more storage. But pricing is only one piece of the puzzle. Let's dig deeper.
 
@@ -198,19 +199,20 @@ SiteGround and Hostinger are both excellent budget web hosting providers in 2026
 
 For most users in 2026, I'd recommend [**Hostinger**](https://hostinger.com/) for the sheer value-to-price ratio. But if customer support is your top priority, [**SiteGround**](https://siteground.com/) won't let you down.
 
-<div class="comparison-table">
-
-| Decision Factor | Pick |
-|---|---|
-| Lowest price | **Hostinger** ✅ |
-| Best support | **SiteGround** ✅ |
-| Most storage | **Hostinger** ✅ |
-| Best speed | **Tie** |
-| Best for beginners | **SiteGround** ✅ |
-| Best for multiple sites | **Hostinger** ✅ |
-| Best long-term value | **Hostinger** ✅ |
-
-</div>
+<table class="comparison-table">
+<thead>
+<tr><th>Decision Factor</th><th>Pick</th></tr>
+</thead>
+<tbody>
+<tr><td>Lowest price</td><td>**Hostinger** ✅</td></tr>
+<tr><td>Best support</td><td>**SiteGround** ✅</td></tr>
+<tr><td>Most storage</td><td>**Hostinger** ✅</td></tr>
+<tr><td>Best speed</td><td>**Tie**</td></tr>
+<tr><td>Best for beginners</td><td>**SiteGround** ✅</td></tr>
+<tr><td>Best for multiple sites</td><td>**Hostinger** ✅</td></tr>
+<tr><td>Best long-term value</td><td>**Hostinger** ✅</td></tr>
+</tbody>
+</table>
 
 ## FAQ
 

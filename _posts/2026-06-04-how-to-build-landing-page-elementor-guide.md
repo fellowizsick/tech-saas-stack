@@ -28,25 +28,26 @@ Before diving into the step-by-step, let's talk about why Elementor is the go-to
 
 ## Elementor Free vs Pro: Feature Comparison
 
-<div class="comparison-table">
-
-| Feature | Elementor Free | Elementor Pro |
-|---|---|---|
-| **Drag-and-drop builder** | ✅ Yes | ✅ Yes |
-| **Pre-built templates** | 40+ | 300+ |
-| **Responsive editing** | ✅ Basic | ✅ Advanced |
-| **Theme Builder (headers, footers)** | ❌ | ✅ |
-| **Popup Builder** | ❌ | ✅ |
-| **Form Builder** | ❌ | ✅ |
-| **Dynamic Content / ACF integration** | ❌ | ✅ |
-| **WooCommerce Builder** | ❌ | ✅ |
-| **Custom CSS** | ✅ Limited | ✅ Full |
-| **Motion Effects & Animations** | ❌ | ✅ |
-| **Global Widgets** | ❌ | ✅ |
-| **Price** | Free | $59/year (single site) |
-| **Best For** | Simple landing pages, blogs | Full site building, marketing pages |
-
-</div>
+<table class="comparison-table">
+<thead>
+<tr><th>Feature</th><th>Elementor Free</th><th>Elementor Pro</th></tr>
+</thead>
+<tbody>
+<tr><td>**Drag-and-drop builder**</td><td>✅ Yes</td><td>✅ Yes</td></tr>
+<tr><td>**Pre-built templates**</td><td>40+</td><td>300+</td></tr>
+<tr><td>**Responsive editing**</td><td>✅ Basic</td><td>✅ Advanced</td></tr>
+<tr><td>**Theme Builder (headers, footers)**</td><td>❌</td><td>✅</td></tr>
+<tr><td>**Popup Builder**</td><td>❌</td><td>✅</td></tr>
+<tr><td>**Form Builder**</td><td>❌</td><td>✅</td></tr>
+<tr><td>**Dynamic Content / ACF integration**</td><td>❌</td><td>✅</td></tr>
+<tr><td>**WooCommerce Builder**</td><td>❌</td><td>✅</td></tr>
+<tr><td>**Custom CSS**</td><td>✅ Limited</td><td>✅ Full</td></tr>
+<tr><td>**Motion Effects & Animations**</td><td>❌</td><td>✅</td></tr>
+<tr><td>**Global Widgets**</td><td>❌</td><td>✅</td></tr>
+<tr><td>**Price**</td><td>Free</td><td>$59/year (single site)</td></tr>
+<tr><td>**Best For**</td><td>Simple landing pages, blogs</td><td>Full site building, marketing pages</td></tr>
+</tbody>
+</table>
 
 For most landing pages, the free version of Elementor is surprisingly capable. However, if you need advanced features like custom forms, popups, or dynamic content, upgrading to [Elementor Pro](https://elementor.com/) is well worth the investment.
 

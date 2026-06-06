@@ -20,22 +20,23 @@ This in-depth comparison breaks down Semrush and Ahrefs across the features that
 
 ## Semrush vs Ahrefs: At a Glance
 
-<div class="comparison-table">
-
-| Feature | Semrush | Ahrefs |
-|---|---|---|
-| **Keyword Database** | 25B+ keywords | 24B+ keywords |
-| **Backlink Index** | 43T backlinks | 44T+ backlinks |
-| **Site Audit** | Excellent (100K pages/project) | Excellent (10K pages/project Lite) |
-| **Content Tools** | SEO Writing Assistant, Content Template | Content Explorer, Site Explorer analysis |
-| **PPC & Advertising** | Best-in-class (PLA, Ads builder, CPC data) | Limited (mostly organic focus) |
-| **Social Media** | Built-in posting & scheduling | None |
-| **Reporting** | Customizable PDF/PPT reports | Shareable white-label reports |
-| **Free Trial** | 7 days free | Limited free version + $7 trial |
-| **Starting Price** | $139.95/mo (Pro) | $129/mo (Lite) |
-| **Best For** | All-in-one digital marketing | Link building & backlink analysis |
-
-</div>
+<table class="comparison-table">
+<thead>
+<tr><th>Feature</th><th>Semrush</th><th>Ahrefs</th></tr>
+</thead>
+<tbody>
+<tr><td>**Keyword Database**</td><td>25B+ keywords</td><td>24B+ keywords</td></tr>
+<tr><td>**Backlink Index**</td><td>43T backlinks</td><td>44T+ backlinks</td></tr>
+<tr><td>**Site Audit**</td><td>Excellent (100K pages/project)</td><td>Excellent (10K pages/project Lite)</td></tr>
+<tr><td>**Content Tools**</td><td>SEO Writing Assistant, Content Template</td><td>Content Explorer, Site Explorer analysis</td></tr>
+<tr><td>**PPC & Advertising**</td><td>Best-in-class (PLA, Ads builder, CPC data)</td><td>Limited (mostly organic focus)</td></tr>
+<tr><td>**Social Media**</td><td>Built-in posting & scheduling</td><td>None</td></tr>
+<tr><td>**Reporting**</td><td>Customizable PDF/PPT reports</td><td>Shareable white-label reports</td></tr>
+<tr><td>**Free Trial**</td><td>7 days free</td><td>Limited free version + $7 trial</td></tr>
+<tr><td>**Starting Price**</td><td>$139.95/mo (Pro)</td><td>$129/mo (Lite)</td></tr>
+<tr><td>**Best For**</td><td>All-in-one digital marketing</td><td>Link building & backlink analysis</td></tr>
+</tbody>
+</table>
 
 Both tools have strengths that overlap, but their sweet spots are very different. Let's dive into each.
 
@@ -73,15 +74,16 @@ No other SEO tool comes close to Semrush's depth in paid search.
 
 ### Semrush Pricing
 
-<div class="comparison-table">
-
-| Plan | Monthly Price | Keywords Tracked | Best For |
-|---|---|---|---|
-| **Pro** | $139.95/mo | 500 | Freelancers, small teams |
-| **Guru** | $249.95/mo | 1,500 | Growing agencies |
-| **Business** | $499.95/mo | 5,000 | Large enterprises / multi-brand |
-
-</div>
+<table class="comparison-table">
+<thead>
+<tr><th>Plan</th><th>Monthly Price</th><th>Keywords Tracked</th><th>Best For</th></tr>
+</thead>
+<tbody>
+<tr><td>**Pro**</td><td>$139.95/mo</td><td>500</td><td>Freelancers, small teams</td></tr>
+<tr><td>**Guru**</td><td>$249.95/mo</td><td>1,500</td><td>Growing agencies</td></tr>
+<tr><td>**Business**</td><td>$499.95/mo</td><td>5,000</td><td>Large enterprises / multi-brand</td></tr>
+</tbody>
+</table>
 
 All plans include a 7-day free trial. The Pro plan is enough for most users — it tracks up to 500 keywords and gives you access to the full keyword database.
 
@@ -150,16 +152,17 @@ This makes it easy to find linkable assets in your niche and see what type of co
 
 ### Ahrefs Pricing
 
-<div class="comparison-table">
-
-| Plan | Monthly Price | Best For |
-|---|---|---|
-| **Lite** | $129/mo | Freelancers, beginners |
-| **Standard** | $249/mo | Small agencies |
-| **Advanced** | $449/mo | Growing teams |
-| **Enterprise** | $15,000/yr | Large organizations |
-
-</div>
+<table class="comparison-table">
+<thead>
+<tr><th>Plan</th><th>Monthly Price</th><th>Best For</th></tr>
+</thead>
+<tbody>
+<tr><td>**Lite**</td><td>$129/mo</td><td>Freelancers, beginners</td></tr>
+<tr><td>**Standard**</td><td>$249/mo</td><td>Small agencies</td></tr>
+<tr><td>**Advanced**</td><td>$449/mo</td><td>Growing teams</td></tr>
+<tr><td>**Enterprise**</td><td>$15,000/yr</td><td>Large organizations</td></tr>
+</tbody>
+</table>
 
 Ahrefs offers a limited free version (Site Audit, Keywords Explorer with capped access) and a **$7 seven-day trial** for the full platform.
 
@@ -235,18 +238,19 @@ Ahrefs has a cleaner, more minimalist interface. Data is presented in a straight
 
 ## Pricing Comparison
 
-<div class="comparison-table">
-
-| Aspect | Semrush | Ahrefs |
-|---|---|---|
-| **Entry Price** | $139.95/mo (Pro) | $129/mo (Lite) |
-| **Mid-Tier Price** | $249.95/mo (Guru) | $249/mo (Standard) |
-| **High-Tier Price** | $499.95/mo (Business) | $449/mo (Advanced) |
-| **Free Trial** | 7 days full access | Limited free + $7/7 days |
-| **Keywords Tracked (Entry)** | 500 | 750 (Lite) |
-| **Site Crawl Limit (Entry)** | 100K pages/project | 10K pages/project |
-
-</div>
+<table class="comparison-table">
+<thead>
+<tr><th>Aspect</th><th>Semrush</th><th>Ahrefs</th></tr>
+</thead>
+<tbody>
+<tr><td>**Entry Price**</td><td>$139.95/mo (Pro)</td><td>$129/mo (Lite)</td></tr>
+<tr><td>**Mid-Tier Price**</td><td>$249.95/mo (Guru)</td><td>$249/mo (Standard)</td></tr>
+<tr><td>**High-Tier Price**</td><td>$499.95/mo (Business)</td><td>$449/mo (Advanced)</td></tr>
+<tr><td>**Free Trial**</td><td>7 days full access</td><td>Limited free + $7/7 days</td></tr>
+<tr><td>**Keywords Tracked (Entry)**</td><td>500</td><td>750 (Lite)</td></tr>
+<tr><td>**Site Crawl Limit (Entry)**</td><td>100K pages/project</td><td>10K pages/project</td></tr>
+</tbody>
+</table>
 
 The pricing is remarkably similar. Semrush is slightly more expensive at the entry level but offers far more features (PPC, social, content writing). Ahrefs is slightly cheaper but more focused. The right choice depends on which features you actually need.
 

@@ -29,19 +29,20 @@ The simplest way to back up your WordPress site is to choose a hosting provider 
 
 ### Hosting Backup Features Comparison
 
-<div class="comparison-table">
-
-| Feature | WP Engine | Kinsta | SiteGround | Hostinger |
-|---|---|---|---|---|
-| **Backup Frequency** | Daily | 6x daily | Daily (GrowBig+) | Weekly (Business) |
-| **Retention Period** | 60 days | 14-30 days | 30 days | 30 days |
-| **One-Click Restore** | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Staging Environment** | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| **On-Demand Backups** | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Off-Site Storage** | ✅ Encrypted | ✅ Google Cloud | ✅ Encrypted | ✅ Encrypted |
-| **Starting Price** | ~$24/mo | ~$35/mo | ~$3.99/mo (promo) | ~$2.99/mo (promo) |
-
-</div>
+<table class="comparison-table">
+<thead>
+<tr><th>Feature</th><th>WP Engine</th><th>Kinsta</th><th>SiteGround</th><th>Hostinger</th></tr>
+</thead>
+<tbody>
+<tr><td>**Backup Frequency**</td><td>Daily</td><td>6x daily</td><td>Daily (GrowBig+)</td><td>Weekly (Business)</td></tr>
+<tr><td>**Retention Period**</td><td>60 days</td><td>14-30 days</td><td>30 days</td><td>30 days</td></tr>
+<tr><td>**One-Click Restore**</td><td>✅ Yes</td><td>✅ Yes</td><td>✅ Yes</td><td>✅ Yes</td></tr>
+<tr><td>**Staging Environment**</td><td>✅ Yes</td><td>✅ Yes</td><td>✅ Yes</td><td>✅ Yes</td></tr>
+<tr><td>**On-Demand Backups**</td><td>✅ Yes</td><td>✅ Yes</td><td>✅ Yes</td><td>✅ Yes</td></tr>
+<tr><td>**Off-Site Storage**</td><td>✅ Encrypted</td><td>✅ Google Cloud</td><td>✅ Encrypted</td><td>✅ Encrypted</td></tr>
+<tr><td>**Starting Price**</td><td>~$24/mo</td><td>~$35/mo</td><td>~$3.99/mo (promo)</td><td>~$2.99/mo (promo)</td></tr>
+</tbody>
+</table>
 
 ### WP Engine — Daily + On-Demand Backups
 
@@ -86,21 +87,22 @@ If you're on shared hosting or want more control, backup plugins give you DIY ba
 
 ### Backup Plugin Comparison
 
-<div class="comparison-table">
-
-| Feature | UpdraftPlus | Jetpack VaultPress Backup | BlogVault | BackWPup |
-|---|---|---|---|---|
-| **Free Version** | ✅ Yes | ❌ Premium only | ❌ Premium only | ✅ Yes |
-| **Starting Price (Premium)** | Free / $70/yr | $10.80/mo | $89/yr | Free / €69/yr |
-| **Scheduled Backups** | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Real-Time Backups** | ❌ No | ✅ Yes | ✅ Yes | ❌ No |
-| **Cloud Storage Destinations** | Google Drive, Dropbox, S3, more | Jetpack Cloud only | BlogVault Cloud only | Dropbox, S3, FTP, more |
-| **One-Click Restore** | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Staging Environment** | ❌ No (premium addon) | ❌ No | ✅ Yes | ❌ No |
-| **E-Commerce Support** | ✅ Yes | ✅ Yes | ✅ Yes (real-time) | ✅ Yes |
-| **Best For** | Budget-conscious users | Jetpack ecosystem users | E-commerce sites | Power users wanting options |
-
-</div>
+<table class="comparison-table">
+<thead>
+<tr><th>Feature</th><th>UpdraftPlus</th><th>Jetpack VaultPress Backup</th><th>BlogVault</th><th>BackWPup</th></tr>
+</thead>
+<tbody>
+<tr><td>**Free Version**</td><td>✅ Yes</td><td>❌ Premium only</td><td>❌ Premium only</td><td>✅ Yes</td></tr>
+<tr><td>**Starting Price (Premium)**</td><td>Free / $70/yr</td><td>$10.80/mo</td><td>$89/yr</td><td>Free / €69/yr</td></tr>
+<tr><td>**Scheduled Backups**</td><td>✅ Yes</td><td>✅ Yes</td><td>✅ Yes</td><td>✅ Yes</td></tr>
+<tr><td>**Real-Time Backups**</td><td>❌ No</td><td>✅ Yes</td><td>✅ Yes</td><td>❌ No</td></tr>
+<tr><td>**Cloud Storage Destinations**</td><td>Google Drive, Dropbox, S3, more</td><td>Jetpack Cloud only</td><td>BlogVault Cloud only</td><td>Dropbox, S3, FTP, more</td></tr>
+<tr><td>**One-Click Restore**</td><td>✅ Yes</td><td>✅ Yes</td><td>✅ Yes</td><td>✅ Yes</td></tr>
+<tr><td>**Staging Environment**</td><td>❌ No (premium addon)</td><td>❌ No</td><td>✅ Yes</td><td>❌ No</td></tr>
+<tr><td>**E-Commerce Support**</td><td>✅ Yes</td><td>✅ Yes</td><td>✅ Yes (real-time)</td><td>✅ Yes</td></tr>
+<tr><td>**Best For**</td><td>Budget-conscious users</td><td>Jetpack ecosystem users</td><td>E-commerce sites</td><td>Power users wanting options</td></tr>
+</tbody>
+</table>
 
 ### UpdraftPlus (Free + Premium)
 

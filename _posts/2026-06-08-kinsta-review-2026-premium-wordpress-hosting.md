@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Kinsta Review (2026): Is Premium WordPress Hosting Worth the Investment?"
+description: "Kinsta review 2026 — is premium WordPress hosting worth the investment? We tested performance, features, support, and pricing to give you an honest verdict."
 date: 2026-06-08 04:00:00 -0500
 categories: [hosting, review]
 review:

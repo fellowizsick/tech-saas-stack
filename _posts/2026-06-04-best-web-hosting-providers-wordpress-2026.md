@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "8 Best Web Hosting Providers for WordPress in 2026: Tested & Reviewed"
+description: "Looking for the best WordPress hosting in 2026? We tested 8 top providers for speed, support, and value. Find the perfect host for your site today."
 date: 2026-06-04 20:00:00 -0500
 categories: [hosting, roundup]
 toc: true

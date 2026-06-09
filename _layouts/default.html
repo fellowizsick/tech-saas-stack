@@ -5,21 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
   <link rel="sitemap" type="application/xml" href="{{ site.baseurl }}/sitemap.xml">
 
   <!-- OpenGraph -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
 
+  <!-- OpenGraph Image -->
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/social-default.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/social-default.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.svg" type="image/svg+xml">
+
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   {% seo %}
 
@@ -96,7 +105,7 @@
       "bestRating": "5"
     },
     "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
-    "description": "{{ page.excerpt | strip_html | truncate: 200 | escape }}"
+    "description": "{% if page.description %}{{ page.description | strip_html | truncate: 200 | escape }}{% else %}{{ page.excerpt | strip_html | truncate: 200 | escape }}{% endif %}"
   }
   </script>
   {% endif %}
@@ -108,7 +117,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "{{ page.title | escape }}",
-    "description": "{{ page.excerpt | strip_html | truncate: 160 | escape }}",
+    "description": "{% if page.description %}{{ page.description | strip_html | truncate: 160 | escape }}{% else %}{{ page.excerpt | strip_html | truncate: 160 | escape }}{% endif %}",
     "author": {
       "@type": "Person",
       "name": "Jonathan Brown"

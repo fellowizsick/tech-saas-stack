@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Build a High-Converting Landing Page with Elementor: Step-by-Step Guide (2026)"
+description: "Learn how to build a high-converting landing page with Elementor in 2026. Step-by-step guide covering templates, design, and optimization tips."
 date: 2026-06-04 22:00:00 -0500
 categories: [wordpress, elementor, tutorial]
 toc: true

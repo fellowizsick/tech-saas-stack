@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Run a Complete SEO Audit with Ahrefs: Step-by-Step Guide for Beginners (2026)"
+description: "Learn how to run a complete SEO audit with Ahrefs in this beginner's 2026 guide. Find technical issues, backlink gaps, and content opportunities fast."
 date: 2026-06-06 23:30:00 -0500
 categories: [seo, tutorial, affiliate-marketing]
 toc: true

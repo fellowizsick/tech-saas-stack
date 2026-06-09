@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Run Your First SEO Audit with Semrush: Step-by-Step Guide for Beginners (2026)"
+description: "Master your first SEO audit with Semrush in this beginner-friendly guide. Learn to find technical issues, fix rankings, and outrank competitors fast."
 date: 2026-06-04 23:00:00 -0500
 categories: [seo, tutorial]
 toc: true

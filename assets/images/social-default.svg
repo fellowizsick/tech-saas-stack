@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1a1a2e"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#00d4aa"/>
+  <text x="600" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="56" font-weight="bold" fill="#ffffff">Tech SaaS Stack</text>
+  <text x="600" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#00d4aa">Honest Reviews &amp; Comparisons</text>
+  <text x="600" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#888">Web Hosting • SaaS Tools • WordPress</text>
+  <rect x="450" y="420" width="300" height="2" fill="#333"/>
+  <text x="600" y="470" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#555">techsaasstack.com</text>
+</svg>

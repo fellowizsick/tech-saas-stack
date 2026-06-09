@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Build a WooCommerce Store with Elementor: Step-by-Step Guide for 2026"
+description: "Build a WooCommerce store with Elementor in 2026 — no coding required. Step-by-step guide covering setup, product pages, checkout, and launch strategy."
 date: 2026-06-07 12:00:00 -0500
 categories: [wordpress, ecommerce, tutorial]
 review:

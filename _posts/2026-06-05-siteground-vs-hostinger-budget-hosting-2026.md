@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SiteGround vs Hostinger: Which Budget Web Hosting Provider Wins in 2026?"
+description: "SiteGround vs Hostinger — which budget web hosting provider wins in 2026? Compare pricing, performance, and features side by side to find your best fit."
 date: 2026-06-05 17:30:00 -0500
 categories: [hosting, comparison]
 toc: true

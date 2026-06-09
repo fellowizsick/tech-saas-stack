@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Back Up Your WordPress Site: Complete Guide to Backup Plugins & Strategies (2026)"
+description: "Don't lose your WordPress site to a hack or crash. Complete guide to backup plugins and strategies in 2026 — set up a bulletproof system in minutes."
 date: 2026-06-05 08:00:00 -0500
 categories: [wordpress, tutorial]
 toc: true

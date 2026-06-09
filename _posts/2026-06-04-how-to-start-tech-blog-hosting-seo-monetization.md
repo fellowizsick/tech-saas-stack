@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Start a Tech Blog in 2026: Hosting, SEO, and Monetization (Complete Blueprint)"
+description: "Learn how to start a profitable tech blog in 2026. Complete blueprint covering hosting setup, SEO strategy, content creation, and monetization methods."
 date: 2026-06-04 23:30:00 -0500
 categories: [blogging, tutorial]
 toc: true

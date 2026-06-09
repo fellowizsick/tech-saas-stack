@@ -105,7 +105,7 @@ After spending [X] hours testing all three — signing up, migrating sites, runn
 
 ## WP Engine — Best Overall
 
-[WP Engine](https://wpengine.com/) has been the gold standard for managed WordPress hosting since 2010. It powers over 1.2 million websites across 150+ countries and is trusted by brands like Soundstripe, Buffer, and PBS.
+WP Engine has been the gold standard for managed WordPress hosting since 2010. It powers over 1.2 million websites across 150+ countries and is trusted by brands like Soundstripe, Buffer, and PBS.
 
 ### Performance & Speed
 
@@ -161,12 +161,12 @@ WP Engine is ideal for **growing businesses, agencies, and serious bloggers** wh
 
 <div class="cta-wrapper">
   <p><strong>Try WP Engine risk-free with 60-day money-back guarantee</strong></p>
-  <a class="cta-btn" href="https://wpengine.com/" rel="nofollow sponsored">Visit WP Engine →</a>
+  Visit WP Engine →
 </div>
 
 ## Kinsta — Best for Performance
 
-[Kinsta](https://kinsta.com/) runs exclusively on **Google Cloud Platform's premium tier**, giving it a raw infrastructure advantage over competitors. With 35+ data center locations worldwide, it's built for speed from the ground up.
+Kinsta runs exclusively on **Google Cloud Platform's premium tier**, giving it a raw infrastructure advantage over competitors. With 35+ data center locations worldwide, it's built for speed from the ground up.
 
 ### Performance & Speed
 
@@ -223,7 +223,7 @@ Kinsta is the best choice for **performance-critical sites** — high-traffic bl
 
 <div class="cta-wrapper">
   <p><strong>Get premium Google Cloud hosting with Kinsta</strong></p>
-  <a class="cta-btn accent" href="https://kinsta.com/" rel="nofollow sponsored">Visit Kinsta →</a>
+  Visit Kinsta →
 </div>
 
 ## SiteGround — Best Budget Option
@@ -355,9 +355,7 @@ We signed up for paid accounts at all three hosts, migrated identical test sites
 
 <div class="cta-wrapper">
   <p><strong>Ready to get started? Try WP Engine risk-free today</strong></p>
-  <a class="cta-btn" href="https://wpengine.com/" rel="nofollow sponsored">Get Started with WP Engine →</a>
+  Get Started with WP Engine →
   <p style="margin-top:8px; font-size:13px;">60-day money-back guarantee. No risk. No hassle.</p>
 </div>
 
-
-<!-- AFFILIATE-MARKER: kinsta.com=PENDING, siteground.com=PENDING, wpengine.com=PENDING -->

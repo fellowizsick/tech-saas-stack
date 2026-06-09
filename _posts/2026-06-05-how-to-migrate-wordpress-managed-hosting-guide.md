@@ -94,13 +94,13 @@ Before starting the migration, make sure you have:
 
 Not all managed hosts are created equal. Here's how the top contenders stack up for WordPress migrations:
 
-**Best for high-traffic sites: [WP Engine](https://wpengine.com/)** — WP Engine is the gold standard for managed WordPress hosting. They offer EverCache (their proprietary caching technology), automatic SSL certificates, a global CDN via Cloudflare, and Genesis Framework access. Their support team is available 24/7 and staffed entirely by WordPress experts. Pricing starts around $20/month for a single site, but the performance and peace of mind are well worth it for business-critical sites.
+**Best for high-traffic sites: WP Engine** — WP Engine is the gold standard for managed WordPress hosting. They offer EverCache (their proprietary caching technology), automatic SSL certificates, a global CDN via Cloudflare, and Genesis Framework access. Their support team is available 24/7 and staffed entirely by WordPress experts. Pricing starts around $20/month for a single site, but the performance and peace of mind are well worth it for business-critical sites.
 
-**Best for enterprise-scale: [Kinsta](https://kinsta.com/)** — Kinsta runs on Google Cloud Platform's Premium Tier network with 34+ data centers worldwide. Every site gets an isolated LXD container, so neighboring site traffic spikes never affect your performance. Kinsta's custom dashboard gives you detailed analytics, PHP version switching, and a free hack fix guarantee if your site ever gets compromised. Plans start at $35/month.
+**Best for enterprise-scale: Kinsta** — Kinsta runs on Google Cloud Platform's Premium Tier network with 34+ data centers worldwide. Every site gets an isolated LXD container, so neighboring site traffic spikes never affect your performance. Kinsta's custom dashboard gives you detailed analytics, PHP version switching, and a free hack fix guarantee if your site ever gets compromised. Plans start at $35/month.
 
 **Best for value: [SiteGround](https://siteground.com/)** — SiteGround offers a strong middle ground with their custom caching plugin (SG Optimizer), free daily backups, and a user-friendly staging system. Their support is fast and WordPress-savvy. SiteGround plans start at a lower price point than WP Engine or Kinsta, making them a great entry point for smaller sites that still want managed-level service.
 
-**Best for beginners: [Hostinger](https://hostinger.com/)** — Hostinger's managed WordPress plans come with a custom control panel (hPanel), LiteSpeed caching, and an AI-powered assistant for setup. Their pricing is aggressively affordable, and their migration team will move your site for free — just submit a ticket with your current host details. Check out our [complete Hostinger setup guide]({% link _posts/2026-06-04-how-to-set-up-wordpress-site-hostinger-guide.md %}) for a full walkthrough.
+**Best for beginners: Hostinger** — Hostinger's managed WordPress plans come with a custom control panel (hPanel), LiteSpeed caching, and an AI-powered assistant for setup. Their pricing is aggressively affordable, and their migration team will move your site for free — just submit a ticket with your current host details. Check out our [complete Hostinger setup guide]({% link _posts/2026-06-04-how-to-set-up-wordpress-site-hostinger-guide.md %}) for a full walkthrough.
 
 For this guide, I'll use WP Engine as the example because their migration tools are the most polished and their support team handles the heavy lifting.
 
@@ -121,7 +121,7 @@ A clean source site means a clean migration. Before touching anything:
 Once you've chosen your managed host:
 
 1. **Create your account** at the provider's website. Most offer a 30-day money-back guarantee, so you can test the waters risk-free.
-2. **Find their migration plugin or tool.** For WP Engine, the free [WP Engine Automated Migration](https://wpengine.com/) plugin handles everything. Kinsta and SiteGround offer similar plugins. Hostinger provides a free site migration team that does it for you.
+2. **Find their migration plugin or tool.** For WP Engine, the free WP Engine Automated Migration plugin handles everything. Kinsta and SiteGround offer similar plugins. Hostinger provides a free site migration team that does it for you.
 3. **Install the migration plugin** on your current WordPress site via Plugins → Add New. Search for the provider's plugin name, install, and activate.
 4. **Generate a migration token.** The plugin will ask for a token or API key from your new managed hosting dashboard. Log into your new host's admin panel, find the migration tool section, and generate a unique token.
 
@@ -290,11 +290,11 @@ For a full breakdown of how these hosts compare across performance, pricing, and
 
 </div>
 
-<a href="https://wpengine.com/" class="cta-btn">Get WP Engine →</a>
-<a href="https://kinsta.com/" class="cta-btn">Get Kinsta →</a>
+Get WP Engine →
+Get Kinsta →
 <a href="https://siteground.com/" class="cta-btn">Get SiteGround →</a>
 
-<a href="https://hostinger.com/" class="cta-btn">Get Hostinger →</a>
+Get Hostinger →
 
 ## Final Thoughts
 
@@ -308,5 +308,3 @@ Already on shared hosting and feeling the pain? Start with a free migration plug
 
 </div>
 
-
-<!-- AFFILIATE-MARKER: hostinger.com=PENDING, kinsta.com=PENDING, siteground.com=PENDING, wpengine.com=PENDING -->

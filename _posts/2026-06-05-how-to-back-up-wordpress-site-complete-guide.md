@@ -45,28 +45,6 @@ The simplest way to back up your WordPress site is to choose a hosting provider 
 </tbody>
 </table>
 
-### WP Engine — Daily + On-Demand Backups
-
-[WP Engine](https://wpengine.com/) offers automatic daily backups on all plans, plus you can create manual backup points before making major changes. Their backup system includes:
-
-- **Automatic daily backups** stored for 60 days
-- **One-click restore** from the dashboard
-- **Staging site backups** when you push to production
-- **Encrypted off-site storage**
-
-WP Engine's 60-day backup retention is among the longest in the industry. If you're running a business site where every hour of downtime costs money, this alone justifies the premium price.
-
-### Kinsta — 6x Daily Backups with Instant Restore
-
-[Kinsta](https://kinsta.com/) takes backups even further with six automatic daily backups, plus optional hourly backups on higher-tier plans. Key features:
-
-- **Six automatic daily backups** stored for 14–30 days depending on your plan
-- **Hourly backup option** on Growth and higher plans
-- **One-click staging environment** — test changes before going live
-- **Instant backup restore** with no manual database work
-
-Kinsta runs on Google Cloud Platform with C2 compute instances, so restores are incredibly fast. Their backup system also integrates seamlessly with their staging workflow — a huge plus for developers.
-
 ### SiteGround — Daily Backups on GrowBig and Higher
 
 [SiteGround](https://siteground.com/) includes free daily backups on their GrowBig and GoGeek plans. The backup system features:
@@ -77,10 +55,6 @@ Kinsta runs on Google Cloud Platform with C2 compute instances, so restores are 
 - **SG System** for one-click restore from the Site Tools dashboard
 
 SiteGround is the most affordable option if you want automated backups included. Their GrowBig plan starts at a competitive price and includes their SuperCacher technology for faster load times.
-
-### Hostinger — Weekly Backups on Business Plans
-
-[Hostinger](https://hostinger.com/) includes weekly automatic backups on their Business and Cloud Startup plans, with daily backups on higher tiers. It's the budget-friendly entry point, though the backup frequency is lower than managed hosts.
 
 ## Method 2: WordPress Backup Plugins
 
@@ -240,16 +214,16 @@ Upload both archives to cloud storage — Google Drive, Dropbox, or an S3-compat
 
 The best backup strategy combines **automatic hosting backups** (for zero-effort daily protection) with a **free plugin** (UpdraftPlus) connected to Google Drive (for off-site, portable redundancy). This gives you the 3-2-1 strategy with minimal effort.
 
-**Go with WP Engine** if you want the longest retention (60 days) and best restore experience. [Check WP Engine plans →](https://wpengine.com/)
+**Go with WP Engine** if you want the longest retention (60 days) and best restore experience. Check WP Engine plans →
 
-**Go with Kinsta** if you need the highest backup frequency (6x daily) and Google Cloud infrastructure. [Check Kinsta plans →](https://kinsta.com/)
+**Go with Kinsta** if you need the highest backup frequency (6x daily) and Google Cloud infrastructure. Check Kinsta plans →
 
 **Go with UpdraftPlus Free** if you're on a budget and want to manage your own backups to Google Drive or Dropbox.
 
 </div>
 
-<a href="https://wpengine.com/" class="cta-btn">Get WP Engine →</a>
-<a href="https://kinsta.com/" class="cta-btn">Get Kinsta →</a>
+Get WP Engine →
+Get Kinsta →
 <a href="https://siteground.com/" class="cta-btn">Get SiteGround →</a>
 
 ## FAQ
@@ -320,5 +294,3 @@ Your WordPress site represents hours of content, customizations, and SEO equity.
 
 </div>
 
-
-<!-- AFFILIATE-MARKER: hostinger.com=PENDING, kinsta.com=PENDING, siteground.com=PENDING, wpengine.com=PENDING -->

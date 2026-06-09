@@ -358,3 +358,6 @@ We signed up for paid accounts at all three hosts, migrated identical test sites
   <a class="cta-btn" href="https://wpengine.com/" rel="nofollow sponsored">Get Started with WP Engine →</a>
   <p style="margin-top:8px; font-size:13px;">60-day money-back guarantee. No risk. No hassle.</p>
 </div>
+
+
+<!-- AFFILIATE-MARKER: kinsta.com=PENDING, siteground.com=PENDING, wpengine.com=PENDING -->

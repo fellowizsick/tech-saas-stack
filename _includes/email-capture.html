@@ -1,0 +1,60 @@
+<!-- Email Capture Snippet (Client-Side, No Backend Required) -->
+<div class="email-capture" id="emailCapture">
+  <div class="email-capture-inner">
+    <!-- Visible when NOT subscribed -->
+    <div id="emailFormContainer">
+      <h3>📬 Get Exclusive Deals & Honest Reviews</h3>
+      <p>Join <strong>1,000+ readers</strong> getting hosting deals, comparison guides, and expert tips — no spam, unsubscribe anytime.</p>
+      <form class="email-form" id="signupForm" onsubmit="return handleEmailSignup(event)">
+        <input type="email" id="emailInput" name="email" placeholder="your@email.com" required class="email-input" autocomplete="email">
+        <button type="submit" class="email-btn">Subscribe →</button>
+      </form>
+      <p class="email-note">🔒 No spam. <a href="{{ site.baseurl }}/privacy/" style="color:var(--primary);">Privacy policy</a>.</p>
+    </div>
+
+    <!-- Visible AFTER subscribing (hidden by default) -->
+    <div id="emailSuccessContainer" style="display:none;">
+      <div style="font-size:40px; margin-bottom:8px;">✅</div>
+      <h3>You're In! 🎉</h3>
+      <p style="margin-bottom:0;">Thanks for subscribing. Check your inbox for a welcome email — we'll send you the best hosting deals and honest reviews.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+function handleEmailSignup(e) {
+  e.preventDefault();
+  var email = document.getElementById('emailInput').value.trim();
+  if (!email) return false;
+
+  // Store in localStorage (placeholder until real email service is connected)
+  var subscribers = JSON.parse(localStorage.getItem('blog_subscribers') || '[]');
+  if (!subscribers.includes(email)) {
+    subscribers.push(email);
+    localStorage.setItem('blog_subscribers', JSON.stringify(subscribers));
+  }
+
+  // Track signup in Google Analytics
+  if (typeof gtag === 'function') {
+    gtag('event', 'newsletter_signup', {
+      'event_category': 'engagement',
+      'event_label': email,
+      'value': 1
+    });
+  }
+
+  // Show success state
+  document.getElementById('emailFormContainer').style.display = 'none';
+  document.getElementById('emailSuccessContainer').style.display = 'block';
+  return false;
+}
+
+// Re-show form if user clears localStorage (for demo/testing)
+document.addEventListener('DOMContentLoaded', function() {
+  if (localStorage.getItem('blog_subscribers') && JSON.parse(localStorage.getItem('blog_subscribers')).length > 0) {
+    // Already subscribed — uncomment next line to show success on page load
+    // document.getElementById('emailFormContainer').style.display = 'none';
+    // document.getElementById('emailSuccessContainer').style.display = 'block';
+  }
+});
+</script>

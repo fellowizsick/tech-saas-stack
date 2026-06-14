@@ -70,19 +70,19 @@
   }
   </script>
 
-  <!-- JSON-LD Person (Author) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Jon Brown",
-    "url": "{{ site.url }}{{ site.baseurl }}/about/",
-    "description": "Tech reviewer and affiliate content creator specializing in web hosting, SaaS tools, and WordPress tutorials.",
-    "sameAs": [
-      "https://github.com/fellowizsick"
-    ]
-  }
-  </script>
+  <!-- JSON-LD Organization (Author) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}{{ site.baseurl }}/",
+      "logo": "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png",
+      "sameAs": [
+        "https://github.com/fellowizsick"
+      ]
+    }
+    </script>
 
   {% if page.layout == 'post' and page.review %}
   <!-- JSON-LD Review Schema -->
@@ -96,9 +96,9 @@
       "description": "{{ page.review.description }}"
     },
     "author": {
-      "@type": "Person",
-      "name": "Jonathan Brown"
-    },
+          "@type": "Organization",
+          "name": "{{ site.title }}"
+        },
     "reviewRating": {
       "@type": "Rating",
       "ratingValue": "{{ page.review.rating }}",
@@ -119,9 +119,9 @@
     "headline": "{{ page.title | escape }}",
     "description": "{% if page.description %}{{ page.description | strip_html | truncate: 160 | escape }}{% else %}{{ page.excerpt | strip_html | truncate: 160 | escape }}{% endif %}",
     "author": {
-      "@type": "Person",
-      "name": "Jonathan Brown"
-    },
+          "@type": "Organization",
+          "name": "{{ site.title }}"
+        },
     "publisher": {
       "@type": "Organization",
       "name": "{{ site.title }}"

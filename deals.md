@@ -11,7 +11,7 @@ permalink: /deals/
 
 
 <div class="deal-card">
-  <h3><a href="https://www.siteground.com/" rel="nofollow sponsored" target="_blank">SiteGround — Budget-Friendly Hosting</a></h3>
+  <h3><a href="https://www.siteground.com/wordpress-hosting" rel="nofollow sponsored" target="_blank">SiteGround — Budget-Friendly Hosting</a></h3>
   <div class="deal-meta">
     <span class="deal-discount">💰 Best Value</span>
     <span>💰 $100-200/sale</span>
@@ -19,7 +19,7 @@ permalink: /deals/
   </div>
   <p>Officially recommended by WordPress.org. Free SSL, daily backups, managed updates, and caching built in. Great for beginners.</p>
   <p><strong>Deal:</strong> Special introductory pricing on annual plans. Free website transfer.</p>
-  <a class="deal-btn" href="https://www.siteground.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+  <a class="deal-btn" href="https://www.siteground.com/wordpress-hosting" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
 </div>
 
 

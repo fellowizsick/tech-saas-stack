@@ -176,8 +176,15 @@
         <a href="{{ site.baseurl }}/">Home</a>
         {% assign categories = site.posts | map: "categories" | flatten | uniq | sort %}
         {% for cat in categories limit:4 %}
-          <a href="{{ site.baseurl }}/?category={{ cat | url_encode }}">{{ cat }}</a>
+          {% assign cat_display = cat %}
+          {% if cat == "affiliate-marketing" %}{% assign cat_display = "Affiliate" %}
+          {% elsif cat == "blogging" %}{% assign cat_display = "Blogging" %}
+          {% elsif cat == "comparison" %}{% assign cat_display = "Reviews" %}
+          {% elsif cat == "ecommerce" %}{% assign cat_display = "Ecommerce" %}
+          {% endif %}
+          <a href="{{ site.baseurl }}/?category={{ cat | url_encode }}">{{ cat_display }}</a>
         {% endfor %}
+        <span class="nav-divider">|</span>
         <a href="{{ site.baseurl }}/deals/">💰 Deals</a>
         <a href="{{ site.baseurl }}/store/">📚 Store</a>
         <a href="{{ site.baseurl }}/about/">About</a>

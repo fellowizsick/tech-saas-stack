@@ -3,7 +3,7 @@ tagline: Honest reviews, comparisons, and tutorials
 description: In-depth, data-driven reviews of web hosting, SaaS tools, and software for developers, creators, and online businesses.
 url: "https://techsaasstack.com"
 baseurl: ""
-author: Jonathan Brown
+author: Jon Brown
 
 markdown: kramdown
 highlighter: rouge
@@ -20,7 +20,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Jonathan Brown"
+      author: Jon Brown
       toc: true
 
 future: true

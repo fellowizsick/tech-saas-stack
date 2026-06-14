@@ -13,7 +13,7 @@ title: About
     <div class="author-box" style="margin-top:0;">
       <div class="author-avatar">JB</div>
       <div class="author-info">
-        <h4>Jonathan Brown</h4>
+        <h4>Jon Brown</h4>
         <p>Tech reviewer, affiliate content creator, and founder of {{ site.title }}.</p>
       </div>
     </div>

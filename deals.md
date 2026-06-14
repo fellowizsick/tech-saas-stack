@@ -46,12 +46,12 @@ permalink: /deals/
 </div>
 
 <div class="deal-card">
-  <h3><a href="https://www.activecampaign.com/affiliates/" rel="nofollow sponsored" target="_blank">ActiveCampaign — Email Marketing & CRM</a></h3>
+  <h3><a href="https://www.activecampaign.com/" rel="nofollow sponsored" target="_blank">ActiveCampaign — Email Marketing & CRM</a></h3>
   <div class="deal-meta">
     <span class="deal-discount">📧 Automation Leader</span>
     <span>💰 30% recurring commission</span>
   </div>
   <p>Powerful email marketing with advanced automation, CRM, and machine learning predictions. Used by 150,000+ businesses.</p>
   <p><strong>Deal:</strong> Free trial available. Paid plans start at $15/mo.</p>
-  <a class="deal-btn" href="https://www.activecampaign.com/affiliates/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+  <a class="deal-btn" href="https://www.activecampaign.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
 </div>

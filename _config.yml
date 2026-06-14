@@ -1,8 +1,8 @@
 title: Tech & SaaS Stack
 tagline: Honest reviews, comparisons, and tutorials
 description: In-depth, data-driven reviews of web hosting, SaaS tools, and software for developers, creators, and online businesses.
-url: "https://fellowizsick.github.io"
-baseurl: "/tech-saas-stack"
+url: "https://techsaasstack.com"
+baseurl: ""
 author: Jonathan Brown
 
 markdown: kramdown

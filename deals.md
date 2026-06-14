@@ -11,7 +11,7 @@ permalink: /deals/
 
 
 <div class="deal-card">
-  <h3><a href="https://www.siteground.com/affiliate-program" rel="nofollow sponsored" target="_blank">SiteGround — Budget-Friendly Hosting</a></h3>
+  <h3><a href="https://www.siteground.com/" rel="nofollow sponsored" target="_blank">SiteGround — Budget-Friendly Hosting</a></h3>
   <div class="deal-meta">
     <span class="deal-discount">💰 Best Value</span>
     <span>💰 $100-200/sale</span>
@@ -19,30 +19,30 @@ permalink: /deals/
   </div>
   <p>Officially recommended by WordPress.org. Free SSL, daily backups, managed updates, and caching built in. Great for beginners.</p>
   <p><strong>Deal:</strong> Special introductory pricing on annual plans. Free website transfer.</p>
-  <a class="deal-btn" href="https://www.siteground.com/affiliate-program" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+  <a class="deal-btn" href="https://www.siteground.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
 </div>
 
 
 <div class="deal-card">
-  <h3><a href="https://semrush.com/affiliates" rel="nofollow sponsored" target="_blank">Semrush — All-in-One SEO Toolkit</a></h3>
+  <h3><a href="https://www.semrush.com/" rel="nofollow sponsored" target="_blank">Semrush — All-in-One SEO Toolkit</a></h3>
   <div class="deal-meta">
     <span class="deal-discount">📊 SEO Powerhouse</span>
     <span>💰 $200/sale or 40% recurring</span>
   </div>
   <p>Industry-leading SEO platform with keyword research, competitor analysis, site audit, and content marketing tools.</p>
   <p><strong>Deal:</strong> Free trial available. Annual plans save 17%.</p>
-  <a class="deal-btn" href="https://semrush.com/affiliates" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+  <a class="deal-btn" href="https://www.semrush.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
 </div>
 
 <div class="deal-card">
-  <h3><a href="https://elementor.com/affiliates/" rel="nofollow sponsored" target="_blank">Elementor — WordPress Page Builder</a></h3>
+  <h3><a href="https://elementor.com/" rel="nofollow sponsored" target="_blank">Elementor — WordPress Page Builder</a></h3>
   <div class="deal-meta">
     <span class="deal-discount">🎨 Design Freedom</span>
     <span>💰 30-50% recurring commission</span>
   </div>
   <p>The most popular WordPress page builder. Drag-and-drop, 300+ templates, dynamic content, and full theme building.</p>
   <p><strong>Deal:</strong> Plans start at $59/year for single site. 30-day money-back guarantee.</p>
-  <a class="deal-btn" href="https://elementor.com/affiliates/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+  <a class="deal-btn" href="https://elementor.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
 </div>
 
 <div class="deal-card">

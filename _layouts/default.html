@@ -172,7 +172,7 @@
   <nav class="nav">
     <div class="container nav-inner">
       <a class="nav-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      <div class="nav-links">
+      <div class="nav-links" id="navLinks">
         <a href="{{ site.baseurl }}/">Home</a>
         {% assign categories = site.posts | map: "categories" | flatten | uniq | sort %}
         {% for cat in categories limit:4 %}
@@ -189,6 +189,13 @@
         <a href="{{ site.baseurl }}/store/">📚 Store</a>
         <a href="{{ site.baseurl }}/about/">About</a>
       </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
     </div>
   </nav>
 
@@ -233,6 +240,23 @@
         scrollBtn.classList.remove('visible');
       }
     });
+
+    // Nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    if (navToggle && navLinks) {
+      navToggle.addEventListener('click', function() {
+        const isOpen = navLinks.classList.toggle('open');
+        navToggle.setAttribute('aria-expanded', isOpen);
+      });
+      // Close on link click
+      navLinks.querySelectorAll('a').forEach(function(link) {
+        link.addEventListener('click', function() {
+          navLinks.classList.remove('open');
+          navToggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
 
     // Affiliate link click tracking
     document.querySelectorAll('a[href*="wpengine"], a[href*="kinsta"], a[href*="siteground"], a[href*="hostinger"]').forEach(function(link) {

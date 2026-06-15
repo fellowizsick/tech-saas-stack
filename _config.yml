@@ -19,7 +19,7 @@ author_profile:
   social:
     github: "https://github.com/fellowizsick"
     email: "jon.techsaasstack@gmail.com"
-    blog: "https://fellowizsick.github.io"
+    # blog: "https://fellowizsick.github.io"  # 404 - disabled
   trust_badges:
     - label: "WP.org Recommended"
       icon: "🏆"

@@ -224,6 +224,10 @@ body {
   justify-content: flex-end;
 }
 .nav-links a {
+  padding: calc(var(--space-unit) * 2) calc(var(--space-unit) * 3);
+  min-height: 44px;
+  display: flex;
+  align-items: center;
   color: var(--text-muted);
   text-decoration: none;
   font-size: var(--text-xs);
@@ -335,6 +339,10 @@ body {
   }
   .nav-links.open { display: flex; }
   .nav-links a {
+  padding: calc(var(--space-unit) * 2) calc(var(--space-unit) * 3);
+  min-height: 44px;
+  display: flex;
+  align-items: center;
     padding: calc(var(--space-unit) * 3) calc(var(--space-unit) * 6);
     font-size: var(--text-sm);
     border-bottom: 1px solid var(--border);
@@ -1037,6 +1045,9 @@ body {
   margin-bottom: calc(var(--space-unit) * 3);
 }
 .read-more {
+  padding: calc(var(--space-unit) * 2) calc(var(--space-unit) * 4);
+  min-height: 44px;
+  border-radius: var(--radius-sm);
   display: inline-flex;
   align-items: center;
   gap: calc(var(--space-unit) * 1.5);
@@ -1070,7 +1081,10 @@ body {
 .featured-post h2 a:hover { color: var(--accent); }
 .featured-post .post-meta { color: rgba(255,255,255,.7); }
 .featured-post p { color: rgba(255,255,255,.85); }
-.featured-post .read-more { color: var(--accent); }
+.featured-post .read-more {
+  padding: calc(var(--space-unit) * 2) calc(var(--space-unit) * 4);
+  min-height: 44px;
+  border-radius: var(--radius-sm); color: var(--accent); }
 .featured-post .read-more:hover { color: #fff; }
 
 /* Sidebar / Category Filter */
@@ -1102,6 +1116,7 @@ body {
   background: linear-gradient(270deg, var(--bg), transparent);
 }
 .category-tag {
+  min-height: 44px;
   display: inline-flex;
   align-items: center;
   gap: calc(var(--space-unit) * 1.5);
@@ -1457,6 +1472,7 @@ body {
   border-radius: calc(var(--radius-sm) * 2);
 }
 .deal-btn {
+  min-height: 44px;
   display: inline-flex;
   align-items: center;
   gap: calc(var(--space-unit) * 1.5);
@@ -1582,6 +1598,15 @@ body {
   display: flex;
   flex-direction: column;
   gap: calc(var(--space-unit) * 4);
+}
+
+.empty-state {
+  text-align: center;
+  padding: calc(var(--space-unit) * 10) calc(var(--space-unit) * 4);
+  color: var(--text-muted);
+}
+.empty-state .read-more {
+  margin-top: calc(var(--space-unit) * 4);
 }
 
 .related-categories {

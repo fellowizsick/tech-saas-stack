@@ -1,7 +1,7 @@
 1|---
 2|layout: post
-3|title: "How to Set Up a WordPress Site on Hostinger: Complete Step-by-Step Guide ({{ site.current_year }})"
-4|description: "Set up a WordPress site on Hostinger with this complete {{ site.current_year }} step-by-step guide. No technical experience needed — launch your site in minutes."
+3|title: "How to Set Up a WordPress Site on Hostinger: Complete Step-by-Step Guide (2025)"
+4|description: "Set up a WordPress site on Hostinger with this complete 2025 step-by-step guide. No technical experience needed — launch your site in minutes."
 5|date: 2026-06-04 10:00:00 -0500
 6|categories: [wordpress, tutorial, hosting]
 7|toc: true

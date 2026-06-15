@@ -17,7 +17,7 @@ title: Home
 
 <!-- Category Filter -->
 <div class="category-filter" id="categoryFilter">
-  <a class="category-tag active" href="javascript:void(0)" data-category="all">All</a>
+  <a class="category-tag active" href="{{ site.baseurl }}/" data-category="all">All</a>
   {% assign categories = site.posts | map: "categories" | flatten | uniq | sort %}
   {% for cat in categories %}
   <a class="category-tag" href="javascript:void(0)" data-category="{{ cat }}">{{ cat }}</a>

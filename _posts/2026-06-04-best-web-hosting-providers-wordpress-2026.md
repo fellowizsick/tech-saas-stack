@@ -1,7 +1,7 @@
 1|---
 2|layout: post
-3|title: "8 Best Web Hosting Providers for WordPress in {{ site.current_year }}: Tested & Reviewed"
-4|description: "Looking for the best WordPress hosting in {{ site.current_year }}? We tested 8 top providers for speed, support, and value. Find the perfect host for your site today."
+3|title: "8 Best Web Hosting Providers for WordPress in 2025: Tested & Reviewed"
+4|description: "Looking for the best WordPress hosting in 2025? We tested 8 top providers for speed, support, and value. Find the perfect host for your site today."
 5|date: 2026-06-04 20:00:00 -0500
 6|categories: [hosting, roundup]
 7|toc: true

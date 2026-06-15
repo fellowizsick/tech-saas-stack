@@ -1,22 +1,23 @@
-<!-- Email Capture Snippet (Client-Side, No Backend Required) -->
+<!-- Email Capture with Lead Magnet (Client-Side, No Backend Required) -->
 <div class="email-capture" id="emailCapture">
   <div class="email-capture-inner">
     <!-- Visible when NOT subscribed -->
     <div id="emailFormContainer">
-      <h3>📬 Get Exclusive Deals & Honest Reviews</h3>
-      <p>Join <strong>1,000+ readers</strong> getting hosting deals, comparison guides, and expert tips — no spam, unsubscribe anytime.</p>
+      <h3>📬 Get Exclusive Deals + Free Hosting Cheat Sheet</h3>
+      <p>Join <strong>1,000+ readers</strong> getting hosting deals, comparison guides, and expert tips — <strong>plus instant PDF download</strong> of the <a href="{{ site.baseurl }}/assets/hosting-cheat-sheet.pdf" target="_blank" style="color:var(--primary); font-weight:600;">Best Hosting Cheat Sheet (PDF)</a>.</p>
       <form class="email-form" id="signupForm" onsubmit="return handleEmailSignup(event)">
         <input type="email" id="emailInput" name="email" placeholder="your@email.com" required class="email-input" autocomplete="email">
-        <button type="submit" class="email-btn">Subscribe →</button>
+        <button type="submit" class="email-btn">Subscribe & Get PDF →</button>
       </form>
-      <p class="email-note">🔒 No spam. <a href="{{ site.baseurl }}/privacy/" style="color:var(--primary);">Privacy policy</a>.</p>
+      <p class="email-note">🔒 No spam. <a href="{{ site.baseurl }}/privacy/" style="color:var(--primary);">Privacy policy</a>. One-click unsubscribe.</p>
     </div>
 
     <!-- Visible AFTER subscribing (hidden by default) -->
     <div id="emailSuccessContainer" style="display:none;">
       <div style="font-size:40px; margin-bottom:8px;">✅</div>
       <h3>You're In! 🎉</h3>
-      <p style="margin-bottom:0;">Thanks for subscribing. Check your inbox for a welcome email — we'll send you the best hosting deals and honest reviews.</p>
+      <p style="margin-bottom:var(--space-unit)*2;">Thanks for subscribing. Check your inbox for a welcome email with your <strong><a href="{{ site.baseurl }}/assets/hosting-cheat-sheet.pdf" target="_blank" style="color:var(--primary);">Best Hosting Cheat Sheet (PDF)</a></strong>.</p>
+      <a href="{{ site.baseurl }}/assets/hosting-cheat-sheet.pdf" target="_blank" class="cta-btn sm">Download Cheat Sheet Now →</a>
     </div>
   </div>
 </div>

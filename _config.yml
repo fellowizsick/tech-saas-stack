@@ -23,16 +23,19 @@ author_profile:
   trust_badges:
     - label: "WP.org Recommended"
       icon: "🏆"
-      url: "https://wordpress.org"
+      URL: "https://wordpress.org"
     - label: "100+ Providers Tested"
       icon: "✅"
-      url: "#"
+      URL: "#"
     - label: "No Sponsored Reviews"
       icon: "🤝"
-      url: "#"
+      URL: "#"
     - label: "Data-Driven Analysis"
       icon: "📊"
-      url: "#"
+      URL: "#"
+
+# Current year for dynamic titles (update annually)
+current_year: 2025
 
 markdown: kramdown
 highlighter: rouge

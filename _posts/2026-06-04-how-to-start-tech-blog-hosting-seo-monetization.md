@@ -1,7 +1,7 @@
 1|---
 2|layout: post
-3|title: "How to Start a Tech Blog in {{ site.current_year }}: Hosting, SEO, and Monetization (Complete Blueprint)"
-4|description: "Learn how to start a profitable tech blog in {{ site.current_year }}. Complete blueprint covering hosting setup, SEO strategy, content creation, and monetization methods."
+3|title: "How to Start a Tech Blog in 2025: Hosting, SEO, and Monetization (Complete Blueprint)"
+4|description: "Learn how to start a profitable tech blog in 2025. Complete blueprint covering hosting setup, SEO strategy, content creation, and monetization methods."
 5|date: 2026-06-04 23:30:00 -0500
 6|categories: [blogging, tutorial]
 7|toc: true

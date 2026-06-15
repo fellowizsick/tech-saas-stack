@@ -1,7 +1,7 @@
 1|---
 2|layout: post
-3|title: "How to Migrate Your WordPress Site to Managed Hosting: Step-by-Step Guide ({{ site.current_year }})"
-4|description: "Migrate your WordPress site to managed hosting in {{ site.current_year }} with this step-by-step guide. Move from shared hosting stress to premium performance and security."
+3|title: "How to Migrate Your WordPress Site to Managed Hosting: Step-by-Step Guide (2025)"
+4|description: "Migrate your WordPress site to managed hosting in 2025 with this step-by-step guide. Move from shared hosting stress to premium performance and security."
 5|date: 2026-06-05 15:30:00 -0500
 6|categories: [wordpress, tutorial, hosting]
 7|toc: true

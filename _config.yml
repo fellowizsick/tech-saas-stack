@@ -56,6 +56,7 @@ defaults:
       toc: true
 
 future: true
+excerpt_separator: "<!--more-->"
 permalink: /:year/:month/:title/
 
 exclude:

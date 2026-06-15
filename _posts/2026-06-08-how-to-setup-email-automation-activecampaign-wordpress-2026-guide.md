@@ -2,7 +2,7 @@
 layout: post
 title: "How to Set Up Email Marketing Automation with ActiveCampaign for WordPress: Step-by-Step Guide 2026"
 description: "Set up email marketing automation with ActiveCampaign and WordPress in 2026. Step-by-step guide to forms, automations, segmentation, and WooCommerce sync."
-date: 2026-06-08 10:00:00 -0500
+date: 2025-06-08 10:00:00 -0500
 categories: [email-marketing, wordpress, tutorial]
 review:
   product: "ActiveCampaign"

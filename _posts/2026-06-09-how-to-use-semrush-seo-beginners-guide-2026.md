@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Use Semrush for SEO: The Complete Beginner's Guide (2026)"
-date: 2026-06-09 06:00:00 -0500
+date: 2025-06-09 06:00:00 -0500
 categories: [seo, tutorial]
 review:
   product: "Semrush"

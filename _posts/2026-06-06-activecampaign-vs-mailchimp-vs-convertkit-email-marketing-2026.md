@@ -2,7 +2,7 @@
 layout: post
 title: "ActiveCampaign vs Mailchimp vs ConvertKit: Best Email Marketing Tool in 2026"
 description: "ActiveCampaign vs Mailchimp vs ConvertKit — find the best email marketing tool for 2026. Tested on automation, deliverability, and pricing side by side."
-date: 2026-06-06 14:00:00 -0500
+date: 2025-06-06 14:00:00 -0500
 categories: [email-marketing, saas, comparison]
 review:
   product: "Email Marketing Tools"

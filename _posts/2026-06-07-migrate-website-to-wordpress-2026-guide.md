@@ -2,7 +2,7 @@
 layout: post
 title: "How to Migrate Your Website to WordPress in 2026: Complete Guide to Moving from Wix, Squarespace & More"
 description: "Migrate your website to WordPress in 2026 — complete guide for moving from Wix, Squarespace, and more. Keep your SEO rankings intact during the move."
-date: 2026-06-07 16:00:00 -0500
+date: 2025-06-07 16:00:00 -0500
 categories: [wordpress, tutorial, migration]
 review:
   product: "WordPress Migration"

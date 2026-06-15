@@ -313,6 +313,8 @@ body {
 
 /* Responsive Nav */
 @media (max-width: 768px) {
+  .category-grid { grid-template-columns: 1fr; }
+  .deal-meta { flex-direction: column; gap: calc(var(--space-unit) * 1.5); }
   .nav-toggle { display: flex; }
   .nav-links {
     position: absolute;
@@ -692,6 +694,18 @@ body {
   font-weight: 600;
 }
 @media (max-width: 640px) {
+  .category-grid { grid-template-columns: 1fr; }
+  .deal-meta { flex-direction: column; gap: calc(var(--space-unit) * 1.5); }
+  .hero h1 { font-size: var(--text-3xl); }
+  .post-content { padding: calc(var(--space-unit) * 5); }
+  .pros-cons { grid-template-columns: 1fr; }
+  .comparison-table { font-size: var(--text-xs); }
+  .comparison-table th, .comparison-table td { padding: calc(var(--space-unit) * 2) calc(var(--space-unit) * 2.5); }
+  .cta-wrapper { padding: calc(var(--space-unit) * 4); }
+  .cta-btn { padding: calc(var(--space-unit) * 3) calc(var(--space-unit) * 5); }
+  .post-card { padding: calc(var(--space-unit) * 4); }
+  .nav-links { gap: calc(var(--space-unit) * 4); }
+  .category-filter { gap: calc(var(--space-unit) * 1.5); }
   .comparison-table { font-size: var(--text-xs); }
   .comparison-table th, .comparison-table td { padding: calc(var(--space-unit) * 2) calc(var(--space-unit) * 2.5); }
 }
@@ -856,6 +870,18 @@ body {
   line-height: 1.6;
 }
 @media (max-width: 640px) {
+  .category-grid { grid-template-columns: 1fr; }
+  .deal-meta { flex-direction: column; gap: calc(var(--space-unit) * 1.5); }
+  .hero h1 { font-size: var(--text-3xl); }
+  .post-content { padding: calc(var(--space-unit) * 5); }
+  .pros-cons { grid-template-columns: 1fr; }
+  .comparison-table { font-size: var(--text-xs); }
+  .comparison-table th, .comparison-table td { padding: calc(var(--space-unit) * 2) calc(var(--space-unit) * 2.5); }
+  .cta-wrapper { padding: calc(var(--space-unit) * 4); }
+  .cta-btn { padding: calc(var(--space-unit) * 3) calc(var(--space-unit) * 5); }
+  .post-card { padding: calc(var(--space-unit) * 4); }
+  .nav-links { gap: calc(var(--space-unit) * 4); }
+  .category-filter { gap: calc(var(--space-unit) * 1.5); }
   .pros-cons { grid-template-columns: 1fr; }
 }
 
@@ -1048,12 +1074,32 @@ body {
 .featured-post .read-more:hover { color: #fff; }
 
 /* Sidebar / Category Filter */
+/* Sidebar / Category Filter */
 .category-filter {
   display: flex;
   gap: calc(var(--space-unit) * 2);
   flex-wrap: wrap;
   margin: calc(var(--space-unit) * 6) 0;
   justify-content: center;
+  overflow-x: auto;
+  padding-bottom: calc(var(--space-unit) * 2);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.category-filter::-webkit-scrollbar { display: none; }
+.category-filter::before,
+.category-filter::after {
+  content: '';
+  flex-shrink: 0;
+  width: calc(var(--space-unit) * 8);
+  height: 100%;
+}
+.category-filter::before {
+  background: linear-gradient(90deg, var(--bg), transparent);
+  order: -1;
+}
+.category-filter::after {
+  background: linear-gradient(270deg, var(--bg), transparent);
 }
 .category-tag {
   display: inline-flex;
@@ -1069,17 +1115,7 @@ body {
   text-decoration: none;
   transition: all var(--transition-fast);
   white-space: nowrap;
-}
-.category-tag:hover, .category-tag.active {
-  background: var(--primary);
-  color: #fff;
-  border-color: var(--primary);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-sm);
-}
-.category-tag:focus-visible {
-  outline: none;
-  box-shadow: var(--shadow-glow);
+  flex-shrink: 0;
 }
 
 /* Footer */
@@ -1135,6 +1171,18 @@ body {
 
 /* Responsive */
 @media (max-width: 640px) {
+  .category-grid { grid-template-columns: 1fr; }
+  .deal-meta { flex-direction: column; gap: calc(var(--space-unit) * 1.5); }
+  .hero h1 { font-size: var(--text-3xl); }
+  .post-content { padding: calc(var(--space-unit) * 5); }
+  .pros-cons { grid-template-columns: 1fr; }
+  .comparison-table { font-size: var(--text-xs); }
+  .comparison-table th, .comparison-table td { padding: calc(var(--space-unit) * 2) calc(var(--space-unit) * 2.5); }
+  .cta-wrapper { padding: calc(var(--space-unit) * 4); }
+  .cta-btn { padding: calc(var(--space-unit) * 3) calc(var(--space-unit) * 5); }
+  .post-card { padding: calc(var(--space-unit) * 4); }
+  .nav-links { gap: calc(var(--space-unit) * 4); }
+  .category-filter { gap: calc(var(--space-unit) * 1.5); }
   body { font-size: var(--text-base); }
   .container { padding: 0 calc(var(--space-unit) * 4); }
   .post-content { padding: calc(var(--space-unit) * 5); }

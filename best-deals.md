@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <span>🌟 WP recommended</span>
     </div>
     <p>Officially recommended by WordPress.org. Free SSL, daily backups, managed updates, and caching built in. Great for beginners.</p>
-    <p><strong>Deal:</strong> Special introductory pricing on annual plans. Free website transfer.</p>
+    <p><strong>Deal:</strong> Introductory pricing from $2.99/mo on annual plans. Free website transfer.</p>
     <a class="deal-btn" href="https://www.siteground.com/wordpress-hosting" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
   </div>
 
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <span>💰 $200/sale or 40% recurring</span>
     </div>
     <p>Industry-leading SEO platform with keyword research, competitor analysis, site audit, and content marketing tools.</p>
-    <p><strong>Deal:</strong> Free trial available. Annual plans save 17%.</p>
+    <p><strong>Deal:</strong> Pro plan $129/mo (annual). Free trial available. Annual plans save 17%.</p>
     <a class="deal-btn" href="https://www.semrush.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
   </div>
 

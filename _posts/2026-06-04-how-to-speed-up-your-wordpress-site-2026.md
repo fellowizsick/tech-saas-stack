@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How to Speed Up Your WordPress Site in 2026: 10 Proven Optimization Tips"
-description: "Boost your WordPress site speed in 2026 with 10 proven optimization tips. Improve Core Web Vitals, cut load times, and keep visitors engaged today."
+title: "How to Speed Up Your WordPress Site in {{ site.current_year }}: 10 Proven Optimization Tips"
+description: "Boost your WordPress site speed in {{ site.current_year }} with 10 proven optimization tips. Improve Core Web Vitals, cut load times, and keep visitors engaged today."
 date: 2026-06-04 14:00:00 -0500
 categories: [wordpress, performance, tutorial]
 toc: true

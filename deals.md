@@ -54,4 +54,17 @@ permalink: /deals/
   <p>Powerful email marketing with advanced automation, CRM, and machine learning predictions. Used by 150,000+ businesses.</p>
   <p><strong>Deal:</strong> Free trial available. Paid plans start at $15/mo.</p>
   <a class="deal-btn" href="https://www.activecampaign.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
-</div>
+  </div>
+
+
+  <div class="deal-card">
+    <h3><a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer — Unlimited Hosting & VPS</a></h3>
+    <div class="deal-meta">
+      <span class="deal-discount">🔒 Price Lock Guarantee</span>
+      <span>💰 $100/sale (shared) / up to $200 (VPS)</span>
+      <span>🌟 Unlimited storage & bandwidth</span>
+    </div>
+    <p>Industry-unique price lock — your renewal rate never increases. Unlimited NVMe SSD storage, bandwidth, email, and free SSL. Shared, VPS, and dedicated servers.</p>
+    <p><strong>Deal:</strong> Standard web hosting $2.50/mo (price locked for life). VPS from $6/mo. 30-day money-back guarantee.</p>
+    <a class="deal-btn" href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+  </div>

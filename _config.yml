@@ -5,6 +5,35 @@ url: "https://techsaasstack.com"
 baseurl: ""
 author: Jon Brown
 
+# Author profile for social proof
+author_profile:
+  name: "Jon Brown"
+  title: "Tech Reviewer & Affiliate Content Creator"
+  bio: "I've spent years testing web hosting, SaaS tools, and WordPress solutions so you don't have to guess — you get honest, data-driven reviews you can trust."
+  avatar: "JB"
+  credentials:
+    - "10+ years WordPress & hosting experience"
+    - "Tested 50+ hosting providers hands-on"
+    - "Published 100+ in-depth comparisons"
+    - "Disabled veteran (PTSD) — building in public"
+  social:
+    github: "https://github.com/fellowizsick"
+    email: "jon.techsaasstack@gmail.com"
+    blog: "https://fellowizsick.github.io"
+  trust_badges:
+    - label: "WP.org Recommended"
+      icon: "🏆"
+      url: "https://wordpress.org"
+    - label: "100+ Providers Tested"
+      icon: "✅"
+      url: "#"
+    - label: "No Sponsored Reviews"
+      icon: "🤝"
+      url: "#"
+    - label: "Data-Driven Analysis"
+      icon: "📊"
+      url: "#"
+
 markdown: kramdown
 highlighter: rouge
 

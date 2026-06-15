@@ -29,10 +29,69 @@ layout: default
   </div>
   {% endif %}
 
+  <!-- Search within site -->
+  {% include search.html %}
+
   <!-- Post Content -->
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  {% if page.review %}
+  <!-- Review Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "itemReviewed": {
+      "@type": "Product",
+      "name": "{{ page.review.product }}",
+      "description": "{{ page.review.description }}",
+      "image": "{{ page.review.image | default: site.url | append: '/assets/images/social-default.svg' }}",
+      "brand": {
+        "@type": "Brand",
+        "name": "{{ page.review.brand | default: page.review.product }}"
+      }
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "{{ site.title }}"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "{{ page.review.rating }}",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+    "description": "{{ page.description | default: page.excerpt | strip_html | truncate: 200 | escape }}",
+    "pros": {% if page.review.pros %}{{ page.review.pros | to_json }}{% else %}[]{% endif %},
+    "cons": {% if page.review.cons %}{{ page.review.cons | to_json }}{% else %}[]{% endif %}
+  }
+  </script>
+  {% endif %}
+
+  {% if page.faq %}
+  <!-- FAQ Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for item in page.faq %}
+      {
+        "@type": "Question",
+        "name": "{{ item.q | escape }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ item.a | strip_html | escape }}"
+        }
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+  </script>
+  {% endif %}
 
   <!-- Author Box -->
   <div class="author-box" itemprop="author" itemscope itemtype="https://schema.org/Person">
@@ -43,19 +102,34 @@ layout: default
     </div>
   </div>
 
-  <!-- Related Posts -->
-  {% if site.related_posts.size >= 1 %}
-  <div style="margin-top:32px; padding-top:24px; border-top:2px solid var(--border);">
-    <h3 style="margin-bottom:16px;">📖 You Might Also Like</h3>
-    <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
-    {% for related in site.related_posts limit:4 %}
-      <a href="{{ site.baseurl }}{{ related.url }}" style="display:block; padding:12px; background:var(--bg-alt); border-radius:var(--radius); border:1px solid var(--border); text-decoration:none; color:var(--text); font-size:14px; font-weight:500;">
-        {{ related.title }}
-      </a>
-    {% endfor %}
+  <!-- Email Capture -->
+  {% include email-capture.html %}
+
+  <!-- Related Articles Module -->
+  <div class="related-articles">
+    <h3>📖 You Might Also Like</h3>
+    <div class="related-grid">
+      {% assign related_posts = site.posts | where_exp: "post", "post.url != page.url" | sample: 6 %}
+      {% for related in related_posts %}
+      <article class="related-card">
+        <a href="{{ site.baseurl }}{{ related.url }}" class="related-link">
+          <div class="related-meta">
+            {% if related.categories %}<span class="related-category">{{ related.categories[0] }}</span>{% endif %}
+            <time datetime="{{ related.date | date: '%Y-%m-%d' }}">{{ related.date | date: "%b %d, %Y" }}</time>
+          </div>
+          <h4 class="related-title">{{ related.title }}</h4>
+          <p class="related-excerpt">{{ related.excerpt | strip_html | truncatewords: 20 }}</p>
+        </a>
+      </article>
+      {% endfor %}
     </div>
   </div>
-  {% endif %}
+
+  <!-- Newsletter CTA -->
+  <div class="cta-wrapper">
+    <p>Want more honest hosting reviews and exclusive deals? Join 1,000+ readers getting the best insights straight to their inbox.</p>
+    <a href="#emailCapture" class="cta-btn" onclick="document.getElementById('emailInput')?.focus(); return false;">Subscribe Free →</a>
+  </div>
 </article>
 
 <script>
@@ -78,3 +152,91 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+
+<style>
+/* Related Articles */
+.related-articles {
+  margin-top: calc(var(--space-unit) * 10);
+  padding-top: calc(var(--space-unit) * 6);
+  border-top: 2px solid var(--border);
+}
+.related-articles h3 {
+  margin-bottom: calc(var(--space-unit) * 4);
+  font-size: var(--text-xl);
+  font-weight: 700;
+}
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: calc(var(--space-unit) * 4);
+}
+.related-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+}
+.related-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--border-strong);
+}
+.related-link {
+  display: block;
+  padding: calc(var(--space-unit) * 4);
+  text-decoration: none;
+  color: var(--text);
+}
+.related-meta {
+  display: flex;
+  gap: calc(var(--space-unit) * 2);
+  font-size: var(--text-xs);
+  color: var(--text-faint);
+  margin-bottom: calc(var(--space-unit) * 2);
+  flex-wrap: wrap;
+}
+.related-category {
+  background: var(--primary-light);
+  color: var(--primary);
+  padding: calc(var(--space-unit) * 0.5) calc(var(--space-unit) * 1.5);
+  border-radius: calc(var(--radius-sm) * 2);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.related-title {
+  font-size: var(--text-base);
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: calc(var(--space-unit) * 1.5);
+  transition: color var(--transition-fast);
+}
+.related-link:hover .related-title {
+  color: var(--primary);
+}
+.related-excerpt {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* CTA Wrapper in posts */
+.cta-wrapper {
+  margin-top: calc(var(--space-unit) * 8);
+}
+
+/* Email capture in post context */
+.email-capture {
+  margin-top: calc(var(--space-unit) * 8);
+}
+
+/* Search in post context */
+#searchContainer {
+  margin-bottom: calc(var(--space-unit) * 6);
+}
+#searchContainer .search-input {
+  border-color: var(--border-strong);
+}
+</style>

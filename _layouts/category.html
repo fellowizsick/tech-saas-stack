@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="category-page">
+  <header class="category-header">
+    <h1 class="category-title">{{ page.category_name }}</h1>
+    <p class="category-description">{{ page.category_description }}</p>
+    <span class="category-count">{{ site.posts | where_exp: "post", "post.categories contains page.category_slug" | size }} articles</span>
+  </header>
+
+  <div class="category-posts">
+    {% assign category_posts = site.posts | where_exp: "post", "post.categories contains page.category_slug" %}
+    {% for post in category_posts %}
+    <article class="post-card" data-categories="{{ post.categories | join: ',' }}">
+      <div class="post-meta">
+        <span>📅 {{ post.date | date: "%B %d, %Y" }}</span>
+        {% if post.categories %} <span>📂 {{ post.categories | join: ", " }}</span> {% endif %}
+      </div>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+      <a class="read-more" href="{{ site.baseurl }}{{ post.url }}">Read More →</a>
+    </article>
+    {% endfor %}
+  </div>
+
+  {% if page.related_categories %}
+  <div class="related-categories">
+    <h3>Related Categories</h3>
+    <div class="category-filter">
+      {% for cat in page.related_categories %}
+      <a class="category-tag" href="{{ site.baseurl }}/category/{{ cat.slug }}/">{{ cat.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</div>

@@ -177,20 +177,12 @@
       <a class="nav-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
       <div class="nav-links" id="navLinks">
         <a href="{{ site.baseurl }}/">Home</a>
-        {% assign categories = site.posts | map: "categories" | flatten | uniq | sort %}
-        {% for cat in categories limit:4 %}
-          {% assign cat_display = cat %}
-          {% if cat == "affiliate-marketing" %}{% assign cat_display = "Affiliate" %}
-          {% elsif cat == "blogging" %}{% assign cat_display = "Blogging" %}
-          {% elsif cat == "comparison" %}{% assign cat_display = "Reviews" %}
-          {% elsif cat == "ecommerce" %}{% assign cat_display = "Ecommerce" %}
-          {% elsif cat == "seo" %}{% assign cat_display = "SEO" %}
-          {% elsif cat == "hosting" %}{% assign cat_display = "Hosting" %}
-          {% elsif cat == "wordpress" %}{% assign cat_display = "WordPress" %}
-          {% endif %}
-          <a href="{{ site.baseurl }}/?category={{ cat | url_encode }}">{{ cat_display }}</a>
+        {% assign nav_categories = site.pages | where_exp: "page", "page.category_slug" %}
+        {% for cat in nav_categories limit:6 %}
+          <a href="{{ site.baseurl }}{{ cat.permalink }}">{{ cat.category_name }}</a>
         {% endfor %}
         <span class="nav-divider">|</span>
+        <a href="{{ site.baseurl }}/categories/">All Categories</a>
         <a href="{{ site.baseurl }}/best-deals/">💰 Best Deals</a>
         <a href="{{ site.baseurl }}/about/">About</a>
         <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">

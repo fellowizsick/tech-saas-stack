@@ -1629,3 +1629,50 @@ body {
   color: #fff;
 }
 
+/* Floating Theme Toggle */
+.theme-toggle-float {
+  position: fixed;
+  bottom: calc(var(--space-unit) * 6);
+  right: calc(var(--space-unit) * 6);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all var(--transition-base);
+}
+.theme-toggle-float:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--primary);
+}
+.theme-toggle-float:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+.theme-toggle-float .icon-sun,
+.theme-toggle-float .icon-moon {
+  stroke: var(--text);
+  transition: stroke var(--transition-fast);
+}
+.theme-toggle-float:hover .icon-sun,
+.theme-toggle-float:hover .icon-moon {
+  stroke: var(--primary);
+}
+
+/* Responsive: adjust floating button on mobile */
+@media (max-width: 480px) {
+  .theme-toggle-float {
+    bottom: calc(var(--space-unit) * 4);
+    right: calc(var(--space-unit) * 4);
+    width: 48px;
+    height: 48px;
+  }
+}
+

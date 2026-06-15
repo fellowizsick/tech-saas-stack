@@ -105,7 +105,7 @@ permalink: /hosting-cheat-sheet/
 | Best Deals Page | [/best-deals/]({{ site.url }}/best-deals/) |
 | How We Test | [/how-we-test/]({{ site.url }}/how-we-test/) |
 | Privacy Policy | [/privacy/]({{ site.url }}/privacy/) |
-| Contact | [fellowizsick@hotmail.com](mailto:fellowizsick@hotmail.com) |
+| Contact | [jon.techsaasstack@gmail.com](mailto:jon.techsaasstack@gmail.com) |
 
 ---
 

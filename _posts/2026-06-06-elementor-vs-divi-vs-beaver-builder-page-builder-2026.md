@@ -2,7 +2,7 @@
 layout: post
 title: "Elementor vs Divi vs Beaver Builder: Which WordPress Page Builder Wins in 2026?"
 description: "Elementor vs Divi vs Beaver Builder — which WordPress page builder wins in 2026? Our in-depth comparison covers features, performance, and real-world testing."
-date: 2026-06-06 08:00:00 -0500
+date: 2025-06-06 08:00:00 -0500
 categories: [wordpress, page-builders, comparison]
 review:
   product: "WordPress Page Builders"

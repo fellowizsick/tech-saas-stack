@@ -2,7 +2,7 @@
 layout: post
 title: "How to Secure Your WordPress Site from Hackers: Complete Security Guide 2026"
 description: "Secure your WordPress site from hackers in 2026 with this complete security guide. Learn essential plugins, settings, and hosting choices to stay safe."
-date: 2026-06-05 14:00:00 -0500
+date: 2025-06-05 14:00:00 -0500
 categories: [wordpress, security, hosting]
 toc: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "WP Engine Review (2026): Is Premium Managed WordPress Hosting Worth It?"
 description: "WP Engine review 2026 — is premium managed WordPress hosting worth it? We test speed, support, features, and pricing in this honest in-depth review."
-date: 2026-06-09 04:00:00 -0500
+date: 2025-06-09 04:00:00 -0500
 categories: [hosting, review]
 review:
   product: "WP Engine Managed WordPress Hosting"

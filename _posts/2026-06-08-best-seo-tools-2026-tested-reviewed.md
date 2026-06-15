@@ -2,7 +2,7 @@
 layout: post
 title: "7 Best SEO Tools for 2026: Tested & Reviewed"
 description: "7 best SEO tools for 2026, tested and reviewed. Find the perfect toolkit for keyword research, backlinks, site audits, and content optimization from Semrush to Ahrefs."
-date: 2026-06-08 16:00:00 -0500
+date: 2025-06-08 16:00:00 -0500
 categories: [seo, roundup]
 review:
   product: "SEO Tools Roundup"

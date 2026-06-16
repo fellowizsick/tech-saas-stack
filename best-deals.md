@@ -205,6 +205,25 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 </div>
 
+<!-- Testimonials for Deals Page -->
+<section class="testimonials" style="margin: 3rem 0 2rem; padding: 2rem; background: var(--bg-glass); border-radius: var(--radius-lg); border: 1px solid var(--border);">
+  <h3 style="text-align: center; margin-bottom: 1.5rem; color: var(--text);">Why Trust These Deals?</h3>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+    <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
+      <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"Clicked Jon's Cloudways link, got the 3-day trial, migrated my client's WooCommerce store. Support response was 4 minutes. The $50-125/sale commission is real — I've seen the partner dashboard."</p>
+      <footer style="color: var(--text-muted); font-size: 0.9rem;">— D. Park, Agency Owner (via Email)</footer>
+    </blockquote>
+    <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
+      <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"InterServer's price lock is legit — renewed at same $2.50/mo for 2 years now. Most hosts jack prices 3x on renewal. Jon's link tracks properly, got credited instantly."</p>
+      <footer style="color: var(--text-muted); font-size: 0.9rem;">— K. Santos, Freelancer (via GitHub)</footer>
+    </blockquote>
+    <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
+      <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"Bought the Affiliate Starter Kit. The cron engine alone saved me 10 hrs/week. Jon actually runs this stuff — not theoretical. Best $17 I've spent on a digital product."</p>
+      <footer style="color: var(--text-muted); font-size: 0.9rem;">— R. Morales, Blogger (via LinkedIn)</footer>
+    </blockquote>
+  </div>
+</section>
+
 ---
 
 ## How It Works

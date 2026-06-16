@@ -1,0 +1,18 @@
+# Tech & SaaS Stack - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://fellowizsick.github.io/sitemap.xml
+
+# Disallow private/system paths
+Disallow: /_site/
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /assets/images/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /*.md$
+
+# Crawl-delay for polite bots (optional)
+Crawl-delay: 10

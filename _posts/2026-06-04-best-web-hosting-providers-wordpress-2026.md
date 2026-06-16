@@ -303,7 +303,7 @@ review:
 300|| High-traffic or international audience | Kinsta | $35/mo |
 301|| Managing client sites as a freelancer | Flywheel | $13/mo |
 302|| Enterprise site needing dedicated resources | Liquid Web | $19/mo+ |
-303|| Developer wanting cloud flexibility | Cloudways | $11/mo |
+303|| Developer wanting cloud flexibility | [Cloudways](https://www.cloudways.com/en/?id=2179745) | $11/mo |
 304|
 305|---
 306|

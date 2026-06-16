@@ -429,7 +429,7 @@ Kinsta's container-based architecture handles traffic spikes more gracefully bec
 
 ### Do either Kinsta or WP Engine offer white-label hosting?
 
-WP Engine does not offer true white-label hosting — your clients will see "Powered by WP Engine" in the footer. Kinsta's dashboard doesn't include white-label branding either. If you need fully white-labeled managed WordPress hosting, consider platforms like Cloudways or dedicated server reseller programs.
+WP Engine does not offer true white-label hosting — your clients will see "Powered by WP Engine" in the footer. Kinsta's dashboard doesn't include white-label branding either. If you need fully white-labeled managed WordPress hosting, consider platforms like [Cloudways](https://www.cloudways.com/en/?id=2179745) or dedicated server reseller programs.
 
 ### Ready to get started?
 

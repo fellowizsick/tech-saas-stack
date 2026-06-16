@@ -297,7 +297,7 @@ html[data-theme="dark"] body {
   border: 1px solid var(--border);
   color: var(--text);
   cursor: pointer;
-  padding: calc(var(--space-unit) * 2);
+  padding: calc(var(--space-unit) * 1.5);
   border-radius: var(--radius-sm);
   transition: background var(--transition-fast), border-color var(--transition-fast), transform var(--transition-fast);
 }
@@ -310,7 +310,11 @@ html[data-theme="dark"] body {
   outline: none;
   box-shadow: var(--shadow-glow);
 }
-.nav-toggle svg { display: block; }
+.nav-toggle svg { 
+  display: block; 
+  width: 20px;
+  height: 20px;
+}
 
 /* Theme toggle button */
 .theme-toggle {

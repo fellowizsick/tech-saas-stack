@@ -17,7 +17,7 @@ title: About
         <p style="color: var(--text-muted); margin-bottom: 1rem;">10+ years tech & hosting • Founder of {{ site.title }}</p>
         <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem;">
           <a href="https://github.com/fellowizsick" target="_blank" rel="noopener" style="color: var(--text-muted); text-decoration: none; display: flex; align-items: center; gap: 0.3rem; font-size: 0.9rem;">🐙 GitHub</a>
-          <a href="mailto:hello@fellowizsick.com" style="color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 0.3rem; font-size: 0.9rem;">✉️ Email</a>
+          <a href="mailto:jon.techsaasstack@gmail.com" style="color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 0.3rem; font-size: 0.9rem;">✉️ Email</a>
           <a href="https://linkedin.com/in/jonbrown-tech" target="_blank" rel="noopener" style="color: var(--text-muted); text-decoration: none; display: flex; align-items: center; gap: 0.3rem; font-size: 0.9rem;">💼 LinkedIn</a>
         </div>
       </div>

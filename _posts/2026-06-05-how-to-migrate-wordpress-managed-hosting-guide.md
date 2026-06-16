@@ -98,7 +98,7 @@
 98|
 99|**Best for enterprise-scale: Kinsta** — Kinsta runs on Google Cloud Platform's Premium Tier network with 34+ data centers worldwide. Every site gets an isolated LXD container, so neighboring site traffic spikes never affect your performance. Kinsta's custom dashboard gives you detailed analytics, PHP version switching, and a free hack fix guarantee if your site ever gets compromised. Plans start at $35/month.
 100|
-101|**Best for value: [SiteGround](https://siteground.com/)** — SiteGround offers a strong middle ground with their custom caching plugin (SG Optimizer), free daily backups, and a user-friendly staging system. Their support is fast and WordPress-savvy. SiteGround plans start at a lower price point than WP Engine or Kinsta, making them a great entry point for smaller sites that still want managed-level service.
+101|**Best for value: [SiteGround](https://www.siteground.com/index.htm?afcode=6bb2259c82be1f061bb3f97d28a48550/)** — SiteGround offers a strong middle ground with their custom caching plugin (SG Optimizer), free daily backups, and a user-friendly staging system. Their support is fast and WordPress-savvy. SiteGround plans start at a lower price point than WP Engine or Kinsta, making them a great entry point for smaller sites that still want managed-level service.
 102|
 103|**Best for beginners: Hostinger** — Hostinger's managed WordPress plans come with a custom control panel (hPanel), LiteSpeed caching, and an AI-powered assistant for setup. Their pricing is aggressively affordable, and their migration team will move your site for free — just submit a ticket with your current host details. Check out our [complete Hostinger setup guide]({% link _posts/2026-06-04-how-to-set-up-wordpress-site-hostinger-guide.md %}) for a full walkthrough.
 104|
@@ -292,7 +292,7 @@
 292|
 293|Get WP Engine →
 294|Get Kinsta →
-295|<a href="https://siteground.com/" class="cta-btn">Get SiteGround →</a>
+295|<a href="https://www.siteground.com/index.htm?afcode=6bb2259c82be1f061bb3f97d28a48550/" class="cta-btn">Get SiteGround →</a>
 296|
 297|Get Hostinger →
 298|

@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <h3 style="margin: var(--space-unit) * 8 0 var(--space-unit) * 3; color: var(--text);">🌐 Web Hosting</div>
 
   <div class="deal-card" data-category="hosting">
-    <h3><a href="https://www.siteground.com/wordpress-hosting" rel="nofollow sponsored" target="_blank">SiteGround — Budget-Friendly Hosting</a></h3>
+    <h3><a href="https://www.siteground.com/wordpress-hosting?afcode=6bb2259c82be1f061bb3f97d28a48550" rel="nofollow sponsored" target="_blank">SiteGround — Budget-Friendly Hosting</a></h3>
     <div class="deal-meta">
       <span class="deal-discount">💰 Best Value</span>
       <span>💰 $100-200/sale</span>
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     <p>Officially recommended by WordPress.org. Free SSL, daily backups, managed updates, and caching built in. Great for beginners.</p>
     <p><strong>Deal:</strong> Introductory pricing from $2.99/mo on annual plans. Free website transfer.</p>
-    <a class="deal-btn" href="https://www.siteground.com/wordpress-hosting" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+    <a class="deal-btn" href="https://www.siteground.com/wordpress-hosting?afcode=6bb2259c82be1f061bb3f97d28a48550" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
   </div>
 
   <div class="deal-card" data-category="hosting">

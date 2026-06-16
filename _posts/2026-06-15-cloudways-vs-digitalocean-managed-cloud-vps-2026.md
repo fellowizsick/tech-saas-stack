@@ -292,7 +292,7 @@ Cloudways. Redis + Varnish + optimized MariaDB + staging for update testing = fe
 
 ## The Honest Truth
 
-I'm a disabled vet running this blog from a home office. I don't have a DevOps team. I have limited hours and zero desire to debug `systemd` logs at 11 PM.
+I run this blog from a home office. I don't have a DevOps team. I have limited hours and zero desire to debug `systemd` logs at 11 PM.
 
 **Cloudways costs me ~$40/mo for two sites (2GB + 4GB servers).** DigitalOcean raw would be ~$18/mo. The $22 difference buys me:
 - Zero server maintenance

@@ -22,7 +22,9 @@ This step-by-step guide walks you through exactly how to start an affiliate mark
 Start with Hostinger →
 </div>
 
-## Step 1: Choose Your Niche
+<details class="collapsible-section" markdown="1">
+<summary>Step 1: Choose Your Niche</summary>
+
 
 Your niche determines everything — your content topics, the affiliate programs you join, your audience, and your earning potential. A good niche has three qualities:
 
@@ -43,7 +45,12 @@ Your niche determines everything — your content topics, the affiliate programs
 
 The most sustainable approach is picking a **sub-niche** within a broad category. Instead of "web hosting," focus on "managed WordPress hosting for e-commerce." Instead of "SEO tools," focus on "local SEO tools for small businesses."
 
-## Step 2: Pick a Hosting Provider
+
+</details>
+
+<details class="collapsible-section" markdown="1">
+<summary>Step 2: Pick a Hosting Provider</summary>
+
 
 Your website needs to be fast, reliable, and scalable. For an affiliate marketing site, three tiers of hosting make sense:
 
@@ -121,7 +128,12 @@ For a deeper look at top hosting options, see our <a href="/tech-saas-stack/2026
 Try WP Engine →
 </div>
 
-## Step 3: Set Up WordPress
+
+</details>
+
+<details class="collapsible-section" markdown="1">
+<summary>Step 3: Set Up WordPress</summary>
+
 
 Once your hosting is ready, install WordPress. Most hosts offer one-click installation:
 
@@ -132,7 +144,12 @@ Once your hosting is ready, install WordPress. Most hosts offer one-click instal
 
 For a full walkthrough, check our guide on <a href="/tech-saas-stack/2026/06/how-to-set-up-wordpress-site-hostinger-guide/">How to Set Up a WordPress Site on Hostinger</a>.
 
-## Step 4: Design Your Site with a Page Builder
+
+</details>
+
+<details class="collapsible-section" markdown="1">
+<summary>Step 4: Design Your Site with a Page Builder</summary>
+
 
 A professional-looking site builds trust with your readers — and trust is everything in affiliate marketing. You have two paths:
 
@@ -147,7 +164,12 @@ Elementor powers over 10 million websites and is the most popular WordPress page
 
 We've covered <a href="/tech-saas-stack/2026/06/how-to-build-landing-page-elementor-guide/">how to build a landing page with Elementor</a> in a separate guide, and our <a href="/tech-saas-stack/2026/06/elementor-vs-divi-vs-beaver-builder-page-builder-2026/">Elementor vs Divi vs Beaver Builder</a> comparison can help you choose the right builder.
 
-## Step 5: Create Content That Ranks
+
+</details>
+
+<details class="collapsible-section" markdown="1">
+<summary>Step 5: Create Content That Ranks</summary>
+
 
 Content is your affiliate marketing engine. Without content that ranks in search engines, nobody will see your affiliate links. Here's a repeatable content system:
 
@@ -235,7 +257,12 @@ Affiliate content isn't one-size-fits-all. The best affiliate sites use a mix of
 - **Add FAQ schema** for rich results
 - **Optimize images** — compress them and use descriptive alt text
 
-## Step 6: Join Affiliate Programs
+
+</details>
+
+<details class="collapsible-section" markdown="1">
+<summary>Step 6: Join Affiliate Programs</summary>
+
 
 Once your content is live, you need affiliate links to monetize it. Here are the affiliate programs we use on this blog:
 
@@ -252,7 +279,12 @@ Once your content is live, you need affiliate links to monetize it. Here are the
 
 Pro tip: **Don't apply to every program at once.** Start with 2–3 programs in your niche, build content around them, and expand as your traffic grows. Some programs (like WP Engine and Kinsta) require manual review, so having published content on your site before applying improves your approval odds.
 
-## Step 7: Drive Traffic
+
+</details>
+
+<details class="collapsible-section" markdown="1">
+<summary>Step 7: Drive Traffic</summary>
+
 
 Content alone won't bring visitors. You need a traffic strategy:
 
@@ -276,7 +308,12 @@ Share every new post on:
 
 An email list converts 3–5x better than any other channel. Start collecting emails from day one with a free lead magnet (checklist, template, cheat sheet). Tools like <a href="https://activecampaign.com/">ActiveCampaign</a> make it easy to set up automated email sequences that send your best affiliate content to new subscribers.
 
-## Step 8: Optimize and Scale
+
+</details>
+
+<details class="collapsible-section" markdown="1">
+<summary>Step 8: Optimize and Scale</summary>
+
 
 Once you have 20–30 published posts and some traffic, it's time to optimize:
 
@@ -286,7 +323,12 @@ Once you have 20–30 published posts and some traffic, it's time to optimize:
 4. **Build topical authority** — Create clusters of content around one topic (pillar page + supporting articles)
 5. **Diversify income streams** — Add display ads, digital products, or a membership tier on top of affiliate income
 
-## Frequently Asked Questions
+
+</details>
+
+<details class="collapsible-section" markdown="1">
+<summary>Frequently Asked Questions</summary>
+
 
 <div class="faq-item">
 <div class="faq-question"><strong>How much money can I make with an affiliate marketing website?</strong></div>
@@ -330,3 +372,6 @@ Once you have 20–30 published posts and some traffic, it's time to optimize:
 Start Your Affiliate Site →
 </div>
 
+
+
+</details>

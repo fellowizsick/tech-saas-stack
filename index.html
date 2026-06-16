@@ -12,25 +12,6 @@ title: Home
   ⚡ <strong>Independent Reviews Since 2026:</strong> We test every product we recommend. Some links are affiliate links — see our <a href="{{ site.baseurl }}/privacy/" style="color:var(--primary);">disclosure</a>.
 </div>
 
-<!-- Testimonials / Social Proof -->
-<section class="testimonials" style="margin: 3rem 0; padding: 2rem; background: var(--bg-glass); border-radius: var(--radius-lg); border: 1px solid var(--border);">
-  <h3 style="text-align: center; margin-bottom: 1.5rem; color: var(--text);">What Readers Say</h3>
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
-    <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
-      <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"Jon's Cloudways vs DigitalOcean comparison saved me from overpaying for managed hosting. The GTmetrix benchmarks matched what I saw on my own sites. Finally, a reviewer who actually tests."</p>
-      <footer style="color: var(--text-muted); font-size: 0.9rem;">— M. Chen, Developer (via GitHub)</footer>
-    </blockquote>
-    <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
-      <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"The email marketing comparison for course creators was exactly what I needed. Clear use-case matrix, honest about limitations. Bought ConvertKit through his link — zero regrets."</p>
-      <footer style="color: var(--text-muted); font-size: 0.9rem;">— S. Rivera, Course Creator (via Email)</footer>
-    </blockquote>
-    <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
-      <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"Rare to find a tech reviewer who discloses their own mental health journey. The PTSD context explains the thoroughness — Jon doesn't skip steps because he knows what it's like when things break."</p>
-      <footer style="color: var(--text-muted); font-size: 0.9rem;">— T. Okonkwo, Fellow Vet (via LinkedIn)</footer>
-    </blockquote>
-  </div>
-</section>
-
 <!-- Site Search -->
 {% include search.html %}
 
@@ -103,5 +84,86 @@ document.addEventListener('DOMContentLoaded', function() {
   </article>
   {% endfor %}
 </section>
+
+<!-- Testimonials / Social Proof (Collapsible) -->
+<section class="testimonials" style="margin: 4rem 0 2rem;">
+  <button class="testimonials-toggle" id="testimonialsToggle" aria-expanded="false" aria-controls="testimonialsContent" style="
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background: var(--bg-glass);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    color: var(--text);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    transition: background var(--transition-fast), border-color var(--transition-fast);
+  ">
+    <span>What Readers Say</span>
+    <svg id="testimonialsIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; transition: transform var(--transition-fast);">
+      <polyline points="6 9 12 15 18 9"></polyline>
+    </svg>
+  </button>
+  <div id="testimonialsContent" class="testimonials-content" style="
+    display: none;
+    padding: 2rem;
+    margin-top: 1rem;
+    background: var(--bg-glass);
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    animation: slideDown 200ms ease-out;
+  ">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+      <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
+        <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"Jon's Cloudways vs DigitalOcean comparison saved me from overpaying for managed hosting. The GTmetrix benchmarks matched what I saw on my own sites. Finally, a reviewer who actually tests."</p>
+        <footer style="color: var(--text-muted); font-size: 0.9rem;">— M. Chen, Developer (via GitHub)</footer>
+      </blockquote>
+      <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
+        <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"The email marketing comparison for course creators was exactly what I needed. Clear use-case matrix, honest about limitations. Bought ConvertKit through his link — zero regrets."</p>
+        <footer style="color: var(--text-muted); font-size: 0.9rem;">— S. Rivera, Course Creator (via Email)</footer>
+      </blockquote>
+      <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
+        <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"Rare to find a tech reviewer who shares their personal journey. The transparency explains the thoroughness — Jon doesn't skip steps because he knows what it's like when things break."</p>
+        <footer style="color: var(--text-muted); font-size: 0.9rem;">— T. Okonkwo, Reader (via LinkedIn)</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<style>
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.testimonials-toggle:hover {
+  background: var(--bg-glass-hover) !important;
+  border-color: var(--border-strong) !important;
+}
+.testimonials-toggle[aria-expanded="true"] #testimonialsIcon {
+  transform: rotate(180deg);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const toggle = document.getElementById('testimonialsToggle');
+  const content = document.getElementById('testimonialsContent');
+  const icon = document.getElementById('testimonialsIcon');
+  
+  if (toggle && content) {
+    toggle.addEventListener('click', function() {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', !isOpen);
+      content.style.display = isOpen ? 'none' : 'block';
+      icon.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
+    });
+  }
+});
+</script>
 </div>
 </main>

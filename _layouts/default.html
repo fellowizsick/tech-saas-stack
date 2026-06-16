@@ -370,6 +370,18 @@
       });
     }
   })();
+
+  // Auto-wrap tables in .page-content for horizontal scroll on mobile
+  (function() {
+    document.querySelectorAll('.page-content table').forEach(function(table) {
+      if (!table.parentElement.classList.contains('table-wrapper')) {
+        var wrapper = document.createElement('div');
+        wrapper.className = 'table-wrapper';
+        table.parentNode.insertBefore(wrapper, table);
+        wrapper.appendChild(table);
+      }
+    });
+  })();
 </script>
 </body>
 </html>

@@ -18,7 +18,6 @@ title: About
         <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem;">
           <a href="https://github.com/fellowizsick" target="_blank" rel="noopener" style="color: var(--text-muted); text-decoration: none; display: flex; align-items: center; gap: 0.3rem; font-size: 0.9rem;">🐙 GitHub</a>
           <a href="mailto:jon.techsaasstack@gmail.com" style="color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 0.3rem; font-size: 0.9rem;">✉️ Email</a>
-          <a href="https://linkedin.com/in/jonbrown-tech" target="_blank" rel="noopener" style="color: var(--text-muted); text-decoration: none; display: flex; align-items: center; gap: 0.3rem; font-size: 0.9rem;">💼 LinkedIn</a>
         </div>
       </div>
     </div>
@@ -46,7 +45,6 @@ title: About
     <ul style="list-style: none; padding: 0;">
       <li style="margin-bottom: 0.5rem;">📧 <a href="mailto:jon.techsaasstack@gmail.com" style="color: var(--primary);">jon.techsaasstack@gmail.com</a> — fastest response</li>
       <li style="margin-bottom: 0.5rem;">🐙 <a href="https://github.com/fellowizsick" target="_blank" rel="noopener" style="color: var(--text-muted);">GitHub Issues</a> — public questions & bug reports</li>
-      <li style="margin-bottom: 0.5rem;">💼 <a href="https://linkedin.com/in/jonbrown-tech" target="_blank" rel="noopener" style="color: var(--text-muted);">LinkedIn</a> — professional inquiries</li>
     </ul>
     <p style="margin-top: 1rem; color: var(--text-muted); font-size: 0.9rem;">I read every email.</p>
   </div>

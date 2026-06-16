@@ -44,7 +44,7 @@ title: About
     <h2>Contact</h2>
     <p>Have a question, want to suggest a product for review, or just want to say hi?</p>
     <ul style="list-style: none; padding: 0;">
-      <li style="margin-bottom: 0.5rem;">📧 <a href="mailto:hello@fellowizsick.com" style="color: var(--primary);">hello@fellowizsick.com</a> — fastest response</li>
+      <li style="margin-bottom: 0.5rem;">📧 <a href="mailto:jon.techsaasstack@gmail.com" style="color: var(--primary);">jon.techsaasstack@gmail.com</a> — fastest response</li>
       <li style="margin-bottom: 0.5rem;">🐙 <a href="https://github.com/fellowizsick" target="_blank" rel="noopener" style="color: var(--text-muted);">GitHub Issues</a> — public questions & bug reports</li>
       <li style="margin-bottom: 0.5rem;">💼 <a href="https://linkedin.com/in/jonbrown-tech" target="_blank" rel="noopener" style="color: var(--text-muted);">LinkedIn</a> — professional inquiries</li>
     </ul>

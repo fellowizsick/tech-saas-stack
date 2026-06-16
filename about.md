@@ -14,7 +14,7 @@ title: About
       <div class="author-avatar" style="width: 100px; height: 100px; border-radius: 50%; background: var(--gradient-primary); display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: 700; color: white; margin: 0 auto 1rem; box-shadow: var(--shadow-lg);">JB</div>
       <div class="author-info">
         <h4 style="margin-bottom: 0.5rem;">Jon Brown</h4>
-        <p style="color: var(--text-muted); margin-bottom: 1rem;">Disabled veteran (PTSD) • 10+ years tech & hosting • Founder of {{ site.title }}</p>
+        <p style="color: var(--text-muted); margin-bottom: 1rem;">10+ years tech & hosting • Founder of {{ site.title }}</p>
         <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem;">
           <a href="https://github.com/fellowizsick" target="_blank" rel="noopener" style="color: var(--text-muted); text-decoration: none; display: flex; align-items: center; gap: 0.3rem; font-size: 0.9rem;">🐙 GitHub</a>
           <a href="mailto:hello@fellowizsick.com" style="color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 0.3rem; font-size: 0.9rem;">✉️ Email</a>
@@ -26,7 +26,7 @@ title: About
     <p>{{ site.title }} is your trusted source for honest, in-depth reviews of web hosting, SaaS tools, and software for developers, creators, and online businesses.</p>
 
     <h2>My Story</h2>
-    <p>I'm Jon — a disabled veteran living with PTSD who found purpose in technology. After my service, I spent 10+ years learning web hosting, server management, and SaaS tools the hard way: by breaking things, fixing them, and documenting what actually works.</p>
+    <p>I've spent 10+ years learning web hosting, server management, and SaaS tools the hard way: by breaking things, fixing them, and documenting what actually works.</p>
     <p>I built this site because I was tired of "best hosting" articles written by marketers who've never SSH'd into a server. Every review here comes from real hands-on testing — I sign up, install, run benchmarks (GTmetrix, Pingdom, Lighthouse), test support response times, and evaluate the actual user experience.</p>
 
     <h2>Our Standards</h2>
@@ -48,6 +48,6 @@ title: About
       <li style="margin-bottom: 0.5rem;">🐙 <a href="https://github.com/fellowizsick" target="_blank" rel="noopener" style="color: var(--text-muted);">GitHub Issues</a> — public questions & bug reports</li>
       <li style="margin-bottom: 0.5rem;">💼 <a href="https://linkedin.com/in/jonbrown-tech" target="_blank" rel="noopener" style="color: var(--text-muted);">LinkedIn</a> — professional inquiries</li>
     </ul>
-    <p style="margin-top: 1rem; color: var(--text-muted); font-size: 0.9rem;">I read every email. If you're a fellow vet, put "VET" in the subject line — I'll prioritize it.</p>
+    <p style="margin-top: 1rem; color: var(--text-muted); font-size: 0.9rem;">I read every email.</p>
   </div>
 </article>

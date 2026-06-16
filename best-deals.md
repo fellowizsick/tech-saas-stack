@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 
   <div class="deal-card" data-category="hosting">
-    <h3><a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways — Pay-As-You-Go Cloud Hosting</a></h3>
+    <h3><a href="https://www.cloudways.com/en/?id=2088428" rel="nofollow sponsored" target="_blank">Cloudways — Pay-As-You-Go Cloud Hosting</a></h3>
     <div class="deal-meta">
       <span class="deal-discount">☁️ Flexible Cloud</span>
       <span>💰 $50-125/sale (Slab)</span>
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     <p>Managed cloud hosting on DigitalOcean, Vultr, Linode, AWS, or Google Cloud. Pay hourly, scale instantly. Free migrations, staging, Cloudflare CDN, SSL.</p>
     <p><strong>Deal:</strong> 3-day free trial (no card). Plans from $11/mo. 24/7 expert support.</p>
-    <a class="deal-btn" href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+    <a class="deal-btn" href="https://www.cloudways.com/en/?id=2088428" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
   </div>
 
   <div class="deal-card" data-category="hosting">

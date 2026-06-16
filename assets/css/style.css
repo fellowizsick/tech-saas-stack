@@ -595,6 +595,25 @@ html[data-theme="dark"] body {
 .post-content h2, .post-content h3, .post-content h4 {
   color: var(--text);
 }
+.page-content {
+  background: var(--bg-glass);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: calc(var(--space-unit) * 8);
+  box-shadow: var(--shadow);
+  animation: fade-up var(--transition-slow) ease-out var(--transition-fast) both;
+}
+.page-content p,
+.page-content ul,
+.page-content ol,
+.page-content li,
+.page-content h2,
+.page-content h3,
+.page-content h4 {
+  color: var(--text);
+}
 .post-content li::marker { color: var(--primary); }
 .post-content a {
   color: var(--primary);

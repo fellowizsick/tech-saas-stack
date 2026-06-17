@@ -1933,5 +1933,5 @@ html[data-theme="dark"] body {
 }
 .collapsible-section > *:not(summary) {
   padding: calc(var(--space-unit) * 3) calc(var(--space-unit) * 4);
-  animation: slide-down var(--transition-base) ease-out;
+  animation: fade-in var(--transition-base) ease-out;
 }

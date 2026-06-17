@@ -1118,7 +1118,7 @@ html[data-theme="dark"] body {
   font-size: var(--text-base);
   color: var(--text-muted);
   line-height: 1.7;
-  animation: slide-down var(--transition-base) ease-out;
+  animation: fade-in var(--transition-base) ease-out;
 }
 
 /* Post Cards (Homepage) */

@@ -396,6 +396,32 @@
       }
     });
   })();
+
+  // Subtle letter sparkle effect on hero & post titles
+  (function() {
+    var targets = document.querySelectorAll('.hero h1, .post-header h1');
+    targets.forEach(function(el, i) {
+      var text = el.textContent;
+      if (!text || text.length < 5) return;
+      var html = '';
+      for (var j = 0; j < text.length; j++) {
+        var char = text[j];
+        if (char === ' ') {
+          html += ' ';
+        } else {
+          var delay = Math.random() * 8 + 3; // 3-11s
+          var dur = 0.8 + Math.random() * 0.6; // 0.8-1.4s
+          html += '<span style="--sparkle-delay:' + delay + 's;--sparkle-dur:' + dur + 's;display:inline-block;">' + char + '</span>';
+        }
+      }
+      el.innerHTML = html;
+    });
+
+    // Add sparkle keyframes once
+    var style = document.createElement('style');
+    style.textContent = '@keyframes sparkleLetter { 0%,100% { color: var(--text); text-shadow: none; } 50% { color: var(--primary); text-shadow: 0 0 8px oklch(var(--primary) / 0.6), 0 0 16px oklch(var(--primary) / 0.3); } } [style*="--sparkle-delay"] { animation: sparkleLetter var(--sparkle-dur) ease-in-out var(--sparkle-delay) infinite; }';
+    document.head.appendChild(style);
+  })();
 </script>
 </body>
 </html>

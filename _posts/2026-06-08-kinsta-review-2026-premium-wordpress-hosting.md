@@ -25,6 +25,8 @@ faq:
   - q: "What kind of support does Kinsta provide?"
     a: "Kinsta provides 24/7 support through live chat and a ticket system. All support agents are WordPress experts — not general hosting support reading from a script. They can help with everything from performance tuning to plugin conflicts and migration issues. Response times are typically under 2 minutes for chat and under 1 hour for tickets. Phone support is available on Business and Enterprise plans."
 ---
+<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
+
 When you're serious about WordPress — running a business site, a growing e-commerce store, or a high-traffic content platform — the hosting provider you choose directly impacts your bottom line. Slow page loads cost you visitors, revenue, and search rankings. Downtime costs you credibility.
 
 That's where **Kinsta** enters the conversation. Positioned as a premium managed WordPress hosting provider, Kinsta doesn't compete on price. It competes on performance, infrastructure, and support. But at $35/month and up, the question every site owner asks is: **is Kinsta really worth the premium over budget alternatives?**

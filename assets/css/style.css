@@ -454,7 +454,8 @@ html[data-theme="dark"] body {
 }
 
 /* Affiliate Disclosure Bar */
-.disclosure-bar {
+.disclosure-bar,
+.affiliate-disclosure {
   background: var(--warning-bg);
   border: 1px solid oklch(var(--warning) / 0.3);
   border-radius: var(--radius);
@@ -464,6 +465,9 @@ html[data-theme="dark"] body {
   margin: calc(var(--space-unit) * 4) 0 calc(var(--space-unit) * 6);
   text-align: center;
   animation: slide-down var(--transition-bounce);
+}
+.affiliate-disclosure p {
+  margin: 0;
 }
 @keyframes slide-down {
   from { opacity: 0; transform: translateY(-10px); }

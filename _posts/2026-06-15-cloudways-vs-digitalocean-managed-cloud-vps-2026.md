@@ -29,6 +29,8 @@ schema:
     "@type": "Organization"
     name: "Tech & SaaS Stack"
 ---
+<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
+
 
 <details class="collapsible-section" markdown="1">
 <summary>Quick Verdict</summary>

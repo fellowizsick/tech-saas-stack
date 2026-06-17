@@ -22,6 +22,8 @@ schema:
     bestRating: "5"
     worstRating: "1"
 ---
+<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
+
 
 <details class="collapsible-section" markdown="1">
 <summary><strong>Quick Verdict</strong></summary>

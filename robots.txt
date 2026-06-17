@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://fellowizsick.github.io/sitemap.xml
+Sitemap: https://techsaasstack.com/sitemap.xml
 
 # Disallow private/system paths
 Disallow: /_site/

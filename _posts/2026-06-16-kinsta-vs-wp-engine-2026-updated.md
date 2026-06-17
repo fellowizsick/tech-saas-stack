@@ -21,6 +21,8 @@ faq:
   - q: "Can I still get the old Kinsta pricing?"
     a: "Not as a new customer. The visit-based plans (Starter $35, Pro $70, Business $115) are no longer offered. Some users report being able to negotiate custom pricing by contacting sales, but the public pricing page only shows the new bandwidth tiers."
 ---
+<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
+
 
 > **Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.
 

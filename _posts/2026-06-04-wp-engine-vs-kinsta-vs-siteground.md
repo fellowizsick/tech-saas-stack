@@ -11,6 +11,8 @@
 11|  rating: 4.5
 12|toc: true
 13|---
+<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
+
 14|
 15|Choosing the right managed WordPress hosting can make or break your website. Slow hosting costs you visitors, kills SEO rankings, and frustrates your users. Fast hosting does the opposite — it grows your business.
 16|

@@ -23,6 +23,8 @@ faq:
   - q: "How long does a WordPress migration take?"
     a: "A DIY migration typically takes 3-6 hours for a standard 50-page site, including content export, WordPress setup, theme customization, and plugin configuration. Managed hosting providers often offer free migration services that handle everything in 24-48 hours with zero downtime. Premium hosts like WP Engine and Kinsta include migration teams that move your site for you while ensuring all redirects and SEO settings are preserved."
 ---
+<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
+
 
 > **Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.
 

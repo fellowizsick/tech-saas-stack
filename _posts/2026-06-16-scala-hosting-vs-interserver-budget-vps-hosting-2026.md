@@ -21,6 +21,8 @@ faq:
   - q: "Which provider has better uptime guarantees?"
     a: "Both offer 99.9% uptime SLAs. ScalaHosting's SShield real-time security monitoring and container-based isolation give it an edge in preventing downtime from attacks. InterServer's InterShield protection and redundant network also deliver solid uptime — both are reliable choices for budget hosting."
 ---
+<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
+
 
 > **Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.
 

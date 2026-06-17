@@ -21,6 +21,8 @@ faq:
   - q: "How does WP Engine pricing compare to SiteGround?"
     a: "WP Engine starts at $20/month for a single site (annual billing) while SiteGround starts at $2.99/month. However, they serve different markets. WP Engine provides enterprise-grade managed hosting — server-level caching, built-in CDN, automatic plugin updates, staging environments, and 24/7 WordPress-expert support. SiteGround offers excellent shared hosting with managed features but lacks the dedicated infrastructure, traffic capacity, and developer tools WP Engine provides. If your site generates revenue or handles significant traffic, WP Engine's premium is justified."
 ---
+<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
+
 
 > **Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.
 

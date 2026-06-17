@@ -23,6 +23,8 @@ faq:
   - q: "How often does Semrush update its data?"
     a: "Semrush updates its keyword database monthly, backlink index daily, domain analytics weekly, and position tracking data daily (or more frequently depending on plan). The Site Audit tool checks sites at customizable intervals (daily to monthly). Position Tracking can be configured from daily to real-time updates on higher-tier plans."
 ---
+<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
+
 
 > **Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.
 

@@ -1528,7 +1528,7 @@ html[data-theme="dark"] .nav-brand::after {
 
 /* Mobile: hide sidebar, show inline fallback */
 
-/* Mobile TOC: bottom sheet */
+/* Mobile TOC: bottom sheet with floating circle trigger */
 @media (max-width: 1024px) {
   .toc-sidebar {
     right: calc(var(--space-unit) * 2);
@@ -1539,11 +1539,51 @@ html[data-theme="dark"] .nav-brand::after {
   }
   
   .toc-toggle {
-    width: 100%;
+    /* Floating circle button (FAB) - bottom right */
+    width: 56px;
+    height: 56px;
+    min-width: 56px;
+    padding: 0;
     justify-content: center;
-    padding: calc(var(--space-unit) * 3) calc(var(--space-unit) * 4);
-    font-size: var(--text-base);
-    box-shadow: var(--shadow-lg);
+    border-radius: 50%;
+    font-size: 0;
+    box-shadow: var(--shadow-xl);
+    background: var(--primary);
+    color: white;
+    border: none;
+    position: relative;
+    z-index: 101;
+  }
+  
+  .toc-toggle::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='9' y1='18' x2='9' y2='6'%3E%3C/line%3E%3Cline x1='15' y1='18' x2='15' y2='6'%3E%3C/line%3E%3Cline x1='21' y1='18' x2='21' y2='6'%3E%3C/line%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .toc-sidebar.collapsed .toc-toggle::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='18 15 12 9 6 15'%3E%3C/polyline%3E%3C/svg%3E");
+  }
+  
+  .toc-toggle:hover {
+    background: var(--primary-hover);
+    transform: scale(1.05);
+    box-shadow: var(--shadow-xl), 0 0 0 4px oklch(var(--primary) / 0.3);
+  }
+  
+  .toc-toggle:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--border-focus), 0 0 0 4px var(--primary);
+  }
+  
+  .toc-toggle-icon,
+  .toc-toggle-text {
+    display: none !important;
   }
   
   .toc-content {

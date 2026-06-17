@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 
   <div class="deal-card" data-category="hosting">
-    <h3><a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting — Managed VPS with SPanel</a></h3>
+    <h3><a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">ScalaHosting — Managed VPS with SPanel</a></h3>
     <div class="deal-meta">
       <span class="deal-discount">🛡️ SPanel Included</span>
       <span>💰 $150-300/sale</span>
@@ -84,11 +84,11 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     <p>Managed VPS hosting with their proprietary SPanel (cPanel alternative). Free migrations, daily backups, SShield security, NVMe storage.</p>
     <p><strong>Deal:</strong> Managed VPS from $29.95/mo. 30-day money-back guarantee.</p>
-    <a class="deal-btn" href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+    <a class="deal-btn" href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
   </div>
 
   <div class="deal-card" data-category="hosting">
-    <h3><a href="https://kinsta.com/" rel="nofollow sponsored" target="_blank">Kinsta — Premium Managed WordPress</a></h3>
+    <h3><a href="https://kinsta.com/?ref=jon" rel="nofollow sponsored" target="_blank">Kinsta — Premium Managed WordPress</a></h3>
     <div class="deal-meta">
       <span class="deal-discount">🚀 Google Cloud C2</span>
       <span>💰 $50-500/sale</span>
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     <p>Premium managed WordPress on Google Cloud C2 machines. LXD containers, edge caching, auto-scaling, free migrations, staging, 14-day backups.</p>
     <p><strong>Deal:</strong> Plans from $35/mo for 35k visits. 30-day money-back guarantee.</p>
-    <a class="deal-btn" href="https://kinsta.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+    <a class="deal-btn" href="https://kinsta.com/?ref=jon" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
   </div>
 </div>
 

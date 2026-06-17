@@ -397,9 +397,18 @@
     });
   })();
 
-  // Subtle letter sparkle effect on hero & post titles
+  // Subtle letter sparkle effect on hero & post titles - multi-color flicker
   (function() {
     var targets = document.querySelectorAll('.hero h1, .post-header h1');
+    // Color palette: gold, amber, champagne, coral, teal, violet
+    var colors = [
+      'oklch(0.75 0.22 85)',   // gold
+      'oklch(0.65 0.25 65)',   // amber
+      'oklch(0.80 0.12 95)',   // champagne
+      'oklch(0.65 0.20 25)',   // coral
+      'oklch(0.60 0.18 185)',  // teal
+      'oklch(0.60 0.22 285)'   // violet
+    ];
     targets.forEach(function(el, i) {
       var text = el.textContent;
       if (!text || text.length < 5) return;
@@ -409,18 +418,19 @@
         if (char === ' ') {
           html += ' ';
         } else {
-          // Flicker: long random wait (8-25s), very brief flash (0.15-0.3s)
-          var delay = Math.random() * 17 + 8; // 8-25s between flickers
-          var dur = 0.15 + Math.random() * 0.15; // 0.15-0.3s flash duration
-          html += '<span style="--sparkle-delay:' + delay + 's;--sparkle-dur:' + dur + 's;display:inline-block;">' + char + '</span>';
+          // Very slow: wait 15-60s, brief flash 0.2-0.4s
+          var delay = Math.random() * 45 + 15; // 15-60s between flickers
+          var dur = 0.2 + Math.random() * 0.2; // 0.2-0.4s flash
+          var color = colors[Math.floor(Math.random() * colors.length)];
+          html += '<span style="--sparkle-delay:' + delay + 's;--sparkle-dur:' + dur + 's;--sparkle-color:' + color + ';display:inline-block;">' + char + '</span>';
         }
       }
       el.innerHTML = html;
     });
 
-    // Add sparkle keyframes once
+    // Add sparkle keyframes once - uses per-letter color
     var style = document.createElement('style');
-    style.textContent = '@keyframes sparkleLetter { 0%,100% { color: var(--text); text-shadow: none; } 50% { color: var(--primary); text-shadow: 0 0 8px oklch(var(--primary) / 0.6), 0 0 16px oklch(var(--primary) / 0.3); } } [style*="--sparkle-delay"] { animation: sparkleLetter var(--sparkle-dur) ease-in-out var(--sparkle-delay) infinite; }';
+    style.textContent = '@keyframes sparkleLetter { 0%,100% { color: var(--text); text-shadow: none; } 50% { color: var(--sparkle-color); text-shadow: 0 0 6px var(--sparkle-color), 0 0 12px var(--sparkle-color); } } [style*="--sparkle-delay"] { animation: sparkleLetter var(--sparkle-dur) ease-in-out var(--sparkle-delay) infinite; }';
     document.head.appendChild(style);
   })();
 </script>

@@ -52,6 +52,18 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 
   <div class="deal-card" data-category="hosting">
+    <h3><a href="https://bluehost.sjv.io/c/7392811/1376228/11352" rel="nofollow sponsored" target="_blank">Bluehost — Official WordPress Host</a></h3>
+    <div class="deal-meta">
+      <span class="deal-discount">💙 WP.org #1</span>
+      <span>💰 $65+/sale</span>
+      <span>🌟 Free domain + SSL</span>
+    </div>
+    <p>Officially recommended by WordPress.org since 2005. Free domain for 1 year, free SSL, 1-click WordPress install, 24/7 support. Optimized for WordPress performance.</p>
+    <p><strong>Deal:</strong> Exclusive affiliate pricing from $3.79/mo. 30-day money-back guarantee.</p>
+    <a class="deal-btn" href="https://bluehost.sjv.io/c/7392811/1376228/11352" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+  </div>
+
+  <div class="deal-card" data-category="hosting">
     <h3><a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer — Unlimited Hosting & VPS</a></h3>
     <div class="deal-meta">
       <span class="deal-discount">🔒 Price Lock Guarantee</span>

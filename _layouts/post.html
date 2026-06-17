@@ -24,11 +24,18 @@ layout: default
     🤝 <strong>Affiliate Disclosure:</strong> Some links in this post are affiliate links. If you purchase through them, I earn a commission at no extra cost to you. I only recommend products I've personally tested and trust.
   </div>
 
-  <!-- Table of Contents (auto-generated) -->
+  <!-- Table of Contents (auto-generated) - Fixed Sidebar -->
   {% if page.toc != false %}
-  <div class="toc">
-    <h4>📑 Table of Contents</h4>
-    <ul id="toc-list"></ul>
+  <div class="toc-sidebar" id="tocSidebar">
+    <button class="toc-toggle" id="tocToggle" aria-label="Toggle Table of Contents" aria-expanded="true">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="9" y1="18" x2="9" y2="6"></line><line x1="15" y1="18" x2="15" y2="6"></line><line x1="21" y1="18" x2="21" y2="6"></line></svg>
+      <span class="toc-toggle-text">Contents</span>
+      <svg class="toc-toggle-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+    <div class="toc-content" id="tocContent">
+      <h4>Table of Contents</h4>
+      <ul id="toc-list"></ul>
+    </div>
   </div>
   {% endif %}
 
@@ -176,6 +183,10 @@ layout: default
 // Auto-generate Table of Contents from H2/H3 headings
 document.addEventListener('DOMContentLoaded', function() {
   const toc = document.getElementById('toc-list');
+  const tocSidebar = document.getElementById('tocSidebar');
+  const tocToggle = document.getElementById('tocToggle');
+  const tocContent = document.getElementById('tocContent');
+  
   if (!toc) return;
   const headings = document.querySelectorAll('.post-content h2, .post-content h3');
   headings.forEach(function(h, i) {
@@ -190,6 +201,14 @@ document.addEventListener('DOMContentLoaded', function() {
     li.appendChild(a);
     toc.appendChild(li);
   });
+
+  // TOC toggle functionality
+  if (tocToggle && tocSidebar) {
+    tocToggle.addEventListener('click', function() {
+      const isCollapsed = tocSidebar.classList.toggle('collapsed');
+      tocToggle.setAttribute('aria-expanded', !isCollapsed);
+    });
+  }
 });
 </script>
 

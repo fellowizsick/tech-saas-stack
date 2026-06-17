@@ -1492,3 +1492,37 @@ html[data-theme="dark"] body {
 .toc-content .toc-h3 a { font-weight: 400; }
 
 /* Mobile: hide sidebar, show inline fallback */
+
+/* Mobile TOC: bottom sheet */
+@media (max-width: 1024px) {
+  .toc-sidebar {
+    right: calc(var(--space-unit) * 2);
+    width: calc(100vw - calc(var(--space-unit) * 4));
+    max-width: none;
+    top: auto;
+    bottom: calc(var(--space-unit) * 2);
+  }
+  
+  .toc-toggle {
+    width: 100%;
+    justify-content: center;
+    padding: calc(var(--space-unit) * 3) calc(var(--space-unit) * 4);
+    font-size: var(--text-base);
+    box-shadow: var(--shadow-lg);
+  }
+  
+  .toc-content {
+    position: fixed;
+    bottom: calc(var(--space-unit) * 2 + 60px);
+    left: calc(var(--space-unit) * 2);
+    right: calc(var(--space-unit) * 2);
+    max-height: 50vh;
+    border-radius: var(--radius) var(--radius) 0 0;
+    border-bottom: none;
+    box-shadow: var(--shadow-xl);
+  }
+  
+  .toc-sidebar.collapsed .toc-content {
+    display: none;
+  }
+}

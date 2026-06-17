@@ -409,8 +409,9 @@
         if (char === ' ') {
           html += ' ';
         } else {
-          var delay = Math.random() * 8 + 3; // 3-11s
-          var dur = 0.8 + Math.random() * 0.6; // 0.8-1.4s
+          // Flicker: long random wait (8-25s), very brief flash (0.15-0.3s)
+          var delay = Math.random() * 17 + 8; // 8-25s between flickers
+          var dur = 0.15 + Math.random() * 0.15; // 0.15-0.3s flash duration
           html += '<span style="--sparkle-delay:' + delay + 's;--sparkle-dur:' + dur + 's;display:inline-block;">' + char + '</span>';
         }
       }

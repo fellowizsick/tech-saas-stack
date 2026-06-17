@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // TOC toggle functionality
   if (tocToggle && tocSidebar) {
-    tocToggle.addEventListener('click', function() {
+    tocToggle.addEventListener("click", function(e) { e.preventDefault(); e.stopPropagation(); 
       const isCollapsed = tocSidebar.classList.toggle('collapsed');
       tocToggle.setAttribute('aria-expanded', !isCollapsed);
     });

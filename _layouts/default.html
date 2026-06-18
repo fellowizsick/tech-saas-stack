@@ -400,14 +400,14 @@
   // Subtle letter sparkle effect on hero & post titles - multi-color flicker
   (function() {
     var targets = document.querySelectorAll('.hero h1, .post-header h1');
-    // Color palette: very muted/pastel - low chroma, slightly lower lightness
+    // Color palette: visible but tasteful - slightly higher chroma for visibility
     var colors = [
-      'oklch(0.68 0.08 85)',   // very muted gold
-      'oklch(0.60 0.09 65)',   // very muted amber
-      'oklch(0.75 0.06 95)',   // very muted champagne
-      'oklch(0.58 0.08 25)',   // very muted coral
-      'oklch(0.52 0.07 185)',  // very muted teal
-      'oklch(0.52 0.09 285)'   // very muted violet
+      'oklch(0.68 0.12 85)',   // soft gold
+      'oklch(0.60 0.13 65)',   // soft amber
+      'oklch(0.75 0.09 95)',   // soft champagne
+      'oklch(0.58 0.11 25)',   // soft coral
+      'oklch(0.52 0.10 185)',  // soft teal
+      'oklch(0.52 0.12 285)'   // soft violet
     ];
     targets.forEach(function(el, i) {
       var text = el.textContent;
@@ -439,7 +439,7 @@
 
     // Add sparkle keyframes once - uses per-letter color
     var style = document.createElement('style');
-    style.textContent = '@keyframes sparkleLetter { 0%,100% { color: var(--text); text-shadow: none; } 50% { color: var(--sparkle-color); text-shadow: 0 0 6px var(--sparkle-color), 0 0 12px var(--sparkle-color); } } [style*="--sparkle-delay"] { animation: sparkleLetter var(--sparkle-dur) ease-in-out var(--sparkle-delay) infinite; }';
+    style.textContent = '@keyframes sparkleLetter { 0%,100% { color: var(--text); text-shadow: none; } 50% { color: var(--sparkle-color); text-shadow: 0 0 8px var(--sparkle-color), 0 0 16px var(--sparkle-color), 0 0 24px var(--sparkle-color); } } [style*="--sparkle-delay"] { animation: sparkleLetter var(--sparkle-dur) ease-in-out var(--sparkle-delay) infinite; }';
     document.head.appendChild(style);
   })();
 </script>

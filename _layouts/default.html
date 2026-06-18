@@ -400,14 +400,14 @@
   // Subtle letter sparkle effect on hero & post titles - multi-color flicker
   (function() {
     var targets = document.querySelectorAll('.hero h1, .post-header h1');
-    // Color palette: muted gold, amber, champagne, coral, teal, violet (lower chroma = less bright)
+    // Color palette: very muted/pastel - low chroma, slightly lower lightness
     var colors = [
-      'oklch(0.70 0.12 85)',   // muted gold
-      'oklch(0.62 0.14 65)',   // muted amber
-      'oklch(0.78 0.08 95)',   // muted champagne
-      'oklch(0.60 0.12 25)',   // muted coral
-      'oklch(0.55 0.10 185)',  // muted teal
-      'oklch(0.55 0.13 285)'   // muted violet
+      'oklch(0.68 0.08 85)',   // very muted gold
+      'oklch(0.60 0.09 65)',   // very muted amber
+      'oklch(0.75 0.06 95)',   // very muted champagne
+      'oklch(0.58 0.08 25)',   // very muted coral
+      'oklch(0.52 0.07 185)',  // very muted teal
+      'oklch(0.52 0.09 285)'   // very muted violet
     ];
     targets.forEach(function(el, i) {
       var text = el.textContent;

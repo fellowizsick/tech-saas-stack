@@ -412,28 +412,33 @@
     targets.forEach(function(el, i) {
       var text = el.textContent;
       if (!text || text.length < 5) return;
+      // Split into words, keep spaces
+      var words = text.split(/(\s+)/);
       var html = '';
-      // Only animate ~20% of letters (1 in 5)
-      var animateIndices = new Set();
-      var numToAnimate = Math.max(1, Math.floor(text.replace(/\s/g, '').length * 0.2));
-      while (animateIndices.size < numToAnimate) {
-        var idx = Math.floor(Math.random() * text.length);
-        if (text[idx] !== ' ') animateIndices.add(idx);
-      }
-      for (var j = 0; j < text.length; j++) {
-        var char = text[j];
-        if (char === ' ') {
-          html += ' ';
-        } else if (animateIndices.has(j)) {
-          // Start immediately: first flicker 0-2s, then wait 15-60s between subsequent flickers
-          var delay = Math.random() * 2; // 0-2s for first flicker
-          var dur = 1.5 + Math.random() * 1.5; // 1.5-3s slow flash
-          var color = colors[Math.floor(Math.random() * colors.length)];
-          html += '<span style="--sparkle-delay:' + delay + 's;--sparkle-dur:' + dur + 's;--sparkle-color:' + color + ';display:inline-block;">' + char + '</span>';
+      words.forEach(function(word, w) {
+        if (!word.trim()) { html += word; return; } // whitespace
+        // Only ~20% of words get animated letters
+        if (Math.random() < 0.2) {
+          // Animate ~30% of letters in this word
+          var animatedCount = Math.max(1, Math.floor(word.length * 0.3));
+          var indices = new Set();
+          while (indices.size < animatedCount) indices.add(Math.floor(Math.random() * word.length));
+          var wordHtml = '';
+          for (var j = 0; j < word.length; j++) {
+            if (indices.has(j)) {
+              var delay = Math.random() * 2;
+              var dur = 1.5 + Math.random() * 1.5;
+              var color = colors[Math.floor(Math.random() * colors.length)];
+              wordHtml += '<span style="--sparkle-delay:' + delay + 's;--sparkle-dur:' + dur + 's;--sparkle-color:' + color + ';">' + word[j] + '</span>';
+            } else {
+              wordHtml += word[j];
+            }
+          }
+          html += wordHtml;
         } else {
-          html += char;
+          html += word;
         }
-      }
+      });
       el.innerHTML = html;
     });
 

@@ -418,8 +418,8 @@
         if (char === ' ') {
           html += ' ';
         } else {
-          // Very slow: wait 15-60s, SLOW flash 1.5-3s (lingering)
-          var delay = Math.random() * 45 + 15; // 15-60s between flickers
+          // Start immediately: first flicker 0-2s, then wait 15-60s between subsequent flickers
+          var delay = Math.random() * 2; // 0-2s for first flicker
           var dur = 1.5 + Math.random() * 1.5; // 1.5-3s slow flash
           var color = colors[Math.floor(Math.random() * colors.length)];
           html += '<span style="--sparkle-delay:' + delay + 's;--sparkle-dur:' + dur + 's;--sparkle-color:' + color + ';display:inline-block;">' + char + '</span>';

@@ -399,9 +399,9 @@
   })();
 
   // Subtle letter sparkle effect on hero & post titles - multi-color flicker
+  // Exactly 2-3 random letters per title, with black outline for dark mode visibility
   (function() {
     var targets = document.querySelectorAll('.hero h1, .post-header h1');
-    // Color palette: visible but tasteful - slightly higher chroma for visibility
     var colors = [
       'oklch(0.68 0.12 85)',   // soft gold
       'oklch(0.60 0.13 65)',   // soft amber
@@ -410,42 +410,44 @@
       'oklch(0.52 0.10 185)',  // soft teal
       'oklch(0.52 0.12 285)'   // soft violet
     ];
-    targets.forEach(function(el, i) {
+    targets.forEach(function(el) {
       var text = el.textContent;
       if (!text || text.length < 5) return;
-      // Split into words, keep spaces
-      var words = text.split(/(\s+)/);
+      // Find all non-space character positions
+      var charIndices = [];
+      for (var i = 0; i < text.length; i++) {
+        if (text[i] !== ' ') charIndices.push(i);
+      }
+      // Pick exactly 2-3 random character indices
+      var count = 2 + Math.floor(Math.random() * 2); // 2 or 3
+      if (count > charIndices.length) count = charIndices.length;
+      // Shuffle and pick
+      var shuffled = charIndices.slice();
+      for (var s = shuffled.length - 1; s > 0; s--) {
+        var r = Math.floor(Math.random() * (s + 1));
+        var tmp = shuffled[s];
+        shuffled[s] = shuffled[r];
+        shuffled[r] = tmp;
+      }
+      var pick = new Set(shuffled.slice(0, count));
+      // Rebuild HTML — each animated letter gets a random color + black outline
       var html = '';
-      words.forEach(function(word, w) {
-        if (!word.trim()) { html += word; return; } // whitespace
-        // Only ~20% of words get animated letters
-        if (Math.random() < 0.2) {
-          // Animate ~30% of letters in this word
-          var animatedCount = Math.max(1, Math.floor(word.length * 0.3));
-          var indices = new Set();
-          while (indices.size < animatedCount) indices.add(Math.floor(Math.random() * word.length));
-          var wordHtml = '';
-          for (var j = 0; j < word.length; j++) {
-            if (indices.has(j)) {
-              var delay = Math.random() * 2;
-              var dur = 1.5 + Math.random() * 1.5;
-              var color = colors[Math.floor(Math.random() * colors.length)];
-              wordHtml += '<span style="--sparkle-delay:' + delay + 's;--sparkle-dur:' + dur + 's;--sparkle-color:' + color + ';">' + word[j] + '</span>';
-            } else {
-              wordHtml += word[j];
-            }
-          }
-          html += wordHtml;
+      for (var j = 0; j < text.length; j++) {
+        if (pick.has(j)) {
+          var delay = Math.random() * 5;
+          var dur = 1.5 + Math.random() * 1.5;
+          var color = colors[Math.floor(Math.random() * colors.length)];
+          html += '<span style="--sparkle-delay:' + delay + 's;--sparkle-dur:' + dur + 's;--sparkle-color:' + color + ';">' + text[j] + '</span>';
         } else {
-          html += word;
+          html += text[j];
         }
-      });
+      }
       el.innerHTML = html;
     });
 
-    // Add sparkle keyframes once - uses per-letter color
+    // Add sparkle keyframes — includes black text-shadow outline for visibility on any background
     var style = document.createElement('style');
-    style.textContent = '@keyframes sparkleLetter { 0%,100% { color: var(--text); text-shadow: none; } 50% { color: var(--sparkle-color); text-shadow: 0 0 8px var(--sparkle-color), 0 0 16px var(--sparkle-color), 0 0 24px var(--sparkle-color); } } [style*="--sparkle-delay"] { animation: sparkleLetter var(--sparkle-dur) ease-in-out var(--sparkle-delay) infinite; }';
+    style.textContent = '@keyframes sparkleLetter { 0%,100% { color: var(--text); text-shadow: 0 0 0 transparent, -1px -1px 0 rgba(0,0,0,0.5), 1px -1px 0 rgba(0,0,0,0.5), -1px 1px 0 rgba(0,0,0,0.5), 1px 1px 0 rgba(0,0,0,0.5); } 50% { color: var(--sparkle-color); text-shadow: 0 0 8px var(--sparkle-color), 0 0 16px var(--sparkle-color), 0 0 24px var(--sparkle-color), -1px -1px 0 rgba(0,0,0,0.7), 1px -1px 0 rgba(0,0,0,0.7), -1px 1px 0 rgba(0,0,0,0.7), 1px 1px 0 rgba(0,0,0,0.7); } } [style*="--sparkle-delay"] { animation: sparkleLetter var(--sparkle-dur) ease-in-out var(--sparkle-delay) infinite; }';
     document.head.appendChild(style);
   })();
 </script>

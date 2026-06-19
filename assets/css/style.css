@@ -648,6 +648,13 @@ html[data-theme="dark"] .nav-brand::after {
   box-shadow: var(--shadow);
   animation: fade-up var(--transition-slow) ease-out var(--transition-fast) both;
 }
+
+/* Make room for the fixed TOC sidebar on desktop */
+@media (min-width: 1025px) {
+  .page-content {
+    margin-right: 300px;
+  }
+}
 .page-content p,
 .page-content ul,
 .page-content ol,

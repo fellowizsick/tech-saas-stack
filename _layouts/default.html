@@ -190,7 +190,7 @@
       <div class="nav-links" id="navLinks">
         <a href="{{ site.baseurl }}/">Home</a>
         {% assign nav_categories = site.pages | where_exp: "page", "page.category_slug" %}
-        {% for cat in nav_categories limit:6 %}
+        {% for cat in nav_categories limit:3 %}
           <a href="{{ site.baseurl }}{{ cat.permalink }}">{{ cat.category_name }}</a>
         {% endfor %}
         <span class="nav-divider">|</span>

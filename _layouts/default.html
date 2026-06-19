@@ -400,6 +400,7 @@
 
   // Subtle letter sparkle effect on hero & post titles - multi-color flicker
   // Exactly 2-3 random letters per title, with black outline for dark mode visibility
+  // Re-randomizes every 4-6 seconds so different letters sparkle over time
   (function() {
     var targets = document.querySelectorAll('.hero h1, .post-header h1');
     var colors = [
@@ -410,7 +411,8 @@
       'oklch(0.52 0.10 185)',  // soft teal
       'oklch(0.52 0.12 285)'   // soft violet
     ];
-    targets.forEach(function(el) {
+
+    function sparkle(el) {
       var text = el.textContent;
       if (!text || text.length < 5) return;
       // Find all non-space character positions
@@ -430,11 +432,11 @@
         shuffled[r] = tmp;
       }
       var pick = new Set(shuffled.slice(0, count));
-      // Rebuild HTML — each animated letter gets a random color + black outline
+      // Rebuild HTML
       var html = '';
       for (var j = 0; j < text.length; j++) {
         if (pick.has(j)) {
-          var delay = Math.random() * 5;
+          var delay = Math.random() * 2; // shorter delay so they start quickly
           var dur = 1.5 + Math.random() * 1.5;
           var color = colors[Math.floor(Math.random() * colors.length)];
           html += '<span style="--sparkle-delay:' + delay + 's;--sparkle-dur:' + dur + 's;--sparkle-color:' + color + ';">' + text[j] + '</span>';
@@ -443,6 +445,13 @@
         }
       }
       el.innerHTML = html;
+    }
+
+    // Initial sparkle on each target
+    targets.forEach(function(el) {
+      sparkle(el);
+      // Re-randomize every 4-6 seconds
+      setInterval(function() { sparkle(el); }, 4000 + Math.random() * 2000);
     });
 
     // Add sparkle keyframes — includes black text-shadow outline for visibility on any background

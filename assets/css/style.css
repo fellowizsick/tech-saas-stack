@@ -246,15 +246,21 @@ html[data-theme="dark"] body {
   text-decoration: none;
   letter-spacing: -0.03em;
   transition: transform var(--transition-fast);
-  /* Gradient text — warm metallic gold */
+  /* Gradient text with shimmer stripe — animates every 10s */
   background: linear-gradient(135deg,
     oklch(0.62 0.20 75) 0%,
-    oklch(0.72 0.18 85) 40%,
-    oklch(0.55 0.22 85) 100%
+    oklch(0.55 0.22 85) 25%,
+    oklch(0.88 0.18 85) 45%,
+    oklch(0.92 0.15 80) 50%,
+    oklch(0.88 0.18 85) 55%,
+    oklch(0.55 0.22 85) 75%,
+    oklch(0.62 0.20 75) 100%
   );
+  background-size: 300% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  animation: logoShimmer 10s ease-in-out infinite;
   position: relative;
 }
 .nav-brand::after {
@@ -286,10 +292,15 @@ html[data-theme="dark"] body {
 /* Dark mode: platinum/gold glow */
 html[data-theme="dark"] .nav-brand {
   background: linear-gradient(135deg,
-    oklch(0.85 0.08 75) 0%,
-    oklch(0.75 0.10 85) 40%,
-    oklch(0.82 0.08 85) 100%
+    oklch(0.78 0.08 75) 0%,
+    oklch(0.72 0.10 85) 25%,
+    oklch(0.95 0.10 80) 45%,
+    oklch(0.98 0.08 75) 50%,
+    oklch(0.95 0.10 80) 55%,
+    oklch(0.72 0.10 85) 75%,
+    oklch(0.78 0.08 75) 100%
   );
+  background-size: 300% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -540,6 +551,13 @@ html[data-theme="dark"] .nav-brand::after {
 @keyframes fade-up {
   from { opacity: 0; transform: translateY(16px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+/* Logo shimmer — sweeps a bright highlight across the brand text every 10s */
+@keyframes logoShimmer {
+  0%, 92% { background-position: 100% 50%; }
+  96% { background-position: 0% 50%; }
+  100% { background-position: 0% 50%; }
 }
 .post-header h1 {
   font-size: var(--text-3xl);

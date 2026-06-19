@@ -61,6 +61,13 @@
   --space-unit: 4px;
 }
 
+/* Widen content on desktop for a more professional layout */
+@media (min-width: 1025px) {
+  :root {
+    --container-max: 960px;
+  }
+}
+
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   :root {

@@ -223,7 +223,7 @@ html[data-theme="dark"] body {
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   border-bottom: 1px solid var(--border);
-  padding: calc(var(--space-unit) * 3.5) 0;
+  padding: calc(var(--space-unit) * 2) 0;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -289,14 +289,14 @@ html[data-theme="dark"] .nav-brand::after {
 }
 .nav-links {
   display: flex;
-  gap: calc(var(--space-unit) * 7);
+  gap: calc(var(--space-unit) * 4);
   align-items: center;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
 .nav-links a {
-  padding: calc(var(--space-unit) * 2) calc(var(--space-unit) * 3);
-  min-height: 44px;
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 2);
+  min-height: 36px;
   display: flex;
   align-items: center;
   color: var(--text);
@@ -363,8 +363,8 @@ html[data-theme="dark"] .nav-brand::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 34px;
+  height: 34px;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
@@ -414,8 +414,8 @@ html[data-theme="dark"] .nav-brand::after {
   }
   .nav-links.open { display: flex; }
   .nav-links a {
-  padding: calc(var(--space-unit) * 2) calc(var(--space-unit) * 3);
-  min-height: 44px;
+    padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 2);
+    min-height: 36px;
   display: flex;
   align-items: center;
     padding: calc(var(--space-unit) * 3) calc(var(--space-unit) * 6);

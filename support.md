@@ -25,7 +25,7 @@ permalink: /support/
       </p>
 
       <!-- Donate button -->
-      <a href="https://www.paypal.com/donate/?business=jon.techsaasstack@gmail.com&no_recurring=0&item_name=Support+Tech+%26+SaaS+Stack&currency_code=USD" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.6rem; background: #4a9eff; color: white; text-decoration: none; padding: 0.9rem 2rem; border-radius: 50px; font-size: 1.05rem; font-weight: 700; transition: all 0.2s ease; box-shadow: 0 4px 15px rgba(74, 158, 255, 0.4);">
+      <a href="https://www.paypal.com/donate/?business=UBV3Y7XMFXQAS&no_recurring=0&item_name=Support+Tech+%26+SaaS+Stack&currency_code=USD" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.6rem; background: #4a9eff; color: white; text-decoration: none; padding: 0.9rem 2rem; border-radius: 50px; font-size: 1.05rem; font-weight: 700; transition: all 0.2s ease; box-shadow: 0 4px 15px rgba(74, 158, 255, 0.4);">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
           <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>

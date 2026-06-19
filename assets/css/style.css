@@ -260,7 +260,7 @@ html[data-theme="dark"] body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  animation: logoShimmer 10s ease-in-out infinite;
+  animation: logoShimmer 6s ease-in-out infinite;
   position: relative;
 }
 .nav-brand::after {
@@ -553,10 +553,10 @@ html[data-theme="dark"] .nav-brand::after {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Logo shimmer — sweeps a bright highlight across the brand text every 10s */
+/* Logo shimmer — sweeps a bright highlight across the brand text every 6s */
 @keyframes logoShimmer {
-  0%, 92% { background-position: 100% 50%; }
-  96% { background-position: 0% 50%; }
+  0%, 75% { background-position: 100% 50%; }
+  95% { background-position: 0% 50%; }
   100% { background-position: 0% 50%; }
 }
 .post-header h1 {

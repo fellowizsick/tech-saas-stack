@@ -64,7 +64,7 @@
 /* Widen content on desktop for a more professional layout */
 @media (min-width: 1025px) {
   :root {
-    --container-max: 960px;
+    --container-max: 1140px;
   }
 }
 

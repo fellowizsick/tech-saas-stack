@@ -9,6 +9,11 @@ permalink: /support/
 
     <div style="text-align: center; background: #1a1a2e; border-radius: 20px; padding: 3rem 2.5rem; box-shadow: 0 20px 60px rgba(0,0,0,0.3);">
 
+      <!-- Thank you -->
+      <p style="color: #7a7a9a; font-size: 0.85rem; margin: 0 0 1.5rem; letter-spacing: 0.02em; text-transform: uppercase; font-weight: 600;">
+        Thanks for visiting Tech & SaaS Stack 🙏
+      </p>
+
       <!-- Heart icon -->
       <div style="margin-bottom: 1.5rem;">
         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#4a9eff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">

@@ -24,7 +24,7 @@ permalink: /products/affiliate-starter-kit/
   <div class="price-tag">$17</div>
   <h1>📈 Affiliate Marketing Starter Kit</h1>
   <p class="subtitle">The exact system running this blog — cron content engine, SEO framework, affiliate playbook, CTA guide, and revenue calculator. One-time payment. Instant download.</p>
-  <a href="#" class="cta-button">Buy Now — $17 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+  <a href="https://jonbrown.gumroad.com/l/affiliate-starter-kit" class="cta-button" target="_blank">Buy Now — $17 <!--paint skip--><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
   <p style="margin-top: 0.75rem; font-size: 0.82rem; color: var(--text-muted);">Instant PDF download · 100% money-back guarantee · No subscription</p>
 </div>
 
@@ -60,5 +60,5 @@ permalink: /products/affiliate-starter-kit/
 <div class="product-card" style="text-align: center;">
   <h2>100% Money-Back Guarantee</h2>
   <p style="color: var(--text-muted); max-width: 500px; margin: 0 auto 1.5rem;">If you follow the system and don't see results within 30 days, I'll refund every cent. No questions asked.</p>
-  <a href="#" class="cta-button">Buy Now — $17 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+  <a href="https://jonbrown.gumroad.com/l/affiliate-starter-kit" class="cta-button" target="_blank">Buy Now — $17 <!--paint skip--><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
 </div>

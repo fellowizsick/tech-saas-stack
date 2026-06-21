@@ -1,442 +1,442 @@
-1|---
-2|layout: default
-3|title: Home
-4|---
-5|
-6|<div class="hero">
-7|  <h1>Honest Reviews, Comparisons & Tutorials</h1>
-8|  <p class="hero-subtitle">{{ site.tagline }}</p>
-9|</div>
-10|
-11|<div class="disclosure-bar">
-12|  ⚡ <strong>Independent Reviews Since 2026:</strong> We test every product we recommend. Some links are affiliate links — see our <a href="{{ site.baseurl }}/privacy/" style="color:var(--primary);">disclosure</a>.
-13|</div>
-14|
-15|<!-- Site Search -->
-16|{% include search.html %}
-17|
-18|<!-- Category Filter -->
-19|<div class="category-filter" id="categoryFilter">
-20|  <a class="category-tag active" href="{{ site.baseurl }}/" data-category="all">All</a>
-21|  {% assign categories = site.posts | map: "categories" | flatten | uniq | sort %}
-22|  {% for cat in categories %}
-23|  <a class="category-tag" href="javascript:void(0)" data-category="{{ cat }}">{{ cat }}</a>
-24|  {% endfor %}
-25|</div>
-26|
-27|<script>
-28|document.addEventListener('DOMContentLoaded', function() {
-29|  const filter = document.getElementById('categoryFilter');
-30|  const cards = document.querySelectorAll('.post-card');
-31|
-32|  // Auto-filter from URL param ?category=
-33|  var urlCat = new URLSearchParams(window.location.search).get('category');
-34|  if (urlCat) {
-35|    var target = filter.querySelector('[data-category="' + urlCat + '"]');
-36|    if (target) target.click();
-37|  }
-38|
-39|  filter.querySelectorAll('.category-tag').forEach(function(tag) {
-40|    tag.addEventListener('click', function(e) {
-41|      filter.querySelectorAll('.category-tag').forEach(function(t) { t.classList.remove('active'); });
-42|      this.classList.add('active');
-43|      var cat = this.getAttribute('data-category');
-44|      cards.forEach(function(card) {
-45|        if (cat === 'all') { card.style.display = ''; }
-46|        else {
-47|          var cats = (card.getAttribute('data-categories') || '').split(',');
-48|          card.style.display = cats.indexOf(cat) > -1 ? '' : 'none';
-49|        }
-50|      });
-51|      // Update URL without reload
-52|      var url = new URL(window.location);
-53|      if (cat === 'all') url.searchParams.delete('category');
-54|      else url.searchParams.set('category', cat);
-55|      window.history.replaceState({}, '', url);
-56|    });
-57|  });
-58|});
-59|</script>
-60|
-61|<!-- Featured Deals / Top Affiliate Picks (Collapsible) -->
-62|<section class="featured-deals" style="margin: 3rem 0 2rem;">
-63|  <button class="featured-deals-toggle" id="featuredDealsToggle" aria-expanded="false" aria-controls="featuredDealsContent" style="
-64|    width: 100%;
-65|    padding: 1rem 1.5rem;
-66|    background: var(--bg-glass);
-67|    border: 1px solid var(--border);
-68|    border-radius: var(--radius-lg);
-69|    color: var(--text);
-70|    font-size: 1.1rem;
-71|    font-weight: 600;
-72|    cursor: pointer;
-73|    display: flex;
-74|    align-items: center;
-75|    justify-content: space-between;
-76|    gap: 1rem;
-77|    transition: background var(--transition-fast), border-color var(--transition-fast);
-78|  ">
-79|    <span>🔥 Top Picks This Month</span>
-80|    <svg id="featuredDealsIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; transition: transform var(--transition-fast);">
-81|      <polyline points="6 9 12 15 18 9"></polyline>
-82|    </svg>
-83|  </button>
-84|  <div id="featuredDealsContent" class="featured-deals-content" style="
-85|    display: none;
-86|    padding: 1.5rem;
-87|    margin-top: 1rem;
-88|    background: var(--bg-glass);
-89|    border: 1px solid var(--border);
-90|    border-top: none;
-91|    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
-92|    animation: slideDown 200ms ease-out;
-93|  ">
-94|    <div class="featured-deals-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
-95|      
-96|        <!-- Cloudways -->
-97|        <article class="deal-card featured" data-category="hosting" style="
-98|          position: relative;
-99|          background: linear-gradient(135deg, var(--bg-glass) 0%, var(--bg-elevated) 100%);
-100|          backdrop-filter: saturate(180%) blur(20px);
-101|          -webkit-backdrop-filter: saturate(180%) blur(20px);
-102|          border: 1px solid var(--border);
-103|          border-radius: var(--radius-xl);
-104|          padding: 1.5rem 1.5rem 4rem;
-105|          box-shadow: var(--shadow-lg);
-106|          overflow: hidden;
-107|          transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
-108|          display: flex;
-109|          flex-direction: column;
-110|        ">
-111|          <div style="position: absolute; top: 0; right: 0; width: 120px; height: 120px; background: radial-gradient(circle at top right, oklch(var(--primary) / 0.15) 0%, transparent 70%); pointer-events: none;"></div>
-112|          <div style="position: absolute; bottom: 0; left: 0; width: 80px; height: 80px; background: radial-gradient(circle at bottom left, oklch(var(--accent) / 0.12) 0%, transparent 70%); pointer-events: none;"></div>
-113|          <span class="deal-badge" style="position: relative; display: inline-block; background: var(--gradient-primary); color: white; padding: 0.35rem 0.85rem; border-radius: var(--radius-full); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 1rem; box-shadow: var(--shadow-glow);">☁️ Cloud Hosting</span>
-114|          <h3 style="margin: 0 0 0.5rem; font-size: 1.25rem; font-weight: 700; color: var(--text);">Cloudways</h3>
-115|          <p style="margin: 0 0 1rem; color: var(--text-muted); line-height: 1.6; font-size: 0.95rem; flex: 1;">Pay-as-you-go managed cloud on DO, Vultr, Linode, AWS, GCP. Free migrations, staging, Cloudflare CDN.</p>
-116|          <div class="deal-meta" style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; font-size: 0.75rem; color: var(--text-muted);">
-117|            <span style="background: var(--success-bg); color: var(--success); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">$50–125/sale</span>
-118|            <span style="background: var(--primary-light); color: var(--primary); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">3-Day Free Trial</span>
-119|            <span style="background: var(--warning-bg); color: var(--warning); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">Slab Tier</span>
-120|          </div>
-121|          <!-- Sticky Claim Deal Button -->
-122|          <a href="https://www.cloudways.com/en/?id=2088428" rel="nofollow sponsored" target="_blank" class="deal-btn" style="
-123|            position: sticky;
-124|            bottom: 0;
-125|            margin-top: auto;
-126|            display: inline-flex;
-127|            align-items: center;
-128|            justify-content: center;
-129|            gap: 0.5rem;
-130|            width: 100%;
-131|            padding: 1rem 1.5rem;
-132|            background: var(--gradient-primary);
-133|            color: white;
-134|            font-weight: 700;
-135|            font-size: 1rem;
-136|            border-radius: var(--radius);
-137|            border: none;
-138|            cursor: pointer;
-139|            text-decoration: none;
-140|            transition: transform var(--transition-fast), box-shadow var(--transition-fast), filter var(--transition-fast), background var(--transition-fast);
-141|            box-shadow: 0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35);
-142|            z-index: 10;
-143|          " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.4), 0 8px 24px oklch(var(--primary) / 0.45)'; this.style.filter='brightness(1.05)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35)'; this.style.filter='brightness(1)'">
-144|            <span>Claim Deal →</span>
-145|            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-146|          </a>
-147|        </article>
-148|
-149|       <!-- InterServer -->
-150|       <article class="deal-card featured" data-category="hosting" style="
-151|         position: relative;
-152|         background: linear-gradient(135deg, var(--bg-glass) 0%, var(--bg-elevated) 100%);
-153|         backdrop-filter: saturate(180%) blur(20px);
-154|         -webkit-backdrop-filter: saturate(180%) blur(20px);
-155|         border: 1px solid var(--border);
-156|         border-radius: var(--radius-xl);
-157|         padding: 1.5rem 1.5rem 4rem;
-158|         box-shadow: var(--shadow-lg);
-159|         overflow: hidden;
-160|         transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
-161|         display: flex;
-162|         flex-direction: column;
-163|       ">
-164|         <div style="position: absolute; top: 0; right: 0; width: 120px; height: 120px; background: radial-gradient(circle at top right, oklch(var(--primary) / 0.15) 0%, transparent 70%); pointer-events: none;"></div>
-165|         <div style="position: absolute; bottom: 0; left: 0; width: 80px; height: 80px; background: radial-gradient(circle at bottom left, oklch(var(--accent) / 0.12) 0%, transparent 70%); pointer-events: none;"></div>
-166|         <span class="deal-badge" style="position: relative; display: inline-block; background: var(--gradient-primary); color: white; padding: 0.35rem 0.85rem; border-radius: var(--radius-full); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 1rem; box-shadow: var(--shadow-glow);">🔒 Price Lock</span>
-167|         <h3 style="margin: 0 0 0.5rem; font-size: 1.25rem; font-weight: 700; color: var(--text);">InterServer</h3>
-168|         <p style="margin: 0 0 1rem; color: var(--text-muted); line-height: 1.6; font-size: 0.95rem; flex: 1;">Industry-unique price lock guarantee — your renewal rate never increases. Unlimited NVMe SSD, bandwidth, email.</p>
-169|         <div class="deal-meta" style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; font-size: 0.75rem; color: var(--text-muted);">
-170|           <span style="background: var(--success-bg); color: var(--success); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">$100–200/sale</span>
-171|           <span style="background: var(--primary-light); color: var(--primary); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">$2.50/mo Locked</span>
-172|           <span style="background: var(--warning-bg); color: var(--warning); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">30-Day Guarantee</span>
-173|         </div>
-174|         <!-- Sticky Claim Deal Button -->
-175|         <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank" class="deal-btn" style="
-176|           position: sticky;
-177|           bottom: 0;
-178|           margin-top: auto;
-179|           display: inline-flex;
-180|           align-items: center;
-181|           justify-content: center;
-182|           gap: 0.5rem;
-183|           width: 100%;
-184|           padding: 1rem 1.5rem;
-185|           background: var(--gradient-primary);
-186|           color: white;
-187|           font-weight: 700;
-188|           font-size: 1rem;
-189|           border-radius: var(--radius);
-190|           border: none;
-191|           cursor: pointer;
-192|           text-decoration: none;
-193|           transition: transform var(--transition-fast), box-shadow var(--transition-fast), filter var(--transition-fast), background var(--transition-fast);
-194|           box-shadow: 0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35);
-195|           z-index: 10;
-196|         " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.4), 0 8px 24px oklch(var(--primary) / 0.45)'; this.style.filter='brightness(1.05)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35)'; this.style.filter='brightness(1)'">
-197|           <span>Claim Deal →</span>
-198|           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-199|         </a>
-200|       </article>
-201|
-202|
-203|      <!-- Bluehost -->
-204|      <article class="deal-card featured" data-category="hosting" style="
-205|        position: relative;
-206|        background: linear-gradient(135deg, var(--bg-glass) 0%, var(--bg-elevated) 100%);
-207|        backdrop-filter: saturate(180%) blur(20px);
-208|        -webkit-backdrop-filter: saturate(180%) blur(20px);
-209|        border: 1px solid var(--border);
-210|        border-radius: var(--radius-xl);
-211|        padding: 1.5rem 1.5rem 4rem;
-212|        box-shadow: var(--shadow-lg);
-213|        overflow: hidden;
-214|        transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
-215|        display: flex;
-216|        flex-direction: column;
-217|      ">
-218|        <div style="position: absolute; top: 0; right: 0; width: 120px; height: 120px; background: radial-gradient(circle at top right, oklch(var(--primary) / 0.15) 0%, transparent 70%); pointer-events: none;"></div>
-219|        <div style="position: absolute; bottom: 0; left: 0; width: 80px; height: 80px; background: radial-gradient(circle at bottom left, oklch(var(--accent) / 0.12) 0%, transparent 70%); pointer-events: none;"></div>
-220|        <span class="deal-badge" style="position: relative; display: inline-block; background: var(--gradient-primary); color: white; padding: 0.35rem 0.85rem; border-radius: var(--radius-full); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 1rem; box-shadow: var(--shadow-glow);">💙 WP.org #1</span>
-221|        <h3 style="margin: 0 0 0.5rem; font-size: 1.25rem; font-weight: 700; color: var(--text);">Bluehost</h3>
-222|        <p style="margin: 0 0 1rem; color: var(--text-muted); line-height: 1.6; font-size: 0.95rem; flex: 1;">Official WordPress.org recommended host since 2005. Free domain for 1 year, free SSL, 1-click WordPress install, 24/7 support.</p>
-223|        <div class="deal-meta" style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; font-size: 0.75rem; color: var(--text-muted);">
-224|          <span style="background: var(--success-bg); color: var(--success); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">$65+/sale</span>
-225|          <span style="background: var(--primary-light); color: var(--primary); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">$3.79/mo Exclusive</span>
-226|          <span style="background: var(--warning-bg); color: var(--warning); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">30-Day Guarantee</span>
-227|        </div>
-228|        <!-- Sticky Claim Deal Button -->
-229|        <a href="https://bluehost.sjv.io/c/7392811/1376228/11352" rel="nofollow sponsored" target="_blank" class="deal-btn" style="
-230|          position: sticky;
-231|          bottom: 0;
-232|          margin-top: auto;
-233|          display: inline-flex;
-234|          align-items: center;
-235|          justify-content: center;
-236|          gap: 0.5rem;
-237|          width: 100%;
-238|          padding: 1rem 1.5rem;
-239|          background: var(--gradient-primary);
-240|          color: white;
-241|          font-weight: 700;
-242|          font-size: 1rem;
-243|          border-radius: var(--radius);
-244|          border: none;
-245|          cursor: pointer;
-246|          text-decoration: none;
-247|          transition: transform var(--transition-fast), box-shadow var(--transition-fast), filter var(--transition-fast), background var(--transition-fast);
-248|          box-shadow: 0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35);
-249|          z-index: 10;
-250|        " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.4), 0 8px 24px oklch(var(--primary) / 0.45)'; this.style.filter='brightness(1.05)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35)'; this.style.filter='brightness(1)'">
-251|          <span>Claim Deal →</span>
-252|          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-253|        </a>
-254|      </article>
-255|
-256|      <!-- Affiliate Starter Kit (Digital Product) -->
-257|      <article class="deal-card featured" data-category="digital" style="
-258|        position: relative;
-259|        background: linear-gradient(135deg, var(--bg-glass) 0%, var(--bg-elevated) 100%);
-260|        backdrop-filter: saturate(180%) blur(20px);
-261|        -webkit-backdrop-filter: saturate(180%) blur(20px);
-262|        border: 1px solid var(--border);
-263|        border-radius: var(--radius-xl);
-264|        padding: 1.5rem 1.5rem 4rem;
-265|        box-shadow: var(--shadow-lg);
-266|        overflow: hidden;
-267|        transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
-268|        display: flex;
-269|        flex-direction: column;
-270|      ">
-271|        <div style="position: absolute; top: 0; right: 0; width: 120px; height: 120px; background: radial-gradient(circle at top right, oklch(var(--primary) / 0.1) 0%, transparent 70%); pointer-events: none;"></div>
-272|        <div style="position: absolute; bottom: 0; left: 0; width: 80px; height: 80px; background: radial-gradient(circle at bottom left, oklch(var(--accent) / 0.12) 0%, transparent 70%); pointer-events: none;"></div>
-273|        <span class="deal-badge" style="position: relative; display: inline-block; background: var(--gradient-primary); color: white; padding: 0.35rem 0.85rem; border-radius: var(--radius-full); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 1rem; box-shadow: var(--shadow-glow);">📚 Digital Product</span>
-274|        <h3 style="margin: 0 0 0.5rem; font-size: 1.25rem; font-weight: 700; color: var(--text);">Affiliate Starter Kit</h3>
-275|        <p style="margin: 0 0 1rem; color: var(--text-muted); line-height: 1.6; font-size: 0.95rem; flex: 1;">The exact system running this blog — cron content engine, SEO framework, affiliate playbook, CTA guide, revenue calculator.</p>
-276|        <div class="deal-meta" style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; font-size: 0.75rem; color: var(--text-muted);">
-277|          <span style="background: var(--success-bg); color: var(--success); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">$17 (100% margin)</span>
-278|          <span style="background: var(--primary-light); color: var(--primary); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">Instant PDF</span>
-279|          <span style="background: var(--warning-bg); color: var(--warning); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">Full Blueprint</span>
-280|        </div>
-281|        <!-- Sticky Get the Kit Button -->
-282|        <a href="{{ site.baseurl }}/products/affiliate-starter-kit/" class="deal-btn" style="
-283|          position: sticky;
-284|          bottom: 0;
-285|          margin-top: auto;
-286|          display: inline-flex;
-287|          align-items: center;
-288|          justify-content: center;
-289|          gap: 0.5rem;
-290|          width: 100%;
-291|          padding: 1rem 1.5rem;
-292|          background: var(--gradient-primary);
-293|          color: white;
-294|          font-weight: 700;
-295|          font-size: 1rem;
-296|          border-radius: var(--radius);
-297|          border: none;
-298|          cursor: pointer;
-299|          text-decoration: none;
-300|          transition: transform var(--transition-fast), box-shadow var(--transition-fast), filter var(--transition-fast), background var(--transition-fast);
-301|          box-shadow: 0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35);
-302|          z-index: 10;
-303|        " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.4), 0 8px 24px oklch(var(--primary) / 0.45)'; this.style.filter='brightness(1.05)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35)'; this.style.filter='brightness(1)'">
-304|          <span>Get the Kit →</span>
-305|          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="14 2 20 8 14 14"></polyline><path d="M12 18v-6h6"></path></svg>
-306|        </a>
-307|      </article>
-308|
-309|    </div>
-310|    
-311|    <div style="text-align: center; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
-312|      <a href="{{ site.baseurl }}/best-deals/" class="read-more" style="font-size: 0.95rem; font-weight: 600; display: inline-flex; align-items: center; gap: 0.4rem;">View All Deals
-313|        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-314|      </a>
-315|    </div>
-316|  </div>
-317|</section>
-318|
-319|<!-- Featured Post (most recent) -->
-320|{% assign latest = site.posts | first %}
-321|<section class="posts-list">
-322|  <article class="post-card featured-post" style="position:relative;" data-categories="{{ latest.categories | join: ',' }}">
-323|    <div class="post-meta">
-324|      <span>📅 {{ latest.date | date: "%B %d, %Y" }}</span>
-325|      {% if latest.categories %} <span>📂 {{ latest.categories | join: ", " }}</span> {% endif %}
-326|    </div>
-327|    <h2><a href="{{ site.baseurl }}{{ latest.url }}">{{ latest.title }}</a></h2>
-328|    <p>{{ latest.excerpt | strip_html | truncatewords: 40 }}</p>
-329|    <a class="read-more" href="{{ site.baseurl }}{{ latest.url }}">Read Full Review →</a>
-330|  </article>
-331|
-332|  <!-- Remaining Posts -->
-333|  {% for post in site.posts offset:1 %}
-334|  <article class="post-card" data-categories="{{ post.categories | join: ',' }}">
-335|    <div class="post-meta">
-336|      <span>📅 {{ post.date | date: "%B %d, %Y" }}</span>
-337|      {% if post.categories %} <span>📂 {{ post.categories | join: ", " }}</span> {% endif %}
-338|    </div>
-339|    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-340|    <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
-341|    <a class="read-more" href="{{ site.baseurl }}{{ post.url }}">Read Full Review →</a>
-342|  </article>
-343|  {% endfor %}
-344|</section>
-345|
-346|<!-- Testimonials / Social Proof (Collapsible) -->
-347|<section class="testimonials" style="margin: 4rem 0 2rem;">
-348|  <button class="testimonials-toggle" id="testimonialsToggle" aria-expanded="false" aria-controls="testimonialsContent" style="
-349|    width: 100%;
-350|    padding: 1rem 1.5rem;
-351|    background: var(--bg-glass);
-352|    border: 1px solid var(--border);
-353|    border-radius: var(--radius-lg);
-354|    color: var(--text);
-355|    font-size: 1.1rem;
-356|    font-weight: 600;
-357|    cursor: pointer;
-358|    display: flex;
-359|    align-items: center;
-360|    justify-content: space-between;
-361|    gap: 1rem;
-362|    transition: background var(--transition-fast), border-color var(--transition-fast);
-363|  ">
-364|    <span>What Readers Say</span>
-365|    <svg id="testimonialsIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; transition: transform var(--transition-fast);">
-366|      <polyline points="6 9 12 15 18 9"></polyline>
-367|    </svg>
-368|  </button>
-369|  <div id="testimonialsContent" class="testimonials-content" style="
-370|    display: none;
-371|    padding: 2rem;
-372|    margin-top: 1rem;
-373|    background: var(--bg-glass);
-374|    border: 1px solid var(--border);
-375|    border-top: none;
-376|    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
-377|    animation: slideDown 200ms ease-out;
-378|  ">
-379|    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
-380|      <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
-381|        <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"Jon's Cloudways vs DigitalOcean comparison saved me from overpaying for managed hosting. The GTmetrix benchmarks matched what I saw on my own sites. Finally, a reviewer who actually tests."</p>
-382|        <footer style="color: var(--text-muted); font-size: 0.9rem;">— M. Chen, Developer (via GitHub)</footer>
-383|      </blockquote>
-384|      <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
-385|        <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"The email marketing comparison for course creators was exactly what I needed. Clear use-case matrix, honest about limitations. Bought ConvertKit through his link — zero regrets."</p>
-386|        <footer style="color: var(--text-muted); font-size: 0.9rem;">— S. Rivera, Course Creator (via Email)</footer>
-387|      </blockquote>
-388|      <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
-389|              <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"Rare to find a tech reviewer who shares their personal journey. The transparency explains the thoroughness — Jon doesn't skip steps because he knows what it's like when things break."</p>
-390|              <footer style="color: var(--text-muted); font-size: 0.9rem;">— T. Okonkwo, Reader (via LinkedIn)</footer>
-391|            </blockquote>
-392|          </div>
-393|        </div>
-394|      </section>
-395|
-396|      <style>
-397|      @keyframes slideDown {
-398|        from { opacity: 0; transform: translateY(-10px); }
-399|        to { opacity: 1; transform: translateY(0); }
-400|      }
-401|      .testimonials-toggle:hover {
-402|        background: var(--bg-glass-hover) !important;
-403|        border-color: var(--border-strong) !important;
-404|      }
-405|      .testimonials-toggle[aria-expanded="true"] #testimonialsIcon {
-406|        transform: rotate(180deg);
-407|      }
-408|      </style>
-409|
-410|<script>
-411|document.addEventListener('DOMContentLoaded', function() {
-412|  // Testimonials toggle
-413|  const toggle = document.getElementById('testimonialsToggle');
-414|  const content = document.getElementById('testimonialsContent');
-415|  const icon = document.getElementById('testimonialsIcon');
-416|  
-417|  if (toggle && content) {
-418|    toggle.addEventListener('click', function() {
-419|      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
-420|      toggle.setAttribute('aria-expanded', !isOpen);
-421|      content.style.display = isOpen ? 'none' : 'block';
-422|      icon.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
-423|    });
-424|  }
-425|
-426|  // Featured Deals toggle
-427|  const dealsToggle = document.getElementById('featuredDealsToggle');
-428|  const dealsContent = document.getElementById('featuredDealsContent');
-429|  const dealsIcon = document.getElementById('featuredDealsIcon');
-430|  
-431|  if (dealsToggle && dealsContent) {
-432|    dealsToggle.addEventListener('click', function() {
-433|      const isOpen = dealsToggle.getAttribute('aria-expanded') === 'true';
-434|      dealsToggle.setAttribute('aria-expanded', !isOpen);
-435|      dealsContent.style.display = isOpen ? 'none' : 'block';
-436|      dealsIcon.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
-437|    });
-438|  }
-439|});
-440|</script>
-441|</div>
-442|</main>
+---
+layout: default
+title: Home
+---
+
+<div class="hero">
+  <h1>Honest Reviews, Comparisons & Tutorials</h1>
+  <p class="hero-subtitle">{{ site.tagline }}</p>
+</div>
+
+<div class="disclosure-bar">
+  ⚡ <strong>Independent Reviews Since 2026:</strong> We test every product we recommend. Some links are affiliate links — see our <a href="{{ site.baseurl }}/privacy/" style="color:var(--primary);">disclosure</a>.
+</div>
+
+<!-- Site Search -->
+{% include search.html %}
+
+<!-- Category Filter -->
+<div class="category-filter" id="categoryFilter">
+  <a class="category-tag active" href="{{ site.baseurl }}/" data-category="all">All</a>
+  {% assign categories = site.posts | map: "categories" | flatten | uniq | sort %}
+  {% for cat in categories %}
+  <a class="category-tag" href="javascript:void(0)" data-category="{{ cat }}">{{ cat }}</a>
+  {% endfor %}
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filter = document.getElementById('categoryFilter');
+  const cards = document.querySelectorAll('.post-card');
+
+  // Auto-filter from URL param ?category=
+  var urlCat = new URLSearchParams(window.location.search).get('category');
+  if (urlCat) {
+    var target = filter.querySelector('[data-category="' + urlCat + '"]');
+    if (target) target.click();
+  }
+
+  filter.querySelectorAll('.category-tag').forEach(function(tag) {
+    tag.addEventListener('click', function(e) {
+      filter.querySelectorAll('.category-tag').forEach(function(t) { t.classList.remove('active'); });
+      this.classList.add('active');
+      var cat = this.getAttribute('data-category');
+      cards.forEach(function(card) {
+        if (cat === 'all') { card.style.display = ''; }
+        else {
+          var cats = (card.getAttribute('data-categories') || '').split(',');
+          card.style.display = cats.indexOf(cat) > -1 ? '' : 'none';
+        }
+      });
+      // Update URL without reload
+      var url = new URL(window.location);
+      if (cat === 'all') url.searchParams.delete('category');
+      else url.searchParams.set('category', cat);
+      window.history.replaceState({}, '', url);
+    });
+  });
+});
+</script>
+
+<!-- Featured Deals / Top Affiliate Picks (Collapsible) -->
+<section class="featured-deals" style="margin: 3rem 0 2rem;">
+  <button class="featured-deals-toggle" id="featuredDealsToggle" aria-expanded="false" aria-controls="featuredDealsContent" style="
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background: var(--bg-glass);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    color: var(--text);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    transition: background var(--transition-fast), border-color var(--transition-fast);
+  ">
+    <span>🔥 Top Picks This Month</span>
+    <svg id="featuredDealsIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; transition: transform var(--transition-fast);">
+      <polyline points="6 9 12 15 18 9"></polyline>
+    </svg>
+  </button>
+  <div id="featuredDealsContent" class="featured-deals-content" style="
+    display: none;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    background: var(--bg-glass);
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    animation: slideDown 200ms ease-out;
+  ">
+    <div class="featured-deals-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+      
+        <!-- Cloudways -->
+        <article class="deal-card featured" data-category="hosting" style="
+          position: relative;
+          background: linear-gradient(135deg, var(--bg-glass) 0%, var(--bg-elevated) 100%);
+          backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          border: 1px solid var(--border);
+          border-radius: var(--radius-xl);
+          padding: 1.5rem 1.5rem 4rem;
+          box-shadow: var(--shadow-lg);
+          overflow: hidden;
+          transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+          display: flex;
+          flex-direction: column;
+        ">
+          <div style="position: absolute; top: 0; right: 0; width: 120px; height: 120px; background: radial-gradient(circle at top right, oklch(var(--primary) / 0.15) 0%, transparent 70%); pointer-events: none;"></div>
+          <div style="position: absolute; bottom: 0; left: 0; width: 80px; height: 80px; background: radial-gradient(circle at bottom left, oklch(var(--accent) / 0.12) 0%, transparent 70%); pointer-events: none;"></div>
+          <span class="deal-badge" style="position: relative; display: inline-block; background: var(--gradient-primary); color: white; padding: 0.35rem 0.85rem; border-radius: var(--radius-full); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 1rem; box-shadow: var(--shadow-glow);">☁️ Cloud Hosting</span>
+          <h3 style="margin: 0 0 0.5rem; font-size: 1.25rem; font-weight: 700; color: var(--text);">Cloudways</h3>
+          <p style="margin: 0 0 1rem; color: var(--text-muted); line-height: 1.6; font-size: 0.95rem; flex: 1;">Pay-as-you-go managed cloud on DO, Vultr, Linode, AWS, GCP. Free migrations, staging, Cloudflare CDN.</p>
+          <div class="deal-meta" style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; font-size: 0.75rem; color: var(--text-muted);">
+            <span style="background: var(--success-bg); color: var(--success); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">$50–125/sale</span>
+            <span style="background: var(--primary-light); color: var(--primary); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">3-Day Free Trial</span>
+            <span style="background: var(--warning-bg); color: var(--warning); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">Slab Tier</span>
+          </div>
+          <!-- Sticky Claim Deal Button -->
+          <a href="https://www.cloudways.com/en/?id=2088428" rel="nofollow sponsored" target="_blank" class="deal-btn" style="
+            position: sticky;
+            bottom: 0;
+            margin-top: auto;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            width: 100%;
+            padding: 1rem 1.5rem;
+            background: var(--gradient-primary);
+            color: white;
+            font-weight: 700;
+            font-size: 1rem;
+            border-radius: var(--radius);
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform var(--transition-fast), box-shadow var(--transition-fast), filter var(--transition-fast), background var(--transition-fast);
+            box-shadow: 0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35);
+            z-index: 10;
+          " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.4), 0 8px 24px oklch(var(--primary) / 0.45)'; this.style.filter='brightness(1.05)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35)'; this.style.filter='brightness(1)'">
+            <span>Claim Deal →</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </article>
+
+       <!-- InterServer -->
+       <article class="deal-card featured" data-category="hosting" style="
+         position: relative;
+         background: linear-gradient(135deg, var(--bg-glass) 0%, var(--bg-elevated) 100%);
+         backdrop-filter: saturate(180%) blur(20px);
+         -webkit-backdrop-filter: saturate(180%) blur(20px);
+         border: 1px solid var(--border);
+         border-radius: var(--radius-xl);
+         padding: 1.5rem 1.5rem 4rem;
+         box-shadow: var(--shadow-lg);
+         overflow: hidden;
+         transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+         display: flex;
+         flex-direction: column;
+       ">
+         <div style="position: absolute; top: 0; right: 0; width: 120px; height: 120px; background: radial-gradient(circle at top right, oklch(var(--primary) / 0.15) 0%, transparent 70%); pointer-events: none;"></div>
+         <div style="position: absolute; bottom: 0; left: 0; width: 80px; height: 80px; background: radial-gradient(circle at bottom left, oklch(var(--accent) / 0.12) 0%, transparent 70%); pointer-events: none;"></div>
+         <span class="deal-badge" style="position: relative; display: inline-block; background: var(--gradient-primary); color: white; padding: 0.35rem 0.85rem; border-radius: var(--radius-full); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 1rem; box-shadow: var(--shadow-glow);">🔒 Price Lock</span>
+         <h3 style="margin: 0 0 0.5rem; font-size: 1.25rem; font-weight: 700; color: var(--text);">InterServer</h3>
+         <p style="margin: 0 0 1rem; color: var(--text-muted); line-height: 1.6; font-size: 0.95rem; flex: 1;">Industry-unique price lock guarantee — your renewal rate never increases. Unlimited NVMe SSD, bandwidth, email.</p>
+         <div class="deal-meta" style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; font-size: 0.75rem; color: var(--text-muted);">
+           <span style="background: var(--success-bg); color: var(--success); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">$100–200/sale</span>
+           <span style="background: var(--primary-light); color: var(--primary); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">$2.50/mo Locked</span>
+           <span style="background: var(--warning-bg); color: var(--warning); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">30-Day Guarantee</span>
+         </div>
+         <!-- Sticky Claim Deal Button -->
+         <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank" class="deal-btn" style="
+           position: sticky;
+           bottom: 0;
+           margin-top: auto;
+           display: inline-flex;
+           align-items: center;
+           justify-content: center;
+           gap: 0.5rem;
+           width: 100%;
+           padding: 1rem 1.5rem;
+           background: var(--gradient-primary);
+           color: white;
+           font-weight: 700;
+           font-size: 1rem;
+           border-radius: var(--radius);
+           border: none;
+           cursor: pointer;
+           text-decoration: none;
+           transition: transform var(--transition-fast), box-shadow var(--transition-fast), filter var(--transition-fast), background var(--transition-fast);
+           box-shadow: 0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35);
+           z-index: 10;
+         " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.4), 0 8px 24px oklch(var(--primary) / 0.45)'; this.style.filter='brightness(1.05)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35)'; this.style.filter='brightness(1)'">
+           <span>Claim Deal →</span>
+           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+         </a>
+       </article>
+
+
+      <!-- Bluehost -->
+      <article class="deal-card featured" data-category="hosting" style="
+        position: relative;
+        background: linear-gradient(135deg, var(--bg-glass) 0%, var(--bg-elevated) 100%);
+        backdrop-filter: saturate(180%) blur(20px);
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-xl);
+        padding: 1.5rem 1.5rem 4rem;
+        box-shadow: var(--shadow-lg);
+        overflow: hidden;
+        transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+        display: flex;
+        flex-direction: column;
+      ">
+        <div style="position: absolute; top: 0; right: 0; width: 120px; height: 120px; background: radial-gradient(circle at top right, oklch(var(--primary) / 0.15) 0%, transparent 70%); pointer-events: none;"></div>
+        <div style="position: absolute; bottom: 0; left: 0; width: 80px; height: 80px; background: radial-gradient(circle at bottom left, oklch(var(--accent) / 0.12) 0%, transparent 70%); pointer-events: none;"></div>
+        <span class="deal-badge" style="position: relative; display: inline-block; background: var(--gradient-primary); color: white; padding: 0.35rem 0.85rem; border-radius: var(--radius-full); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 1rem; box-shadow: var(--shadow-glow);">💙 WP.org #1</span>
+        <h3 style="margin: 0 0 0.5rem; font-size: 1.25rem; font-weight: 700; color: var(--text);">Bluehost</h3>
+        <p style="margin: 0 0 1rem; color: var(--text-muted); line-height: 1.6; font-size: 0.95rem; flex: 1;">Official WordPress.org recommended host since 2005. Free domain for 1 year, free SSL, 1-click WordPress install, 24/7 support.</p>
+        <div class="deal-meta" style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; font-size: 0.75rem; color: var(--text-muted);">
+          <span style="background: var(--success-bg); color: var(--success); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">$65+/sale</span>
+          <span style="background: var(--primary-light); color: var(--primary); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">$3.79/mo Exclusive</span>
+          <span style="background: var(--warning-bg); color: var(--warning); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">30-Day Guarantee</span>
+        </div>
+        <!-- Sticky Claim Deal Button -->
+        <a href="https://bluehost.sjv.io/c/7392811/1376228/11352" rel="nofollow sponsored" target="_blank" class="deal-btn" style="
+          position: sticky;
+          bottom: 0;
+          margin-top: auto;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          gap: 0.5rem;
+          width: 100%;
+          padding: 1rem 1.5rem;
+          background: var(--gradient-primary);
+          color: white;
+          font-weight: 700;
+          font-size: 1rem;
+          border-radius: var(--radius);
+          border: none;
+          cursor: pointer;
+          text-decoration: none;
+          transition: transform var(--transition-fast), box-shadow var(--transition-fast), filter var(--transition-fast), background var(--transition-fast);
+          box-shadow: 0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35);
+          z-index: 10;
+        " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.4), 0 8px 24px oklch(var(--primary) / 0.45)'; this.style.filter='brightness(1.05)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35)'; this.style.filter='brightness(1)'">
+          <span>Claim Deal →</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+      </article>
+
+      <!-- Affiliate Starter Kit (Digital Product) -->
+      <article class="deal-card featured" data-category="digital" style="
+        position: relative;
+        background: linear-gradient(135deg, var(--bg-glass) 0%, var(--bg-elevated) 100%);
+        backdrop-filter: saturate(180%) blur(20px);
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-xl);
+        padding: 1.5rem 1.5rem 4rem;
+        box-shadow: var(--shadow-lg);
+        overflow: hidden;
+        transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+        display: flex;
+        flex-direction: column;
+      ">
+        <div style="position: absolute; top: 0; right: 0; width: 120px; height: 120px; background: radial-gradient(circle at top right, oklch(var(--primary) / 0.1) 0%, transparent 70%); pointer-events: none;"></div>
+        <div style="position: absolute; bottom: 0; left: 0; width: 80px; height: 80px; background: radial-gradient(circle at bottom left, oklch(var(--accent) / 0.12) 0%, transparent 70%); pointer-events: none;"></div>
+        <span class="deal-badge" style="position: relative; display: inline-block; background: var(--gradient-primary); color: white; padding: 0.35rem 0.85rem; border-radius: var(--radius-full); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 1rem; box-shadow: var(--shadow-glow);">📚 Digital Product</span>
+        <h3 style="margin: 0 0 0.5rem; font-size: 1.25rem; font-weight: 700; color: var(--text);">Affiliate Starter Kit</h3>
+        <p style="margin: 0 0 1rem; color: var(--text-muted); line-height: 1.6; font-size: 0.95rem; flex: 1;">The exact system running this blog — cron content engine, SEO framework, affiliate playbook, CTA guide, revenue calculator.</p>
+        <div class="deal-meta" style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; font-size: 0.75rem; color: var(--text-muted);">
+          <span style="background: var(--success-bg); color: var(--success); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">$17 (100% margin)</span>
+          <span style="background: var(--primary-light); color: var(--primary); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">Instant PDF</span>
+          <span style="background: var(--warning-bg); color: var(--warning); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); font-weight: 600;">Full Blueprint</span>
+        </div>
+        <!-- Sticky Get the Kit Button -->
+        <a href="{{ site.baseurl }}/products/affiliate-starter-kit/" class="deal-btn" style="
+          position: sticky;
+          bottom: 0;
+          margin-top: auto;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          gap: 0.5rem;
+          width: 100%;
+          padding: 1rem 1.5rem;
+          background: var(--gradient-primary);
+          color: white;
+          font-weight: 700;
+          font-size: 1rem;
+          border-radius: var(--radius);
+          border: none;
+          cursor: pointer;
+          text-decoration: none;
+          transition: transform var(--transition-fast), box-shadow var(--transition-fast), filter var(--transition-fast), background var(--transition-fast);
+          box-shadow: 0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35);
+          z-index: 10;
+        " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.4), 0 8px 24px oklch(var(--primary) / 0.45)'; this.style.filter='brightness(1.05)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 -4px 20px oklch(var(--primary) / 0.3), 0 4px 14px oklch(var(--primary) / 0.35)'; this.style.filter='brightness(1)'">
+          <span>Get the Kit →</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="14 2 20 8 14 14"></polyline><path d="M12 18v-6h6"></path></svg>
+        </a>
+      </article>
+
+    </div>
+    
+    <div style="text-align: center; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
+      <a href="{{ site.baseurl }}/best-deals/" class="read-more" style="font-size: 0.95rem; font-weight: 600; display: inline-flex; align-items: center; gap: 0.4rem;">View All Deals
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Post (most recent) -->
+{% assign latest = site.posts | first %}
+<section class="posts-list">
+  <article class="post-card featured-post" style="position:relative;" data-categories="{{ latest.categories | join: ',' }}">
+    <div class="post-meta">
+      <span>📅 {{ latest.date | date: "%B %d, %Y" }}</span>
+      {% if latest.categories %} <span>📂 {{ latest.categories | join: ", " }}</span> {% endif %}
+    </div>
+    <h2><a href="{{ site.baseurl }}{{ latest.url }}">{{ latest.title }}</a></h2>
+    <p>{{ latest.excerpt | strip_html | truncatewords: 40 }}</p>
+    <a class="read-more" href="{{ site.baseurl }}{{ latest.url }}">Read Full Review →</a>
+  </article>
+
+  <!-- Remaining Posts -->
+  {% for post in site.posts offset:1 %}
+  <article class="post-card" data-categories="{{ post.categories | join: ',' }}">
+    <div class="post-meta">
+      <span>📅 {{ post.date | date: "%B %d, %Y" }}</span>
+      {% if post.categories %} <span>📂 {{ post.categories | join: ", " }}</span> {% endif %}
+    </div>
+    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+    <a class="read-more" href="{{ site.baseurl }}{{ post.url }}">Read Full Review →</a>
+  </article>
+  {% endfor %}
+</section>
+
+<!-- Testimonials / Social Proof (Collapsible) -->
+<section class="testimonials" style="margin: 4rem 0 2rem;">
+  <button class="testimonials-toggle" id="testimonialsToggle" aria-expanded="false" aria-controls="testimonialsContent" style="
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background: var(--bg-glass);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    color: var(--text);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    transition: background var(--transition-fast), border-color var(--transition-fast);
+  ">
+    <span>What Readers Say</span>
+    <svg id="testimonialsIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; transition: transform var(--transition-fast);">
+      <polyline points="6 9 12 15 18 9"></polyline>
+    </svg>
+  </button>
+  <div id="testimonialsContent" class="testimonials-content" style="
+    display: none;
+    padding: 2rem;
+    margin-top: 1rem;
+    background: var(--bg-glass);
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    animation: slideDown 200ms ease-out;
+  ">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+      <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
+        <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"Jon's Cloudways vs DigitalOcean comparison saved me from overpaying for managed hosting. The GTmetrix benchmarks matched what I saw on my own sites. Finally, a reviewer who actually tests."</p>
+        <footer style="color: var(--text-muted); font-size: 0.9rem;">— M. Chen, Developer (via GitHub)</footer>
+      </blockquote>
+      <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
+        <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"The email marketing comparison for course creators was exactly what I needed. Clear use-case matrix, honest about limitations. Bought ConvertKit through his link — zero regrets."</p>
+        <footer style="color: var(--text-muted); font-size: 0.9rem;">— S. Rivera, Course Creator (via Email)</footer>
+      </blockquote>
+      <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
+              <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"Rare to find a tech reviewer who shares their personal journey. The transparency explains the thoroughness — Jon doesn't skip steps because he knows what it's like when things break."</p>
+              <footer style="color: var(--text-muted); font-size: 0.9rem;">— T. Okonkwo, Reader (via LinkedIn)</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <style>
+      @keyframes slideDown {
+        from { opacity: 0; transform: translateY(-10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .testimonials-toggle:hover {
+        background: var(--bg-glass-hover) !important;
+        border-color: var(--border-strong) !important;
+      }
+      .testimonials-toggle[aria-expanded="true"] #testimonialsIcon {
+        transform: rotate(180deg);
+      }
+      </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Testimonials toggle
+  const toggle = document.getElementById('testimonialsToggle');
+  const content = document.getElementById('testimonialsContent');
+  const icon = document.getElementById('testimonialsIcon');
+  
+  if (toggle && content) {
+    toggle.addEventListener('click', function() {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', !isOpen);
+      content.style.display = isOpen ? 'none' : 'block';
+      icon.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
+    });
+  }
+
+  // Featured Deals toggle
+  const dealsToggle = document.getElementById('featuredDealsToggle');
+  const dealsContent = document.getElementById('featuredDealsContent');
+  const dealsIcon = document.getElementById('featuredDealsIcon');
+  
+  if (dealsToggle && dealsContent) {
+    dealsToggle.addEventListener('click', function() {
+      const isOpen = dealsToggle.getAttribute('aria-expanded') === 'true';
+      dealsToggle.setAttribute('aria-expanded', !isOpen);
+      dealsContent.style.display = isOpen ? 'none' : 'block';
+      dealsIcon.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
+    });
+  }
+});
+</script>
+</div>
+</main>

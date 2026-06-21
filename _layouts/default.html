@@ -1,464 +1,487 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
-  <link rel="sitemap" type="application/xml" href="{{ site.baseurl }}/sitemap.xml">
-  <!-- Awin verification -->
-  <!-- Impact/Radius verification -->
-  <meta name="impact-site-verification" value="1c299c93-2e52-4aec-93f8-494fec145d5d">
-  <!-- Awin -->
-  <!-- Google Search Console verification -->
-  <meta name="google-site-verification" content="t07h-a1wakxG0bNqqTDkzh_QsU0rHqb5cI1yrSKcUz4">
-  <meta name="google-site-verification" content="48ffWvsLU8kGiKVF0ijFczRZF_XrRqIfRsWUGd7FjY4">
-
-  <!-- OpenGraph -->
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
-  <meta property="og:site_name" content="{{ site.title }}">
-
-  <!-- OpenGraph Image -->
-  {% if page.image %}
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
-  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
-  {% else %}
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/social-default.svg">
-  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/social-default.svg">
-  {% endif %}
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-
-  <!-- Favicon -->
-  <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.svg" type="image/svg+xml">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  {% seo %}
-
-  <!-- JSON-LD WebSite Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "{{ site.title }}",
-    "url": "{{ site.url }}{{ site.baseurl }}",
-    "description": "{{ site.description }}",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "{{ site.url }}{{ site.baseurl }}/?s={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
-  }
-  </script>
-
-  <!-- JSON-LD BreadcrumbList -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "{{ site.url }}{{ site.baseurl }}/"
-      }{% if page.title and page.layout == 'post' %},
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "{{ page.title | escape }}",
-        "item": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
-      }{% endif %}
-    ]
-  }
-  </script>
-
-  <!-- JSON-LD Organization (Author) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "{{ site.title }}",
-      "url": "{{ site.url }}{{ site.baseurl }}/",
-      "logo": "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png",
-      "sameAs": [
-        "https://github.com/fellowizsick"
-      ]
-    }
-    </script>
-
-  {% if page.layout == 'post' and page.review %}
-  <!-- JSON-LD Review Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Review",
-    "itemReviewed": {
-      "@type": "Product",
-      "name": "{{ page.review.product }}",
-      "description": "{{ page.review.description }}"
-    },
-    "author": {
-          "@type": "Organization",
-          "name": "{{ site.title }}"
-        },
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": "{{ page.review.rating }}",
-      "bestRating": "5"
-    },
-    "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
-    "description": "{% if page.description %}{{ page.description | strip_html | truncate: 200 | escape }}{% else %}{{ page.excerpt | strip_html | truncate: 200 | escape }}{% endif %}"
-  }
-  </script>
-  {% endif %}
-
-  {% if page.layout == 'post' %}
-  <!-- JSON-LD Article Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{ page.title | escape }}",
-    "description": "{% if page.description %}{{ page.description | strip_html | truncate: 160 | escape }}{% else %}{{ page.excerpt | strip_html | truncate: 160 | escape }}{% endif %}",
-    "author": {
-          "@type": "Organization",
-          "name": "{{ site.title }}"
-        },
-    "publisher": {
-      "@type": "Organization",
-      "name": "{{ site.title }}"
-    },
-    "datePublished": "{{ page.date | date: '%Y-%m-%dT%H:%M:%S' }}",
-    "dateModified": "{% if page.last_modified %}{{ page.last_modified | date: '%Y-%m-%dT%H:%M:%S' }}{% else %}{{ page.date | date: '%Y-%m-%dT%H:%M:%S' }}{% endif %}",
-    "wordCount": "{{ content | strip_html | number_of_words }}",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
-    }
-  }
-  </script>
-  {% endif %}
-
-  {% if page.faq %}
-  <!-- JSON-LD FAQ Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {% for item in page.faq %}
-      {
-        "@type": "Question",
-        "name": "{{ item.q | escape }}",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "{{ item.a | strip_html | escape }}"
-        }
-      }{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ]
-  }
-  </script>
-  {% endif %}
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLHP59H7Z2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-RLHP59H7Z2');
-</script>
-</head>
-<body>
-  <nav class="nav" id="mainNav">
-    <div class="container nav-inner">
-      <a class="nav-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      <div class="nav-links" id="navLinks">
-        <a href="{{ site.baseurl }}/">Home</a>
-        {% assign nav_categories = site.pages | where_exp: "page", "page.category_slug" %}
-        {% for cat in nav_categories limit:3 %}
-          <a href="{{ site.baseurl }}{{ cat.permalink }}">{{ cat.category_name }}</a>
-        {% endfor %}
-        <span class="nav-divider">|</span>
-        <a href="{{ site.baseurl }}/categories/">All Categories</a>
-        <a href="{{ site.baseurl }}/best-deals/">💰 Best Deals</a>
-        <a href="{{ site.baseurl }}/about/">About</a>
-        <a href="{{ site.baseurl }}/support/">❤️ Like This Site?</a>
-        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
-          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="12" y1="1" x2="12" y2="3"></line>
-            <line x1="12" y1="21" x2="12" y2="23"></line>
-            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-            <line x1="1" y1="12" x2="3" y2="12"></line>
-            <line x1="21" y1="12" x2="23" y2="12"></line>
-            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-          </svg>
-          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-          </svg>
-        </button>
+1|<!DOCTYPE html>
+2|<html lang="en">
+3|<head>
+4|  <meta charset="UTF-8">
+5|  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+6|  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+7|  <link rel="preconnect" href="https://fonts.googleapis.com">
+8|  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+9|  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+10|  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+11|  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+12|  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
+13|  <link rel="sitemap" type="application/xml" href="{{ site.baseurl }}/sitemap.xml">
+14|  <!-- Awin verification -->
+15|  <!-- Impact/Radius verification -->
+16|  <meta name="impact-site-verification" value="1c299c93-2e52-4aec-93f8-494fec145d5d">
+17|  <!-- Awin -->
+18|  <!-- Google Search Console verification -->
+19|  <meta name="google-site-verification" content="t07h-a1wakxG0bNqqTDkzh_QsU0rHqb5cI1yrSKcUz4">
+20|  <meta name="google-site-verification" content="48ffWvsLU8kGiKVF0ijFczRZF_XrRqIfRsWUGd7FjY4">
+21|
+22|  <!-- OpenGraph -->
+23|  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+24|  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+25|  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+26|  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+27|  <meta property="og:site_name" content="{{ site.title }}">
+28|
+29|  <!-- OpenGraph Image -->
+30|  {% if page.image %}
+31|  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
+32|  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
+33|  {% else %}
+34|  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/social-default.svg">
+35|  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/social-default.svg">
+36|  {% endif %}
+37|  <meta property="og:image:width" content="1200">
+38|  <meta property="og:image:height" content="630">
+39|
+40|  <!-- Favicon -->
+41|  <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.svg" type="image/svg+xml">
+42|
+43|  <!-- Twitter -->
+44|  <meta name="twitter:card" content="summary_large_image">
+45|  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+46|  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+47|
+48|  {% seo %}
+49|
+50|  <!-- JSON-LD WebSite Schema -->
+51|  <script type="application/ld+json">
+52|  {
+53|    "@context": "https://schema.org",
+54|    "@type": "WebSite",
+55|    "name": "{{ site.title }}",
+56|    "url": "{{ site.url }}{{ site.baseurl }}",
+57|    "description": "{{ site.description }}",
+58|    "potentialAction": {
+59|      "@type": "SearchAction",
+60|      "target": "{{ site.url }}{{ site.baseurl }}/?s={search_term_string}",
+61|      "query-input": "required name=search_term_string"
+62|    }
+63|  }
+64|  </script>
+65|
+66|  <!-- JSON-LD BreadcrumbList -->
+67|  <script type="application/ld+json">
+68|  {
+69|    "@context": "https://schema.org",
+70|    "@type": "BreadcrumbList",
+71|    "itemListElement": [
+72|      {
+73|        "@type": "ListItem",
+74|        "position": 1,
+75|        "name": "Home",
+76|        "item": "{{ site.url }}{{ site.baseurl }}/"
+77|      }{% if page.title and page.layout == 'post' %},
+78|      {
+79|        "@type": "ListItem",
+80|        "position": 2,
+81|        "name": "{{ page.title | escape }}",
+82|        "item": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+83|      }{% endif %}
+84|    ]
+85|  }
+86|  </script>
+87|
+88|  <!-- JSON-LD Organization (Author) -->
+89|    <script type="application/ld+json">
+90|    {
+91|      "@context": "https://schema.org",
+92|      "@type": "Organization",
+93|      "name": "{{ site.title }}",
+94|      "url": "{{ site.url }}{{ site.baseurl }}/",
+95|      "logo": "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png",
+96|      "sameAs": [
+97|        "https://github.com/fellowizsick"
+98|      ]
+99|    }
+100|    </script>
+101|
+102|  {% if page.layout == 'post' and page.review %}
+103|  <!-- JSON-LD Review Schema -->
+104|  <script type="application/ld+json">
+105|  {
+106|    "@context": "https://schema.org",
+107|    "@type": "Review",
+108|    "itemReviewed": {
+109|      "@type": "Product",
+110|      "name": "{{ page.review.product }}",
+111|      "description": "{{ page.review.description }}"
+112|    },
+113|    "author": {
+114|          "@type": "Organization",
+115|          "name": "{{ site.title }}"
+116|        },
+117|    "reviewRating": {
+118|      "@type": "Rating",
+119|      "ratingValue": "{{ page.review.rating }}",
+120|      "bestRating": "5"
+121|    },
+122|    "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+123|    "description": "{% if page.description %}{{ page.description | strip_html | truncate: 200 | escape }}{% else %}{{ page.excerpt | strip_html | truncate: 200 | escape }}{% endif %}"
+124|  }
+125|  </script>
+126|  {% endif %}
+127|
+128|  {% if page.layout == 'post' %}
+129|  <!-- JSON-LD Article Schema -->
+130|  <script type="application/ld+json">
+131|  {
+132|    "@context": "https://schema.org",
+133|    "@type": "Article",
+134|    "headline": "{{ page.title | escape }}",
+135|    "description": "{% if page.description %}{{ page.description | strip_html | truncate: 160 | escape }}{% else %}{{ page.excerpt | strip_html | truncate: 160 | escape }}{% endif %}",
+136|    "author": {
+137|          "@type": "Organization",
+138|          "name": "{{ site.title }}"
+139|        },
+140|    "publisher": {
+141|      "@type": "Organization",
+142|      "name": "{{ site.title }}"
+143|    },
+144|    "datePublished": "{{ page.date | date: '%Y-%m-%dT%H:%M:%S' }}",
+145|    "dateModified": "{% if page.last_modified %}{{ page.last_modified | date: '%Y-%m-%dT%H:%M:%S' }}{% else %}{{ page.date | date: '%Y-%m-%dT%H:%M:%S' }}{% endif %}",
+146|    "wordCount": "{{ content | strip_html | number_of_words }}",
+147|    "mainEntityOfPage": {
+148|      "@type": "WebPage",
+149|      "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+150|    }
+151|  }
+152|  </script>
+153|  {% endif %}
+154|
+155|  {% if page.faq %}
+156|  <!-- JSON-LD FAQ Schema -->
+157|  <script type="application/ld+json">
+158|  {
+159|    "@context": "https://schema.org",
+160|    "@type": "FAQPage",
+161|    "mainEntity": [
+162|      {% for item in page.faq %}
+163|      {
+164|        "@type": "Question",
+165|        "name": "{{ item.q | escape }}",
+166|        "acceptedAnswer": {
+167|          "@type": "Answer",
+168|          "text": "{{ item.a | strip_html | escape }}"
+169|        }
+170|      }{% unless forloop.last %},{% endunless %}
+171|      {% endfor %}
+172|    ]
+173|  }
+174|  </script>
+175|  {% endif %}
+176|
+177|<!-- Google tag (gtag.js) -->
+178|<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLHP59H7Z2"></script>
+179|<script>
+180|  window.dataLayer = window.dataLayer || [];
+181|  function gtag(){dataLayer.push(arguments);}
+182|  gtag('js', new Date());
+183|  gtag('config', 'G-RLHP59H7Z2');
+184|</script>
+185|</head>
+186|<body>
+  <div class="progress-bar" id="progressBar"></div>
+187|  <div class="progress-bar" id="progressBar"></div>
+188|  <nav class="nav" id="mainNav">
+189|    <div class="container nav-inner">
+190|      <a class="nav-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+191|      <div class="nav-links" id="navLinks">
+192|        <a href="{{ site.baseurl }}/">Home</a>
+193|        {% assign nav_categories = site.pages | where_exp: "page", "page.category_slug" %}
+194|        {% for cat in nav_categories limit:3 %}
+195|          <a href="{{ site.baseurl }}{{ cat.permalink }}">{{ cat.category_name }}</a>
+196|        {% endfor %}
+197|        <span class="nav-divider">|</span>
+198|        <a href="{{ site.baseurl }}/categories/">All Categories</a>
+199|        <a href="{{ site.baseurl }}/best-deals/">💰 Best Deals</a>
+200|        <a href="{{ site.baseurl }}/about/">About</a>
+201|        <a href="{{ site.baseurl }}/support/">❤️ Like This Site?</a>
+202|        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+203|          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+204|            <circle cx="12" cy="12" r="5"></circle>
+205|            <line x1="12" y1="1" x2="12" y2="3"></line>
+206|            <line x1="12" y1="21" x2="12" y2="23"></line>
+207|            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+208|            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+209|            <line x1="1" y1="12" x2="3" y2="12"></line>
+210|            <line x1="21" y1="12" x2="23" y2="12"></line>
+211|            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+212|            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+213|          </svg>
+214|          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+215|            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+216|          </svg>
+217|        </button>
+218|      </div>
+219|      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+220|        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+221|          <line x1="3" y1="6" x2="21" y2="6"></line>
+222|          <line x1="3" y1="12" x2="21" y2="12"></line>
+223|          <line x1="3" y1="18" x2="21" y2="18"></line>
+224|        </svg>
+225|      </button>
+226|    </div>
+227|  </nav>
+228|
+229|  <main class="container">
+230|    {% if page.layout == "post" or page.layout == "page" %}
+231|    <nav class="breadcrumbs">
+232|      <a href="{{ site.baseurl }}/">Home</a>
+233|      <span class="sep">›</span>
+234|      {% if page.categories %}
+235|        <a href="{{ site.baseurl }}/?category={{ page.categories[0] | url_encode }}">{{ page.categories[0] }}</a>
+236|        <span class="sep">›</span>
+237|      {% endif %}
+238|      <span>{{ page.title | truncate: 50 }}</span>
+239|    </nav>
+240|    {% endif %}
+241|
+242|    <div class="page-content">
+243|      {{ content }}
+244|    </div>
+245|  </main>
+246|
+247|  <footer class="footer">
+248|    <div class="container">
+249|      <div class="footer-links">
+250|        <a href="{{ site.baseurl }}/">Home</a>
+251|        <a href="{{ site.baseurl }}/about/">About</a>
+252|        <a href="{{ site.baseurl }}/how-we-test/">How We Test</a>
+253|        <a href="{{ site.baseurl }}/privacy/">Privacy</a>
+254|      </div>
+255|      <div class="footer-brand">{{ site.title }}</div>
+256|    <p class="footer-tagline">{{ site.tagline }}</p>
+257|      <div class="footer-social">
+258|        <a href="https://github.com/fellowizsick" target="_blank" aria-label="GitHub">GH</a>
+259|        <a href="mailto:jontechsaasstack@gmail.com" aria-label="Email">✉</a>
+260|      </div>
+261|      <div class="footer-social">
+        <a href="https://github.com/fellowizsick" target="_blank" aria-label="GitHub">GH</a>
+        <a href="mailto:jontechsaasstack@gmail.com" aria-label="Email">✉</a>
       </div>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="3" y1="6" x2="21" y2="6"></line>
-          <line x1="3" y1="12" x2="21" y2="12"></line>
-          <line x1="3" y1="18" x2="21" y2="18"></line>
-        </svg>
-      </button>
-    </div>
-  </nav>
-
-  <main class="container">
-    {% if page.layout == "post" or page.layout == "page" %}
-    <nav class="breadcrumbs">
-      <a href="{{ site.baseurl }}/">Home</a>
-      <span class="sep">›</span>
-      {% if page.categories %}
-        <a href="{{ site.baseurl }}/?category={{ page.categories[0] | url_encode }}">{{ page.categories[0] }}</a>
-        <span class="sep">›</span>
-      {% endif %}
-      <span>{{ page.title | truncate: 50 }}</span>
-    </nav>
-    {% endif %}
-
-    <div class="page-content">
-      {{ content }}
-    </div>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-links">
-        <a href="{{ site.baseurl }}/">Home</a>
-        <a href="{{ site.baseurl }}/about/">About</a>
-        <a href="{{ site.baseurl }}/how-we-test/">How We Test</a>
-        <a href="{{ site.baseurl }}/privacy/">Privacy</a>
-      </div>
-      <p>{{ site.title }} &mdash; {{ site.tagline }}</p>
       <p style="margin-top:8px;"><small>Some links on this site are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you. I only recommend products I've personally tested and believe in.</small></p>
-      <p style="margin-top:4px;"><small>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</small></p>
-    </div>
-  </footer>
-
-  <button class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" id="scrollTopBtn" aria-label="Scroll to top">↑</button>
-
-  <script>
-  // Theme toggle (nav bar only)
-  const themeToggle = document.getElementById('themeToggle');
-  const sunIcon = themeToggle?.querySelector('.icon-sun');
-  const moonIcon = themeToggle?.querySelector('.icon-moon');
-
-  function applyTheme(theme) {
-    document.documentElement.setAttribute('data-theme', theme);
-    const isDark = theme === 'dark';
-    if (sunIcon) sunIcon.style.display = isDark ? 'block' : 'none';
-    if (moonIcon) moonIcon.style.display = isDark ? 'none' : 'block';
-  }
-
-  function toggleTheme() {
-    const current = document.documentElement.getAttribute('data-theme') || 'light';
-    const next = current === 'dark' ? 'light' : 'dark';
-    applyTheme(next);
-    localStorage.setItem('theme', next);
-  }
-
-  // Check saved preference or system preference
-  const savedTheme = localStorage.getItem('theme');
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-  applyTheme(initialTheme);
-
-  themeToggle?.addEventListener('click', toggleTheme);
-
-  // Listen for system preference changes
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
-    if (!localStorage.getItem('theme')) {
-      applyTheme(e.matches ? 'dark' : 'light');
-    }
-  });
-
-  // Nav scroll effect
-  const mainNav = document.getElementById('mainNav');
-  window.addEventListener('scroll', function() {
-    if (window.scrollY > 20) {
-      mainNav.classList.add('scrolled');
-    } else {
-      mainNav.classList.remove('scrolled');
-    }
-  });
-
-  // Scroll top button
-  const scrollBtn = document.getElementById('scrollTopBtn');
-  window.addEventListener('scroll', function() {
-    if (window.scrollY > 400) {
-      scrollBtn.classList.add('visible');
-    } else {
-      scrollBtn.classList.remove('visible');
-    }
-  });
-
-  // Nav toggle
-  const navToggle = document.getElementById('navToggle');
-  const navLinks = document.getElementById('navLinks');
-  if (navToggle && navLinks) {
-    navToggle.addEventListener('click', function() {
-      const isOpen = navLinks.classList.toggle('open');
-      navToggle.setAttribute('aria-expanded', isOpen);
-    });
-    // Close on link click
-    navLinks.querySelectorAll('a').forEach(function(link) {
-      link.addEventListener('click', function() {
-        navLinks.classList.remove('open');
-        navToggle.setAttribute('aria-expanded', 'false');
-      });
-    });
-  }
-
-  // Affiliate link click tracking
-  document.querySelectorAll('a[href*="wpengine"], a[href*="kinsta"], a[href*="siteground"], a[href*="hostinger"]').forEach(function(link) {
-    link.addEventListener('click', function() {
-      gtag('event', 'click', {
-        'event_category': 'affiliate',
-        'event_label': this.href,
-        'value': 1
-      });
-    });
-  });
-
-  // Smooth scroll for anchor links
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        e.preventDefault();
-        
-        // If target is inside a closed <details>, open it first
-        const details = target.closest('details');
-        if (details && !details.open) {
-          details.open = true;
-        }
-        
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        history.pushState(null, null, this.getAttribute('href'));
-      }
-    });
-  });
-
-  // Intersection Observer for scroll animations
-  const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('animate-slide-up');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, observerOptions);
-
-  document.querySelectorAll('.post-card, .deal-card, .feature-card, .pros, .cons, .verdict-box, .cta-wrapper, .email-capture').forEach(el => {
-    observer.observe(el);
-  });
-
-  // Fix: Replace {{ site.current_year }} literal with actual year in post titles
+262|      <p style="margin-top:4px;"><small>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</small></p>
+263|    </div>
+264|  </footer>
+265|
+266|  <button class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" id="scrollTopBtn" aria-label="Scroll to top">↑</button>
+267|
+268|  <script>
+269|  // Theme toggle (nav bar only)
+270|  const themeToggle = document.getElementById('themeToggle');
+271|  const sunIcon = themeToggle?.querySelector('.icon-sun');
+272|  const moonIcon = themeToggle?.querySelector('.icon-moon');
+273|
+274|  function applyTheme(theme) {
+275|    document.documentElement.setAttribute('data-theme', theme);
+276|    const isDark = theme === 'dark';
+277|    if (sunIcon) sunIcon.style.display = isDark ? 'block' : 'none';
+278|    if (moonIcon) moonIcon.style.display = isDark ? 'none' : 'block';
+279|  }
+280|
+281|  function toggleTheme() {
+282|    const current = document.documentElement.getAttribute('data-theme') || 'light';
+283|    const next = current === 'dark' ? 'light' : 'dark';
+284|    applyTheme(next);
+285|    localStorage.setItem('theme', next);
+286|  }
+287|
+288|  // Check saved preference or system preference
+289|  const savedTheme = localStorage.getItem('theme');
+290|  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+291|  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+292|  applyTheme(initialTheme);
+293|
+294|  themeToggle?.addEventListener('click', toggleTheme);
+295|
+296|  // Listen for system preference changes
+297|  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+298|    if (!localStorage.getItem('theme')) {
+299|      applyTheme(e.matches ? 'dark' : 'light');
+300|    }
+301|  });
+302|
+303|  // Nav scroll effect
+304|  const mainNav = document.getElementById('mainNav');
+305|  window.addEventListener('scroll', function() {
+306|    if (window.scrollY > 20) {
+307|      mainNav.classList.add('scrolled');
+308|    } else {
+309|      mainNav.classList.remove('scrolled');
+310|    }
+311|  });
+312|
+313|  // Scroll top button
+314|  const scrollBtn = document.getElementById('scrollTopBtn');
+315|  window.addEventListener('scroll', function() {
+316|    if (window.scrollY > 400) {
+317|      scrollBtn.classList.add('visible');
+318|    } else {
+319|      scrollBtn.classList.remove('visible');
+320|    }
+321|  });
+322|
+323|  // Nav toggle
+324|  const navToggle = document.getElementById('navToggle');
+325|  const navLinks = document.getElementById('navLinks');
+326|  if (navToggle && navLinks) {
+327|    navToggle.addEventListener('click', function() {
+328|      const isOpen = navLinks.classList.toggle('open');
+329|      navToggle.setAttribute('aria-expanded', isOpen);
+330|    });
+331|    // Close on link click
+332|    navLinks.querySelectorAll('a').forEach(function(link) {
+333|      link.addEventListener('click', function() {
+334|        navLinks.classList.remove('open');
+335|        navToggle.setAttribute('aria-expanded', 'false');
+336|      });
+337|    });
+338|  }
+339|
+340|  // Affiliate link click tracking
+341|  document.querySelectorAll('a[href*="wpengine"], a[href*="kinsta"], a[href*="siteground"], a[href*="hostinger"]').forEach(function(link) {
+342|    link.addEventListener('click', function() {
+343|      gtag('event', 'click', {
+344|        'event_category': 'affiliate',
+345|        'event_label': this.href,
+346|        'value': 1
+347|      });
+348|    });
+349|  });
+350|
+351|  // Smooth scroll for anchor links
+352|  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+353|    anchor.addEventListener('click', function(e) {
+354|      const target = document.querySelector(this.getAttribute('href'));
+355|      if (target) {
+356|        e.preventDefault();
+357|        
+358|        // If target is inside a closed <details>, open it first
+359|        const details = target.closest('details');
+360|        if (details && !details.open) {
+361|          details.open = true;
+362|        }
+363|        
+364|        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+365|        history.pushState(null, null, this.getAttribute('href'));
+366|      }
+367|    });
+368|  });
+369|
+370|  // Intersection Observer for scroll animations
+371|  const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+372|  const observer = new IntersectionObserver((entries) => {
+373|    entries.forEach(entry => {
+374|      if (entry.isIntersecting) {
+375|        entry.target.classList.add('animate-slide-up');
+376|        observer.unobserve(entry.target);
+377|      }
+378|    });
+379|  }, observerOptions);
+380|
+381|  document.querySelectorAll('.post-card, .deal-card, .feature-card, .pros, .cons, .verdict-box, .cta-wrapper, .email-capture').forEach(el => {
+382|    observer.observe(el);
+383|  });
+384|
+385|  // Fix: Replace {{ site.current_year }} literal with actual year in post titles
+386|  (function() {
+387|    var currentYear = '{{ site.current_year }}';
+388|    if (currentYear && currentYear !== '{{ site.current_year }}') {
+389|      document.querySelectorAll('h1, h2, h3, h4, .post-title, .related-title').forEach(function(el) {
+390|        el.textContent = el.textContent.replace(/\{\{\s*site\.current_year\s*\}\}/g, currentYear);
+391|      });
+392|    }
+393|  })();
+394|
+395|  // Auto-wrap tables in .page-content for horizontal scroll on mobile
+396|  (function() {
+397|    document.querySelectorAll('.page-content table').forEach(function(table) {
+398|      if (!table.parentElement.classList.contains('table-wrapper')) {
+399|        var wrapper = document.createElement('div');
+400|        wrapper.className = 'table-wrapper';
+401|        table.parentNode.insertBefore(wrapper, table);
+402|        wrapper.appendChild(table);
+403|      }
+404|    });
+405|  })();
+406|
+407|  // Subtle letter sparkle effect on hero & post titles - multi-color flicker
+408|  // Exactly 2-3 random letters per title, with black outline for dark mode visibility
+409|  // Re-randomizes every 4-6 seconds so different letters sparkle over time
+410|  (function() {
+411|    var targets = document.querySelectorAll('.hero h1, .post-header h1');
+412|    var colors = [
+413|      'oklch(0.68 0.12 85)',   // soft gold
+414|      'oklch(0.60 0.13 65)',   // soft amber
+415|      'oklch(0.75 0.09 95)',   // soft champagne
+416|      'oklch(0.58 0.11 25)',   // soft coral
+417|      'oklch(0.52 0.10 185)',  // soft teal
+418|      'oklch(0.52 0.12 285)'   // soft violet
+419|    ];
+420|
+421|    function sparkle(el) {
+422|      var text = el.textContent;
+423|      if (!text || text.length < 5) return;
+424|      // Find all non-space character positions
+425|      var charIndices = [];
+426|      for (var i = 0; i < text.length; i++) {
+427|        if (text[i] !== ' ') charIndices.push(i);
+428|      }
+429|      // Pick exactly 2-3 random character indices
+430|      var count = 2 + Math.floor(Math.random() * 2); // 2 or 3
+431|      if (count > charIndices.length) count = charIndices.length;
+432|      // Shuffle and pick
+433|      var shuffled = charIndices.slice();
+434|      for (var s = shuffled.length - 1; s > 0; s--) {
+435|        var r = Math.floor(Math.random() * (s + 1));
+436|        var tmp = shuffled[s];
+437|        shuffled[s] = shuffled[r];
+438|        shuffled[r] = tmp;
+439|      }
+440|      var pick = new Set(shuffled.slice(0, count));
+441|      // Rebuild HTML
+442|      var html = '';
+443|      for (var j = 0; j < text.length; j++) {
+444|        if (pick.has(j)) {
+445|          var delay = Math.random() * 2; // shorter delay so they start quickly
+446|          var dur = 1.5 + Math.random() * 1.5;
+447|          var color = colors[Math.floor(Math.random() * colors.length)];
+448|          html += '<span style="--sparkle-delay:' + delay + 's;--sparkle-dur:' + dur + 's;--sparkle-color:' + color + ';">' + text[j] + '</span>';
+449|        } else {
+450|          html += text[j];
+451|        }
+452|      }
+453|      el.innerHTML = html;
+454|    }
+455|
+456|    // Initial sparkle on each target
+457|    targets.forEach(function(el) {
+458|      sparkle(el);
+459|      // Re-randomize every 4-6 seconds
+460|      setInterval(function() { sparkle(el); }, 4000 + Math.random() * 2000);
+461|    });
+462|
+463|    // Add sparkle keyframes — includes black text-shadow outline for visibility on any background
+464|    var style = document.createElement('style');
+465|    style.textContent = '@keyframes sparkleLetter { 0%,100% { color: var(--text); text-shadow: 0 0 0 transparent, -1px -1px 0 rgba(0,0,0,0.5), 1px -1px 0 rgba(0,0,0,0.5), -1px 1px 0 rgba(0,0,0,0.5), 1px 1px 0 rgba(0,0,0,0.5); } 50% { color: var(--sparkle-color); text-shadow: 0 0 8px var(--sparkle-color), 0 0 16px var(--sparkle-color), 0 0 24px var(--sparkle-color), -1px -1px 0 rgba(0,0,0,0.7), 1px -1px 0 rgba(0,0,0,0.7), -1px 1px 0 rgba(0,0,0,0.7), 1px 1px 0 rgba(0,0,0,0.7); } } [style*="--sparkle-delay"] { animation: sparkleLetter var(--sparkle-dur) ease-in-out var(--sparkle-delay) infinite; }';
+466|    document.head.appendChild(style);
+467|  })();
+468|</script>
+469|  <script>
   (function() {
-    var currentYear = '{{ site.current_year }}';
-    if (currentYear && currentYear !== '{{ site.current_year }}') {
-      document.querySelectorAll('h1, h2, h3, h4, .post-title, .related-title').forEach(function(el) {
-        el.textContent = el.textContent.replace(/\{\{\s*site\.current_year\s*\}\}/g, currentYear);
-      });
-    }
-  })();
-
-  // Auto-wrap tables in .page-content for horizontal scroll on mobile
-  (function() {
-    document.querySelectorAll('.page-content table').forEach(function(table) {
-      if (!table.parentElement.classList.contains('table-wrapper')) {
-        var wrapper = document.createElement('div');
-        wrapper.className = 'table-wrapper';
-        table.parentNode.insertBefore(wrapper, table);
-        wrapper.appendChild(table);
-      }
+    var bar = document.getElementById('progressBar');
+    if (!bar) return;
+    window.addEventListener('scroll', function() {
+      var h = document.documentElement;
+      var p = (h.scrollTop || document.body.scrollTop) / (h.scrollHeight - h.clientHeight) * 100;
+      bar.style.width = p + '%';
     });
   })();
-
-  // Subtle letter sparkle effect on hero & post titles - multi-color flicker
-  // Exactly 2-3 random letters per title, with black outline for dark mode visibility
-  // Re-randomizes every 4-6 seconds so different letters sparkle over time
-  (function() {
-    var targets = document.querySelectorAll('.hero h1, .post-header h1');
-    var colors = [
-      'oklch(0.68 0.12 85)',   // soft gold
-      'oklch(0.60 0.13 65)',   // soft amber
-      'oklch(0.75 0.09 95)',   // soft champagne
-      'oklch(0.58 0.11 25)',   // soft coral
-      'oklch(0.52 0.10 185)',  // soft teal
-      'oklch(0.52 0.12 285)'   // soft violet
-    ];
-
-    function sparkle(el) {
-      var text = el.textContent;
-      if (!text || text.length < 5) return;
-      // Find all non-space character positions
-      var charIndices = [];
-      for (var i = 0; i < text.length; i++) {
-        if (text[i] !== ' ') charIndices.push(i);
-      }
-      // Pick exactly 2-3 random character indices
-      var count = 2 + Math.floor(Math.random() * 2); // 2 or 3
-      if (count > charIndices.length) count = charIndices.length;
-      // Shuffle and pick
-      var shuffled = charIndices.slice();
-      for (var s = shuffled.length - 1; s > 0; s--) {
-        var r = Math.floor(Math.random() * (s + 1));
-        var tmp = shuffled[s];
-        shuffled[s] = shuffled[r];
-        shuffled[r] = tmp;
-      }
-      var pick = new Set(shuffled.slice(0, count));
-      // Rebuild HTML
-      var html = '';
-      for (var j = 0; j < text.length; j++) {
-        if (pick.has(j)) {
-          var delay = Math.random() * 2; // shorter delay so they start quickly
-          var dur = 1.5 + Math.random() * 1.5;
-          var color = colors[Math.floor(Math.random() * colors.length)];
-          html += '<span style="--sparkle-delay:' + delay + 's;--sparkle-dur:' + dur + 's;--sparkle-color:' + color + ';">' + text[j] + '</span>';
-        } else {
-          html += text[j];
-        }
-      }
-      el.innerHTML = html;
-    }
-
-    // Initial sparkle on each target
-    targets.forEach(function(el) {
-      sparkle(el);
-      // Re-randomize every 4-6 seconds
-      setInterval(function() { sparkle(el); }, 4000 + Math.random() * 2000);
-    });
-
-    // Add sparkle keyframes — includes black text-shadow outline for visibility on any background
-    var style = document.createElement('style');
-    style.textContent = '@keyframes sparkleLetter { 0%,100% { color: var(--text); text-shadow: 0 0 0 transparent, -1px -1px 0 rgba(0,0,0,0.5), 1px -1px 0 rgba(0,0,0,0.5), -1px 1px 0 rgba(0,0,0,0.5), 1px 1px 0 rgba(0,0,0,0.5); } 50% { color: var(--sparkle-color); text-shadow: 0 0 8px var(--sparkle-color), 0 0 16px var(--sparkle-color), 0 0 24px var(--sparkle-color), -1px -1px 0 rgba(0,0,0,0.7), 1px -1px 0 rgba(0,0,0,0.7), -1px 1px 0 rgba(0,0,0,0.7), 1px 1px 0 rgba(0,0,0,0.7); } } [style*="--sparkle-delay"] { animation: sparkleLetter var(--sparkle-dur) ease-in-out var(--sparkle-delay) infinite; }';
-    document.head.appendChild(style);
-  })();
-</script>
+  </script>
 </body>
-</html>
+470|</html>
+471|

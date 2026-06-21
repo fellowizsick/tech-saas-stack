@@ -1765,7 +1765,56 @@ html[data-theme="dark"] .nav-brand::after {
   color: var(--text) !important;
   line-height: 1.5;
   margin: 0;
-  opacity: 0.75;
+  opacity: 0.9;
+}
+.category-card.all-categories {
+  background: linear-gradient(135deg, var(--primary-light), transparent);
+  border-color: var(--primary);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.category-card.all-categories h3 { color: var(--primary); }
+
+/* ── Category grid cards (enhanced contrast) ── */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.category-card {
+  display: flex; flex-direction: column;
+  padding: 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: all var(--transition-base);
+}
+.category-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+  border-color: var(--primary);
+}
+.category-card h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
+  color: var(--text);
+}
+.category-card .post-count {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+.category-card p {
+  font-size: 0.88rem;
+  color: var(--text) !important;
+  line-height: 1.5;
+  margin: 0;
+  opacity: 0.9;
 }
 .category-card.all-categories {
   background: linear-gradient(135deg, var(--primary-light), transparent);

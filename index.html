@@ -63,39 +63,27 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<!-- Featured Deals / Top Affiliate Picks (Collapsible) -->
+<!-- Featured Deals / Top Affiliate Picks (Collapsible - native HTML) -->
 <section class="featured-deals" style="margin: 3rem 0 2rem;">
-  <button class="featured-deals-toggle" id="featuredDealsToggle" aria-expanded="false" aria-controls="featuredDealsContent" style="
-    width: 100%;
-    padding: 1rem 1.5rem;
-    background: var(--bg-glass);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-lg);
-    color: var(--text);
-    font-size: 1.1rem;
-    font-weight: 600;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    transition: background var(--transition-fast), border-color var(--transition-fast);
-  ">
-    <span>🔥 Top Picks This Month</span>
-    <svg id="featuredDealsIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; transition: transform var(--transition-fast);">
-      <polyline points="6 9 12 15 18 9"></polyline>
-    </svg>
-  </button>
-  <div id="featuredDealsContent" class="featured-deals-content" style="
-    display: none;
-    padding: 1.5rem;
-    margin-top: 1rem;
-    background: var(--bg-glass);
-    border: 1px solid var(--border);
-    border-top: none;
-    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
-    animation: slideDown 200ms ease-out;
-  ">
+  <details style="background: var(--bg-glass); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden;">
+    <summary style="
+      padding: 1rem 1.5rem;
+      color: var(--text);
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      list-style: none;
+    "><span>🔥 Top Picks This Month</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; transition: transform var(--transition-fast);"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+    <style>details[open] summary svg { transform: rotate(180deg); }</style>
+    <div style="
+      padding: 1.5rem;
+      border-top: 1px solid var(--border);
+      animation: slideDown 200ms ease-out;
+    ">
     <div class="featured-deals-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
       
         <!-- Cloudways -->
@@ -310,7 +298,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
       </a>
     </div>
-  </div>
+  </details>
 </section>
 
 <!-- Featured Post (most recent) -->
@@ -427,19 +415,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Featured Deals toggle
-  const dealsToggle = document.getElementById('featuredDealsToggle');
-  const dealsContent = document.getElementById('featuredDealsContent');
-  const dealsIcon = document.getElementById('featuredDealsIcon');
-  
-  if (dealsToggle && dealsContent) {
-    dealsToggle.addEventListener('click', function() {
-      const isOpen = dealsToggle.getAttribute('aria-expanded') === 'true';
-      dealsToggle.setAttribute('aria-expanded', !isOpen);
-      dealsContent.style.display = isOpen ? 'none' : 'block';
-      dealsIcon.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
-    });
-  }
+  // Featured Post (no toggle needed - native <details> handles it)
 });
 </script>
 </div>

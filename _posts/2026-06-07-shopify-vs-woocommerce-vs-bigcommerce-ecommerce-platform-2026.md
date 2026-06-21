@@ -10,7 +10,6 @@ review:
   product: "E-Commerce Platforms Comparison"
   description: "Head-to-head comparison of Shopify, WooCommerce, and BigCommerce covering pricing, features, scalability, and ease of use for online store owners in 2026."
   rating: 4.5
-toc: true
 faq:
   - q: "Which is cheaper — Shopify, WooCommerce, or BigCommerce?"
     a: "WooCommerce is technically free, but you need hosting ($3-30/month), domain, and extensions. Shopify starts at $39/month (all-inclusive). BigCommerce starts at $39/month with no transaction fees. WooCommerce is cheapest for small stores; Shopify wins on value-for-features at scale."

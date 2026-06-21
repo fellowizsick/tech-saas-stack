@@ -10,7 +10,6 @@ review:
   product: "Kinsta Managed WordPress Hosting"
   description: "Premium managed WordPress hosting with Google Cloud Platform infrastructure, 24/7 support, and developer-friendly tools."
   rating: 4.7
-toc: true
 faq:
   - q: "Is Kinsta worth the money?"
     a: "Yes, for the right audience. If you run a business website, high-traffic blog, or e-commerce store where every second of uptime and page speed directly impacts revenue, Kinsta's premium pricing is justified by its enterprise-grade infrastructure, Google Cloud Platform hosting, 24/7 expert support, and built-in performance tools. For personal blogs or low-traffic sites, budget hosts like SiteGround or Hostinger offer better value."

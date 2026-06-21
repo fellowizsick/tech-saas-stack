@@ -4,7 +4,6 @@ title: "How to Speed Up Your WordPress Site in 2025: 10 Proven Optimization Tips
 description: "Boost your WordPress site speed in 2025 with 10 proven optimization tips. Improve Core Web Vitals, cut load times, and keep visitors engaged today."
 date: 2025-06-04 14:00:00 -0500
 categories: [wordpress, performance, tutorial]
-toc: true
 ---
 
 Site speed is no longer just a nice-to-have — it's a ranking factor, a conversion driver, and a user experience cornerstone. If you want to know **how to speed up your WordPress site in 2026**, you've come to the right place. This guide covers ten proven, actionable tips that will cut your load times, improve your Core Web Vitals scores, and keep visitors engaged instead of bouncing to a faster competitor.

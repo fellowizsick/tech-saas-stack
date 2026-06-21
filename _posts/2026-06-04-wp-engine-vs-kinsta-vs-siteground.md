@@ -9,7 +9,6 @@ review:
   product: "Managed WordPress Hosting"
   description: "Comparison of WP Engine, Kinsta, and SiteGround managed WordPress hosting services"
   rating: 4.5
-toc: true
 ---
 <div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
 

@@ -4,7 +4,6 @@ title: "How to Start an Affiliate Marketing Website in 2026: Step-by-Step Guide"
 description: "Start a money-making website from scratch in 2026 with this step-by-step guide. Learn hosting setup, content strategy, SEO, and proven monetization methods."
 date: 2025-06-06 12:00:00 -0500
 categories: [affiliate-marketing, blogging, make-money-blogging]
-toc: true
 ---
 
 <div class="disclosure-bar">Disclosure: Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>

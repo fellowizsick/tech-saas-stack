@@ -8,7 +8,6 @@ review:
   product: "Kinsta vs WP Engine"
   description: "Updated 2026 comparison after Kinsta's pricing overhaul — bandwidth-based billing, new entry prices, performance, features, and which premium host wins for your use case."
   rating: 4.0
-toc: true
 faq:
   - q: "Did Kinsta really raise prices 10x in 2026?"
     a: "Yes. Kinsta replaced its visit-based plans (Starter at $35/mo for 35k visits) with bandwidth-based plans. The new entry 'Single 20GB' plan starts at $350/mo monthly ($280/mo annual equivalent) with 20GB server bandwidth + 125GB CDN bandwidth. This is a fundamental pricing model change, not just a price hike."

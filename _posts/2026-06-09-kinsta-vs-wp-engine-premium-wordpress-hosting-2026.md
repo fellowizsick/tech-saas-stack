@@ -8,7 +8,6 @@ review:
   product: "Kinsta vs WP Engine"
   description: "Head-to-head comparison of two premium managed WordPress hosting platforms — pricing, performance, features, support, and developer tools."
   rating: 4.5
-toc: true
 faq:
   - q: "Which is better, Kinsta or WP Engine?"
     a: "Both are excellent premium managed WordPress hosts, but they serve slightly different audiences. Kinsta edges ahead in raw performance and Google Cloud infrastructure with 35+ data centers, while WP Engine offers stronger developer tools including a local dev environment (Local), StudioPress themes, and the Genesis framework. For most users, either is a massive upgrade over shared hosting."

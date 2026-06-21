@@ -8,7 +8,6 @@ review:
   product: "ActiveCampaign"
   description: "Complete step-by-step guide to setting up ActiveCampaign email marketing automation with a WordPress site, including forms, automations, and segmentation."
   rating: 4.6
-toc: true
 faq:
   - q: "Is ActiveCampaign compatible with WordPress?"
     a: "Yes, ActiveCampaign has a native WordPress plugin that syncs users, displays forms, and tracks site activity. You can also embed forms via JavaScript, use the REST API, or connect through third-party plugins like Elementor, WooCommerce, and WPForms for deeper integration."

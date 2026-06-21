@@ -15,7 +15,12 @@ title: Home
 <!-- Site Search -->
 {% include search.html %}
 
-<!-- Category Filter -->
+<!-- Deals promo banner -->
+<a href="{{ site.baseurl }}/best-deals/" style="display: block; text-align: center; padding: 0.75rem 1rem; margin: 1.5rem auto; max-width: 600px; background: var(--bg-glass); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); text-decoration: none; font-size: 0.9rem; transition: all var(--transition-fast);" onmouseover="this.style.borderColor='var(--primary)'; this.style.boxShadow='0 2px 12px oklch(var(--primary) / 0.1)'" onmouseout="this.style.borderColor=''; this.style.boxShadow=''">
+  💰 <strong>Verified Deals This Month:</strong> InterServer $2.50/mo · Bluehost $3.79/mo · Cloudways free trial &nbsp;→
+</a>
+
+<!-- Category filter -->
 <div class="category-filter" id="categoryFilter">
   <a class="category-tag active" href="{{ site.baseurl }}/" data-category="all">All</a>
   {% assign categories = site.posts | map: "categories" | flatten | uniq | sort %}
@@ -334,6 +339,13 @@ document.addEventListener('DOMContentLoaded', function() {
   </article>
   {% endfor %}
 </section>
+
+<!-- Affiliate Starter Kit promo -->
+<div style="text-align: center; padding: 2rem; margin: 2rem auto; max-width: 500px; background: var(--bg-glass); border: 1px solid var(--border); border-radius: var(--radius-lg);">
+  <p style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;">📈 Want the exact system running this blog?</p>
+  <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem;">The Affiliate Starter Kit includes the cron content engine, SEO framework, CTA guide, and revenue calculator — all for <strong>$17 one-time</strong>.</p>
+  <a href="{{ site.baseurl }}/products/affiliate-starter-kit/" style="display: inline-flex; align-items: center; gap: 0.5rem; background: var(--gradient-primary); color: #fff; font-weight: 700; padding: 0.75rem 2rem; border-radius: var(--radius); text-decoration: none; transition: all var(--transition-fast);" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">Get the Kit →</a>
+</div>
 
 <!-- Testimonials / Social Proof (Collapsible) -->
 <section class="testimonials" style="margin: 4rem 0 2rem;">

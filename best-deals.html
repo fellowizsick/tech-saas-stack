@@ -408,18 +408,51 @@ document.addEventListener('DOMContentLoaded', function() {
 
 /* ── Testimonials ── */
 .deals-testimonials {
-  margin: 3rem 0; padding: 2rem;
+  margin: 3rem 0; padding: 2.5rem 2rem;
   background: var(--bg-glass); border-radius: var(--radius-lg);
   border: 1px solid var(--border); text-align: center;
+  position: relative;
 }
-.deals-testimonials h3 { margin-bottom: 1.5rem; font-size: 1.2rem; font-weight: 700; }
-.testimonial-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; text-align: left; }
+.deals-testimonials::before {
+  content: '"';
+  position: absolute; top: -0.5rem; left: 50%; transform: translateX(-50%);
+  font-size: 4rem; line-height: 1; color: var(--primary); opacity: 0.3;
+  font-family: Georgia, serif;
+}
+.deals-testimonials h3 {
+  margin-bottom: 1.5rem; font-size: 1.2rem; font-weight: 700;
+  position: relative;
+}
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem; text-align: left;
+}
 .testimonial-card {
   padding: 1.25rem; background: var(--bg-card); border-radius: var(--radius);
   border: 1px solid var(--border); margin: 0;
+  position: relative;
+  border-left: 3px solid var(--primary);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
 }
-.testimonial-card p { font-style: italic; font-size: 0.9rem; color: var(--text); margin-bottom: 0.75rem; line-height: 1.5; }
-.testimonial-card footer { font-size: 0.82rem; color: var(--text-muted); }
+.testimonial-card:hover {
+  border-color: var(--primary);
+  box-shadow: 0 2px 12px oklch(var(--primary) / 0.1);
+}
+.testimonial-card p {
+  font-style: italic; font-size: 0.9rem; color: var(--text);
+  margin-bottom: 0.75rem; line-height: 1.6;
+  position: relative; padding-left: 1.25rem;
+}
+.testimonial-card p::before {
+  content: '"'; position: absolute; left: 0; top: -0.1rem;
+  font-size: 1.2rem; color: var(--primary); opacity: 0.5;
+  font-family: Georgia, serif;
+}
+.testimonial-card footer {
+  font-size: 0.82rem; color: var(--text-muted);
+  padding-top: 0.5rem; border-top: 1px solid var(--border);
+}
 
 /* ── Footer ── */
 .deals-footer {
@@ -454,12 +487,14 @@ document.addEventListener('DOMContentLoaded', function() {
   .filter-btn { font-size: 0.82rem; padding: 0.45rem 1rem; }
   
   /* ── Mobile testimonials ── */
-  .deals-testimonials { padding: 1.5rem 1rem; margin: 2rem 0; }
+  .deals-testimonials { padding: 1.75rem 1rem; margin: 2rem 0; }
+  .deals-testimonials::before { font-size: 3rem; top: -0.3rem; }
   .deals-testimonials h3 { font-size: 1.05rem; margin-bottom: 1rem; }
-  .testimonial-grid { gap: 0.85rem; }
-  .testimonial-card { padding: 0.9rem; }
-  .testimonial-card p { font-size: 0.82rem; line-height: 1.5; margin-bottom: 0.5rem; }
-  .testimonial-card footer { font-size: 0.75rem; }
+  .testimonial-grid { gap: 0.75rem; }
+  .testimonial-card { padding: 0.85rem; border-left-width: 3px; }
+  .testimonial-card p { font-size: 0.82rem; line-height: 1.55; padding-left: 1rem; margin-bottom: 0.5rem; }
+  .testimonial-card p::before { font-size: 1rem; }
+  .testimonial-card footer { font-size: 0.75rem; padding-top: 0.4rem; }
   
   /* ── Mobile steps ── */
   .deals-footer { padding: 1.25rem 1rem; }

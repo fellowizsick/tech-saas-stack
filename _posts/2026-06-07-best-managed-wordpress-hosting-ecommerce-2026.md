@@ -8,7 +8,6 @@ review:
   product: "Managed WordPress Hosting for E-Commerce"
   description: "Comparison of the top 7 managed WordPress hosting providers for WooCommerce stores and e-commerce sites in 2026."
   rating: 4.5
-toc: true
 faq:
   - q: "What is managed WordPress hosting for e-commerce?"
     a: "Managed WordPress hosting is a premium hosting service optimized specifically for WordPress sites, where the host handles technical maintenance like automatic updates, daily backups, caching, security monitoring, and performance optimization. For e-commerce stores, managed hosting providers often include WooCommerce-optimized servers, dedicated e-commerce support teams, and built-in CDN services to handle traffic spikes during sales events."

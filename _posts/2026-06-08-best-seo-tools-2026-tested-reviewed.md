@@ -10,7 +10,6 @@ review:
   product: "SEO Tools Roundup"
   description: "Comprehensive comparison of the 7 best SEO tools for 2026, covering Semrush, Ahrefs, Moz Pro, Screaming Frog, Surfer SEO, Google Search Console, and Elementor."
   rating: 4.5
-toc: true
 faq:
   - q: "What is the best all-in-one SEO tool in 2026?"
     a: "Semrush remains the best all-in-one SEO toolkit for most users in 2026. It combines keyword research, competitor analysis, site audits, content marketing, and PPC tools in a single platform. Ahrefs is a close second and excels specifically at backlink analysis with the largest link index database."

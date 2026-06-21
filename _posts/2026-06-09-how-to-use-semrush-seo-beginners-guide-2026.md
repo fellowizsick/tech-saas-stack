@@ -7,7 +7,6 @@ review:
   product: "Semrush"
   description: "All-in-one SEO toolkit for keyword research, competitor analysis, site audits, rank tracking, and backlink analysis — trusted by over 10 million marketers."
   rating: 4.7
-toc: true
 description: "Learn how to use Semrush for SEO in 2026 — step-by-step guide covering domain analytics, keyword research, competitive analysis, site audits, and rank tracking for beginners."
 faq:
   - q: "Is Semrush free to use?"

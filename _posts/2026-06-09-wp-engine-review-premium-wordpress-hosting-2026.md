@@ -8,7 +8,6 @@ review:
   product: "WP Engine Managed WordPress Hosting"
   description: "Premium managed WordPress hosting with built-in CDN, 24/7 support, automatic backups, staging environments, and developer-friendly tools for growing businesses."
   rating: 4.6
-toc: true
 faq:
   - q: "How does WP Engine compare to Kinsta?"
     a: "Both are top-tier managed WordPress hosts with similar pricing. WP Engine offers a broader CDN through Cloudflare integration, a free Local development environment, and slightly more generous storage on entry plans. Kinsta uses Google Cloud Platform exclusively with more data centers (24 vs WP Engine's 10) and a custom-built analytics dashboard. Performance is comparable — both deliver sub-second load times. WP Engine edges ahead for developers with Local and its Genesis theme framework; Kinsta wins on global reach and real-time analytics."

@@ -8,7 +8,6 @@ review:
   product: "ScalaHosting vs InterServer"
   description: "Head-to-head comparison of two budget-friendly hosting providers — ScalaHosting's managed VPS with SPanel vs InterServer's price-lock guarantee and unlimited resources."
   rating: 4.3
-toc: true
 faq:
   - q: "Which is better for beginners, ScalaHosting or InterServer?"
     a: "InterServer's standard shared hosting at $2.50/mo with price lock is the most beginner-friendly option — no surprises on renewal. ScalaHosting's managed VPS requires more technical comfort but includes SPanel (easier than cPanel) and free migrations if you're moving an existing site."

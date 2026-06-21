@@ -1,0 +1,58 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0f15"/>
+      <stop offset="50%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#bg)"/>
+
+  <!-- Glow circles -->
+  <circle cx="1100" cy="200" r="300" fill="rgba(99,102,241,0.08)"/>
+  <circle cx="200" cy="600" r="250" fill="rgba(245,158,11,0.06)"/>
+
+  <!-- Decorative dots top-right -->
+  <g fill="rgba(99,102,241,0.25)">
+    <circle cx="1120" cy="80" r="4"/>
+    <circle cx="1140" cy="80" r="4"/>
+    <circle cx="1160" cy="80" r="4"/>
+    <circle cx="1120" cy="100" r="4"/>
+    <circle cx="1140" cy="100" r="4"/>
+    <circle cx="1160" cy="100" r="4"/>
+  </g>
+
+  <!-- Badge -->
+  <rect x="540" y="180" width="200" height="36" rx="18" fill="url(#badge)"/>
+  <text x="640" y="204" text-anchor="middle" fill="#fff" font-size="14" font-weight="600" font-family="sans-serif" letter-spacing="2">📈 DIGITAL PRODUCT</text>
+
+  <!-- Title -->
+  <text x="640" y="290" text-anchor="middle" fill="#fff" font-size="52" font-weight="800" font-family="sans-serif">Affiliate Marketing</text>
+
+  <!-- Gradient "Starter Kit" -->
+  <text x="640" y="355" text-anchor="middle" font-size="52" font-weight="800" font-family="sans-serif" fill="url(#accent)">Starter Kit</text>
+
+  <!-- Subtitle -->
+  <text x="640" y="410" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="20" font-family="sans-serif">Content Engine · SEO Framework · Affiliate Playbook</text>
+
+  <!-- Price pill -->
+  <rect x="440" y="460" width="400" height="50" rx="25" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="590" y="492" text-anchor="middle" fill="#fff" font-size="28" font-weight="700" font-family="sans-serif">$17</text>
+  <text x="690" y="492" text-anchor="middle" fill="rgba(255,255,255,0.45)" font-size="14" font-family="sans-serif">one-time · instant download</text>
+
+  <!-- Divider line -->
+  <line x1="0" y1="620" x2="1280" y2="620" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+
+  <!-- Footer -->
+  <text x="640" y="665" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="13" font-family="sans-serif" letter-spacing="1">TECH &amp; SAAS STACK  © 2026</text>
+</svg>

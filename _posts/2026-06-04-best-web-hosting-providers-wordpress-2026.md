@@ -6,7 +6,6 @@ date: 2026-06-04 20:00:00 -0500
 last_modified: 2026-06-15 10:30:00 -0500
 last_verified: 2026-06-15 10:30:00 -0500
 categories: [hosting, roundup]
-toc: true
 image: "/assets/images/social-hosting-roundup.svg"
 review:
   product: "Managed WordPress Hosting"

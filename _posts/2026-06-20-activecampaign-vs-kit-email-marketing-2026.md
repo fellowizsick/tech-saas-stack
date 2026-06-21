@@ -9,7 +9,6 @@ review:
   description: "Head-to-head comparison of ActiveCampaign and Kit (formerly ConvertKit) covering automation capabilities, deliverability, pricing, and creator-specific features in 2026."
   rating: 4.5
 permalink: /comparison/activecampaign-vs-kit-2026/
-toc: true
 ---
 
 <div class="disclosure-bar">Disclosure: Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>

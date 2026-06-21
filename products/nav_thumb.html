@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html><body style="margin:0;background:#000">
+<canvas id="c" width="600" height="600"></canvas>
+<script>
+var ctx = c.getContext('2d');
+function r(x,y,w,h,v){ctx.beginPath();ctx.moveTo(x+v,y);ctx.lineTo(x+w-v,y);ctx.quadraticCurveTo(x+w,y,x+w,y+v);ctx.lineTo(x+w,y+h-v);ctx.quadraticCurveTo(x+w,y+h,x+w-v,y+h);ctx.lineTo(x+v,y+h);ctx.quadraticCurveTo(x,y+h,x,y+h-v);ctx.lineTo(x,y+v);ctx.quadraticCurveTo(x,y,x+v,y);ctx.closePath()}
+var g=ctx.createLinearGradient(0,0,600,600);g.addColorStop(0,'#0f0f15');g.addColorStop(0.5,'#1a1a2e');g.addColorStop(1,'#16213e');ctx.fillStyle=g;ctx.fillRect(0,0,600,600);
+var g2=ctx.createRadialGradient(480,80,10,480,80,250);g2.addColorStop(0,'rgba(99,102,241,0.15)');g2.addColorStop(1,'rgba(99,102,241,0)');ctx.fillStyle=g2;ctx.fillRect(0,0,600,600);
+var g3=ctx.createRadialGradient(120,500,10,120,500,200);g3.addColorStop(0,'rgba(245,158,11,0.1)');g3.addColorStop(1,'rgba(245,158,11,0)');ctx.fillStyle=g3;ctx.fillRect(0,0,600,600);
+var bg=ctx.createLinearGradient(240,95,360,125);bg.addColorStop(0,'#6366f1');bg.addColorStop(1,'#8b5cf6');ctx.fillStyle=bg;r(210,95,180,30,15);ctx.fill();
+ctx.fillStyle='#fff';ctx.font='600 11px sans-serif';ctx.fillText('📈 DIGITAL PRODUCT',245,117);
+ctx.fillStyle='#fff';ctx.font='800 38px sans-serif';ctx.textAlign='center';
+ctx.fillText('Affiliate',300,195);
+var tg=ctx.createLinearGradient(180,230,420,270);tg.addColorStop(0,'#818cf8');tg.addColorStop(1,'#a78bfa');ctx.fillStyle=tg;
+ctx.fillText('Marketing',300,240);ctx.fillText('Starter Kit',300,285);
+ctx.fillStyle='rgba(255,255,255,0.06)';r(165,330,270,40,20);ctx.fill();
+ctx.strokeStyle='rgba(255,255,255,0.1)';ctx.lineWidth=1;r(165,330,270,40,20);ctx.stroke();
+ctx.fillStyle='#fff';ctx.font='700 22px sans-serif';ctx.fillText('$17',250,357);
+ctx.fillStyle='rgba(255,255,255,0.4)';ctx.font='12px sans-serif';ctx.fillText('one-time · instant download',365,357);
+ctx.fillStyle='rgba(255,255,255,0.12)';ctx.font='10px sans-serif';ctx.fillText('TECH & SAAS STACK',300,565);
+setTimeout(function(){document.location=c.toDataURL('image/png').replace('data:image/png;base64,','data:image/png;base64,')},100)
+</script></body></html>

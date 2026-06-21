@@ -8,7 +8,6 @@ review:
   product: "WordPress Page Builders"
   description: "In-depth comparison of Elementor, Divi, and Beaver Builder covering features, pricing, performance, and ease of use in 2026."
   rating: 4.5
-toc: true
 ---
 
 <div class="disclosure-bar">Disclosure: Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>

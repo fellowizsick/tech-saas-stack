@@ -8,7 +8,6 @@ review:
   product: "Elementor"
   description: "Complete step-by-step guide to building a WooCommerce online store using Elementor's drag-and-drop builder, covering setup, product pages, checkout optimization, and launch."
   rating: 4.6
-toc: true
 faq:
   - q: "Do I need coding skills to build a WooCommerce store with Elementor?"
     a: "No. Elementor's visual drag-and-drop builder lets you design your entire store — product pages, cart, checkout, and landing pages — without writing a single line of code. Basic HTML/CSS knowledge helps with customization but is not required."

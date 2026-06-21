@@ -8,7 +8,6 @@ review:
   product: "WordPress Migration"
   description: "Complete step-by-step guide to migrating your website from Wix, Squarespace, Weebly, or static HTML to WordPress in 2026."
   rating: 4.5
-toc: true
 faq:
   - q: "Is it hard to migrate from Wix to WordPress?"
     a: "It depends on your technical comfort level. The process involves exporting your content from Wix, setting up a WordPress site with a hosting provider, importing content via the WordPress XML importer, and redesigning your pages. For users comfortable with basic website management, it takes 2-4 hours. For beginners, using a managed WordPress hosting provider with free migration services can make it nearly effortless."

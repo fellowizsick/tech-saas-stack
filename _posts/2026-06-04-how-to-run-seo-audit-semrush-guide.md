@@ -4,7 +4,6 @@ title: "How to Run Your First SEO Audit with Semrush: Step-by-Step Guide for Beg
 description: "Master your first SEO audit with Semrush in this beginner-friendly guide. Learn to find technical issues, fix rankings, and outrank competitors fast."
 date: 2026-06-04 23:00:00 -0500
 categories: [seo, tutorial]
-toc: true
 review:
   product: "Semrush"
   description: "All-in-one SEO platform used by over 10 million marketers, featuring site audit, keyword research, competitor analysis, and rank tracking in a single dashboard."

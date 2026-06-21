@@ -4,7 +4,6 @@ title: "How to Back Up Your WordPress Site: Complete Guide to Backup Plugins & S
 description: "Don't lose your WordPress site to a hack or crash. Complete guide to backup plugins and strategies in 2026 — set up a bulletproof system in minutes."
 date: 2025-06-05 08:00:00 -0500
 categories: [wordpress, tutorial]
-toc: true
 ---
 
 Losing your WordPress site — whether from a hack, a botched update, or server error — is every site owner's nightmare. Yet most WordPress users don't have a proper backup strategy in place. In this guide, I'll walk you through exactly **how to back up your WordPress site** using three methods, from easiest to most comprehensive. By the end, you'll have a bulletproof backup system that takes minutes to set up.

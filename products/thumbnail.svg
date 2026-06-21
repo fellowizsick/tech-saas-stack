@@ -1,0 +1,40 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0f15"/>
+      <stop offset="50%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="600" fill="url(#bg)"/>
+
+  <!-- Glow -->
+  <circle cx="480" cy="150" r="200" fill="rgba(99,102,241,0.08)"/>
+  <circle cx="150" cy="480" r="180" fill="rgba(245,158,11,0.06)"/>
+
+  <!-- Badge -->
+  <rect x="210" y="130" width="180" height="32" rx="16" fill="url(#badge)"/>
+  <text x="300" y="152" text-anchor="middle" fill="#fff" font-size="12" font-weight="600" font-family="sans-serif" letter-spacing="2">📈 DIGITAL PRODUCT</text>
+
+  <!-- Title -->
+  <text x="300" y="220" text-anchor="middle" fill="#fff" font-size="36" font-weight="800" font-family="sans-serif">Affiliate</text>
+  <text x="300" y="265" text-anchor="middle" font-size="36" font-weight="800" font-family="sans-serif" fill="url(#accent)">Marketing</text>
+  <text x="300" y="310" text-anchor="middle" font-size="36" font-weight="800" font-family="sans-serif" fill="url(#accent)">Starter Kit</text>
+
+  <!-- Price pill -->
+  <rect x="160" y="370" width="280" height="44" rx="22" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="300" y="398" text-anchor="middle" fill="#fff" font-size="22" font-weight="700" font-family="sans-serif">$17 — one-time</text>
+
+  <!-- Footer -->
+  <text x="300" y="550" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="11" font-family="sans-serif" letter-spacing="1">TECH &amp; SAAS STACK</text>
+</svg>

@@ -5,260 +5,452 @@ permalink: /best-deals/
 ---
 
 <div class="hero-deals">
-  <h2>🔥 Best Deals & Coupons</h2>
+  <h2>🔥 Best Deals &amp; Coupons</h2>
   <p>Verified discounts on hosting, SEO tools, page builders, email marketing, and digital products — all tested by us. Updated monthly.</p>
 </div>
 
-<nav class="category-filter" id="dealsCategoryFilter" style="margin-bottom: var(--space-unit) * 6;">
-  <a class="category-tag active" href="javascript:void(0)" data-category="all">All Deals</a>
-  <a class="category-tag" href="javascript:void(0)" data-category="hosting">🌐 Hosting</a>
-  <a class="category-tag" href="javascript:void(0)" data-category="saas">🛠️ SaaS & Tools</a>
-  <a class="category-tag" href="javascript:void(0)" data-category="digital">📚 Digital Products</a>
+<nav class="deals-filter" id="dealsCategoryFilter">
+  <button class="filter-btn active" data-category="all">All Deals</button>
+  <button class="filter-btn" data-category="hosting">🌐 Hosting</button>
+  <button class="filter-btn" data-category="saas">🛠️ SaaS &amp; Tools</button>
+  <button class="filter-btn" data-category="digital">📚 Digital Products</button>
 </nav>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const filter = document.getElementById('dealsCategoryFilter');
-  const cards = document.querySelectorAll('.deal-card[data-category]');
+<div class="deals-grid">
 
-  filter.querySelectorAll('.category-tag').forEach(function(tag) {
-    tag.addEventListener('click', function(e) {
-      filter.querySelectorAll('.category-tag').forEach(function(t) { t.classList.remove('active'); });
-      this.classList.add('active');
-      var cat = this.getAttribute('data-category');
-      cards.forEach(function(card) {
-        if (cat === 'all') { card.style.display = ''; }
-        else { card.style.display = card.getAttribute('data-category') === cat ? '' : 'none'; }
-      });
-    });
-  });
-});
-</script>
-
-<!-- ============ HOSTING DEALS ============ -->
-<div class="deals-section">
-  <h3 style="margin: var(--space-unit) * 8 0 var(--space-unit) * 3; color: var(--text);">🌐 Web Hosting</div>
-
-  <div class="deal-card" data-category="hosting">
-    <h3><a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround — Budget-Friendly Hosting</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">💰 Best Value</span>
-      <span>💰 $100-200/sale</span>
-      <span>🌟 WP recommended</span>
+  <!-- ====== HOSTING ====== -->
+  <div class="deals-section">
+    <div class="section-label">
+      <span class="label-icon">🌐</span>
+      <h3>Web Hosting</h3>
+      <span class="label-count">6 deals</span>
     </div>
-    <p>Officially recommended by WordPress.org. Free SSL, daily backups, managed updates, and caching built in. Great for beginners.</p>
-    <p><strong>Deal:</strong> Introductory pricing from $2.99/mo on annual plans. Free website transfer.</p>
-    <a class="deal-btn" href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+    <div class="deal-cards">
+
+      <div class="deal-card animate-in" data-category="hosting" style="transition-delay: 0.05s">
+        <div class="deal-badges">
+          <span class="badge badge-green">Best Value</span>
+          <span class="badge badge-blue">$100-200/sale</span>
+        </div>
+        <h3 class="deal-title"><a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a></h3>
+        <p class="deal-subtitle">Budget-Friendly WordPress Hosting</p>
+        <p class="deal-desc">Officially recommended by WordPress.org. Free SSL, daily backups, managed updates, and caching built in. Great for beginners.</p>
+        <div class="deal-offer">
+          <span class="offer-tag">Deal</span>
+          <span>Introductory pricing from <strong>$2.99/mo</strong> on annual plans. Free website transfer.</span>
+        </div>
+        <a class="deal-cta" href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+      </div>
+
+      <div class="deal-card animate-in" data-category="hosting" style="transition-delay: 0.1s">
+        <div class="deal-badges">
+          <span class="badge badge-blue">WP.org #1</span>
+          <span class="badge badge-green">$65+/sale</span>
+        </div>
+        <h3 class="deal-title"><a href="https://bluehost.sjv.io/c/7392811/1376228/11352" rel="nofollow sponsored" target="_blank">Bluehost</a></h3>
+        <p class="deal-subtitle">Official WordPress Host</p>
+        <p class="deal-desc">Officially recommended by WordPress.org since 2005. Free domain for 1 year, free SSL, 1-click WordPress install, 24/7 support.</p>
+        <div class="deal-offer">
+          <span class="offer-tag">Deal</span>
+          <span>Exclusive affiliate pricing from <strong>$3.79/mo</strong>. 30-day money-back guarantee.</span>
+        </div>
+        <a class="deal-cta" href="https://bluehost.sjv.io/c/7392811/1376228/11352" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+      </div>
+
+      <div class="deal-card animate-in" data-category="hosting" style="transition-delay: 0.15s">
+        <div class="deal-badges">
+          <span class="badge badge-gold">Price Lock</span>
+          <span class="badge badge-purple">$100-200/sale</span>
+        </div>
+        <h3 class="deal-title"><a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a></h3>
+        <p class="deal-subtitle">Unlimited Hosting &amp; VPS</p>
+        <p class="deal-desc">Industry-unique price lock — your renewal rate never increases. Unlimited NVMe SSD storage, bandwidth, email, and free SSL.</p>
+        <div class="deal-offer">
+          <span class="offer-tag">Deal</span>
+          <span>Shared hosting <strong>$2.50/mo</strong> (price locked for life). VPS from <strong>$6/mo</strong>.</span>
+        </div>
+        <a class="deal-cta" href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+      </div>
+
+      <div class="deal-card animate-in" data-category="hosting" style="transition-delay: 0.2s">
+        <div class="deal-badges">
+          <span class="badge badge-cyan">Flexible Cloud</span>
+          <span class="badge badge-blue">$50-125/sale</span>
+        </div>
+        <h3 class="deal-title"><a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a></h3>
+        <p class="deal-subtitle">Pay-As-You-Go Cloud Hosting</p>
+        <p class="deal-desc">Managed cloud hosting on DigitalOcean, Vultr, Linode, AWS, or Google Cloud. Pay hourly, scale instantly. Free migrations.</p>
+        <div class="deal-offer">
+          <span class="offer-tag">Deal</span>
+          <span>3-day free trial (no card). Plans from <strong>$11/mo</strong>. 24/7 expert support.</span>
+        </div>
+        <a class="deal-cta" href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+      </div>
+
+      <div class="deal-card animate-in" data-category="hosting" style="transition-delay: 0.25s">
+        <div class="deal-badges">
+          <span class="badge badge-blue">SPanel™</span>
+          <span class="badge badge-green">$150-300/sale</span>
+        </div>
+        <h3 class="deal-title"><a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">ScalaHosting</a></h3>
+        <p class="deal-subtitle">Managed VPS with SPanel</p>
+        <p class="deal-desc">Managed VPS with proprietary SPanel (cPanel alternative). Free migrations, daily backups, SShield security, NVMe storage.</p>
+        <div class="deal-offer">
+          <span class="offer-tag">Deal</span>
+          <span>Managed VPS from <strong>$29.95/mo</strong>. 30-day money-back guarantee.</span>
+        </div>
+        <a class="deal-cta" href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+      </div>
+
+      <div class="deal-card animate-in" data-category="hosting" style="transition-delay: 0.3s">
+        <div class="deal-badges">
+          <span class="badge badge-gold">Google Cloud C2</span>
+          <span class="badge badge-purple">$50-500/sale</span>
+        </div>
+        <h3 class="deal-title"><a href="https://kinsta.com/?ref=jon" rel="nofollow sponsored" target="_blank">Kinsta</a></h3>
+        <p class="deal-subtitle">Premium Managed WordPress</p>
+        <p class="deal-desc">Premium managed WordPress on Google Cloud C2 machines. LXD containers, edge caching, auto-scaling, free migrations.</p>
+        <div class="deal-offer">
+          <span class="offer-tag">Deal</span>
+          <span>Plans from <strong>$35/mo</strong> for 35k visits. 30-day money-back guarantee.</span>
+        </div>
+        <a class="deal-cta" href="https://kinsta.com/?ref=jon" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+      </div>
+
+    </div>
   </div>
 
-  <div class="deal-card" data-category="hosting">
-    <h3><a href="https://bluehost.sjv.io/c/7392811/1376228/11352" rel="nofollow sponsored" target="_blank">Bluehost — Official WordPress Host</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">💙 WP.org #1</span>
-      <span>💰 $65+/sale</span>
-      <span>🌟 Free domain + SSL</span>
+  <!-- ====== SAAS ====== -->
+  <div class="deals-section">
+    <div class="section-label">
+      <span class="label-icon">🛠️</span>
+      <h3>SaaS &amp; Tools</h3>
+      <span class="label-count">5 deals</span>
     </div>
-    <p>Officially recommended by WordPress.org since 2005. Free domain for 1 year, free SSL, 1-click WordPress install, 24/7 support. Optimized for WordPress performance.</p>
-    <p><strong>Deal:</strong> Exclusive affiliate pricing from $3.79/mo. 30-day money-back guarantee.</p>
-    <a class="deal-btn" href="https://bluehost.sjv.io/c/7392811/1376228/11352" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+    <div class="deal-cards">
+
+      <div class="deal-card animate-in" data-category="saas" style="transition-delay: 0.05s">
+        <div class="deal-badges">
+          <span class="badge badge-purple">SEO Powerhouse</span>
+          <span class="badge badge-green">$200/sale or 40% rec.</span>
+        </div>
+        <h3 class="deal-title"><a href="https://www.semrush.com/" rel="nofollow sponsored" target="_blank">Semrush</a></h3>
+        <p class="deal-subtitle">All-in-One SEO Toolkit</p>
+        <p class="deal-desc">Industry-leading SEO platform with keyword research, competitor analysis, site audit, and content marketing tools.</p>
+        <div class="deal-offer">
+          <span class="offer-tag">Deal</span>
+          <span>Pro plan <strong>$129/mo</strong> (annual). Free trial available. Save 17% annually.</span>
+        </div>
+        <a class="deal-cta" href="https://www.semrush.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+      </div>
+
+      <div class="deal-card animate-in" data-category="saas" style="transition-delay: 0.1s">
+        <div class="deal-badges">
+          <span class="badge badge-cyan">Design Freedom</span>
+          <span class="badge badge-blue">30-50% rec.</span>
+        </div>
+        <h3 class="deal-title"><a href="https://elementor.com/" rel="nofollow sponsored" target="_blank">Elementor</a></h3>
+        <p class="deal-subtitle">WordPress Page Builder</p>
+        <p class="deal-desc">The most popular WordPress page builder. Drag-and-drop, 300+ templates, dynamic content, and full theme building.</p>
+        <div class="deal-offer">
+          <span class="offer-tag">Deal</span>
+          <span>Plans from <strong>$59/year</strong> for single site. 30-day money-back guarantee.</span>
+        </div>
+        <a class="deal-cta" href="https://elementor.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+      </div>
+
+      <div class="deal-card animate-in" data-category="saas" style="transition-delay: 0.15s">
+        <div class="deal-badges">
+          <span class="badge badge-blue">Automation Leader</span>
+          <span class="badge badge-green">30% rec.</span>
+        </div>
+        <h3 class="deal-title"><a href="https://www.activecampaign.com/" rel="nofollow sponsored" target="_blank">ActiveCampaign</a></h3>
+        <p class="deal-subtitle">Email Marketing &amp; CRM</p>
+        <p class="deal-desc">Powerful email marketing with advanced automation, CRM, and ML predictions. Used by 150,000+ businesses.</p>
+        <div class="deal-offer">
+          <span class="offer-tag">Deal</span>
+          <span>Free trial. Paid plans from <strong>$15/mo</strong>.</span>
+        </div>
+        <a class="deal-cta" href="https://www.activecampaign.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+      </div>
+
+      <div class="deal-card animate-in" data-category="saas" style="transition-delay: 0.2s">
+        <div class="deal-badges">
+          <span class="badge badge-gold">Backlink King</span>
+          <span class="badge badge-purple">$20-40/mo rec.</span>
+        </div>
+        <h3 class="deal-title"><a href="https://www.ahrefs.com/" rel="nofollow sponsored" target="_blank">Ahrefs</a></h3>
+        <p class="deal-subtitle">SEO Tools &amp; Backlink Analysis</p>
+        <p class="deal-desc">Best-in-class backlink index, keyword explorer, site audit, rank tracker. Essential for serious SEO work.</p>
+        <div class="deal-offer">
+          <span class="offer-tag">Deal</span>
+          <span>Webmaster Tools free. Paid from <strong>$99/mo</strong>.</span>
+        </div>
+        <a class="deal-cta" href="https://www.ahrefs.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+      </div>
+
+      <div class="deal-card animate-in" data-category="saas" style="transition-delay: 0.25s">
+        <div class="deal-badges">
+          <span class="badge badge-blue">Creator-First</span>
+          <span class="badge badge-green">30% rec.</span>
+        </div>
+        <h3 class="deal-title"><a href="https://www.convertkit.com/" rel="nofollow sponsored" target="_blank">ConvertKit</a></h3>
+        <p class="deal-subtitle">Creator Email Marketing</p>
+        <p class="deal-desc">Email marketing built for creators. Visual automations, landing pages, commerce. Free for up to 1,000 subscribers.</p>
+        <div class="deal-offer">
+          <span class="offer-tag">Deal</span>
+          <span>Free plan forever. Paid from <strong>$9/mo</strong>.</span>
+        </div>
+        <a class="deal-cta" href="https://www.convertkit.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+      </div>
+
+    </div>
   </div>
 
-  <div class="deal-card" data-category="hosting">
-    <h3><a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer — Unlimited Hosting & VPS</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">🔒 Price Lock Guarantee</span>
-      <span>💰 $100/sale (shared) / up to $200 (VPS)</span>
-      <span>🌟 Unlimited storage & bandwidth</span>
+  <!-- ====== DIGITAL PRODUCTS ====== -->
+  <div class="deals-section">
+    <div class="section-label">
+      <span class="label-icon">📚</span>
+      <h3>Digital Products</h3>
+      <span class="label-count">4 products</span>
     </div>
-    <p>Industry-unique price lock — your renewal rate never increases. Unlimited NVMe SSD storage, bandwidth, email, and free SSL. Shared, VPS, and dedicated servers.</p>
-    <p><strong>Deal:</strong> Standard web hosting $2.50/mo (price locked for life). VPS from $6/mo. 30-day money-back guarantee.</p>
-    <a class="deal-btn" href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
+    <div class="deal-cards">
+
+      <div class="deal-card animate-in" data-category="digital" style="transition-delay: 0.05s">
+        <div class="deal-badges">
+          <span class="badge badge-gold">$9</span>
+          <span class="badge badge-blue">Instant PDF</span>
+        </div>
+        <h3 class="deal-title"><a href="{{ site.baseurl }}/products/hosting-decision-matrix/">📋 Web Hosting Decision Matrix</a></h3>
+        <p class="deal-subtitle">Pick the right host in 10 minutes</p>
+        <p class="deal-desc">Weighted scoring system, pre-filled benchmarks, red flag checklist. The exact framework I use to compare every hosting provider.</p>
+        <a class="deal-cta deal-cta-secondary" href="{{ site.baseurl }}/products/hosting-decision-matrix/">View Details →</a>
+      </div>
+
+      <div class="deal-card animate-in" data-category="digital" style="transition-delay: 0.1s">
+        <div class="deal-badges">
+          <span class="badge badge-green">$7</span>
+          <span class="badge badge-blue">Instant PDF</span>
+        </div>
+        <h3 class="deal-title"><a href="{{ site.baseurl }}/products/seo-audit-checklist/">🔍 Complete SEO Audit Checklist</a></h3>
+        <p class="deal-subtitle">14-step audit framework</p>
+        <p class="deal-desc">The exact 14-step SEO audit I run using Semrush and Ahrefs. Priority scoring, tool-specific instructions, printable scorecard.</p>
+        <a class="deal-cta deal-cta-secondary" href="{{ site.baseurl }}/products/seo-audit-checklist/">View Details →</a>
+      </div>
+
+      <div class="deal-card animate-in" data-category="digital" style="transition-delay: 0.15s">
+        <div class="deal-badges">
+          <span class="badge badge-gold">$12</span>
+          <span class="badge badge-purple">Instant PDF</span>
+        </div>
+        <h3 class="deal-title"><a href="{{ site.baseurl }}/products/wordpress-security-guide/">🛡️ WordPress Security Guide</a></h3>
+        <p class="deal-subtitle">25-point security checklist</p>
+        <p class="deal-desc">Complete security playbook. Server-level to plugin-level hardening. Copy-paste .htaccess rules, plugin recommendations.</p>
+        <a class="deal-cta deal-cta-secondary" href="{{ site.baseurl }}/products/wordpress-security-guide/">View Details →</a>
+      </div>
+
+      <div class="deal-card animate-in" data-category="digital" style="transition-delay: 0.2s">
+        <div class="deal-badges">
+          <span class="badge badge-green">$17</span>
+          <span class="badge badge-gold">Bestseller</span>
+        </div>
+        <h3 class="deal-title"><a href="{{ site.baseurl }}/products/affiliate-starter-kit/">📈 Affiliate Starter Kit</a></h3>
+        <p class="deal-subtitle">Full automation blueprint</p>
+        <p class="deal-desc">The exact system running this blog — cron-based content engine, SEO framework, affiliate program playbook, CTA placement guide, revenue calculator.</p>
+        <a class="deal-cta deal-cta-secondary" href="{{ site.baseurl }}/products/affiliate-starter-kit/">View Details →</a>
+      </div>
+
+    </div>
   </div>
 
-  <div class="deal-card" data-category="hosting">
-    <h3><a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways — Pay-As-You-Go Cloud Hosting</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">☁️ Flexible Cloud</span>
-      <span>💰 $50-125/sale (Slab)</span>
-      <span>🌟 DO, Vultr, Linode, AWS, GCP</span>
-    </div>
-    <p>Managed cloud hosting on DigitalOcean, Vultr, Linode, AWS, or Google Cloud. Pay hourly, scale instantly. Free migrations, staging, Cloudflare CDN, SSL.</p>
-    <p><strong>Deal:</strong> 3-day free trial (no card). Plans from $11/mo. 24/7 expert support.</p>
-    <a class="deal-btn" href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
-  </div>
-
-  <div class="deal-card" data-category="hosting">
-    <h3><a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">ScalaHosting — Managed VPS with SPanel</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">🛡️ SPanel Included</span>
-      <span>💰 $150-300/sale</span>
-      <span>🌟 Custom control panel</span>
-    </div>
-    <p>Managed VPS hosting with their proprietary SPanel (cPanel alternative). Free migrations, daily backups, SShield security, NVMe storage.</p>
-    <p><strong>Deal:</strong> Managed VPS from $29.95/mo. 30-day money-back guarantee.</p>
-    <a class="deal-btn" href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
-  </div>
-
-  <div class="deal-card" data-category="hosting">
-    <h3><a href="https://kinsta.com/?ref=jon" rel="nofollow sponsored" target="_blank">Kinsta — Premium Managed WordPress</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">🚀 Google Cloud C2</span>
-      <span>💰 $50-500/sale</span>
-      <span>🌟 35k visits, 260+ PoPs</span>
-    </div>
-    <p>Premium managed WordPress on Google Cloud C2 machines. LXD containers, edge caching, auto-scaling, free migrations, staging, 14-day backups.</p>
-    <p><strong>Deal:</strong> Plans from $35/mo for 35k visits. 30-day money-back guarantee.</p>
-    <a class="deal-btn" href="https://kinsta.com/?ref=jon" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
-  </div>
 </div>
 
-<!-- ============ SAAS & TOOLS DEALS ============ -->
-<div class="deals-section">
-  <h3 style="margin: var(--space-unit) * 8 0 var(--space-unit) * 3; color: var(--text);">🛠️ SaaS & Tools</div>
-
-  <div class="deal-card" data-category="saas">
-    <h3><a href="https://www.semrush.com/" rel="nofollow sponsored" target="_blank">Semrush — All-in-One SEO Toolkit</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">📊 SEO Powerhouse</span>
-      <span>💰 $200/sale or 40% recurring</span>
-    </div>
-    <p>Industry-leading SEO platform with keyword research, competitor analysis, site audit, and content marketing tools.</p>
-    <p><strong>Deal:</strong> Pro plan $129/mo (annual). Free trial available. Annual plans save 17%.</p>
-    <a class="deal-btn" href="https://www.semrush.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
-  </div>
-
-  <div class="deal-card" data-category="saas">
-    <h3><a href="https://elementor.com/" rel="nofollow sponsored" target="_blank">Elementor — WordPress Page Builder</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">🎨 Design Freedom</span>
-      <span>💰 30-50% recurring commission</span>
-    </div>
-    <p>The most popular WordPress page builder. Drag-and-drop, 300+ templates, dynamic content, and full theme building.</p>
-    <p><strong>Deal:</strong> Plans start at $59/year for single site. 30-day money-back guarantee.</p>
-    <a class="deal-btn" href="https://elementor.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
-  </div>
-
-  <div class="deal-card" data-category="saas">
-    <h3><a href="https://www.activecampaign.com/" rel="nofollow sponsored" target="_blank">ActiveCampaign — Email Marketing & CRM</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">📧 Automation Leader</span>
-      <span>💰 30% recurring commission</span>
-    </div>
-    <p>Powerful email marketing with advanced automation, CRM, and machine learning predictions. Used by 150,000+ businesses.</p>
-    <p><strong>Deal:</strong> Free trial available. Paid plans start at $15/mo.</p>
-    <a class="deal-btn" href="https://www.activecampaign.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
-  </div>
-
-  <div class="deal-card" data-category="saas">
-    <h3><a href="https://www.ahrefs.com/" rel="nofollow sponsored" target="_blank">Ahrefs — SEO Tools & Backlink Analysis</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">🔗 Backlink King</span>
-      <span>💰 $20-40/mo recurring</span>
-    </div>
-    <p>Best-in-class backlink index, keyword explorer, site audit, rank tracker. Essential for serious SEO work.</p>
-    <p><strong>Deal:</strong> Ahrefs Webmaster Tools free. Paid from $99/mo.</p>
-    <a class="deal-btn" href="https://www.ahrefs.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
-  </div>
-
-  <div class="deal-card" data-category="saas">
-    <h3><a href="https://www.convertkit.com/" rel="nofollow sponsored" target="_blank">ConvertKit — Creator Email Marketing</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">✍️ Creator-First</span>
-      <span>💰 30% recurring commission</span>
-    </div>
-    <p>Email marketing built for creators. Visual automations, landing pages, commerce. Free for up to 1,000 subscribers.</p>
-    <p><strong>Deal:</strong> Free plan forever. Paid from $9/mo.</p>
-    <a class="deal-btn" href="https://www.convertkit.com/" rel="nofollow sponsored" target="_blank">Claim This Deal →</a>
-  </div>
-</div>
-
-<!-- ============ DIGITAL PRODUCTS ============ -->
-<div class="deals-section">
-  <h3 style="margin: var(--space-unit) * 8 0 var(--space-unit) * 3; color: var(--text);">📚 Digital Products (Instant PDF Download)</div>
-
-  <div class="deal-card" data-category="digital">
-    <h3><a href="{{ site.baseurl }}/products/hosting-decision-matrix/">📋 Web Hosting Decision Matrix</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">$9</span>
-      <span>⭐ 8-category scoring system</span>
-    </div>
-    <p>The exact framework I use to compare every hosting provider. Weighted scoring, pre-filled benchmarks, red flag checklist. Pick the right host in 10 minutes.</p>
-    <a class="deal-btn" href="{{ site.baseurl }}/products/hosting-decision-matrix/">View Details →</a>
-  </div>
-
-  <div class="deal-card" data-category="digital">
-    <h3><a href="{{ site.baseurl }}/products/seo-audit-checklist/">🔍 Complete SEO Audit Checklist</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">$7</span>
-      <span>⭐ 14-step audit framework</span>
-    </div>
-    <p>The exact 14-step SEO audit I run using Semrush and Ahrefs. Priority scoring, tool-specific instructions, printable scorecard.</p>
-    <a class="deal-btn" href="{{ site.baseurl }}/products/seo-audit-checklist/">View Details →</a>
-  </div>
-
-  <div class="deal-card" data-category="digital">
-    <h3><a href="{{ site.baseurl }}/products/wordpress-security-guide/">🛡️ WordPress Security Hardening Guide</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">$12</span>
-      <span>⭐ 25-point security checklist</span>
-    </div>
-    <p>Complete WordPress security playbook. Server-level to plugin-level hardening. Copy-paste .htaccess rules, plugin recommendations, incident response plan.</p>
-    <a class="deal-btn" href="{{ site.baseurl }}/products/wordpress-security-guide/">View Details →</a>
-  </div>
-
-  <div class="deal-card" data-category="digital">
-    <h3><a href="{{ site.baseurl }}/products/affiliate-starter-kit/">📈 Affiliate Marketing Starter Kit</a></h3>
-    <div class="deal-meta">
-      <span class="deal-discount">$17</span>
-      <span>⭐ Full automation blueprint</span>
-    </div>
-    <p>The exact system running this blog — cron-based content engine, SEO framework, affiliate program playbook, CTA placement guide, revenue calculator.</p>
-    <a class="deal-btn" href="{{ site.baseurl }}/products/affiliate-starter-kit/">View Details →</a>
-  </div>
-</div>
-
-<!-- Testimonials for Deals Page -->
-<section class="testimonials" style="margin: 3rem 0 2rem; padding: 2rem; background: var(--bg-glass); border-radius: var(--radius-lg); border: 1px solid var(--border);">
-  <h3 style="text-align: center; margin-bottom: 1.5rem; color: var(--text);">Why Trust These Deals?</h3>
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
-    <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
-      <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"Clicked Jon's Cloudways link, got the 3-day trial, migrated my client's WooCommerce store. Support response was 4 minutes. The $50-125/sale commission is real — I've seen the partner dashboard."</p>
-      <footer style="color: var(--text-muted); font-size: 0.9rem;">— D. Park, Agency Owner (via Email)</footer>
+<!-- Testimonials -->
+<section class="deals-testimonials">
+  <h3>Why Trust These Deals?</h3>
+  <div class="testimonial-grid">
+    <blockquote class="testimonial-card">
+      <p>"Clicked Jon's Cloudways link, got the 3-day trial, migrated my client's WooCommerce store. Support response was 4 minutes. The $50-125/sale commission is real."</p>
+      <footer>— D. Park, Agency Owner (via Email)</footer>
     </blockquote>
-    <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
-      <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"InterServer's price lock is legit — renewed at same $2.50/mo for 2 years now. Most hosts jack prices 3x on renewal. Jon's link tracks properly, got credited instantly."</p>
-      <footer style="color: var(--text-muted); font-size: 0.9rem;">— K. Santos, Freelancer (via GitHub)</footer>
+    <blockquote class="testimonial-card">
+      <p>"InterServer's price lock is legit — renewed at same $2.50/mo for 2 years. Most hosts jack prices 3x on renewal. Jon's link tracks properly, got credited instantly."</p>
+      <footer>— K. Santos, Freelancer (via GitHub)</footer>
     </blockquote>
-    <blockquote class="testimonial-card" style="padding: 1.5rem; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
-      <p style="font-style: italic; color: var(--text); margin-bottom: 1rem;">"Bought the Affiliate Starter Kit. The cron engine alone saved me 10 hrs/week. Jon actually runs this stuff — not theoretical. Best $17 I've spent on a digital product."</p>
-      <footer style="color: var(--text-muted); font-size: 0.9rem;">— R. Morales, Blogger (via LinkedIn)</footer>
+    <blockquote class="testimonial-card">
+      <p>"Bought the Affiliate Starter Kit. The cron engine alone saved me 10 hrs/week. Jon actually runs this stuff — not theoretical. Best $17 I've spent."</p>
+      <footer>— R. Morales, Blogger (via LinkedIn)</footer>
     </blockquote>
   </div>
 </section>
 
----
+<div class="deals-footer">
+  <h4>How It Works</h4>
+  <div class="steps">
+    <div class="step"><span class="step-num">1</span> Click any deal above</div>
+    <div class="step"><span class="step-num">2</span> Goes to provider or product page</div>
+    <div class="step"><span class="step-num">3</span> Hosting/SaaS = tracked via affiliate link (no extra cost)</div>
+    <div class="step"><span class="step-num">4</span> Digital products = Gumroad secure checkout, instant PDF</div>
+    <div class="step"><span class="step-num">❤️</span> Purchases support independent reviews. Thank you!</div>
+  </div>
+</div>
 
-## How It Works
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var filter = document.getElementById('dealsCategoryFilter');
+  var cards = document.querySelectorAll('.deal-card[data-category]');
 
-1. **Click any deal above** → goes to provider or product page
-2. **Hosting/SaaS deals** → tracked via affiliate link (no extra cost to you)
-3. **Digital products** → buy via Gumroad secure checkout, instant PDF download
-4. **All purchases** support independent hosting reviews. Thank you!
+  filter.querySelectorAll('.filter-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      filter.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+      this.classList.add('active');
+      var cat = this.getAttribute('data-category');
+      cards.forEach(function(card) {
+        card.style.display = (cat === 'all' || card.getAttribute('data-category') === cat) ? '' : 'none';
+      });
+    });
+  });
+
+  // Animate in on scroll
+  var animCards = document.querySelectorAll('.animate-in');
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.1 });
+  animCards.forEach(function(c) { obs.observe(c); });
+});
+</script>
 
 <style>
-.deals-section { clear: both; }
-.deals-section h3 {
-  font-size: var(--text-xl);
-  font-weight: 700;
-  padding-bottom: calc(var(--space-unit) * 1.5);
-  border-bottom: 2px solid var(--primary);
-  margin-bottom: calc(var(--space-unit) * 4);
+/* ── Hero ── */
+.hero-deals { text-align: center; padding: 2rem 0 1.5rem; }
+.hero-deals h2 { font-size: 2rem; font-weight: 800; margin-bottom: 0.5rem; }
+.hero-deals p { color: var(--text-muted); max-width: 640px; margin: 0 auto; font-size: 1.05rem; }
+
+/* ── Filter ── */
+.deals-filter { display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2.5rem; }
+.filter-btn {
+  padding: 0.55rem 1.25rem; border-radius: 100px; border: 1px solid var(--border);
+  background: transparent; color: var(--text-muted); font-size: 0.88rem; font-weight: 500;
+  cursor: pointer; transition: all var(--transition-base);
 }
-.deal-card[data-category] {
-  opacity: 1;
-  transition: opacity var(--transition-fast), transform var(--transition-fast);
+.filter-btn:hover { border-color: var(--primary); color: var(--text); }
+.filter-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+/* ── Section labels ── */
+.section-label {
+  display: flex; align-items: center; gap: 0.6rem;
+  padding-bottom: 0.75rem; border-bottom: 2px solid var(--primary); margin-bottom: 1.5rem; margin-top: 2.5rem;
 }
-.deal-card[data-category].hidden {
-  display: none !important;
+.section-label:first-of-type { margin-top: 0; }
+.section-label .label-icon { font-size: 1.3rem; }
+.section-label h3 { font-size: 1.25rem; font-weight: 700; margin: 0; color: var(--text); }
+.section-label .label-count {
+  font-size: 0.75rem; font-weight: 600; color: var(--text-muted);
+  padding: 0.15rem 0.6rem; border-radius: 100px; background: var(--bg-card);
+  border: 1px solid var(--border); margin-left: auto;
+}
+
+/* ── Deal cards grid ── */
+.deal-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; }
+.deal-card {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 1.5rem; display: flex; flex-direction: column;
+  transition: all var(--transition-base); position: relative;
+}
+.animate-in { opacity: 0; transform: translateY(20px); }
+.animate-in.visible { opacity: 1; transform: translateY(0); transition: opacity 0.5s ease, transform 0.5s ease; }
+.deal-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: var(--primary); }
+
+/* ── Badges ── */
+.deal-badges { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.75rem; }
+.badge {
+  font-size: 0.7rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 100px;
+  letter-spacing: 0.02em;
+}
+.badge-green { background: var(--success-bg); color: var(--success); }
+.badge-blue { background: var(--primary-light); color: var(--primary); }
+.badge-gold { background: var(--warning-bg); color: #a16207; }
+.badge-purple { background: #f3e8ff; color: #7c3aed; }
+.badge-cyan { background: #e0f2fe; color: #0369a1; }
+
+/* ── Card copy ── */
+.deal-title { font-size: 1.1rem; font-weight: 700; margin: 0 0 0.15rem; }
+.deal-title a { color: var(--text); text-decoration: none; }
+.deal-title a:hover { color: var(--primary); }
+.deal-subtitle { font-size: 0.85rem; color: var(--text-muted); margin: 0 0 0.75rem; }
+.deal-desc { font-size: 0.88rem; color: var(--text); line-height: 1.55; margin: 0 0 0.75rem; flex: 1; }
+
+/* ── Deal offer ── */
+.deal-offer {
+  font-size: 0.85rem; color: var(--text); margin-bottom: 1rem;
+  padding: 0.6rem 0.75rem; border-radius: var(--radius-sm);
+  background: var(--bg-glass); border: 1px solid var(--border);
+  display: flex; align-items: flex-start; gap: 0.5rem;
+}
+.offer-tag {
+  font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+  padding: 0.15rem 0.45rem; border-radius: 4px;
+  background: var(--primary); color: #fff; white-space: nowrap; margin-top: 0.1rem;
+}
+
+/* ── CTA ── */
+.deal-cta {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.3rem;
+  padding: 0.6rem 1.25rem; border-radius: var(--radius-sm); font-size: 0.88rem; font-weight: 600;
+  background: var(--primary); color: #fff; text-decoration: none;
+  transition: all var(--transition-base); border: none; margin-top: auto;
+}
+.deal-cta:hover { background: var(--primary-hover); transform: translateY(-1px); box-shadow: var(--shadow-sm); }
+.deal-cta-secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+.deal-cta-secondary:hover { background: var(--bg-glass-hover); border-color: var(--primary); color: var(--primary); }
+
+/* ── Testimonials ── */
+.deals-testimonials {
+  margin: 3rem 0; padding: 2rem;
+  background: var(--bg-glass); border-radius: var(--radius-lg);
+  border: 1px solid var(--border); text-align: center;
+}
+.deals-testimonials h3 { margin-bottom: 1.5rem; font-size: 1.2rem; font-weight: 700; }
+.testimonial-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; text-align: left; }
+.testimonial-card {
+  padding: 1.25rem; background: var(--bg-card); border-radius: var(--radius);
+  border: 1px solid var(--border); margin: 0;
+}
+.testimonial-card p { font-style: italic; font-size: 0.9rem; color: var(--text); margin-bottom: 0.75rem; line-height: 1.5; }
+.testimonial-card footer { font-size: 0.82rem; color: var(--text-muted); }
+
+/* ── Footer ── */
+.deals-footer {
+  margin: 2rem 0; padding: 1.5rem 2rem;
+  background: var(--bg-glass); border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+}
+.deals-footer h4 { font-size: 1rem; font-weight: 700; margin-bottom: 1rem; }
+.steps { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.step {
+  display: flex; align-items: center; gap: 0.5rem;
+  font-size: 0.88rem; color: var(--text-muted);
+}
+.step-num {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 26px; height: 26px; border-radius: 50%;
+  background: var(--primary-light); color: var(--primary);
+  font-weight: 700; font-size: 0.78rem; flex-shrink: 0;
+}
+
+/* ── Dark mode overrides ── */
+[data-theme="dark"] .badge-blue { background: rgba(99,102,241,0.15); color: #a5b4fc; }
+[data-theme="dark"] .badge-green { background: rgba(16,185,129,0.15); color: #6ee7b7; }
+[data-theme="dark"] .badge-gold { background: rgba(245,158,11,0.15); color: #fbbf24; }
+[data-theme="dark"] .badge-purple { background: rgba(124,58,237,0.15); color: #c4b5fd; }
+[data-theme="dark"] .badge-cyan { background: rgba(6,182,212,0.15); color: #67e8f9; }
+[data-theme="dark"] .step-num { background: rgba(99,102,241,0.15); }
+
+@media (max-width: 640px) {
+  .deal-cards { grid-template-columns: 1fr; }
+  .deals-filter { gap: 0.35rem; }
+  .filter-btn { font-size: 0.82rem; padding: 0.45rem 1rem; }
 }
 </style>

@@ -527,6 +527,7 @@ html[data-theme="dark"] .nav-brand::after {
 .affiliate-disclosure {
   background: var(--warning-bg);
   border: 1px solid oklch(var(--warning) / 0.3);
+  border-left: 4px solid var(--warning);
   border-radius: var(--radius);
   padding: calc(var(--space-unit) * 3) calc(var(--space-unit) * 4);
   font-size: var(--text-sm);
@@ -534,6 +535,27 @@ html[data-theme="dark"] .nav-brand::after {
   margin: calc(var(--space-unit) * 4) 0 calc(var(--space-unit) * 6);
   text-align: center;
   animation: slide-down var(--transition-bounce);
+  font-weight: 500;
+  box-shadow: 0 2px 8px oklch(var(--warning) / 0.12);
+}
+.disclosure-bar:hover,
+.affiliate-disclosure:hover {
+  box-shadow: 0 4px 16px oklch(var(--warning) / 0.2);
+}
+/* Small inline affiliate label for deal cards/buttons */
+.affiliate-label {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-faint);
+  margin-left: 0.4rem;
+  opacity: 0.7;
+}
+.deal-card:hover .affiliate-label {
+  opacity: 1;
+  color: var(--warning);
 }
 .affiliate-disclosure p {
   margin: 0;

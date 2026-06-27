@@ -45,6 +45,10 @@ The providers below can handle all three tiers — just at different price point
 
 ## 1. Cloudways — Best for Growing Sites & Traffic Spikes (⭐⭐⭐⭐⭐)
 
+
+<img src="/assets/images/providers/cloudways.png" alt="Cloudways homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
+
 **Starting price:** $14/mo (pay-as-you-go)
 **Renewal price:** Same — no promo pricing, no surprises
 
@@ -116,6 +120,10 @@ Storage is tight — 10 GB on the Startup plan is enough for a content site but 
 
 ## 3. ScalaHosting Cloud VPS — Best Managed VPS for High Traffic (⭐⭐⭐⭐½)
 
+
+<img src="/assets/images/providers/scalahosting.png" alt="ScalaHosting homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
+
 **Starting price:** $14.95/mo intro (Cloud VPS — Entry)
 **Renewal price:** $39.95/mo
 
@@ -148,6 +156,10 @@ The renewal pricing is significant — $39.95/mo for the Entry Cloud VPS is comp
 
 ## 4. SiteGround GoGeek — Best Mid-Traffic Managed Hosting (⭐⭐⭐⭐)
 
+
+<img src="/assets/images/providers/siteground.png" alt="SiteGround homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
+
 **Starting price:** $7.99/mo intro (GoGeek)
 **Renewal price:** $44.99/mo
 
@@ -178,6 +190,10 @@ The renewal price on GoGeek ($44.99/mo) is steep for what you get compared to a 
 **Get SiteGround:** <a class="cta-btn" href="https://www.siteground.com/wordpress-hosting">Check SiteGround Plans →</a>
 
 ## 5. InterServer VPS — Best Budget High-Traffic Hosting (⭐⭐⭐⭐)
+
+
+<img src="/assets/images/providers/interserver.png" alt="InterServer homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
 
 **Starting price:** $6/mo (locked for life)
 **Renewal price:** Same — no increase ever

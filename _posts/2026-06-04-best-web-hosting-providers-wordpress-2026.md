@@ -71,6 +71,10 @@ Finding the **best web hosting providers for WordPress in 2026** can feel overwh
 
 ## 3. SiteGround — Best Value Entry-Level Hosting
 
+
+<img src="/assets/images/providers/siteground.png" alt="SiteGround homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
+
 <div class="pros-cons">
 <h3>Pros & Cons</h3>
 <div class="pros">
@@ -155,6 +159,10 @@ Finding the **best web hosting providers for WordPress in 2026** can feel overwh
 ---
 
 ## 5. Cloudways — Best for Developers & Agencies
+
+
+<img src="/assets/images/providers/cloudways.png" alt="Cloudways homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
 
 <div class="pros-cons">
 <h3>Pros & Cons</h3>

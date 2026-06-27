@@ -148,6 +148,10 @@ This article breaks down exactly how these three compare in 2026 so you can make
 
 ## DigitalOcean Overview
 
+
+<img src="/assets/images/providers/digitalocean.png" alt="DigitalOcean homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
+
 DigitalOcean launched in 2011 and essentially created the modern "simple cloud" category. Their value proposition hasn't changed: straightforward pricing, excellent documentation, and a huge community ecosystem.
 
 ### What DigitalOcean Does Well
@@ -317,6 +321,10 @@ Linode was the original indie cloud VPS provider, founded in 2003, and pioneered
 *Pricing as of June 2026. Plans still available under the Akamai Connected Cloud umbrella.*
 
 ## Vultr Overview
+
+
+<img src="/assets/images/providers/vultr.png" alt="Vultr homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
 
 Vultr launched in 2014 and has rapidly expanded to become the largest independent cloud provider by data center count. Their strategy is straightforward: offer the latest hardware at aggressive prices with a broad global footprint.
 

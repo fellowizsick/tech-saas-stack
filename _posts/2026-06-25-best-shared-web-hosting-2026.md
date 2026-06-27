@@ -100,6 +100,10 @@ Let's look at how each provider delivers on these criteria.
 
 ## 1. InterServer — Best Overall Value with Price Lock
 
+
+<img src="/assets/images/providers/interserver.png" alt="InterServer homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
+
 <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> has been in the hosting game since 1999, and they do something almost no other host does: their $2.50/mo standard shared plan never increases in price. What you pay at signup is what you pay at renewal — for life.
 
 <table class="comparison-table">
@@ -159,6 +163,10 @@ The control panel is cPanel (now owned by the same parent company, which means I
 
 ## 2. SiteGround — Best Premium Shared Hosting
 
+
+<img src="/assets/images/providers/siteground.png" alt="SiteGround homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
+
 <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> is one of the few officially recommended WordPress hosting providers, and for good reason. Their shared hosting plans include features you'd typically find on managed WordPress hosting — automatic updates, daily backups, server-level caching, and a staging environment.
 
 <table class="comparison-table">
@@ -215,6 +223,10 @@ The Site Tools control panel is a modern alternative to cPanel. It's cleaner, fa
 ---
 
 ## 3. ScalaHosting — Best Shared Hosting with VPS Upgrade Path
+
+
+<img src="/assets/images/providers/scalahosting.png" alt="ScalaHosting homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
 
 <a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a> sits in a sweet spot between budget shared hosting and fully managed VPS. Their shared plans are competitively priced, and they're one of the few hosts that give you a seamless upgrade path to managed VPS without switching control panels.
 

@@ -28,8 +28,6 @@ schema:
     "@type": "Organization"
     name: "Tech & SaaS Stack"
 ---
-<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
-
 
 <div class="verdict-box">
   <h3>Quick Verdict</h3>
@@ -60,7 +58,6 @@ schema:
 <details class="collapsible-section" markdown="1">
 <summary>Why This Comparison Matters</summary>
 
-
 I've been building online businesses since 2019. I've watched course creators bleed money on email platforms that don't fit their model. The wrong choice costs you in wasted subscription fees, lost sales from weak automation, and migration headaches later.
 
 Story time: I migrated a client from Mailchimp to ActiveCampaign in 2022. Their course revenue jumped 40% in 60 days just from better segmentation and abandoned cart flows. The platform matters.
@@ -69,12 +66,10 @@ Story time: I migrated a client from Mailchimp to ActiveCampaign in 2022. Their 
 
 ---
 
-
 </details>
 
 <details class="collapsible-section" markdown="1">
 <summary>Comparison Table: At a Glance</summary>
-
 
 <table class="comparison-table">
   <thead>
@@ -156,12 +151,10 @@ Story time: I migrated a client from Mailchimp to ActiveCampaign in 2022. Their 
 
 ---
 
-
 </details>
 
 <details class="collapsible-section" markdown="1">
 <summary>Deep Dives</summary>
-
 
 ### 1. ActiveCampaign — The Power User's Choice
 
@@ -255,12 +248,10 @@ The **course builder** includes video hosting, drip content, quizzes, certificat
 
 ---
 
-
 </details>
 
 <details class="collapsible-section" markdown="1">
 <summary>Use Case Recommendations</summary>
-
 
 | Your Situation | Recommended Platform | Why |
 |----------------|---------------------|-----|
@@ -273,12 +264,10 @@ The **course builder** includes video hosting, drip content, quizzes, certificat
 
 ---
 
-
 </details>
 
 <details class="collapsible-section" markdown="1">
 <summary>FAQ</summary>
-
 
 **Q: Can I sell courses directly in ConvertKit without Teachable?**
 A: Kit Commerce delivers digital files (PDFs, videos, audio) and handles subscriptions/coaching payments. But no video hosting, progress tracking, quizzes, or student dashboard. For a real course experience, you still need a course platform. Kit works for simple digital products and coaching.
@@ -297,12 +286,10 @@ A: Mostly yes. Tags, custom fields, and basic sequences export/import clean. Com
 
 ---
 
-
 </details>
 
 <details class="collapsible-section" markdown="1">
 <summary>Affiliate Disclosure</summary>
-
 
 This article contains affiliate links. If you sign up through my links, I earn a commission at no extra cost to you. I only recommend platforms I've used or audited for clients. Commissions don't influence rankings — ActiveCampaign pays 30%, same as ConvertKit and MailerLite. GetResponse pays 33%. The "Best Overall" winner is based on feature fit for course creators, not commission rate.
 
@@ -314,12 +301,10 @@ This article contains affiliate links. If you sign up through my links, I earn a
 
 ---
 
-
 </details>
 
 <details class="collapsible-section" markdown="1">
 <summary>Related Articles</summary>
-
 
 - [ActiveCampaign vs Mailchimp vs ConvertKit: Email Marketing 2026](/comparison/activecampaign-vs-mailchimp-vs-convertkit-email-marketing-2026/)
 - [How to Set Up Email Automation with ActiveCampaign + WordPress](/tutorial/how-to-setup-email-automation-activecampaign-wordpress-2026-guide/)

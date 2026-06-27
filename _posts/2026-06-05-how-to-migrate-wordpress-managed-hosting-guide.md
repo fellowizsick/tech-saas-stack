@@ -301,9 +301,3 @@ Migrating your WordPress site to managed hosting is one of the highest-ROI impro
 
 Already on shared hosting and feeling the pain? Start with a free migration plugin and see how painless the switch can be. Your future self (and your visitors) will thank you.
 
-<div class="disclosure-bar">
-
-**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.
-
-</div>
-

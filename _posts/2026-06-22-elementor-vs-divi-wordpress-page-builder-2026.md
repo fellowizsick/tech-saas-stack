@@ -11,7 +11,6 @@ review:
   rating: 4.5
 permalink: /comparison/elementor-vs-divi-2026/
 ---
-<div class="disclosure-bar">Disclosure: Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
 
 If you're trying to decide between Elementor and Divi in 2026, you're not alone. These two page builders power well over 10 million WordPress sites between them, and each has a fiercely loyal fanbase that insists theirs is the best.
 

@@ -8,8 +8,6 @@ categories: [wordpress, tutorial, hosting]
 
 If you're looking for **how to set up a WordPress site on Hostinger**, you're in the right place. Hostinger is one of the most popular budget web hosting providers in 2026, powering over 2 million websites worldwide with plans starting at just $2.99 per month. Whether you're launching a personal blog, an online portfolio, or a small business site, this step-by-step guide will walk you through the entire process — from signing up for hosting to publishing your first page — with zero technical experience required.
 
-<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
-
 <!--more-->
 
 ## Why Choose Hostinger for WordPress in 2026?

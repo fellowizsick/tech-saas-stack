@@ -40,8 +40,6 @@ faq:
     a: "InterServer's $2.50/mo plan is the clear winner for bare-bones budgets. You get unlimited websites, storage, and bandwidth with a price that never changes. The trade-off is more DIY — no staging, no managed WordPress support, and you handle your own caching. If you can stretch to ~$6/mo and want better out-of-box performance, A2's Turbo shared plan is worth considering, but be aware the renewal rate will jump to ~$8-12/mo."
 ---
 
-<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
-
 <details class="collapsible-section" markdown="1">
 <summary>Quick Verdict</summary>
 

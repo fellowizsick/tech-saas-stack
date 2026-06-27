@@ -10,10 +10,6 @@ review:
   rating: 4.6
 ---
 
-<div class="disclosure-bar">
-<strong>Disclosure:</strong> Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you. I've been using Semrush for SEO audits since 2020 and have audited over 50 websites with the tool.
-</div>
-
 <!--more-->
 
 If you've ever wondered why your website isn't showing up on Google's first page — or why a competitor keeps outranking you — an **SEO audit** is the first step to finding answers. For beginners, running an SEO audit can feel intimidating, but with the right tool, it's surprisingly straightforward. This guide shows you **how to run an SEO audit with Semrush** from scratch, even if you've never used SEO software before.

@@ -41,8 +41,6 @@ faq:
     a: "Choose ScalaHosting if: you need guaranteed CPU/RAM resources (EDI, WooCommerce stores, membership sites), you want SPanel's free control panel instead of paying for cPanel elsewhere, you run resource-intensive applications, you manage multiple client sites with white-label access, or you want fully managed VPS support (OS updates, security patches, server monitoring included). Choose SiteGround if: you have a single WordPress site, value convenience over control, want excellent 24/7 human support, and are comfortable with higher renewal pricing for the Google Cloud infrastructure and managed WordPress features."
 ---
 
-<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
-
 <details class="collapsible-section" markdown="1">
 <summary>Quick Verdict</summary>
 
@@ -305,9 +303,7 @@ The trade-off: you pay more upfront ($29.95/mo intro vs $2.99/mo), and you need 
 
 ## SiteGround Deep Dive
 
-
 <img src="/assets/images/providers/siteground.png" alt="SiteGround homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
-
 
 ### What SiteGround Does Best
 
@@ -333,9 +329,7 @@ The trade-off: you pay more upfront ($29.95/mo intro vs $2.99/mo), and you need 
 
 ## ScalaHosting Deep Dive
 
-
 <img src="/assets/images/providers/scalahosting.png" alt="ScalaHosting homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
-
 
 ### What ScalaHosting Does Best
 

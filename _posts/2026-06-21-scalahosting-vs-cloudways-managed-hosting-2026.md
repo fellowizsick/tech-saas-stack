@@ -41,8 +41,6 @@ faq:
     a: "Choose ScalaHosting if: you want dedicated CPU/RAM resources, need SPanel as a familiar control panel, want NVMe storage for database-heavy sites, need white-label client access, or want unlimited websites on a single plan. Choose Cloudways if: you want hourly billing (pay-as-you-go), need multi-cloud flexibility, want Varnish + Redis caching pre-configured, or manage teams with role-based access."
 ---
 
-<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
-
 <details class="collapsible-section" markdown="1">
 <summary>Quick Verdict</summary>
 

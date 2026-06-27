@@ -11,8 +11,6 @@ image: /assets/images/semrush-vs-ahrefs-2026.jpg
 ---
 <!-- AFFILIATE-MARKER: Contains affiliate links for Semrush and Ahrefs -->
 
-<div class="disclosure-bar">Disclosure: I may earn commissions if you purchase through affiliate links on this page. I only recommend tools I personally use and trust.</div>
-
 ## Quick Verdict
 
 <div class="verdict-box" markdown="1">

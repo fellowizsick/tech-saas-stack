@@ -11,8 +11,6 @@ review:
 permalink: /comparison/activecampaign-vs-kit-2026/
 ---
 
-<div class="disclosure-bar">Disclosure: Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
-
 Email marketing is still the single highest-ROI channel for course creators — every $1 spent returns about $36 on average. But as a course creator or online educator, you face a very specific question that general email marketing comparisons don't answer: **does your platform need to be an automation powerhouse or a creator-first simplicity machine?**
 
 That's the ActiveCampaign vs Kit (formerly ConvertKit) question in a nutshell.

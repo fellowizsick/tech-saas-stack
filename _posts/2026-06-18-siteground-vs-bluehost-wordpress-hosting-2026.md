@@ -22,7 +22,6 @@ schema:
     bestRating: "5"
     worstRating: "1"
 ---
-<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
 
 <details class="collapsible-section" markdown="1">
 <summary><strong>Quick Verdict</strong></summary>
@@ -229,8 +228,6 @@ The EIG ownership matters: Bluehost shares infrastructure, support stacks, and u
 ---
 
 ## Affiliate Links & Current Deals (June 2026)
-
-<div class="disclosure-bar">**Disclosure:** The links below are affiliate links. I earn a commission if you purchase through them at no extra cost to you. This supports the site and keeps reviews honest.</div>
 
 | Host | Plan | Intro Price | My Link |
 |------|------|-------------|---------|

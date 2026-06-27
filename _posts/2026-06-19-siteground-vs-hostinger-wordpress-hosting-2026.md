@@ -51,8 +51,6 @@ You're launching a WordPress site in 2026, and you've narrowed it down to two na
 
 I've spent the last few years testing hosting providers hands-on — migrating sites, benchmarking load times, sitting through support calls. This is my honest, data-driven breakdown of SiteGround vs Hostinger for WordPress in 2026. No fluff, no sponsored nonsense.
 
-<div class="disclosure-bar">🤝 **Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no extra cost to you. I only recommend products I've personally tested and trust.</div>
-
 ---
 
 ## Quick Verdict
@@ -363,4 +361,3 @@ SiteGround and Hostinger both deliver excellent WordPress hosting in 2026 — th
 
 For my money? For a single business site where reliability matters, I'd pick SiteGround. For any scenario involving multiple sites, tight budgets, or AI-powered workflows, Hostinger is the smarter bet.
 
-<div class="disclosure-bar" style="margin-top: 2rem;">🤝 **Disclosure:** I personally test all hosting products I review. Some links in this post are affiliate links, meaning I may earn a commission if you make a purchase — at no extra cost to you. This helps keep the site running with honest, independent reviews.</div>

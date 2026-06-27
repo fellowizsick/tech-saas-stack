@@ -15,10 +15,6 @@ schema_review:
   best_for: "Most users choosing between Elementor (ease + power), Divi (value + unlimited sites), and Bricks (performance + developer workflow)"
 ---
 
-<div class="disclosure-bar">
-  <strong>Affiliate Disclosure:</strong> Some links on this page are affiliate links. If you purchase through them, I may earn a commission at no extra cost to you. I've personally tested every builder listed here — no sponsored placements, just honest comparisons.
-</div>
-
 ## Verdict at a Glance 🏆
 
 After spending two weeks building identical test sites with **7 different page builders**, here's the bottom line:

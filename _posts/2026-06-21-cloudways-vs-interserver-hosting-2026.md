@@ -41,8 +41,6 @@ faq:
     a: "It depends on your budget and long-term goals. If you want the cheapest possible way to host a site today, InterServer's $2.50/mo shared plan is unbeatable. If you're building a site that needs to grow — an online store, membership site, or blog you plan to monetize — Cloudways gives you a professional hosting stack with room to scale without migrating hosts later."
 ---
 
-<div class="disclosure-bar">**Disclosure:** Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.</div>
-
 <details class="collapsible-section" markdown="1">
 <summary>Quick Verdict</summary>
 

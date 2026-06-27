@@ -305,6 +305,10 @@ The trade-off: you pay more upfront ($29.95/mo intro vs $2.99/mo), and you need 
 
 ## SiteGround Deep Dive
 
+
+<img src="/assets/images/providers/siteground.png" alt="SiteGround homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
+
 ### What SiteGround Does Best
 
 **1. Support is genuinely excellent.** I've been burned by bad hosting support more times than I can count — outsourced teams reading from scripts, waiting 45 minutes for a "we'll escalate this" non-answer. SiteGround's support is different. They have real WordPress specialists on 24/7 chat who actually fix things. Average response time under 60 seconds. If you're not comfortable managing a server yourself, this alone justifies the premium.
@@ -328,6 +332,10 @@ The trade-off: you pay more upfront ($29.95/mo intro vs $2.99/mo), and you need 
 ---
 
 ## ScalaHosting Deep Dive
+
+
+<img src="/assets/images/providers/scalahosting.png" alt="ScalaHosting homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
 
 ### What ScalaHosting Does Best
 

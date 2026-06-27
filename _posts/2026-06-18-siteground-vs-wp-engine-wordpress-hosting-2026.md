@@ -179,6 +179,10 @@ Let me break it down so you can pick the right one without wasting money.
 
 ## SiteGround Deep Dive
 
+
+<img src="/assets/images/providers/siteground.png" alt="SiteGround homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
+
 ### What You're Actually Getting
 
 SiteGround built their reputation on **support that actually helps**. Not "have you tried turning it off and on again" — real WordPress troubleshooting. Their custom control panel (Site Tools) replaced cPanel years ago and it's genuinely better: faster, cleaner, built for WordPress.

@@ -10,17 +10,29 @@ VPS hosting used to be expensive. In 2026, you can get a solid VPS for under $10
 
 ## 1. InterServer VPS — From $6/mo
 
+
+<img src="/assets/images/providers/interserver.png" alt="InterServer homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
+
 InterServer's VPS plans start at **$6/mo** with full root access, your choice of OS, and the same price lock guarantee. NVMe SSD storage included.
 
 👉 **[Claim InterServer VPS →](https://www.interserver.net/r/1155259)**
 
 ## 2. ScalaHosting Managed VPS — From $29.95/mo (Best Managed)
 
+
+<img src="/assets/images/providers/scalahosting.png" alt="ScalaHosting homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
+
 If you want managed VPS with SPanel (free cPanel alternative), ScalaHosting starts at **$29.95/mo**. Free migrations, daily backups, SShield AI security.
 
 👉 **[Get ScalaHosting →](https://scalahosting.com/?aid=jon)**
 
 ## 3. Cloudways — Pay-as-you-go Cloud
+
+
+<img src="/assets/images/providers/cloudways.png" alt="Cloudways homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
 
 Cloudways lets you deploy VPS on DigitalOcean, Vultr, Linode, AWS, or GCP. **Plans from $11/mo** with a 3-day free trial.
 

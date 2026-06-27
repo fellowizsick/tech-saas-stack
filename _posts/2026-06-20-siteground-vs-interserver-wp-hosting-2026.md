@@ -48,6 +48,10 @@ This is a head-to-head comparison of what you actually get, who each host serves
 
 ## SiteGround Overview
 
+
+<img src="/assets/images/providers/siteground.png" alt="SiteGround homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
+
 Founded in 2004 in Bulgaria, SiteGround has grown into one of the most respected managed WordPress hosts globally. They power over 3 million domains and maintain a **4.9/5 rating on Trustpilot** — one of the highest in the industry.
 
 Their key differentiators:
@@ -100,6 +104,10 @@ SiteGround's three plans are:
 The catch, as you can see: those intro prices require a **12-month commitment**, and renewal rates are **5-6x higher**. After year one, StartUp jumps from $2.99 to $17.99/mo — a 500% increase.
 
 ## InterServer Overview
+
+
+<img src="/assets/images/providers/interserver.png" alt="InterServer homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
 
 InterServer has been operating since 1999 — one of the oldest independent hosts still privately owned. They're headquartered in Secaucus, New Jersey, and operate their own data centers (three locations: US East, US West, and Amsterdam).
 

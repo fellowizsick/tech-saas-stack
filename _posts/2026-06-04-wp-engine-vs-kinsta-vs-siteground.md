@@ -229,6 +229,10 @@ Kinsta is the best choice for **performance-critical sites** — high-traffic bl
 
 ## SiteGround — Best Budget Option
 
+
+<img src="/assets/images/providers/siteground.png" alt="SiteGround homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
+
+
 [SiteGround](https://siteground.com/) offers the best entry-level pricing while maintaining excellent uptime (99.99% average) and support quality. It's officially recommended by WordPress.org.
 
 ### Performance & Speed

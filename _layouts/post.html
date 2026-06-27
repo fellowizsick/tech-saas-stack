@@ -16,6 +16,9 @@ layout: default
       <span>📂 {{ page.categories | join: ", " }}</span>
       {% endif %}
       <span>📖 {{ content | strip_html | number_of_words }} words</span>
+      {% assign word_count = content | strip_html | number_of_words %}
+      {% assign reading_time = word_count | divided_by: 200 | plus: 1 %}
+      <span>⏱️ ~{{ reading_time }} min read</span>
     </div>
   </header>
 
@@ -45,6 +48,14 @@ layout: default
   <!-- Post Content -->
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+  </div>
+
+  <!-- Social Share Buttons -->
+  <div class="social-share" style="margin-top: var(--space-unit); padding-bottom: calc(var(--space-unit) * 4); border-bottom: 1px solid var(--border);">
+    <span style="font-weight: 600; margin-right: var(--space-unit); color: var(--text-muted);">Share this →</span>
+    <a href="https://twitter.com/intent/tweet?text={{ page.title | escape | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.4rem 0.8rem; margin-right: 0.4rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); text-decoration: none; color: var(--text); font-size: 0.85rem; transition: all 0.2s;" onmouseover="this.style.borderColor='var(--primary)'" onmouseout="this.style.borderColor=''">🐦 Twitter</a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url | url_encode }}&title={{ page.title | escape | url_encode }}" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.4rem 0.8rem; margin-right: 0.4rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); text-decoration: none; color: var(--text); font-size: 0.85rem; transition: all 0.2s;" onmouseover="this.style.borderColor='var(--primary)'" onmouseout="this.style.borderColor=''">💼 LinkedIn</a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url_encode }}" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.4rem 0.8rem; margin-right: 0.4rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); text-decoration: none; color: var(--text); font-size: 0.85rem; transition: all 0.2s;" onmouseover="this.style.borderColor='var(--primary)'" onmouseout="this.style.borderColor=''">📘 Facebook</a>
   </div>
 
   {% if page.review %}

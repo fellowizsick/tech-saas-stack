@@ -269,6 +269,32 @@
         </a>
       </div>
       <p style="margin-top:8px;"><small>Some links on this site are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you. I only recommend products I've personally tested and believe in.</small></p>
+      
+      <!-- Live GitHub Stats -->
+      <div class="github-stats" id="githubStats" style="opacity:0;transition:opacity 0.5s;">
+        <span class="gh-stat" id="ghUpdated"></span>
+        <span class="gh-stat-sep">·</span>
+        <span class="gh-stat" id="ghCommits"></span>
+        <span class="gh-stat-sep">·</span>
+        <span class="gh-stat" id="ghStars"></span>
+      </div>
+      <script>
+      (function() {
+        var el = document.getElementById('githubStats');
+        fetch('https://api.github.com/repos/fellowizsick/tech-saas-stack')
+          .then(function(r) { return r.json(); })
+          .then(function(d) {
+            var ago = Math.floor((Date.now() - new Date(d.pushed_at).getTime()) / 3600000);
+            var timeStr = ago < 1 ? 'Updated <1h ago' : ago < 24 ? 'Updated ' + ago + 'h ago' : 'Updated ' + Math.floor(ago/24) + 'd ago';
+            document.getElementById('ghUpdated').textContent = timeStr;
+            document.getElementById('ghCommits').textContent = d.size + ' commits';
+            document.getElementById('ghStars').textContent = d.stargazers_count + ' stars';
+            el.style.opacity = '1';
+          })
+          .catch(function() { el.style.display = 'none'; });
+      })();
+      </script>
+
       <p style="margin-top:4px;"><small>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</small></p>
     </div>
   </footer>

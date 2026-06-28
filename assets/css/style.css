@@ -1818,6 +1818,23 @@ html[data-theme="dark"] .nav-brand::after {
   box-shadow: 0 4px 12px oklch(var(--primary) / 0.3);
 }
 
+/* GitHub Stats in Footer */
+.github-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-faint);
+}
+.gh-stat-sep {
+  opacity: 0.3;
+}
+.gh-stat {
+  font-variant-numeric: tabular-nums;
+}
+
 /* ── Post content subtle improvements ── */
 .post-content h2 { position: relative; }
 .post-content h2::before {

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F7DFF"/>
+      <stop offset="50%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#A66CFF"/>
+    </linearGradient>
+    <linearGradient id="logoGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9F43"/>
+      <stop offset="100%" stop-color="#F7B731"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded square -->
+  <rect x="2" y="2" width="60" height="60" rx="14" ry="14"
+        fill="url(#logoGrad)" opacity="0.95"/>
+  <!-- Subtle inner glow -->
+  <rect x="2" y="2" width="60" height="60" rx="14" ry="14"
+        fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+  <!-- T letter (left) -->
+  <text x="18" y="46" font-family="Inter, -apple-system, sans-serif"
+        font-weight="800" font-size="38" fill="white" opacity="0.95"
+        letter-spacing="-3">T</text>
+  <!-- S letter (right) -->
+  <text x="32" y="46" font-family="Inter, -apple-system, sans-serif"
+        font-weight="800" font-size="38" fill="url(#logoGrad2)"
+        letter-spacing="-3">S</text>
+</svg>

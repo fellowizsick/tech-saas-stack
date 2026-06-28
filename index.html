@@ -29,6 +29,86 @@ title: Home
   ⚡ <strong>Independent Reviews Since 2026:</strong> We test every product we recommend. Some links are affiliate links — see our <a href="{{ site.baseurl }}/privacy/" style="color:var(--primary);">disclosure</a>.
 </div>
 
+<!-- Quiz Promo Banner -->
+<div class="quiz-promo-banner">
+  <a href="{{ site.baseurl }}/hosting-matchmaker/" class="quiz-promo-link">
+    <div class="quiz-promo-content">
+      <div class="quiz-promo-badge">🔥 NEW TOOL</div>
+      <div class="quiz-promo-text">
+        <strong>Not sure which host to pick?</strong>
+        <span>Take our 2-minute quiz → personalized match in seconds</span>
+      </div>
+      <div class="quiz-promo-cta">Find Your Host →</div>
+    </div>
+  </a>
+</div>
+
+<style>
+  .quiz-promo-banner {
+    margin: 1.5rem auto;
+    max-width: 600px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: linear-gradient(135deg, oklch(0.62 0.22 258 / 0.08), oklch(0.72 0.18 78 / 0.08));
+    border: 1px solid oklch(0.62 0.22 258 / 0.15);
+    transition: all var(--transition-base);
+  }
+  .quiz-promo-banner:hover {
+    border-color: var(--primary);
+    box-shadow: 0 4px 20px oklch(0.62 0.22 258 / 0.12);
+  }
+  .quiz-promo-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  .quiz-promo-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+  }
+  .quiz-promo-badge {
+    font-size: 0.6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.2rem 0.5rem;
+    border-radius: 100px;
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: white;
+    flex-shrink: 0;
+  }
+  .quiz-promo-text {
+    flex: 1;
+    line-height: 1.4;
+  }
+  .quiz-promo-text strong {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.1rem;
+  }
+  .quiz-promo-text span {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+  .quiz-promo-cta {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--primary);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .quiz-promo-banner:hover .quiz-promo-cta {
+    color: var(--primary-hover);
+  }
+  @media (max-width: 480px) {
+    .quiz-promo-content { flex-wrap: wrap; }
+    .quiz-promo-cta { width: 100%; text-align: center; margin-top: 0.25rem; }
+  }
+</style>
+
 <!-- Site Search -->
 {% include search.html %}
 

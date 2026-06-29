@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <!-- Featured Deals / Top Affiliate Picks (Collapsible - native HTML) -->
 <section class="featured-deals" style="margin: 3rem 0 2rem;">
-  <details style="background: var(--bg-glass); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden;">
+  <details open style="background: var(--bg-glass); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden;">
     <summary style="
       padding: 1rem 1.5rem;
       color: var(--text);
@@ -405,6 +405,9 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="post-meta">
       <span>📅 {{ latest.date | date: "%B %d, %Y" }}</span>
       {% if latest.categories %} <span>📂 {{ latest.categories | join: ", " }}</span> {% endif %}
+      {% assign words = latest.content | number_of_words %}
+      {% assign read_time = words | divided_by: 200 | plus: 1 %}
+      <span>⏱️ ~{{ read_time }} min read</span>
     </div>
     <h2><a href="{{ site.baseurl }}{{ latest.url }}">{{ latest.title }}</a></h2>
     <p>{{ latest.excerpt | strip_html | truncatewords: 40 }}</p>
@@ -417,6 +420,9 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="post-meta">
       <span>📅 {{ post.date | date: "%B %d, %Y" }}</span>
       {% if post.categories %} <span>📂 {{ post.categories | join: ", " }}</span> {% endif %}
+      {% assign p_words = post.content | number_of_words %}
+      {% assign p_read_time = p_words | divided_by: 200 | plus: 1 %}
+      <span>⏱️ ~{{ p_read_time }} min read</span>
     </div>
     <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
     <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>

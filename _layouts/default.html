@@ -279,6 +279,7 @@
         <a href="{{ site.baseurl }}/">Home</a>
         <a href="{{ site.baseurl }}/about/">About</a>
         <a href="{{ site.baseurl }}/how-we-test/">How We Test</a>
+        <a href="{{ site.baseurl }}/disclosure/">Disclosure</a>
         <a href="{{ site.baseurl }}/privacy/">Privacy</a>
       </div>
       <div class="footer-brand">{{ site.title }}</div>
@@ -452,6 +453,15 @@
         el.textContent = el.textContent.replace(/\{\{\s*site\.current_year\s*\}\}/g, currentYear);
       });
     }
+  })();
+
+  // Remove any auto-generated "100% Independent Testing" text from main
+  (function() {
+    document.querySelectorAll('main > *').forEach(function(el) {
+      if (el.textContent && el.textContent.includes('100% Independent Testing')) {
+        el.style.display = 'none';
+      }
+    });
   })();
 
   // Auto-wrap tables in .page-content for horizontal scroll on mobile

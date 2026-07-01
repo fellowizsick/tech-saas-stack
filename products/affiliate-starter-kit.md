@@ -52,13 +52,17 @@ permalink: /products/affiliate-starter-kit/
   <ul>
     <li>Bloggers starting their first affiliate site on a tight budget</li>
     <li>Content creators who want to monetize without ads or sponsors</li>
-    <li>Anyone who wants a hands-off income stream that grows while they sleep</li>
     <li>People who are tired of theoretical advice and want a system that actually works</li>
   </ul>
 </div>
 
+<!-- Earnings Disclaimer -->
+<div class="disclosure-bar" style="margin: 2rem 0; font-size: 0.85rem;">
+  ⚠️ <strong>Earnings Disclaimer:</strong> Results are not guaranteed. Affiliate marketing income depends on factors including traffic, niche, content quality, and effort. The revenue calculator provides estimates based on industry averages — your actual results will vary. Past performance does not guarantee future results. This product does not promise or guarantee specific earnings.
+</div>
+
 <div class="product-card" style="text-align: center;">
-  <h2>100% Money-Back Guarantee</h2>
-  <p style="color: var(--text-muted); max-width: 500px; margin: 0 auto 1.5rem;">If you follow the system and don't see results within 30 days, I'll refund every cent. No questions asked.</p>
+  <h2>30-Day Satisfaction Guarantee</h2>
+  <p style="color: var(--text-muted); max-width: 500px; margin: 0 auto 1.5rem;">Not satisfied with the kit? Email me within 30 days for a full refund. No questions asked.</p>
   <a href="https://jonbrown.gumroad.com/l/affiliate-starter-kit" class="cta-button" target="_blank">Buy Now — $17 <!--paint skip--><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
 </div>

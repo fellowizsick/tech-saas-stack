@@ -4,12 +4,13 @@ title: Home
 ---
 
 <div class="hero">
-  <div class="hero-badge">🔬 Data-Driven Reviews Since 2026</div>
-  <h1>Honest Reviews,<br><span class="gradient-text">Comparisons & Tutorials</span></h1>
+<!-- Hero Section -->
+  <p class="hero-badge">🔬 Data-Driven Reviews Since 2026</p>
+  <h1>Honest Reviews, Comparisons & Tutorials</h1>
   <p class="hero-subtitle">{{ site.tagline }}</p>
   <div class="hero-stats">
     <div class="hero-stat">
-      <div class="hero-stat-number">73</div>
+      <div class="hero-stat-number">{{ site.posts | size }}</div>
       <div class="hero-stat-label">In-Depth Reviews</div>
     </div>
     <div class="hero-stat-divider"></div>
@@ -20,13 +21,13 @@ title: Home
     <div class="hero-stat-divider"></div>
     <div class="hero-stat">
       <div class="hero-stat-number">100%</div>
-      <div class="hero-stat-label">Independent Testing</div>
+      <div class="hero-stat-label">Transparent Reviews</div>
     </div>
   </div>
 </div>
 
 <div class="disclosure-bar">
-  ⚡ <strong>Independent Reviews Since 2026:</strong> We test every product we recommend. Some links are affiliate links — see our <a href="{{ site.baseurl }}/privacy/" style="color:var(--primary);">disclosure</a>.
+  ⚡ <strong>Affiliate Disclosure:</strong> We earn a commission when you purchase through our links — at no extra cost to you. This supports our independent testing. See our <a href="{{ site.baseurl }}/disclosure/" style="color:var(--primary);">full disclosure</a>.
 </div>
 
 <!-- Quiz Promo Banner -->

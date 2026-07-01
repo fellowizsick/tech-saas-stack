@@ -593,6 +593,21 @@ html[data-theme="dark"] .nav-brand::after {
   background: var(--border);
   align-self: stretch;
 }
+.hero-stat {
+  font-size: var(--text-2xl);
+  font-weight: 800;
+  color: var(--primary);
+  line-height: 1;
+}
+.hero-stat small {
+  display: block;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  color: var(--text-muted);
+  margin-top: calc(var(--space-unit) * 1);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
 
 /* Affiliate Disclosure Bar */
 .disclosure-bar,

@@ -161,7 +161,7 @@ ScalaHosting offers a Mini shared hosting plan at $2.95/mo for the first year ($
 
 **Who this is for:** Bloggers and small business owners who want to start cheap but have a clear upgrade path. If you anticipate outgrowing shared hosting within 12-18 months, ScalaHosting's tiered structure saves you the hassle of migrating to a completely different provider later.
 
-<a class="cta-btn" href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">Get ScalaHosting at $2.95/mo →</a>
+<a class="cta-btn" href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">Get ScalaHosting at $2.95/mo →</a>
 
 ## 4. Hostinger — Best Multi-Year Commitment Deal ($2.69/mo, 48 Months)
 
@@ -323,7 +323,7 @@ The "cheapest web hosting" depends on your timeline and goals. Here's how to dec
 
 **Choose SiteGround if** you need premium support and managed WordPress features during your first year. The $2.99/mo intro plan includes features (staging, Git, WP-CLI) that other providers charge extra for. Just be ready for the $17.99/mo renewal. <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">Start at $2.99/mo →</a>
 
-**Choose ScalaHosting if** you want the option to upgrade to a managed VPS without changing providers. The shared plan is affordable at $2.95/mo intro, and SPanel means your control panel stays the same even as you scale up. <a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">Start at $2.95/mo →</a>
+**Choose ScalaHosting if** you want the option to upgrade to a managed VPS without changing providers. The shared plan is affordable at $2.95/mo intro, and SPanel means your control panel stays the same even as you scale up. <a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">Start at $2.95/mo →</a>
 
 **Choose Hostinger if** you're certain you'll keep the same site for 4+ years and can afford the $129 upfront. The $2.69/mo rate locked for 48 months is the cheapest multi-year deal available — just be sure you won't want to switch before the term ends.
 

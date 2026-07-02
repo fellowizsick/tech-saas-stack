@@ -29,7 +29,7 @@
 ## Site Stats
 
 - **73 posts live** (as of Jun 28 2026)
-- **4 active affiliate programs:** InterServer (r/1155259), Cloudways (id=2179745), ScalaHosting ($50/referral), SiteGround (/go/affiliate)
+- **6 active affiliate programs:** InterServer (r/1155259), Cloudways (id=2179745), SiteGround (/go/affiliate), ScalaHosting (?aid=jon), Bluehost (Impact Radius), Kinsta (?ref=jon)
 - **Custom domain:** techsaasstack.com (Namecheap, ~$1/yr)
 - **Google Analytics:** G-RLHP59H7Z2
 - **Google Search Console:** Verified (HTML tag)
@@ -63,12 +63,13 @@
 |---------|----|-------------|
 | InterServer | `1155259` | `https://www.interserver.net/r/1155259` |
 | Cloudways | `2179745` | `https://www.cloudways.com/en/?id=2179745` |
-| ScalaHosting | Referral | `https://scalahosting.com/` |
 | SiteGround | `/go/affiliate` | `https://www.siteground.com/go/affiliate` |
+| ScalaHosting | `?aid=jon` | `https://scalahosting.com/?aid=jon` |
+| Bluehost | Impact Radius | `https://bluehost.sjv.io/c/7392811/1376228/11352` |
+| Kinsta | `?ref=jon` | `https://kinsta.com/?ref=jon` |
 
 ## Known Issues
 
-- 🔴 SiteGround afcode 404 since 2026-06-19 — using `/go/affiliate` fallback
 - 🔴 Kinsta/Hostinger/WP Engine — reapplying with custom domain
 - 🔴 Bluehost/Cloudways/InterServer Cloudflare-protected — can't auto-pull pricing
 - 🔴 Awin onboarding — verification tag added, awaiting dashboard completion

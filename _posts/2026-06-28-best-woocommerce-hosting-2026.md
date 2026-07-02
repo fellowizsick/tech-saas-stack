@@ -262,7 +262,7 @@ ScalaHosting sits in an interesting middle ground. They offer managed VPS plans 
 
 **The trade-off:** ScalaHosting's entry price ($29.95/mo) is higher than SiteGround's intro or InterServer. And their data center footprint is smaller — seven locations globally compared to Cloudways' 30+ or SiteGround's dozen-plus. For stores targeting a single region, that's fine. For global stores, Cloudways offers better international performance.
 
-<a href="https://scalahosting.com/" class="cta-btn" rel="nofollow sponsored" target="_blank">View ScalaHosting WooCommerce Plans →</a>
+<a href="https://scalahosting.com/?aid=jon" class="cta-btn" rel="nofollow sponsored" target="_blank">View ScalaHosting WooCommerce Plans →</a>
 
 ---
 

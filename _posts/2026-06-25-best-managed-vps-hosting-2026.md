@@ -78,7 +78,7 @@ Unmanaged VPS (like DigitalOcean droplets or Linode instances) costs less but re
 
 <img src="/assets/images/providers/scalahosting.png" alt="ScalaHosting homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
 
-<a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a> has carved out a strong position in the managed VPS market with their proprietary SPanel control panel — a cPanel alternative that avoids the licensing fees baked into most competitors.
+<a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">ScalaHosting</a> has carved out a strong position in the managed VPS market with their proprietary SPanel control panel — a cPanel alternative that avoids the licensing fees baked into most competitors.
 
 **What You Get at Entry:**
 
@@ -127,7 +127,7 @@ Unmanaged VPS (like DigitalOcean droplets or Linode instances) costs less but re
 
 **Best for:** Site owners who want cPanel-like management without paying cPanel licensing fees, and those migrating from shared to VPS hosting.
 
-<a class="cta-btn" href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">Visit ScalaHosting →</a>
+<a class="cta-btn" href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">Visit ScalaHosting →</a>
 
 ## 2. Cloudways — Flexible Managed Cloud Hosting
 
@@ -321,7 +321,7 @@ Unmanaged VPS (like DigitalOcean droplets or Linode instances) costs less but re
 
 ## 6. Kinsta — Enterprise Managed Hosting (With Enterprise Pricing)
 
-<a href="https://kinsta.com/" rel="nofollow sponsored" target="_blank">Kinsta</a> completely overhauled their pricing in mid-2026, switching from visit-based tiers to a bandwidth-based model. Their infrastructure runs entirely on Google Cloud Platform with C2 and C3D high-CPU VMs.
+<a href="https://kinsta.com/?ref=jon" rel="nofollow sponsored" target="_blank">Kinsta</a> completely overhauled their pricing in mid-2026, switching from visit-based tiers to a bandwidth-based model. Their infrastructure runs entirely on Google Cloud Platform with C2 and C3D high-CPU VMs.
 
 **What You Get at Entry:**
 

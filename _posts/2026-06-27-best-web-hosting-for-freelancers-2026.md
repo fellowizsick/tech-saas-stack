@@ -277,7 +277,7 @@ The support team is responsive and knowledgeable, and they offer a 30-day money-
 
 ScalaHosting is best for freelancers who want cPanel-like control, transparent pricing, and the ability to grow from one site to dozens on the same platform.
 
-<a class="cta-btn" href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">Get ScalaHosting →</a>
+<a class="cta-btn" href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">Get ScalaHosting →</a>
 
 <h2 id="5-wp-engine-premium">5. WP Engine — Best Premium Option for Agency-Level Client Work</h2>
 

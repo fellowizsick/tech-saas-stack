@@ -156,7 +156,7 @@ Their **SShield Security** monitors file changes in real-time, which catches rog
 
 **Best for:** Freelancers and developers who want VPS-level control without cPanel licensing fees. If you run 10+ Elementor client sites, the managed cloud VPS at $29.95/mo is competitive with Cloudways and gives you more flexibility.
 
-[**Try ScalaHosting**](https://scalahosting.com/) — 30-day money-back guarantee, free migration
+[**Try ScalaHosting**](https://scalahosting.com/?aid=jon) — 30-day money-back guarantee, free migration
 
 ---
 

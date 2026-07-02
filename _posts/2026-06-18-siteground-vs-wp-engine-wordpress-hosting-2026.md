@@ -413,7 +413,7 @@ There's no wrong choice. There's only the right tool for where you are *right no
 ---
 
 <div class="cta-row" markdown="1">
-[![SiteGround](https://img.shields.io/badge/SiteGround-Get_Started-00A859?style=for-the-badge&logo=wordpress)](https://www.siteground.com/index.htm?afcode=6bb2259c82be1f061bb3f97d28a48550)
+[![SiteGround](https://img.shields.io/badge/SiteGround-Get_Started-00A859?style=for-the-badge&logo=wordpress)](https://www.siteground.com/go/affiliate)
 [![WP Engine](https://img.shields.io/badge/WP_Engine-View_Plans-00B4D8?style=for-the-badge&logo=wordpress)](https://wpengine.com/plans/)
 </div>
 

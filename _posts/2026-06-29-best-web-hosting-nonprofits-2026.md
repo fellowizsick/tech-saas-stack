@@ -268,7 +268,7 @@ Every ScalaHosting plan includes free daily off-server backups, free site migrat
 
 **The catch:** The entry price of $29.95/mo (even on intro) is a significant jump from shared hosting. ScalaHosting is the right choice for a nonprofit that's already seeing 10,000+ monthly visitors and needs guaranteed resources, but it's overkill for a new organization with a basic brochure site. The 36-month commitment needed for the best intro rate is also a long lock-in for an organization that might restructure or change hosting needs.
 
-<a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">Explore ScalaHosting Plans →</a>
+<a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">Explore ScalaHosting Plans →</a>
 
 ## 5. DreamHost — Best Nonprofit Discount Program
 

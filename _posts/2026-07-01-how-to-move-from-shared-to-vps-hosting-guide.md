@@ -52,7 +52,7 @@ Here are the VPS options that pair well with your experience level as a shared h
   </tbody>
 </table>
 
-If you want the smoothest transition from shared hosting, I recommend <strong><a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a></strong>. Their ThunderStack technology (Nginx + Varnish + Apache + Redis) delivers excellent out-of-the-box performance, and their custom dashboard handles server monitoring, backups, and staging without requiring SSH. If you prefer a familiar cPanel-like interface, <strong><a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a></strong> is a strong alternative with their SPanel platform.
+If you want the smoothest transition from shared hosting, I recommend <strong><a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a></strong>. Their ThunderStack technology (Nginx + Varnish + Apache + Redis) delivers excellent out-of-the-box performance, and their custom dashboard handles server monitoring, backups, and staging without requiring SSH. If you prefer a familiar cPanel-like interface, <strong><a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a></strong> is a strong alternative with their SPanel platform.
 
 For a deeper comparison of managed vs unmanaged options, check out our <a href="https://techsaasstack.com/2026/06/managed-vs-unmanaged-hosting-2026/">Managed vs Unmanaged Hosting guide</a>.
 
@@ -139,7 +139,7 @@ For developers or site owners comfortable with FTP:
 
 <h3>4.3. Professional Migration Service</h3>
 
-Both <strong><a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a></strong> and <strong><a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a></strong> offer free professional migration assistance. Cloudways' team handles the migration for you if you reach out via support — just provide your current hosting credentials and they take care of the rest. This is worth using if the migration feels overwhelming or your site is mission-critical.
+Both <strong><a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a></strong> and <strong><a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a></strong> offer free professional migration assistance. Cloudways' team handles the migration for you if you reach out via support — just provide your current hosting credentials and they take care of the rest. This is worth using if the migration feels overwhelming or your site is mission-critical.
 
 <h2>Step 5: Update DNS and Go Live</h2>
 
@@ -263,7 +263,7 @@ After your site is live on the new VPS, work through this checklist to confirm e
 
 <h2>Choosing Between Cloudways and ScalaHosting for Your First VPS</h2>
 
-Both <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> and <a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a> are excellent choices for your first VPS, but they serve slightly different needs.
+Both <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> and <a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a> are excellent choices for your first VPS, but they serve slightly different needs.
 
 <strong>Choose Cloudways if:</strong>
 - You want the simplest setup with a custom dashboard (no cPanel legacy overhead)

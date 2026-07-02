@@ -416,9 +416,9 @@ Cloudways starts at $11/mo on DigitalOcean and gives you the same Google Cloud/A
 | If You Want... | Start Here |
 |---|---|
 | **Best value premium hosting** | <a href="https://wpengine.com/">WP Engine Startup ($20/mo)</a> |
-| **Enterprise infrastructure, budget no object** | <a href="https://kinsta.com/">Kinsta Single 20GB ($350/mo)</a> |
+| **Enterprise infrastructure, budget no object** | <a href="https://kinsta.com/?ref=jon">Kinsta Single 20GB ($350/mo)</a> |
 | **Cloud infrastructure + pay-as-you-go** | <a href="https://cloudways.com/">Cloudways DO 1GB ($11/mo)</a> |
-| **Managed VPS with cPanel alternative** | <a href="https://scalahosting.com/">ScalaHosting VPS ($29.95/mo)</a> |
+| **Managed VPS with cPanel alternative** | <a href="https://scalahosting.com/?aid=jon">ScalaHosting VPS ($29.95/mo)</a> |
 | **Lifetime price lock on shared hosting** | <a href="https://www.interserver.net/r/1155259">InterServer ($2.50/mo)</a> |
 
 *All links go directly to provider landing pages. Affiliate relationships disclosed above.*

@@ -230,7 +230,7 @@ Where Linode still shines: bandwidth. The 4GB plan ($24/mo) includes 4TB of tran
 **Type:** Semi-managed VPS (SPanel)
 **Best for:** Budget-conscious users who want a control panel included
 
-<a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">Visit ScalaHosting →</a>
+<a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">Visit ScalaHosting →</a>
 
 ScalaHosting occupies a unique spot in the market — they offer fully managed VPS hosting at a price that competes with unmanaged VPS. The secret sauce is **SPanel**, their in-house control panel built as a direct cPanel alternative.
 

@@ -220,7 +220,7 @@ The Site Tools control panel is a modern alternative to cPanel. It's cleaner, fa
 
 <img src="/assets/images/providers/scalahosting.png" alt="ScalaHosting homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
 
-<a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a> sits in a sweet spot between budget shared hosting and fully managed VPS. Their shared plans are competitively priced, and they're one of the few hosts that give you a seamless upgrade path to managed VPS without switching control panels.
+<a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">ScalaHosting</a> sits in a sweet spot between budget shared hosting and fully managed VPS. Their shared plans are competitively priced, and they're one of the few hosts that give you a seamless upgrade path to managed VPS without switching control panels.
 
 <table class="comparison-table">
   <thead>
@@ -273,7 +273,7 @@ The Mini plan supports unlimited websites, unlike SiteGround's single-site restr
 
 Renewal pricing at $11.95/mo is reasonable for the features but not the cheapest. The shared plan also limits you to entry-level resources — if your site grows significantly, you'll want their managed VPS (starting at $29.95/mo), which is where their real value shines.
 
-**Verdict:** <a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a> is ideal if you want affordable shared hosting today with a clear, affordable path to managed VPS tomorrow — all using the same control panel.
+**Verdict:** <a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">ScalaHosting</a> is ideal if you want affordable shared hosting today with a clear, affordable path to managed VPS tomorrow — all using the same control panel.
 
 ---
 
@@ -526,7 +526,7 @@ Here's every provider side by side across the features that matter most for shar
 
 **Choose SiteGround if** you value premium support, daily backups, and built-in staging more than the lowest price. The intro rate is great for year one; just budget for the $17.99/mo renewal. <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">Start with SiteGround →</a>
 
-**Choose ScalaHosting if** you want shared hosting simplicity today with a clear upgrade path to managed VPS tomorrow — using the same SPanel control panel you've already learned. <a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">Start with ScalaHosting →</a>
+**Choose ScalaHosting if** you want shared hosting simplicity today with a clear upgrade path to managed VPS tomorrow — using the same SPanel control panel you've already learned. <a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">Start with ScalaHosting →</a>
 
 **Choose Hostinger if** you're confident you'll host for 4+ years and want the absolute lowest average monthly cost by prepaying long-term.
 
@@ -593,7 +593,7 @@ My recommendation comes down to your priorities:
 
 - **Long-term value:** <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer at $2.50/mo with per-terms price-lock guarantee</a> — no other host matches this
 - **Premium features:** <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> for excellent support and staging
-- **Growth path:** <a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a> if you plan to upgrade to managed VPS later
+- **Growth path:** <a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">ScalaHosting</a> if you plan to upgrade to managed VPS later
 
 Whichever you choose, all five providers offer 30-day money-back guarantees, so you can test without risk. Pick the one that aligns with your budget and growth plans, and you'll have a solid foundation for your website in 2026.
 

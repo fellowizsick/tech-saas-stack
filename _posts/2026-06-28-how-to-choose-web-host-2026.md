@@ -52,7 +52,7 @@ A personal blog getting 1,000 visitors per month has very different needs from a
 
 **3. How tech-savvy are you?**
 
-If you don't know what SSH is or how to configure Nginx, you need fully managed hosting. <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> and <a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a> both excel at providing managed experiences that hide server complexity.
+If you don't know what SSH is or how to configure Nginx, you need fully managed hosting. <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> and <a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">ScalaHosting</a> both excel at providing managed experiences that hide server complexity.
 
 If you're comfortable with a control panel and occasional technical tasks, <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> offers a strong middle ground with straightforward management tools.
 
@@ -105,7 +105,7 @@ I covered this in detail in my <a href="/comparison/best-shared-web-hosting-2026
 
 A Virtual Private Server gives you guaranteed CPU, RAM, and storage. No noisy neighbors. VPS comes in two flavors:
 
-- **Managed VPS** — The provider handles server admin (updates, security, monitoring). You manage your sites and apps. <a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a> ($29.95/mo intro with their SPanel control panel) and <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> ($14/mo on DigitalOcean) are strong options here.
+- **Managed VPS** — The provider handles server admin (updates, security, monitoring). You manage your sites and apps. <a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">ScalaHosting</a> ($29.95/mo intro with their SPanel control panel) and <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> ($14/mo on DigitalOcean) are strong options here.
 - **Unmanaged VPS** — You configure and maintain everything. Cheaper but requires Linux sysadmin skills.
 
 **When it works:** Growing ecommerce stores, membership sites, agencies managing multiple clients.
@@ -207,7 +207,7 @@ From my experience testing these providers:
 
 - <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> has the most responsive support — consistently under 1 minute for chat, with knowledgeable agents who can handle technical issues.
 - <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> offers reliably quick responses, though their agents are better at common issues than edge cases.
-- <a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a> provides good managed support, particularly for their SPanel platform.
+- <a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">ScalaHosting</a> provides good managed support, particularly for their SPanel platform.
 - <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> has solid 24/7 support via chat and ticket system, with good knowledge base articles.
 
 ### Must-Have Features Checklist
@@ -254,7 +254,7 @@ I break down more freelancer-specific recommendations in my <a href="/comparison
 
 **Best fit: ScalaHosting**
 
-If you're starting small but plan to scale to a VPS within a year or two, <a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a> is the natural path. Their shared plans start at $2.95/mo intro and use the same SPanel interface as their managed VPS plans. When you outgrow shared hosting, you upgrade to a VPS running SPanel — the same control panel you already know, no migration hassle.
+If you're starting small but plan to scale to a VPS within a year or two, <a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">ScalaHosting</a> is the natural path. Their shared plans start at $2.95/mo intro and use the same SPanel interface as their managed VPS plans. When you outgrow shared hosting, you upgrade to a VPS running SPanel — the same control panel you already know, no migration hassle.
 
 ## Choosing Between the Four — A Direct Comparison
 

@@ -478,7 +478,7 @@ Yes, Mailchimp remains a strong option for ecommerce businesses. Its Shopify and
 
 You can use any email marketing platform without hosting, but if you're sending email campaigns with links to a website, your hosting provider affects deliverability and page load speed. For a high-performance WordPress site that integrates with ActiveCampaign or Mailchimp, I recommend <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways managed cloud hosting</a> or <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround WordPress hosting</a> — both offer excellent speed and one-click installs for email marketing integrations.
 
-For budget-conscious users starting out, <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer's shared hosting at $2.50/mo</a> pairs well with MailerLite's free tier for a complete under-$5/mo marketing stack. If you need managed VPS performance for high-traffic email campaigns, <a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting's SPanel-managed VPS plans</a> start at $29.95/mo.
+For budget-conscious users starting out, <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer's shared hosting at $2.50/mo</a> pairs well with MailerLite's free tier for a complete under-$5/mo marketing stack. If you need managed VPS performance for high-traffic email campaigns, <a href="https://scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">ScalaHosting's SPanel-managed VPS plans</a> start at $29.95/mo.
 
 ### Can I switch email platforms later?
 

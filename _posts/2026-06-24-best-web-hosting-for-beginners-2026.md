@@ -177,7 +177,7 @@ ScalaHosting is in a unique spot — it offers VPS-class hosting at shared-hosti
 
 **$2.95/mo intro jumps to $11.95/mo at renewal.** That's still a fair price for what you get (dedicated VPS with SPanel, SShield, and free migrations), but it's 4x the intro rate.
 
-**Get ScalaHosting:** <a class="cta-btn" href="https://scalahosting.com/">Check ScalaHosting Plans →</a>
+**Get ScalaHosting:** <a class="cta-btn" href="https://scalahosting.com/?aid=jon">Check ScalaHosting Plans →</a>
 
 ---
 

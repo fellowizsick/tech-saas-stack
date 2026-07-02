@@ -152,7 +152,7 @@ ScalaHosting's secret weapon for agencies is SPanel — their own control panel 
 
 The cloud VPS renewal ($39.95/mo) is pricier than Cloudways' comparable tier ($28/mo). SPanel is excellent, but if your team is used to cPanel or Cloudways custom dashboard, there's an adjustment period. The support team is knowledgeable but can be slower than SiteGround's during US business hours since they're based in Europe.
 
-**Get ScalaHosting:** <a class="cta-btn" href="https://www.scalahosting.com/wordpress-hosting">Check ScalaHosting Plans →</a>
+**Get ScalaHosting:** <a class="cta-btn" href="https://www.scalahosting.com/wordpress-hosting?aid=jon">Check ScalaHosting Plans →</a>
 
 ## 4. WP Engine — Best for Enterprise Agency Clients (⭐⭐⭐⭐½)
 

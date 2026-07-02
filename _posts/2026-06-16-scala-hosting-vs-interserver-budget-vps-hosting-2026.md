@@ -413,7 +413,7 @@ SShield is ScalaHosting's **proprietary security system** — not a rebranded th
 
   <p>Ready to decide? Grab the current deals:</p>
   <ul>
-    <li><a href="https://www.scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting — Managed VPS from $29.95/mo (SPanel included)</a></li>
+    <li><a href="https://www.scalahosting.com/?aid=jon" rel="nofollow sponsored" target="_blank">ScalaHosting — Managed VPS from $29.95/mo (SPanel included)</a></li>
     <li><a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer — Shared $2.50/mo locked for life, VPS from $6/mo</a></li>
   </ul>
   

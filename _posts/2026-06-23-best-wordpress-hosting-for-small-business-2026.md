@@ -302,7 +302,7 @@ Their support team is based in the US and responds quickly. I tested a pre-sales
 
 **Who it's for:** Small businesses that want the best bang for their buck on shared hosting, especially if they factor in the free domain and domain privacy savings.
 
-<a href="https://scalahosting.com/?aid=jon" class="cta-btn">Visit ScalaHosting →</a>
+<a href="https://scalahosting.com/?aid=7ff57600" class="cta-btn">Visit ScalaHosting →</a>
 
 ## 5. WP Engine — Best Premium Option for High-Growth Businesses
 

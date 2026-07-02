@@ -64,7 +64,7 @@
 | InterServer | `1155259` | `https://www.interserver.net/r/1155259` |
 | Cloudways | `2179745` | `https://www.cloudways.com/en/?id=2179745` |
 | SiteGround | `/go/affiliate` | `https://www.siteground.com/go/affiliate` |
-| ScalaHosting | `?aid=jon` | `https://scalahosting.com/?aid=jon` |
+| ScalaHosting | `?aid=7ff57600` | `https://scalahosting.com/?aid=7ff57600` |
 | Bluehost | Impact Radius | `https://bluehost.sjv.io/c/7392811/1376228/11352` |
 | Kinsta | `?ref=jon` | `https://kinsta.com/?ref=jon` |
 

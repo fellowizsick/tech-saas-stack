@@ -29,7 +29,7 @@
 ## Site Stats
 
 - **73 posts live** (as of Jun 28 2026)
-- **6 active affiliate programs:** InterServer (r/1155259), Cloudways (id=2179745), SiteGround (/go/affiliate), ScalaHosting (?aid=jon), Bluehost (Impact Radius), Kinsta (?ref=jon)
+- **5 active affiliate programs:** InterServer (r/1155259), Cloudways (id=2179745), SiteGround (/go/affiliate), ScalaHosting (?aid=jon), Bluehost (Impact Radius)
 - **Custom domain:** techsaasstack.com (Namecheap, ~$1/yr)
 - **Google Analytics:** G-RLHP59H7Z2
 - **Google Search Console:** Verified (HTML tag)
@@ -66,11 +66,10 @@
 | SiteGround | `/go/affiliate` | `https://www.siteground.com/go/affiliate` |
 | ScalaHosting | `?aid=7ff57600` | `https://scalahosting.com/?aid=7ff57600` |
 | Bluehost | Impact Radius | `https://bluehost.sjv.io/c/7392811/1376228/11352` |
-| Kinsta | `?ref=jon` | `https://kinsta.com/?ref=jon` |
-
+|
 ## Known Issues
 
-- 🔴 Kinsta/Hostinger/WP Engine — reapplying with custom domain
+- 🔴 Hostinger/WP Engine — reapplying with custom domain
 - 🔴 Bluehost/Cloudways/InterServer Cloudflare-protected — can't auto-pull pricing
 - 🔴 Awin onboarding — verification tag added, awaiting dashboard completion
 - ⏸️ Blog strategy research cron is paused (job `8678e4ac9ee7`)

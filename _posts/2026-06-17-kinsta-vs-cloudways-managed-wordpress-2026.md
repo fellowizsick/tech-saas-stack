@@ -417,7 +417,7 @@ A: At $340/mo+ ($4,080+/year), you'd need ~$400/mo in time savings or revenue pr
 
 ---
 
-*Disclosure: This article contains affiliate links. If you purchase through these links, I earn a commission at no extra cost to you. I only recommend products I've personally tested and would use for my own projects. [InterServer Affiliate ID: 1155259] [Cloudways Affiliate ID: 2179745] [Kinsta Referral: jon]*
+*Disclosure: This article contains affiliate links. If you purchase through these links, I earn a commission at no extra cost to you. I only recommend products I've personally tested and would use for my own projects. [InterServer Affiliate ID: 1155259] [Cloudways Affiliate ID: 2179745]*
 
 ---
 

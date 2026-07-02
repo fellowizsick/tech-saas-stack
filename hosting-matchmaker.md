@@ -942,26 +942,6 @@ const PROVIDERS = [
     }
   },
   {
-    id: 'kinsta',
-    name: 'Kinsta',
-    logoStyle: 'background: linear-gradient(135deg, #5333ED, #3D1FB5);',
-    initial: 'K',
-    tagline: 'Premium managed WordPress',
-    url: 'https://kinsta.com/',
-    reviewUrl: '{{ site.baseurl }}/category/hosting/',
-    price: '$35/mo',
-    tags: ['Premium', 'WordPress', 'Speed'],
-    categories: ['managed-wp', 'premium'],
-    scores: {
-      budget_ultra: 1, budget_mid: 2, budget_premium: 8, budget_enterprise: 9,
-      site_blog: 6, site_ecommerce: 9, site_high_traffic: 10, site_agency: 9, site_app: 4,
-      traffic_low: 3, traffic_medium: 5, traffic_high: 10, traffic_extreme: 10,
-      skill_beginner: 3, skill_cpanel: 5, skill_cli: 5, skill_dev: 6,
-      priority_price: 1, priority_speed: 10, priority_support: 10, priority_ease: 6, priority_scale: 9,
-      wp_managed: 10, wp_unmanaged: 1, wp_either: 6
-    }
-  },
-  {
     id: 'wpengine',
     name: 'WP Engine',
     logoStyle: 'background: linear-gradient(135deg, #31A3DD, #1F7EB0);',
@@ -1113,13 +1093,6 @@ const reasons = {
     let r = 'Vultr offers high-performance cloud VPS with competitive pricing. ';
     if (ans.skill === 'dev') r += 'With 32 global locations and hourly billing, it\'s ideal for developers who need geographic distribution.';
     else r += 'Their AMD and Intel high-performance instances deliver exceptional value for compute-heavy workloads.';
-    return r;
-  },
-  kinsta: (ans) => {
-    let r = 'Kinsta is the premium choice for managed WordPress hosting. ';
-    if (ans.priority === 'speed') r += 'Built on Google Cloud\'s premium tier network with Cloudflare integration, it\'s the fastest managed WP host we\'ve tested.';
-    else if (ans.traffic === 'high' || ans.traffic === 'extreme') r += 'Their auto-scaling infrastructure handles traffic spikes effortlessly — we\'ve tested it at 500K+ visits.';
-    else r += 'Enterprise-level security, automatic daily backups, and a custom dashboard that makes site management a pleasure.';
     return r;
   },
   wpengine: (ans) => {
@@ -1405,7 +1378,7 @@ function renderResults() {
     const logos = {
       siteground: '#0FAA73', bluehost: '#2C6FD1', hostinger: '#673DE6',
       cloudways: '#5A2EFF', interserver: '#E65100', scalahosting: '#F7941E',
-      digitalocean: '#0060FF', vultr: '#007BFC', kinsta: '#5333ED',
+      digitalocean: '#0060FF', vultr: '#007BFC',
       wpengine: '#31A3DD'
     };
     const color = logos[p.id] || 'var(--quiz-primary)';

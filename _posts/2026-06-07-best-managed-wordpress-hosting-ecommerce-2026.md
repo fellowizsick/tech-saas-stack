@@ -150,7 +150,6 @@ For a detailed comparison against Kinsta and SiteGround, see our [WP Engine vs K
 
 <div class="cta-wrapper">
 <p><strong>Starting price:</strong> $35/month | <strong>Best for:</strong> Established stores with 50,000+ monthly visitors</p>
-Visit Kinsta →
 </div>
 
 Kinsta runs entirely on Google Cloud Platform's premium-tier network with C2 compute-optimized virtual machines. For e-commerce stores that need raw compute power — think large product catalogs with complex filtering, real-time inventory syncing, or AI-driven product recommendations — Kinsta's infrastructure provides the highest baseline performance of any provider I tested.

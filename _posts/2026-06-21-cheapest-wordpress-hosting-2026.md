@@ -56,8 +56,6 @@ For growing sites, ScalaHosting's managed VPS with SPanel (cPanel alternative) s
 
 Kinsta runs on Google Cloud C2 machines with LXD containers, edge caching, and auto-scaling. Starting at **$35/mo**.
 
-👉 **[Claim Kinsta's deal →](https://kinsta.com/?ref=jon)**
-
 **Best for:** High-traffic sites that need premium performance.
 
 ---

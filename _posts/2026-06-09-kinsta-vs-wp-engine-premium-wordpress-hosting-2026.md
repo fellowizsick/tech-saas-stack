@@ -415,8 +415,6 @@ WP Engine does not offer true white-label hosting — your clients will see "Pow
 
 Compare the latest pricing and features directly on their sites:
 - **Get started with WP Engine →**
-- **Get started with Kinsta →**
-
 For more hosting comparisons, reviews, and guides, browse our full [hosting category](/tech-saas-stack/?category=hosting) or check the [deals page](/tech-saas-stack/deals/) for current promotions and discounts.
 
 </details>

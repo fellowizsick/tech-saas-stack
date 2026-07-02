@@ -333,6 +333,6 @@ A: Once per month is sufficient for most sites. Schedule automatic cleanups usin
 
 </div>
 
-🚀 Kinsta — Fastest Google Cloud WordPress Hosting
+
 
 </details>

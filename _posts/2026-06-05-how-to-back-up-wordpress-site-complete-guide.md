@@ -234,14 +234,11 @@ The best backup strategy combines **automatic hosting backups** (for zero-effort
 
 **Go with WP Engine** if you want the longest retention (60 days) and best restore experience. Check WP Engine plans →
 
-**Go with Kinsta** if you need the highest backup frequency (6x daily) and Google Cloud infrastructure. Check Kinsta plans →
-
 **Go with UpdraftPlus Free** if you're on a budget and want to manage your own backups to Google Drive or Dropbox.
 
 </div>
 
 Get WP Engine →
-Get Kinsta →
 <a href="https://siteground.com/" class="cta-btn">Get SiteGround →</a>
 
 </details>

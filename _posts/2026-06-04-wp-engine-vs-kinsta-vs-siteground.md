@@ -220,10 +220,8 @@ Kinsta's support team consists of WordPress engineers (not generalists). In our 
 
 Kinsta is the best choice for **performance-critical sites** — high-traffic blogs, ecommerce stores, and multinational businesses that need fast load times across global audiences.
 
-<div class="cta-wrapper">
-  <p><strong>Get premium Google Cloud hosting with Kinsta</strong></p>
-  Visit Kinsta →
-</div>
+
+</details>
 
 ## SiteGround — Best Budget Option
 

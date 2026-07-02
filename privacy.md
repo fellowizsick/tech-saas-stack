@@ -79,7 +79,7 @@ You can:
 
 ## 6. Affiliate Disclosure
 
-This site participates in affiliate programs (WP Engine, Kinsta, SiteGround, Hostinger, InterServer, Cloudways, ScalaHosting, Semrush, Ahrefs, Elementor, ActiveCampaign, ConvertKit, etc.). 
+This site participates in affiliate programs (WP Engine, SiteGround, Hostinger, InterServer, Cloudways, ScalaHosting, Semrush, Ahrefs, Elementor, ActiveCampaign, ConvertKit, etc.). 
 
 **When you click an affiliate link and make a purchase, we earn a commission at no additional cost to you.** This supports independent reviews.
 

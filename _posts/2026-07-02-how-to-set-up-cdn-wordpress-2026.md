@@ -146,7 +146,7 @@ That's it. The Cloudflare Enterprise CDN activates within minutes with zero DNS 
     <tr><td><strong><a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a></strong></td><td>✅ Yes</td><td>Cloudflare Enterprise</td><td>$14/mo</td><td>One-click CDN, no DNS changes needed</td></tr>
     <tr><td><strong><a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a></strong></td><td>✅ Yes</td><td>Cloudflare integration</td><td>$2.99/mo intro</td><td>SG Optimizer + Cloudflare plugin</td></tr>
     <tr><td><strong><a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a></strong></td><td>⚡ Optional add-on</td><td>Third-party CDN</td><td>$2.50/mo</td><td>Budget-friendly, price-lock guarantee</td></tr>
-    <tr><td><strong><a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a></strong></td><td>✅ Included</td><td>SPanel-powered caching + CDN</td><td>$29.95/mo intro</td><td>Managed VPS with built-in performance tools</td></tr>
+    <tr><td><strong><a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a></strong></td><td>✅ Included</td><td>SPanel-powered caching + CDN</td><td>$29.95/mo intro</td><td>Managed VPS with built-in performance tools</td></tr>
   </tbody>
 </table>
 

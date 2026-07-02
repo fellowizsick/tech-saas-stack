@@ -127,7 +127,7 @@ ScalaHosting's SPanel control panel includes a one-click WordPress staging tool 
 
 ScalaHosting's staging uses password protection by default, which means staging sites aren't publicly crawlable by search engines — an important detail that some hosts overlook. The Promote to Live function overwrites the entire live site with staging content, so make sure you sync any live changes (new orders, comments) before promoting.
 
-<a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">Explore ScalaHosting VPS with free staging →</a>
+<a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">Explore ScalaHosting VPS with free staging →</a>
 
 ### InterServer — Staging via Softaculous
 
@@ -236,7 +236,7 @@ The advantage of local development is speed — you can iterate through design c
     <tr>
       <td>Growing site, needs performance</td>
       <td>Hosting one-click staging</td>
-      <td><a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a></td>
+      <td><a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a></td>
     </tr>
     <tr>
       <td>Developer, full control needed</td>

@@ -48,7 +48,7 @@ SiteGround starts at **$2.99/mo** on annual plans. You get free SSL, daily backu
 
 For growing sites, ScalaHosting's managed VPS with SPanel (cPanel alternative) starts at **$29.95/mo**. Free migrations, SShield security, and daily backups included.
 
-👉 **[Claim ScalaHosting's deal →](https://scalahosting.com/?aid=jon)**
+👉 **[Claim ScalaHosting's deal →](https://scalahosting.com/?aid=7ff57600)**
 
 **Best for:** Sites outgrowing shared hosting.
 

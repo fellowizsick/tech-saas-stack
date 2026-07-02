@@ -146,7 +146,7 @@ ScalaHosting is the dark horse of high-traffic WordPress hosting. Their shared p
 
 The renewal pricing is significant — $39.95/mo for the Entry Cloud VPS is competitive with Cloudways but higher than InterServer's VPS. And SPanel, while excellent, has a learning curve if you're used to cPanel. The shared hosting ($2.95/mo intro) is NOT suitable for high traffic — you need the cloud VPS tier.
 
-**Get ScalaHosting:** <a class="cta-btn" href="https://scalahosting.com/?aid=jon">Check ScalaHosting Plans →</a>
+**Get ScalaHosting:** <a class="cta-btn" href="https://scalahosting.com/?aid=7ff57600">Check ScalaHosting Plans →</a>
 
 ## 4. SiteGround GoGeek — Best Mid-Traffic Managed Hosting (⭐⭐⭐⭐)
 

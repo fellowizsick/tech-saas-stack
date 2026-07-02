@@ -377,7 +377,7 @@ ScalaHosting doesn't compete on raw specs per dollar — they compete on **manag
 
 **Best for:** Agencies managing client sites, non-technical site owners, WordPress-heavy workloads, anyone who values "it just works" over root access.
 
-<a href="https://scalahosting.com/managed-vps-hosting?aid=jon" class="cta-btn" target="_blank" rel="sponsored nofollow">Explore ScalaHosting Managed VPS →</a>
+<a href="https://scalahosting.com/managed-vps-hosting?aid=7ff57600" class="cta-btn" target="_blank" rel="sponsored nofollow">Explore ScalaHosting Managed VPS →</a>
 
 ---
 

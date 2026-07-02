@@ -26,7 +26,7 @@ InterServer's VPS plans start at **$6/mo** with full root access, your choice of
 
 If you want managed VPS with SPanel (free cPanel alternative), ScalaHosting starts at **$29.95/mo**. Free migrations, daily backups, SShield AI security.
 
-👉 **[Get ScalaHosting →](https://scalahosting.com/?aid=jon)**
+👉 **[Get ScalaHosting →](https://scalahosting.com/?aid=7ff57600)**
 
 ## 3. Cloudways — Pay-as-you-go Cloud
 

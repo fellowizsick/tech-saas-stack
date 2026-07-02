@@ -143,7 +143,7 @@ ScalaHosting is the dark horse of managed WordPress hosting. Their secret weapon
 
 The cloud VPS renewal price ($39.95/mo) is significant compared to Cloudways' $14-28/mo range for similar specs. The shared hosting is competitive but competes directly with SiteGround and others. SPanel is excellent, but if you're used to cPanel, there's a short adjustment period.
 
-**Get ScalaHosting:** <a class="cta-btn" href="https://www.scalahosting.com/wordpress-hosting?aid=jon">Check ScalaHosting Plans →</a>
+**Get ScalaHosting:** <a class="cta-btn" href="https://www.scalahosting.com/wordpress-hosting?aid=7ff57600">Check ScalaHosting Plans →</a>
 
 ## 4. InterServer — Best Budget Option (⭐⭐⭐⭐)
 

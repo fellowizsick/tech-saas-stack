@@ -8,7 +8,7 @@ tags: [wordpress-backup, backup-guide, wordpress-security, site-backups, data-pr
 ---
 
 <div class="disclosure-bar">
-  <strong>Disclosure:</strong> Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you. I only recommend services I've personally tested and use.
+  <strong>Disclosure:</strong> Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you. All recommendations are based on research and publicly available information.
 </div>
 
 Your WordPress site is the result of hundreds of hours of work — content, design, customizations, SEO rankings, and reader trust. Losing it to a failed update, a hacked server, or accidental deletion is a nightmare that proper backups can prevent entirely. In this guide, I'll walk you through every viable method for backing up a WordPress site in 2026, from one-click hosting solutions to manual database exports.

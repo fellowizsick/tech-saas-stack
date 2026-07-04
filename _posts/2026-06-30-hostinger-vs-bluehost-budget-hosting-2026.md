@@ -21,7 +21,7 @@ faq:
     a: "Bluehost has tighter WordPress integration as an officially WordPress.org recommended host. It comes with pre-installed WordPress, automatic updates, and a custom dashboard built for WordPress. Hostinger also offers one-click WordPress installation and its hPanel is intuitive, but it doesn't have the same official WordPress.org endorsement."
 ---
 
-<div class="disclosure-bar">Disclosure: Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you. I only recommend services I've personally tested or thoroughly researched.</div>
+<div class="disclosure-bar">Disclosure: Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you. All recommendations are based on research and publicly available information.</div>
 
 Hostinger and Bluehost are two of the most popular budget web hosting providers in 2026. Both offer affordable entry-level plans, free domains, and beginner-friendly experiences. But they take different approaches — and one clearly gives you more for your money.
 

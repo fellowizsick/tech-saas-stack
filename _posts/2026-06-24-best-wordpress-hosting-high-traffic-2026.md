@@ -100,7 +100,7 @@ WP Engine has been the gold standard for managed WordPress hosting for years, an
 
 ### What Makes WP Engine a High-Traffic Powerhouse
 
-**EverCache system.** WP Engine's proprietary caching layer is tuned specifically for WordPress. They claim 99.99% uptime and consistently deliver sub-second TTFB even under heavy load. I've stress-tested WP Engine sites at 200k+ visits/month and they don't flinch.
+**EverCache system.** WP Engine's proprietary caching layer is tuned specifically for WordPress. They claim 99.99% uptime and consistently deliver sub-second TTFB even under heavy load. WP Engine handles high-traffic sites well — they're known for consistent performance even at 200k+ visits/month.
 
 **Global CDN included.** Every plan comes with a built-in CDN (powered by MaxCDN/StackPath) — no extra fee, no separate setup. For high-traffic sites serving an international audience, this alone can cut server load by half.
 

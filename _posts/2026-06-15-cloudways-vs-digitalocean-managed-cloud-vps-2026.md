@@ -9,7 +9,7 @@ description: "Cloudways vs DigitalOcean 2026 showdown. Managed cloud convenience
 author:
   name: "Jon Brown"
   avatar: "/assets/images/author-jon.jpg"
-disclosure: "This post contains affiliate links. If you purchase through these links, I may earn a commission at no extra cost to you. I only recommend services I've personally tested or thoroughly researched."
+disclosure: "This post contains affiliate links. If you purchase through these links, I may earn a commission at no extra cost to you. All recommendations are based on research and publicly available information."
 schema:
   "@context": "https://schema.org"
   "@type": "Review"
@@ -345,7 +345,7 @@ This post contains affiliate links. If you purchase through these links, I may e
 - **Cloudways:** I'm an affiliate partner. Signing up via my links supports this site. [Try Cloudways free for 3 days →](https://www.cloudways.com/en/?id=2179745)
 - **DigitalOcean:** New users get $200 free credit via referral links. [Claim your $200 credit →](https://m.do.co/c/c8274544eaa3)
 
-I only recommend services I've personally used or thoroughly researched. My goal is honest comparisons that save you time and money.
+All recommendations are based on research and publicly available information.
 
 ---
 

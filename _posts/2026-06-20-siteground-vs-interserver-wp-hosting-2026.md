@@ -24,7 +24,7 @@ schema:
 ---
 
 <div class="disclosure-bar affiliate-disclosure">
-  <p><strong>Affiliate Disclosure:</strong> Some links in this article are affiliate links. If you purchase through them, we may earn a commission at no extra cost to you. We only recommend products we've personally tested and trust. <a href="/privacy/">Full disclosure</a>.</p>
+  <p><strong>Affiliate Disclosure:</strong> Some links in this article are affiliate links. If you purchase through them, we may earn a commission at no extra cost to you. All recommendations are based on research and publicly available information. <a href="/privacy/">Full disclosure</a>.</p>
 </div>
 
 # SiteGround vs InterServer: Managed WordPress vs Price-Locked Value (2026)

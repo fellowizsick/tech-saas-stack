@@ -8,7 +8,7 @@ tags: [cloudways-wordpress, wordpress-setup, managed-hosting, wordpress-tutorial
 ---
 
 <div class="disclosure-bar">
-  <strong>Disclosure:</strong> Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you. I only recommend services I've personally tested and use.
+  <strong>Disclosure:</strong> Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you. All recommendations are based on research and publicly available information.
 </div>
 
 <details class="collapsible-section" markdown="1">

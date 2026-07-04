@@ -1,38 +1,8 @@
 title: Tech & SaaS Stack
 tagline: Honest reviews, comparisons, and tutorials
-description: In-depth, data-driven reviews of web hosting, SaaS tools, and software for developers, creators, and online businesses.
+description: Data-driven reviews of web hosting, SaaS tools, and software for developers, creators, and online businesses.
 url: "https://techsaasstack.com"
 baseurl: ""
-author: Jon Brown
-
-# Author profile for social proof
-author_profile:
-  name: "Jon Brown"
-  title: "Tech Reviewer & Affiliate Content Creator"
-  bio: "I've spent years testing web hosting, SaaS tools, and WordPress solutions so you don't have to guess — you get honest, data-driven reviews you can trust."
-  avatar: "JB"
-  credentials:
-    - "10+ years WordPress & hosting experience"
-    - "Tested 50+ hosting providers hands-on"
-    - "Published 100+ in-depth comparisons"
-    - "Building in public since 2023"
-  social:
-    github: "https://github.com/fellowizsick"
-    email: "jon.techsaasstack@gmail.com"
-    # blog: "https://fellowizsick.github.io"  # 404 - disabled
-  trust_badges:
-    - label: "WP.org Recommended"
-      icon: "🏆"
-      URL: "https://wordpress.org"
-    - label: "100+ Providers Tested"
-      icon: "✅"
-      URL: "#"
-    - label: "No Sponsored Reviews"
-      icon: "🤝"
-      URL: "#"
-    - label: "Data-Driven Analysis"
-      icon: "📊"
-      URL: "#"
 
 # Current year for dynamic titles (update annually)
 current_year: 2026
@@ -52,8 +22,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: Jon Brown
-      toc: true
 
 future: true
 excerpt_separator: "<!--more-->"

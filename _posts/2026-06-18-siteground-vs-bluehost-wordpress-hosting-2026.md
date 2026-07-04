@@ -39,7 +39,7 @@ schema:
 
 ---
 
-I've been running WordPress sites since 2018 — client builds, affiliate sites, WooCommerce stores, personal projects. I've hosted on everything from $3 shared plans to $300/mo Kinsta enterprise tiers. The hosting landscape shifted hard in 2024-2025: Kinsta moved to bandwidth billing (10x entry price), WP Engine got into a public war with Automattic, and "premium managed WordPress" basically became "enterprise only."
+The hosting landscape shifted hard in 2024-2025: Kinsta moved to bandwidth billing (10x entry price), WP Engine got into a public war with Automattic, and "premium managed WordPress" basically became "enterprise only."
 
 That leaves the mass-market tier — where most of us actually live — dominated by two names you'll see recommended everywhere: **SiteGround** and **Bluehost**.
 

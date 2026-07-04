@@ -25,7 +25,7 @@ faq:
     a: "Shopify is the best for dropshipping. It has native integration with Oberlo (now DSers) and dozens of dropshipping apps. WooCommerce has plugins like WooDropship. BigCommerce has limited dropshipping tools compared to Shopify's ecosystem."
 ---
 <div class="affiliate-disclosure">
-  <p><strong>Disclosure:</strong> Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you. I only recommend products I've personally tested and believe provide genuine value.</p>
+  <p><strong>Disclosure:</strong> Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you. All recommendations are based on research and publicly available information.</p>
 </div>
 
 Choosing the right e-commerce platform is the single most important decision you will make when launching an online store. Your platform determines your monthly costs, your design flexibility, your SEO potential, and how easily you can scale from your first sale to six figures a year.

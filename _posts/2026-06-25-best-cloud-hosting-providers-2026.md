@@ -401,4 +401,4 @@ If the answer is "all of it" — you want root access, no platform tax, and the 
 
 If you're somewhere in between, ScalaHosting's SPanel with managed support at $2.95/mo intro is worth a look — just be mindful of the 36-month commitment and renewal pricing.
 
-In my testing, most site owners find that one of these five is a strong match for their use case, budget, and comfort level. Start with the table above, match your needs to the provider, and you'll be running on proper cloud infrastructure for less than the cost of a streaming subscription.
+Most site owners find that one of these five is a strong match for their use case, budget, and comfort level. Start with the table above, match your needs to the provider, and you'll be running on proper cloud infrastructure for less than the cost of a streaming subscription.

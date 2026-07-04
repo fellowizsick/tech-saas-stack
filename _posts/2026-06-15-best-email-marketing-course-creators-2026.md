@@ -58,7 +58,7 @@ schema:
 <details class="collapsible-section" markdown="1">
 <summary>Why This Comparison Matters</summary>
 
-I've been building online businesses since 2019. I've watched course creators bleed money on email platforms that don't fit their model. The wrong choice costs you in wasted subscription fees, lost sales from weak automation, and migration headaches later.
+Email marketing platforms can make or break a course creator's bottom line. The wrong choice costs you in wasted subscription fees, lost sales from weak automation, and migration headaches later.
 
 Story time: I migrated a client from Mailchimp to ActiveCampaign in 2022. Their course revenue jumped 40% in 60 days just from better segmentation and abandoned cart flows. The platform matters.
 

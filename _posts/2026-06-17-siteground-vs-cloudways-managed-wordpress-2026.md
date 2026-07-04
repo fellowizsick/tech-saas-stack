@@ -38,7 +38,7 @@ schema:
 
 ---
 
-I've been running WordPress sites for clients since 2018. I've hosted on shared, VPS, dedicated, and every "managed WordPress" platform in between. The landscape changed hard in 2024-2025 — Kinsta doubled prices and moved to bandwidth billing, WP Engine got into a public fight with Automattic, and the "premium managed" tier basically became "enterprise only."
+The managed WordPress hosting landscape changed hard in 2024-2025 — Kinsta doubled prices and moved to bandwidth billing, WP Engine got into a public fight with Automattic, and the "premium managed" tier basically became "enterprise only."
 
 That leaves two very different contenders for the rest of us: **SiteGround** (traditional shared-but-managed) and **Cloudways** (cloud VPS with a managed control panel).
 
@@ -371,7 +371,7 @@ A: Surprisingly yes. "Fix my slow site" → enables dynamic cache, optimizes ima
 <details class="collapsible-section" markdown="1">
 <summary><strong>My Honest Take (Jon)</strong></summary>
 
-I'm a disabled vet running this blog solo. I don't have a dev team. I want to write, not debug NGINX configs.
+This blog is a solo operation. No dev team, no sysadmin. I want to write, not debug NGINX configs.
 
 **For this site (techsaasstack.com): I'm on SiteGround GrowBig.**
 

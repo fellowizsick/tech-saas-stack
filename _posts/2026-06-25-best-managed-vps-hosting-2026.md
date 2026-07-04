@@ -489,7 +489,7 @@ Kinsta completely overhauled their pricing in mid-2026, switching from visit-bas
 - You want full control over server configuration
 - Cost is your primary concern (unmanaged DigitalOcean droplets start at $4/mo)
 
-For most site owners, the $6-30/mo premium for managed VPS is worth avoiding late-night server emergencies. I've been down the unmanaged road, and paying a few extra dollars for sleep is a good trade.
+For most site owners, the $6-30/mo premium for managed VPS is worth avoiding late-night server emergencies. Going unmanaged means handling your own server issues, and paying a few extra dollars for sleep is a good trade.
 
 ## Frequently Asked Questions
 

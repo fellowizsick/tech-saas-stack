@@ -48,6 +48,6 @@ If we receive free access to a product for testing purposes, we disclose that in
 
 ### Questions?
 
-Email us at **jon.techsaasstack@gmail.com** if you have any questions about our affiliate relationships or review practices.
+Contact us through GitHub Issues at github.com/fellowizsick/tech-saas-stack if you have any questions about our affiliate relationships or review practices.
 
 *Last updated: July 1, 2026*

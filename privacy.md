@@ -15,7 +15,7 @@ permalink: /privacy/
 
 **Tech & SaaS Stack** ("we", "our", "us") operates the website `https://techsaasstack.com`. This policy explains how we handle your information.
 
-Contact: **jon.techsaasstack@gmail.com** | GitHub: [github.com/fellowizsick](https://github.com/fellowizsick)
+Contact us through GitHub Issues.
 
 ---
 
@@ -146,7 +146,7 @@ We may update this policy. Changes will be posted here with updated "Last update
 
 For privacy questions, data requests, or concerns:
 
-**Email:** jon.techsaasstack@gmail.com  
+**Email:** Contact via GitHub Issues  
 **GitHub:** [github.com/fellowizsick](https://github.com/fellowizsick)
 
 We respond within 30 days.

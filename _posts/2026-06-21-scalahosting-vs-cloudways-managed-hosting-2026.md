@@ -9,7 +9,7 @@ description: "ScalaHosting managed cloud VPS vs Cloudways multi-cloud managed pl
 author:
   name: "Jon Brown"
   avatar: "/assets/images/author-jon.jpg"
-disclosure: "This post contains affiliate links. If you purchase through these links, I may earn a commission at no extra cost to you. I only recommend services I've personally tested or thoroughly researched."
+disclosure: "This post contains affiliate links. If you purchase through these links, I may earn a commission at no extra cost to you. All recommendations are based on research and publicly available information."
 schema:
   "@context": "https://schema.org"
   "@type": "Review"

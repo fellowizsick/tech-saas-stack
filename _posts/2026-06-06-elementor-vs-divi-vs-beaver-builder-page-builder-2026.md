@@ -548,7 +548,7 @@ There's no single "best" page builder — the right choice depends on your proje
 <div class="author-box">
   <div class="author-avatar">JB</div>
   <div class="author-info">
-    <strong>Jonathan Brown</strong> — Founder of Tech & SaaS Stack. I've been building WordPress sites for over a decade and testing page builders, hosting, and SaaS tools so you don't have to.
+    <strong>Tech & SaaS Stack</strong> — Research-backed reviews of WordPress page builders, hosting, and SaaS tools. Our goal is honest, data-driven comparisons that save you time and money.
   </div>
 </div>
 

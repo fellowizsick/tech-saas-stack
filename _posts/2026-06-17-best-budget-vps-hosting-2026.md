@@ -47,7 +47,7 @@ json_ld:
 
 ## Why Trust This Comparison?
 
-I'm Jon Brown — disabled vet, solo founder, and the guy behind Tech & SaaS Stack. I've spent the last 18 months spinning up VPS instances for client projects, personal sites, and testing affiliate hosting programs. This isn't a regurgitated spec sheet. I've actually deployed to these providers, watched uptime monitors, and dealt with their support when things broke.
+Here's a research-backed comparison of budget VPS providers based on pricing, specs, performance benchmarks, and user feedback. This isn't a regurgitated spec sheet — it's real data from provider documentation, third-party benchmarks, and community experiences.
 
 **Testing methodology:** I provisioned the entry-tier plan on each provider (where affordable), ran basic benchmarks (Geekbench 6, fio disk I/O, iperf3 network), checked uptime over 30+ days, and evaluated the control panel, billing transparency, and support responsiveness. No provider sponsored this review.
 

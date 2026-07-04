@@ -14,7 +14,7 @@ Email marketing consistently delivers the highest ROI of any digital marketing c
 
 Each tool targets a different audience with a different philosophy. ActiveCampaign is the automation powerhouse for serious marketers. Mailchimp is the all-in-one platform scaling from hobbyist to enterprise. ConvertKit is the creator's companion built for audience growth and simplicity.
 
-I've spent the last month building email sequences, automations, landing pages, and lead magnets on all three platforms. Here's how they really stack up in 2026.
+Here's a research-backed comparison of all three platforms based on features, pricing, automation capabilities, and user feedback. Here's how they really stack up in 2026.
 
 <div class="verdict-box">
   <strong>Quick Verdict:</strong>
@@ -438,7 +438,7 @@ There's no universal "best" email marketing tool. The right choice depends entir
 <div class="author-box">
   <div class="author-avatar">JB</div>
   <div class="author-info">
-    <strong>Jonathan Brown</strong> — Founder of Tech & SaaS Stack. I've been building online businesses for over a decade and testing SaaS tools so you don't have to. When I'm not writing reviews, I'm probably optimizing my own email sequences.
+    <strong>Tech & SaaS Stack</strong> — Research-backed reviews of email marketing, hosting, and SaaS tools. Our goal is honest, data-driven comparisons that save you time and money.
   </div>
 </div>
 

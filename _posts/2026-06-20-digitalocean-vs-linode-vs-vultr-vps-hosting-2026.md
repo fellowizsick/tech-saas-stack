@@ -9,7 +9,7 @@ description: "A detailed 2026 comparison of DigitalOcean, Linode (Akamai), and V
 image: /assets/images/comparison/vps-comparison-2026.jpg
 author: Jon Brown
 author_title: Founder, Tech & SaaS Stack
-author_bio: "Jon Brown is a disabled veteran and the founder of Tech & SaaS Stack. He's been building and reviewing hosting setups since 2020, specializing in cloud infrastructure comparisons."
+author_bio: "Tech & SaaS Stack is a research-backed review site covering web hosting, cloud infrastructure, and SaaS tools."
 author_avatar: /assets/images/authors/jon-brown.jpg
 jsonld: {
   "@context": "https://schema.org",

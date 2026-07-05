@@ -30,7 +30,7 @@ jobs:
             [[ "$url" =~ "techsaasstack.com" ]] && continue
             [[ "$url" =~ "localhost" ]] && continue
 
-            STATUS=$(curl -s -o /dev/null -w '%{http_code}' --connect-timeout 10 --max-time 15 -L "$url" 2>/dev/null)
+            STATUS=$(curl -s -o /dev/null -w '%{http_code}' --connect-timeout 10 --max-time 15 -L "$url" 2>/dev/null || true)
             if [[ "$STATUS" != "200" && "$STATUS" != "301" && "$STATUS" != "302" && "$STATUS" != "403" ]]; then
               BROKEN="${BROKEN}$url → HTTP $STATUS"$'\n'
             fi
@@ -48,7 +48,7 @@ jobs:
           fi
 
       - name: Create Issue if broken links found
-        if: steps.linkcheck.outputs.broken == 'true'
+        if: ${{ !cancelled() && steps.linkcheck.outputs.broken == 'true' }}
         uses: actions/github-script@v7
         with:
           script: |

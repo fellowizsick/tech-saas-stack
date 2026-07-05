@@ -33,6 +33,13 @@ jobs:
             [[ "$url" =~ "github.com" ]] && continue
             [[ "$url" =~ "techsaasstack.com" ]] && continue
             [[ "$url" =~ "localhost" ]] && continue
+            [[ "$url" =~ "yoursite.com" ]] && continue
+            [[ "$url" =~ "yourdomain.com" ]] && continue
+            [[ "$url" =~ "your-account.api-us1.com" ]] && continue
+            [[ "$url" =~ cloudwaysapps.com ]] && continue
+            [[ "$url" =~ '%{HTTP_HOST}' ]] && continue
+            [[ "$url" =~ '\.\.\.' ]] && continue
+            [[ "$url" == *"</"* ]] && continue
 
             STATUS=$(curl -s -o /dev/null -w '%{http_code}' --connect-timeout 10 --max-time 15 -L "$url" 2>/dev/null || true)
             if [[ "$STATUS" != "200" && "$STATUS" != "301" && "$STATUS" != "302" && "$STATUS" != "403" ]]; then

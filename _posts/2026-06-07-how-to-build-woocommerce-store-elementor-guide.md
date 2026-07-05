@@ -65,7 +65,7 @@ Here's how the top WooCommerce hosting options compare in 2026:
 
 **My recommendation:** If you're launching a serious store with real traffic expectations, go with **WP Engine**. Their EverCache system is built specifically for WooCommerce and handles traffic spikes without buckling. If you're on a budget, **Hostinger** or [**SiteGround**](https://siteground.com/) are excellent starting points for smaller stores or pre-launch testing.
 
-For a more detailed breakdown of WP Engine vs other premium managed hosts, check out our [WP Engine vs Kinsta vs SiteGround comparison](https://fellowizsick.github.io/tech-saas-stack/2026/06/04/wp-engine-vs-kinsta-vs-siteground/).
+For a more detailed breakdown of WP Engine vs other premium managed hosts, check out our [WP Engine vs Kinsta vs SiteGround comparison](https://techsaasstack.com/2026/06/04/wp-engine-vs-kinsta-vs-siteground/).
 
 </details>
 
@@ -76,7 +76,7 @@ Once your hosting is set up, installing the core stack takes about 15 minutes.
 
 ### 2.1 Install WordPress
 
-Most managed WordPress hosts (including WP Engine and SiteGround) offer one-click WordPress installation from your hosting dashboard. If you're using Hostinger, you can use their custom hPanel — we have a full [step-by-step guide to setting up WordPress on Hostinger](https://fellowizsick.github.io/tech-saas-stack/2026/06/04/how-to-set-up-wordpress-site-hostinger-guide/) with screenshots and exact steps.
+Most managed WordPress hosts (including WP Engine and SiteGround) offer one-click WordPress installation from your hosting dashboard. If you're using Hostinger, you can use their custom hPanel — we have a full [step-by-step guide to setting up WordPress on Hostinger](https://techsaasstack.com/2026/06/04/how-to-set-up-wordpress-site-hostinger-guide/) with screenshots and exact steps.
 
 ### 2.2 Install WooCommerce
 
@@ -97,7 +97,7 @@ WooCommerce will automatically create core pages: Shop, Cart, Checkout, My Accou
 
 Elementor Pro unlocks the **WooCommerce Builder** — this is the feature that lets you design custom product pages, cart pages, checkout pages, and thank-you pages with the drag-and-drop editor. Without Pro, you're stuck with your theme's default WooCommerce templates.
 
-For a full comparison of Elementor against other page builders, read our [Elementor vs Divi vs Beaver Builder review](https://fellowizsick.github.io/tech-saas-stack/2026/06/06/elementor-vs-divi-vs-beaver-builder-page-builder-2026/).
+For a full comparison of Elementor against other page builders, read our [Elementor vs Divi vs Beaver Builder review](https://techsaasstack.com/2026/06/06/elementor-vs-divi-vs-beaver-builder-page-builder-2026/).
 
 </details>
 
@@ -259,7 +259,7 @@ Here are the essential optimizations:
 - **Defer CSS/JS** — Elementor Pro has built-in performance features: go to Elementor → Settings → Advanced and enable "Improve Elementor asset loading"
 - **Caching plugin** — WP Rocket or Flying Press for non-WP Engine hosts
 
-For a comprehensive walkthrough, see our [guide to speeding up your WordPress site](https://fellowizsick.github.io/tech-saas-stack/2026/06/04/how-to-speed-up-your-wordpress-site-2026/).
+For a comprehensive walkthrough, see our [guide to speeding up your WordPress site](https://techsaasstack.com/2026/06/04/how-to-speed-up-your-wordpress-site-2026/).
 
 </details>
 
@@ -279,7 +279,7 @@ An ecommerce store handles payment data, user accounts, and sensitive customer i
 | Security plugin | Firewall, malware scanning, file integrity | Wordfence (free plan is solid) |
 | Update everything | Keep WordPress, plugins, and themes current | Auto-updates in WooCommerce settings |
 
-For a complete security setup, read our [WordPress security guide](https://fellowizsick.github.io/tech-saas-stack/2026/06/05/how-to-secure-wordpress-site-hackers-guide/).
+For a complete security setup, read our [WordPress security guide](https://techsaasstack.com/2026/06/05/how-to-secure-wordpress-site-hackers-guide/).
 
 </details>
 
@@ -345,10 +345,10 @@ The combination of WooCommerce's flexibility, Elementor's design freedom, and a 
 <div class="cta-wrapper">
 <p><strong>Ready to build your WooCommerce store?</strong></p>
 Start with WP Engine — 60-Day Money-Back Guarantee →
-<p style="margin-top: 10px; font-size: 0.9em;">Or see the latest deals and discounts on the <a href="https://fellowizsick.github.io/tech-saas-stack/deals/">Tech & SaaS Stack Deals page →</a></p>
+<p style="margin-top: 10px; font-size: 0.9em;">Or see the latest deals and discounts on the <a href="https://techsaasstack.com/deals/">Tech & SaaS Stack Deals page →</a></p>
 </div>
 
-For a complete reference on choosing the right hosting for your store, check out our [hosting evaluation checklist](https://fellowizsick.github.io/tech-saas-stack/hosting-checklist/).
+For a complete reference on choosing the right hosting for your store, check out our [hosting evaluation checklist](https://techsaasstack.com/hosting-checklist/).
 
 <div class="author-box">
 <div class="author-avatar">JB</div>

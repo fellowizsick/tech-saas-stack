@@ -128,7 +128,7 @@ BackWPup is another solid free option that focuses on scheduled backups with mul
 
 <div class="cta-btn">
 
-**Recommended:** Start with [UpdraftPlus Free](https://updraftplus.com/) for the best balance of features and cost. For real-time backups on an e-commerce site, go with [Jetpack VaultPress](https://jetpack.com/features/security/backups/).
+**Recommended:** Start with [UpdraftPlus Free](https://updraftplus.com/) for the best balance of features and cost. For real-time backups on an e-commerce site, go with [Jetpack VaultPress](https://jetpack.com/upgrade/backup/).
 
 </div>
 

@@ -160,7 +160,7 @@ The user area (Site Tools) is custom-built and way more intuitive than tradition
 
 **Who it's for:** The small business that wants a professional-grade host with great support, doesn't want to fiddle with server settings, and is willing to pay a fair price after the intro period.
 
-<a href="https://siteground.com/go/affiliate" class="cta-btn">Visit SiteGround →</a>
+<a href="https://siteground.com/go/affiliate" rel="sponsored nofollow" target="_blank" class="cta-btn">Visit SiteGround →</a>
 
 ## 2. Cloudways — Best for Growing Businesses
 
@@ -227,7 +227,7 @@ Also, the entry price of $14/month is higher than shared hosting alternatives. I
 
 **Who it's for:** The small business that's outgrowing shared hosting, sees consistent traffic (5,000+ visits/month), and wants the flexibility to scale without migrating to a new provider.
 
-<a href="https://www.cloudways.com/en/?id=2179745" class="cta-btn">Visit Cloudways →</a>
+<a href="https://www.cloudways.com/en/?id=2179745" rel="sponsored nofollow" target="_blank" class="cta-btn">Visit Cloudways →</a>
 
 ## 3. InterServer — Best Ultra-Budget Option
 

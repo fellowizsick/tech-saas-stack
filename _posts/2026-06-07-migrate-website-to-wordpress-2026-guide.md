@@ -434,7 +434,7 @@ For a step-by-step resource on getting started from scratch, read our [How to St
       <td>Budget-focused beginners</td>
     </tr>
     <tr>
-      <td><a href="https://siteground.com/">SiteGround</a></td>
+      <td><a href="https://siteground.com/" rel="sponsored nofollow" target="_blank">SiteGround</a></td>
       <td><strong>$3.99/mo</strong></td>
       <td><span class="check">✓</span> Via plugin</td>
       <td>Value + reliability</td>

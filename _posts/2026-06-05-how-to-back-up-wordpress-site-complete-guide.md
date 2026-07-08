@@ -239,7 +239,7 @@ The best backup strategy combines **automatic hosting backups** (for zero-effort
 </div>
 
 Get WP Engine →
-<a href="https://siteground.com/" class="cta-btn">Get SiteGround →</a>
+<a href="https://siteground.com/" rel="sponsored nofollow" target="_blank" class="cta-btn">Get SiteGround →</a>
 
 </details>
 

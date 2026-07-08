@@ -226,7 +226,7 @@ Whatever you pick, make sure the host supports PHP 8.3+, has some form of server
 
 <div class="affiliate-cta">
   <p><strong>Ready to build with Elementor?</strong></p>
-  <p>👉 <a href="https://www.siteground.com/wordpress-hosting">Start with SiteGround — Elementor pre-installed</a></p>
-  <p>👉 <a href="https://www.cloudways.com/en/?id=2179745">Try Cloudways — 3-day free trial</a></p>
+  <p>👉 <a href="https://www.siteground.com/wordpress-hosting" rel="sponsored nofollow" target="_blank">Start with SiteGround — Elementor pre-installed</a></p>
+  <p>👉 <a href="https://www.cloudways.com/en/?id=2179745" rel="sponsored nofollow" target="_blank">Try Cloudways — 3-day free trial</a></p>
   <p>👉 <a href="https://www.interserver.net/r/1155259">Get InterServer from $2.50/mo (price locked)</a></p>
 </div>

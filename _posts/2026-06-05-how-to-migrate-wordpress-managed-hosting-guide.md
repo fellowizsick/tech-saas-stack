@@ -290,7 +290,7 @@ For a full breakdown of how these hosts compare across performance, pricing, and
 </div>
 
 Get WP Engine →
-<a href="https://www.siteground.com/go/affiliate" class="cta-btn">Get SiteGround →</a>
+<a href="https://www.siteground.com/go/affiliate" rel="sponsored nofollow" target="_blank" class="cta-btn">Get SiteGround →</a>
 
 Get Hostinger →
 

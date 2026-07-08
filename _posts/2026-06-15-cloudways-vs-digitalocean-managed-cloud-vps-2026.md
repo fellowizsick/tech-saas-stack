@@ -342,7 +342,7 @@ If you're a dev who *enjoys* infrastructure, DigitalOcean is a playground. If yo
 
 This post contains affiliate links. If you purchase through these links, I may earn a commission at no extra cost to you.
 
-- **Cloudways:** I'm an affiliate partner. Signing up via my links supports this site. [Try Cloudways free for 3 days →](https://www.cloudways.com/en/?id=2179745)
+- **Cloudways:** I'm an affiliate partner. Signing up via my links supports this site. [Try Cloudways free for 3 days →](https://www.cloudways.com/en/?id=2179745){:rel="sponsored nofollow" target="_blank"}
 - **DigitalOcean:** New users get $200 free credit via referral links. [Claim your $200 credit →](https://m.do.co/c/c8274544eaa3)
 
 All recommendations are based on research and publicly available information.

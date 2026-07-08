@@ -225,7 +225,7 @@ InterServer shines for a specific set of use cases:
 - **Price-sensitive multi-year users** — Know you'll be hosting the same site for 3+ years. The price lock saves you significantly over hosts that double or triple renewal rates.
 - **Resellers** — InterServer's reseller plans are competitive and include WHM/cPanel licensing with no extra fees.
 
-[InterServer Standard Shared](https://www.interserver.net/r/1155259) — the $2.50/mo plan that stays $2.50/mo on renewal under its price-lock guarantee.
+[InterServer Standard Shared](https://www.interserver.net/r/1155259){:rel="sponsored nofollow" target="_blank"} — the $2.50/mo plan that stays $2.50/mo on renewal under its price-lock guarantee.
 
 ## When to Choose ScalaHosting
 
@@ -286,6 +286,6 @@ You can't go wrong with either choice. The key is being honest about what your s
 
 **Ready to get started?**
 
-[Start with InterServer at $2.50/mo →](https://www.interserver.net/r/1155259) — Best for beginners and budget sites
+[Start with InterServer at $2.50/mo →](https://www.interserver.net/r/1155259){:rel="sponsored nofollow" target="_blank"} — Best for beginners and budget sites
 
-[Go with ScalaHosting Cloud VPS →](https://scalahosting.com/?aid=7ff57600) — Best for growing sites and agencies
+[Go with ScalaHosting Cloud VPS →](https://scalahosting.com/?aid=7ff57600){:rel="sponsored nofollow" target="_blank"} — Best for growing sites and agencies

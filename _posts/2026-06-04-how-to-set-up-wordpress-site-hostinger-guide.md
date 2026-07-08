@@ -251,7 +251,7 @@ Hostinger is an excellent starting point, but if your site grows to 50,000+ mont
 
 - **WP Engine** — Industry-leading managed WordPress hosting with StudioPress themes, 60-day money-back guarantee, and automatic scaling for traffic spikes. Starts at $24/month.
 - **Kinsta** — Google Cloud Platform infrastructure with 35+ data centers worldwide, enterprise-grade security, and developer-friendly tools. Starts at $35/month.
-- **[SiteGround](https://siteground.com/)** — A mid-range option with excellent support and Google Cloud hosting. Promotional pricing starts at $3.99/month.
+- **[SiteGround](https://siteground.com/){:rel="sponsored nofollow" target="_blank"}** — A mid-range option with excellent support and Google Cloud hosting. Promotional pricing starts at $3.99/month.
 
 But for 90% of new sites, Hostinger at $2.99/month is all you need for the first 1-2 years.
 

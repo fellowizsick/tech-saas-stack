@@ -14,7 +14,7 @@ The "make money blogging" hype is real, but the timelines online are often exagg
 - **Publish 10-15 posts** targeting buying-intent keywords
 - **Affiliate signups:** Join programs for products you actually use
 
-👉 **[Start with cheap hosting →](https://www.interserver.net/r/1155259)**
+👉 **[Start with cheap hosting →](https://www.interserver.net/r/1155259){:rel="sponsored nofollow" target="_blank"}**
 
 ## Month 4-6: Traffic Building
 

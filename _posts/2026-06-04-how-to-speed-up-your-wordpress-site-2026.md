@@ -228,7 +228,7 @@ WordPress stores everything in a MySQL or MariaDB database — posts, pages, com
 
 **Automated tools:** Plugins like WP-Optimize can handle all of these tasks with a single click. Schedule them to run weekly.
 
-If you're on [SiteGround](https://siteground.com/), their Site Tools dashboard includes a database optimization tool built right into the control panel. Kinsta includes automated database optimization as part of their managed service.
+If you're on [SiteGround](https://siteground.com/){:rel="sponsored nofollow" target="_blank"}, their Site Tools dashboard includes a database optimization tool built right into the control panel. Kinsta includes automated database optimization as part of their managed service.
 
 </details>
 

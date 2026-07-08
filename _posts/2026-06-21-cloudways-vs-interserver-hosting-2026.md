@@ -570,8 +570,8 @@ InterServer solves the problem of **"I want the cheapest reliable hosting with n
 
 The honest answer: if you're not sure which camp you fall into, start with InterServer. It's $2.50/mo. You can spin up a site, learn the ropes, and migrate to Cloudways later when you outgrow it — without losing any money. That's the beauty of low-risk hosting.
 
-**[Try Cloudways free for 3 days →](https://www.cloudways.com/en/?id=2179745)**
+**[Try Cloudways free for 3 days →](https://www.cloudways.com/en/?id=2179745){:rel="sponsored nofollow" target="_blank"}**
 
-**[Start with InterServer's $2.50/mo price lock →](https://www.interserver.net/r/1155259)**
+**[Start with InterServer's $2.50/mo price lock →](https://www.interserver.net/r/1155259){:rel="sponsored nofollow" target="_blank"}**
 
 </details>

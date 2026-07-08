@@ -105,7 +105,7 @@ Hostinger handles the WordPress installation for you, and their custom hPanel da
 
 ### Premium Option: SiteGround
 
-[SiteGround](https://siteground.com/) is our top recommendation for users who want reliable managed WordPress hosting at a mid-range price point (starting at **$3.99/month**). Key benefits:
+[SiteGround](https://siteground.com/){:rel="sponsored nofollow" target="_blank"} is our top recommendation for users who want reliable managed WordPress hosting at a mid-range price point (starting at **$3.99/month**). Key benefits:
 
 - **Free WordPress migration** via their SG Migrator plugin
 - Google Cloud infrastructure (faster than shared hosting)
@@ -404,7 +404,7 @@ Many migration processes look great on desktop but break on mobile. Test every p
 WordPress is more powerful than Wix or Squarespace, but with great power comes great responsibility. Set up automated daily backups **before** you start the migration. UpdraftPlus with cloud storage (Google Drive, Dropbox) is the easiest setup.
 
 ### Mistake 5: Choosing the Wrong Host
-Budget shared hosting will make your WordPress site feel slow, even if it's optimized. Invest in **managed WordPress hosting** from the start — [SiteGround](https://siteground.com/) for mid-range value or WP Engine for premium performance.
+Budget shared hosting will make your WordPress site feel slow, even if it's optimized. Invest in **managed WordPress hosting** from the start — [SiteGround](https://siteground.com/){:rel="sponsored nofollow" target="_blank"} for mid-range value or WP Engine for premium performance.
 
 </details>
 

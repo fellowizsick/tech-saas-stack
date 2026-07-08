@@ -32,7 +32,7 @@ Officially recommended by WordPress.org. Free domain for year 1, free SSL, 24/7 
 
 Free daily backups, managed updates, caching. Great support team. Renews higher but intro price is solid.
 
-👉 **[Get SiteGround →](https://www.siteground.com/)** (see [Best Deals](/best-deals/) for coupon)
+👉 **[Get SiteGround →](https://www.siteground.com/){:rel="sponsored nofollow" target="_blank"}** (see [Best Deals](/best-deals/) for coupon)
 
 ---
 

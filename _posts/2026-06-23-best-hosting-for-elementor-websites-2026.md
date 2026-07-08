@@ -61,7 +61,7 @@ Their **WordPress staging** is one-click and includes Elementor. You can design 
 
 **Renewal gotcha:** The $2.99/mo StartUp plan jumps to $17.99/mo on renewal. That's standard for managed WordPress hosting, but if you're building a single Elementor site on a tight budget, be ready for the price jump after year one. I'd recommend starting on the GrowBig plan ($4.99 intro / $24.99 renewal) if you plan to manage multiple Elementor sites or need the faster PHP worker count.
 
-[**Get SiteGround WordPress Hosting**](https://www.siteground.com/wordpress-hosting){:rel="sponsored nofollow" target="_blank"} — Free Elementor pre-installed + free site transfer
+[**Get SiteGround WordPress Hosting**](https://www.siteground.com/go/affiliate/wordpress-hosting){:rel="sponsored nofollow" target="_blank"} — Free Elementor pre-installed + free site transfer
 
 ---
 
@@ -226,7 +226,7 @@ Whatever you pick, make sure the host supports PHP 8.3+, has some form of server
 
 <div class="affiliate-cta">
   <p><strong>Ready to build with Elementor?</strong></p>
-  <p>👉 <a href="https://www.siteground.com/wordpress-hosting" rel="sponsored nofollow" target="_blank">Start with SiteGround — Elementor pre-installed</a></p>
+  <p>👉 <a href="https://www.siteground.com/go/affiliate/wordpress-hosting" rel="sponsored nofollow" target="_blank">Start with SiteGround — Elementor pre-installed</a></p>
   <p>👉 <a href="https://www.cloudways.com/en/?id=2179745" rel="sponsored nofollow" target="_blank">Try Cloudways — 3-day free trial</a></p>
   <p>👉 <a href="https://www.interserver.net/r/1155259">Get InterServer from $2.50/mo (price locked)</a></p>
 </div>

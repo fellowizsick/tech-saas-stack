@@ -36,7 +36,7 @@ Bluehost is officially recommended by WordPress.org and their exclusive pricing 
 
 SiteGround starts at **$2.99/mo** on annual plans. You get free SSL, daily backups, managed updates, and built-in caching. WordPress.org officially recommends them too.
 
-👉 **[Claim SiteGround's $2.99/mo deal →](https://www.siteground.com/){:rel="sponsored nofollow" target="_blank"}** (use coupon via our [Best Deals page](/best-deals/))
+👉 **[Claim SiteGround's $2.99/mo deal →](https://www.siteground.com/go/affiliate/){:rel="sponsored nofollow" target="_blank"}** (use coupon via our [Best Deals page](/best-deals/))
 
 **Best for:** Sites that need reliable support and managed security.
 

@@ -38,7 +38,7 @@ Your hosting provider is the foundation of your blog. Pick wrong, and you'll fig
 
 ### SiteGround — Best Balance of Price and Performance
 
-[SiteGround](https://siteground.com/){:rel="sponsored nofollow" target="_blank"} hits the sweet spot for most new bloggers. Their StartUp plan (~$2.99/month intro) includes managed WordPress with automatic updates, built-in caching (SG Optimizer), free CDN through Cloudflare, and excellent support that actually understands technical questions.
+[SiteGround](https://siteground.com/go/affiliate/){:rel="sponsored nofollow" target="_blank"} hits the sweet spot for most new bloggers. Their StartUp plan (~$2.99/month intro) includes managed WordPress with automatic updates, built-in caching (SG Optimizer), free CDN through Cloudflare, and excellent support that actually understands technical questions.
 
 **Pros:** Top-tier WordPress support, built-in staging, free email, excellent uptime
 **Cons:** Limited storage on the entry plan (10 GB), renewal prices are higher

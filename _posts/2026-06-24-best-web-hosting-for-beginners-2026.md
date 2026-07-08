@@ -94,7 +94,7 @@ SiteGround remains the best option for true beginners — people who've never to
 
 That renewal price. $17.99/mo is fair for what SiteGround delivers — Google Cloud infrastructure, premium support, daily backups — but it's a 500% jump from the intro rate. Plan for it from day one. Alternatively, use the first year to learn the ropes and migrate to a cheaper host before renewal hits.
 
-**Get SiteGround:** <a class="cta-btn" href="https://www.siteground.com/wordpress-hosting" rel="sponsored nofollow" target="_blank">Check SiteGround Plans →</a>
+**Get SiteGround:** <a class="cta-btn" href="https://www.siteground.com/go/affiliate/wordpress-hosting" rel="sponsored nofollow" target="_blank">Check SiteGround Plans →</a>
 
 ---
 
@@ -316,4 +316,4 @@ If my site was for a business from day one, I'd skip both and start on **Cloudwa
 
 No matter which you pick, remember this: your hosting choice doesn't make or break your site. **Your content does.** Pick a host that gets out of your way and lets you focus on writing, building, and growing your audience. You can always upgrade later.
 
-<a class="cta-btn" href="https://www.interserver.net/r/1155259">Get InterServer $2.50/mo →</a> <a class="cta-btn" href="https://www.siteground.com/wordpress-hosting" rel="sponsored nofollow" target="_blank">Check SiteGround Plans →</a>
+<a class="cta-btn" href="https://www.interserver.net/r/1155259">Get InterServer $2.50/mo →</a> <a class="cta-btn" href="https://www.siteground.com/go/affiliate/wordpress-hosting" rel="sponsored nofollow" target="_blank">Check SiteGround Plans →</a>

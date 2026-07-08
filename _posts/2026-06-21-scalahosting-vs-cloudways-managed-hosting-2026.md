@@ -524,7 +524,7 @@ For WordPress sites, Cloudways' caching stack can make a $14/mo DO-1GB plan feel
     <tr>
       <td><strong>Learn more</strong></td>
       <td><a href="https://www.scalahosting.com/managed-cloud-hosting.html?aid=7ff57600">Visit ScalaHosting →</a></td>
-      <td><a href="https://www.cloudways.com/en/?id=2179745">Visit Cloudways →</a></td>
+      <td><a href="https://www.cloudways.com/en/?id=2179745" rel="sponsored nofollow" target="_blank">Visit Cloudways →</a></td>
     </tr>
   </tbody>
 </table>
@@ -645,6 +645,6 @@ ScalaHosting and Cloudways are both excellent managed platforms, but they serve 
 
 **My honest recommendation:** If you have a single site or small portfolio of sites and you want the best performance for your dollar, go with ScalaHosting. The dedicated resources, NVMe storage, and free SPanel control panel add up to exceptional value at the $29.95/mo intro price. If you run an agency managing 10+ client sites across different clouds and need team management tools, Cloudways' dashboard and billing flexibility are worth the premium.
 
-Both platforms have active affiliate programs — <a href="https://www.scalahosting.com/managed-cloud-hosting.html?aid=7ff57600">ScalaHosting</a> offers $50 per referral and <a href="https://www.cloudways.com/en/?id=2179745">Cloudways</a> offers slab-based commissions with recurring revenue. I use both and recommend both — it genuinely comes down to your workflow, not one being "better" than the other.
+Both platforms have active affiliate programs — <a href="https://www.scalahosting.com/managed-cloud-hosting.html?aid=7ff57600">ScalaHosting</a> offers $50 per referral and <a href="https://www.cloudways.com/en/?id=2179745" rel="sponsored nofollow" target="_blank">Cloudways</a> offers slab-based commissions with recurring revenue. I use both and recommend both — it genuinely comes down to your workflow, not one being "better" than the other.
 
 </details>

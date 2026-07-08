@@ -37,7 +37,7 @@ Your hosting provider is the foundation of your site's speed. No amount of optim
 <tbody>
 <tr><td>WP Engine</td><td>~150ms</td><td>30+ worldwide</td><td>$24/mo</td><td>EverCache + CDN</td></tr>
 <tr><td>Kinsta</td><td>~120ms</td><td>35+ worldwide</td><td>$35/mo</td><td>Google Cloud C2 instances</td></tr>
-<tr><td><a href="https://siteground.com/">SiteGround</a></td><td>~200ms</td><td>6 worldwide</td><td>$3.99/mo (promo)</td><td>Custom caching + NGINX</td></tr>
+<tr><td><a href="https://siteground.com/" rel="sponsored nofollow" target="_blank">SiteGround</a></td><td>~200ms</td><td>6 worldwide</td><td>$3.99/mo (promo)</td><td>Custom caching + NGINX</td></tr>
 </tbody>
 </table>
 

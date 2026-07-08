@@ -80,7 +80,7 @@ When your traffic grows, you just move to a bigger server — it takes about 15 
 
 Cloudways has a learning curve. The custom dashboard is different from cPanel or SPanel — you'll need to learn where things are. And support covers infrastructure issues but won't troubleshoot your WordPress plugins. If you want white-glove WordPress support, SiteGround or WP Engine are better fits.
 
-**Get Cloudways:** <a class="cta-btn" href="https://www.cloudways.com/en/?id=2179745">Check Cloudways Plans →</a>
+**Get Cloudways:** <a class="cta-btn" href="https://www.cloudways.com/en/?id=2179745" rel="sponsored nofollow" target="_blank">Check Cloudways Plans →</a>
 
 ## 2. WP Engine — Best Premium Managed for High Traffic (⭐⭐⭐⭐½)
 
@@ -179,7 +179,7 @@ SiteGround's entry-level StartUp plan ($2.99/mo intro) is great for beginners, b
 
 The renewal price on GoGeek ($44.99/mo) is steep for what you get compared to a Cloudways DO-2GB ($28/mo) or ScalaHosting cloud VPS ($39.95/mo). And the 100 GB storage limit is fine for content sites but tight for media-heavy sites. SiteGround is the right choice for mid-traffic sites (25k-100k visits/month) that want premium support, but you'll need to migrate to a VPS or cloud platform as you continue growing past that range.
 
-**Get SiteGround:** <a class="cta-btn" href="https://www.siteground.com/wordpress-hosting">Check SiteGround Plans →</a>
+**Get SiteGround:** <a class="cta-btn" href="https://www.siteground.com/wordpress-hosting" rel="sponsored nofollow" target="_blank">Check SiteGround Plans →</a>
 
 ## 5. InterServer VPS — Best Budget High-Traffic Hosting (⭐⭐⭐⭐)
 
@@ -379,5 +379,5 @@ My recommendation depends on where you are right now:
 
 Whatever you choose, avoid the trap of staying on a shared hosting plan past 50k monthly visits. The $5-10/mo you save isn't worth the slow load times, random downtime, and frustrated visitors. Upgrade before your traffic forces you to.
 
-<a class="cta-btn" href="https://www.cloudways.com/en/?id=2179745">Check Cloudways Plans →</a>
+<a class="cta-btn" href="https://www.cloudways.com/en/?id=2179745" rel="sponsored nofollow" target="_blank">Check Cloudways Plans →</a>
 <a class="cta-btn" href="https://www.interserver.net/r/1155259">Get InterServer VPS →</a>

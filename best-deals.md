@@ -38,7 +38,7 @@ Last Updated: 2026-07-08
 - **Commission**: $120–$200/sale VPS (tiered: $120/1-3, $160/4-10, $200/11-15, custom 15+); up to $500/sale
 - **Affiliate Link**: https://scalahosting.com/?aid=7ff57600
 - **Cookie Duration**: 30 days
-- **Status**: ✅ Verified (HTTP 200. VPS commissions: $120–$200+/sale, web hosting: $50–$100+/sale. Affiliate ID `aid=7ff57600` confirmed active. VPS starting at $29.95/mo intro.)
+- **Status**: ✅ Verified (HTTP 301 (www redirect) → 200. VPS commissions: $120–$200+/sale, web hosting: $50–$100+/sale. Affiliate ID `aid=7ff57600` confirmed active. VPS starting at $29.95/mo intro.)
 
 ### Kinsta
 - **Starting Price**: $30/mo
@@ -61,7 +61,7 @@ Last Updated: 2026-07-08
 - **Commission**: 50% first year
 - **Affiliate Link**: https://elementor.com/affiliates/
 - **Cookie Duration**: 90 days
-- **Status**: ✅ Verified (HTTP 200, Essential plan $5/mo annual billing. Plans now start at $60/yr, increased from $49/yr. Advanced Solo at $84/yr.)
+- **Status**: ✅ Verified (HTTP 200, Essential plan $5/mo annual billing. Plans start at $60/yr ($5/mo), increased from $49/yr. Advanced Solo at $84/yr ($7/mo).)
 
 ## Email Marketing
 
@@ -74,25 +74,25 @@ Last Updated: 2026-07-08
 
 ### Kit (formerly ConvertKit)
 - **Free Plan**: Available (Newsletter, up to 1k subscribers)
-- **Paid Plans**: $33/mo+ (Creator $33/mo annual/$390yr, Pro $66/mo annual/$790yr, subscriber-based)
+- **Paid Plans**: $33/mo+ (Creator $33/mo / $390/yr, Pro $66/mo / $790/yr, subscriber-based)
 - **Commission**: 50% for first 12 months, then 10–20% recurring (status-based)
 - **Affiliate Link**: https://kit.com/affiliate
 - **Cookie Duration**: 30 days
-- **Status**: ✅ Verified (HTTP 200. Pricing restructured — old $9/mo Creator plan replaced. Now: Free/Newsletter, Creator $33/mo annual, Pro $66/mo annual for 1k subs.)
+- **Status**: ✅ Verified (HTTP 200. Pricing restructured — old $9/mo Creator plan replaced. Now: Free/Newsletter, Creator $33/mo/$390yr, Pro $66/mo/$790yr for 1k subs. See kit.com/pricing for current rates.)
 
 ---
 
 ## Notes
 
-- **Ahrefs**: No active public affiliate program found (ahrefs.com/affiliates returns HTTP 404 as of 2026-07-07). Ahrefs pricing: $129/mo (Lite plan). Not listed as an affiliate deal — no active program available.
+- **Ahrefs**: No active public affiliate program found (ahrefs.com/affiliates returns HTTP 404 as of 2026-07-08). Ahrefs pricing: $129/mo (Lite plan), $249/mo (Standard), $449/mo (Advanced). Not listed as an affiliate deal — no active program available.
 - **SiteGround**: HTTP 202 Accepted on affiliate redirect as of Jul 8 (returned Accept, was previously HTTP 301). Cloudflare challenge active on homepage. StartUp at $2.99/mo intro, renews $17.99/mo. Save up to 83% + free domain + free site transfer promo live.
 - **InterServer**: HTTP 403 — Cloudflare WAF blocking curl/browser checks as of Jul 8. Affiliate redirect previously passed at 302. Pricing: $2.50 first month / $7/mo renewal on monthly. Annual prepay locks at $30/yr ($2.50/mo).
 - **Semrush**: HTTP 200 confirmed Jul 8. Pricing stable: SEO plan $139/mo monthly / $117.33/mo annual. Plan tiers: SEO $139, Starter $199, Pro+ $299, Advanced $549.
 - **Cloudways**: HTTP 403 — Cloudflare WAF active as of Jul 8. Affiliate tracking ID `2179745` on tracked link `/?id=2179745` confirmed. Pricing page behind Cloudflare.
 - **Kinsta**: Confirmed $30/mo starting with "First Month Free" promo ($0 today, $350 after first month). Annual at $350/yr, save $70.
-- **ScalaHosting**: HTTP 200 confirmed Jul 8. VPS starting at $29.95/mo intro. Commission tiers stable. Affiliate ID `aid=7ff57600` active.
-- **Kit (ConvertKit)**: ConvertKit rebranded to Kit in 2025. **Pricing restructured** — old $9/mo Creator plan replaced. Now: Free Newsletter (1k subs), Creator $33/mo annual ($390/yr), Pro $66/mo annual ($790/yr). Prices are subscriber-dependent.
-- **Elementor**: **Price increase** — Essential plan went from $49/yr to $60/yr ($5/mo billed annually). Advanced Solo at $84/yr ($7/mo). 50% first-year commission.
+- **ScalaHosting**: HTTP 301 (www canonical redirect) → 200 confirmed Jul 8. Non-www URL redirects to www. VPS starting at $29.95/mo intro. Commission tiers stable. Affiliate ID `aid=7ff57600` active.
+- **Kit (ConvertKit)**: ConvertKit rebranded to Kit in 2025. **Pricing restructured** — old $9/mo Creator plan replaced. Now: Free Newsletter (1k subs), Creator $33/mo ($390/yr), Pro $66/mo ($790/yr). Prices are subscriber-dependent.
+- **Elementor**: Essential plan at $60/yr ($5/mo billed annually), Advanced Solo at $84/yr ($7/mo). 50% first-year commission.
 - **Cloudflare-protected URLs**: Cloudways, InterServer, and SiteGround use Cloudflare which blocks automated checks. Affiliate links confirmed working (SiteGround: 202, InterServer: 403 with known working redirect, Cloudways: 403 with known working ID).
 - **Pricing/Commission**: Based on publicly available affiliate program terms and automated verification. Always verify current rates before promoting.
 

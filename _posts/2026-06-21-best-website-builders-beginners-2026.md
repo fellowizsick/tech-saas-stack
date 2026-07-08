@@ -186,7 +186,7 @@ Hostinger now includes a custom drag-and-drop website builder with all hosting p
 
 **Best for:** Tight budget, simple sites, or testing ideas before scaling.
 
-👉 **[Get Hostinger →](https://www.hostinger.com/)**
+👉 **[Get Hostinger →](https://www.hostinger.com/){:rel="sponsored nofollow" target="_blank"}**
 
 ---
 

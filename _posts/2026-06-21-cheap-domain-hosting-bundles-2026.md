@@ -28,13 +28,13 @@ Bluehost's exclusive pricing includes a **free domain name** for the first year.
 
 SiteGround's intro pricing includes free SSL, daily backups, and managed updates. Domain sold separately (~$12).
 
-👉 **[Get SiteGround →](https://www.siteground.com/)** (see [Best Deals](/best-deals/) for coupon)
+👉 **[Get SiteGround →](https://www.siteground.com/){:rel="sponsored nofollow" target="_blank"}** (see [Best Deals](/best-deals/) for coupon)
 
 ### InterServer — $2.50/mo (Price Locked)
 
 Cheapest pure hosting. Domain sold separately (~$8-12 at Namecheap). Total first year: ~$38.
 
-👉 **[Get InterServer →](https://www.interserver.net/r/1155259)**
+👉 **[Get InterServer →](https://www.interserver.net/r/1155259){:rel="sponsored nofollow" target="_blank"}**
 
 ---
 

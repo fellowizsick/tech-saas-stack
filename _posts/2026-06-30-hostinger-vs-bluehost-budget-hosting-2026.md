@@ -42,7 +42,7 @@ I've tested both hosts extensively. Here's how they really compare on price, per
 
 **Winner: Hostinger** — better price, faster performance, more features at entry level.
 
-👉 **[Get Hostinger from $2.49/mo →](https://www.hostinger.com/)**
+👉 **[Get Hostinger from $2.49/mo →](https://www.hostinger.com/){:rel="sponsored nofollow" target="_blank"}**
 
 ## Price Comparison
 

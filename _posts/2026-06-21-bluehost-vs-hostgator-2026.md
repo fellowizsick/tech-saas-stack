@@ -41,7 +41,7 @@ While their prices are nearly identical, **Bluehost wins** because:
 2. Better WordPress integration (pre-installed, updates managed)
 3. More beginner-friendly dashboard
 
-👉 **[Get Bluehost at $3.79/mo →](https://bluehost.sjv.io/c/7392811/1376228/11352)**
+👉 **[Get Bluehost at $3.79/mo →](https://bluehost.sjv.io/c/7392811/1376228/11352){:rel="sponsored nofollow" target="_blank"}**
 
 ---
 

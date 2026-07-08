@@ -36,7 +36,7 @@ If you want managed VPS with SPanel (free cPanel alternative), ScalaHosting star
 
 Cloudways lets you deploy VPS on DigitalOcean, Vultr, Linode, AWS, or GCP. **Plans from $11/mo** with a 3-day free trial.
 
-👉 **[Try Cloudways Free →](https://www.cloudways.com/en/?id=2179745)**
+👉 **[Try Cloudways Free →](https://www.cloudways.com/en/?id=2179745){:rel="sponsored nofollow" target="_blank"}**
 
 ---
 

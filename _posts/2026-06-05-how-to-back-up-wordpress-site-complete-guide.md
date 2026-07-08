@@ -50,7 +50,7 @@ The simplest way to back up your WordPress site is to choose a hosting provider 
 
 ### SiteGround — Daily Backups on GrowBig and Higher
 
-[SiteGround](https://siteground.com/) includes free daily backups on their GrowBig and GoGeek plans. The backup system features:
+[SiteGround](https://siteground.com/){:rel="sponsored nofollow" target="_blank"} includes free daily backups on their GrowBig and GoGeek plans. The backup system features:
 
 - **Daily backups** with 30-day retention
 - **On-demand backups** you can trigger at any time

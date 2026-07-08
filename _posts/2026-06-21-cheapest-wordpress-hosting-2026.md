@@ -36,7 +36,7 @@ Bluehost is officially recommended by WordPress.org and their exclusive pricing 
 
 SiteGround starts at **$2.99/mo** on annual plans. You get free SSL, daily backups, managed updates, and built-in caching. WordPress.org officially recommends them too.
 
-👉 **[Claim SiteGround's $2.99/mo deal →](https://www.siteground.com/)** (use coupon via our [Best Deals page](/best-deals/))
+👉 **[Claim SiteGround's $2.99/mo deal →](https://www.siteground.com/){:rel="sponsored nofollow" target="_blank"}** (use coupon via our [Best Deals page](/best-deals/))
 
 **Best for:** Sites that need reliable support and managed security.
 
@@ -48,7 +48,7 @@ SiteGround starts at **$2.99/mo** on annual plans. You get free SSL, daily backu
 
 For growing sites, ScalaHosting's managed VPS with SPanel (cPanel alternative) starts at **$29.95/mo**. Free migrations, SShield security, and daily backups included.
 
-👉 **[Claim ScalaHosting's deal →](https://scalahosting.com/?aid=7ff57600)**
+👉 **[Claim ScalaHosting's deal →](https://scalahosting.com/?aid=7ff57600){:rel="sponsored nofollow" target="_blank"}**
 
 **Best for:** Sites outgrowing shared hosting.
 

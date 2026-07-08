@@ -94,7 +94,7 @@ Sketch this structure on paper or in a document before you start designing. It w
 <details class="collapsible-section" markdown="1">
 <summary>Step 2: Set Up Your Elementor Environment</summary>
 
-Assuming you already have WordPress installed on a reliable host like [SiteGround](https://www.siteground.com/go/affiliate) or Hostinger, here's how to get Elementor ready:
+Assuming you already have WordPress installed on a reliable host like [SiteGround](https://www.siteground.com/go/affiliate){:rel="sponsored nofollow" target="_blank"} or Hostinger, here's how to get Elementor ready:
 
 1. **Install Elementor (Free)**: Go to Plugins → Add New → Search "Elementor" → Install → Activate.
 2. **Create a new page**: Go to Pages → Add New. Give it a title like "Landing Page — [Your Product Name]".
@@ -340,7 +340,7 @@ After publishing, run a quick audit checklist:
 A fast landing page needs fast hosting. Even the best-designed page will suffer on a slow shared server. Here are my recommendations based on your budget and traffic level:
 
 - **Budget-friendly**: Hostinger — Starting at $2.99/month, great for low-traffic landing pages and testing ideas.
-- **Best value**: [SiteGround](https://www.siteground.com/go/affiliate) — Starting at $3.99/month (promo), excellent support and speed for growing traffic.
+- **Best value**: [SiteGround](https://www.siteground.com/go/affiliate){:rel="sponsored nofollow" target="_blank"} — Starting at $3.99/month (promo), excellent support and speed for growing traffic.
 - **Premium performance**: WP Engine — Starting at $24/month, purpose-built for WordPress with built-in caching and CDN.
 - **Enterprise-grade**: Kinsta — Starting at $35/month, Google Cloud infrastructure with 35+ data centers worldwide.
 
@@ -373,7 +373,7 @@ Learning how to **build a landing page with Elementor** is one of the most valua
 
 Elementor makes the process accessible to anyone — no coding required, no expensive designer needed. Start with the free version, follow the structure outlined above, and you'll have a polished, high-converting landing page live in a few hours.
 
-Ready to get started? [Download Elementor](https://elementor.com/) for free, pair it with reliable hosting from [SiteGround](https://www.siteground.com/go/affiliate) or Hostinger, and build your first landing page today.
+Ready to get started? [Download Elementor](https://elementor.com/) for free, pair it with reliable hosting from [SiteGround](https://www.siteground.com/go/affiliate){:rel="sponsored nofollow" target="_blank"} or Hostinger, and build your first landing page today.
 
 <div class="cta-btn">
 <strong>Start building now:</strong> 👉 <a href="https://elementor.com/">Download Elementor Free →</a>

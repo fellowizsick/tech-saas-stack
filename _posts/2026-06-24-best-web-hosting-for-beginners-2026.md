@@ -215,7 +215,7 @@ Hostinger is the biggest name in ultra-budget hosting, and their 2026 offerings 
 
 **No affiliate ID yet (reapply pending).** Hostinger has a solid affiliate program but requires a custom domain for approval. I'm reapplying with techsaasstack.com — when that goes through, I'll update this section.
 
-**Get Hostinger:** [Hostinger Website](https://www.hostinger.com/)
+**Get Hostinger:** [Hostinger Website](https://www.hostinger.com/){:rel="sponsored nofollow" target="_blank"}
 
 ---
 

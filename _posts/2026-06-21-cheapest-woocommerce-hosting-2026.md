@@ -40,7 +40,7 @@ SiteGround offers WooCommerce-optimized hosting with free daily backups and cach
 
 For stores that need to scale, Cloudways offers WooCommerce-optimized cloud hosting with a **3-day free trial**.
 
-👉 **[Try Cloudways Free →](https://www.cloudways.com/en/?id=2179745)**
+👉 **[Try Cloudways Free →](https://www.cloudways.com/en/?id=2179745){:rel="sponsored nofollow" target="_blank"}**
 
 ---
 

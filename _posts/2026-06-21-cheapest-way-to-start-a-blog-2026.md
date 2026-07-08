@@ -22,7 +22,7 @@ Blogging doesn't have to be expensive. Here's the cheapest way to get started in
 
 The easiest way to keep costs under $30 is using **Bluehost's exclusive pricing at $3.79/mo** which includes a free domain name for the first year. That saves you the ~$12 domain cost.
 
-👉 **[Get Bluehost + Free Domain →](https://bluehost.sjv.io/c/7392811/1376228/11352)**
+👉 **[Get Bluehost + Free Domain →](https://bluehost.sjv.io/c/7392811/1376228/11352){:rel="sponsored nofollow" target="_blank"}**
 
 ## Step 2: Install WordPress (1 Click)
 

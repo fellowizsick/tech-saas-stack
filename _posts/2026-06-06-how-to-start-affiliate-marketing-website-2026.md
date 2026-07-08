@@ -256,7 +256,7 @@ Once your content is live, you need affiliate links to monetize it. Here are the
 |---|---|---|---|
 | WP Engine | $200+/sale | Reviewed | wpengine.com |
 | Kinsta | $500–$1,000/sale | Reviewed | kinsta.com |
-| SiteGround | $100–$200 recurring | Instant | <a href="https://www.siteground.com/go/affiliate" rel="sponsored nofollow" target="_blank">siteground.com</a> |
+| SiteGround | $100–$200 recurring | Instant | <a href="https://www.siteground.com/go/affiliate" rel="sponsored nofollow" target="_blank">siteground.com/go/affiliate</a> |
 | Hostinger | $60–$100 recurring | Instant | hostinger.com |
 | Semrush | $200/sale or 40% recurring | Instant | <a href="https://semrush.com/">semrush.com</a> |
 | Ahrefs | 30% recurring | Instant | <a href="https://ahrefs.com/">ahrefs.com</a> |

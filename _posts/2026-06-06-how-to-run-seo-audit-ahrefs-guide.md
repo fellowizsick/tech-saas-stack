@@ -100,7 +100,7 @@ To start the crawl:
 1. Log into <a href="https://ahrefs.com/">Ahrefs</a> and navigate to **Site Audit** from the left sidebar.
 2. Click **+ New Project** and enter your website URL.
 3. Configure crawl settings — leave defaults unless your site is very large (500+ pages with deep navigation).
-4. Click **Start crawl**. Ahrefs will begin spidering your site immediately. For a typical blog on <a href="https://siteground.com/" rel="sponsored nofollow" target="_blank">SiteGround</a> or Hostinger with 50-200 pages, the first crawl completes in 5-15 minutes.
+4. Click **Start crawl**. Ahrefs will begin spidering your site immediately. For a typical blog on <a href="https://siteground.com/go/affiliate/" rel="sponsored nofollow" target="_blank">SiteGround</a> or Hostinger with 50-200 pages, the first crawl completes in 5-15 minutes.
 
 Once the crawl finishes, Ahrefs shows you a **Site Health Score** (0-100). A score above 90 is excellent. Below 70 means serious issues need attention.
 

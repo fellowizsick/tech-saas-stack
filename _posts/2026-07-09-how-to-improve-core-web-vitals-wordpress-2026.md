@@ -90,7 +90,7 @@ Your server's Time to First Byte (TTFB) directly inflates LCP. If your shared ho
       <td>$2.99/mo intro</td>
     </tr>
     <tr>
-      <td><a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a></td>
+      <td><a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a></td>
       <td>LiteSpeed + LSCache</td>
       <td>LiteSpeed Cache plugin</td>
       <td>Free CDN included</td>

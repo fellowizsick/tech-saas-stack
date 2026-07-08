@@ -51,7 +51,7 @@ Your hosting choice matters more for a membership site than for a regular blog. 
       <td>Managed WordPress with staging + SG Optimizer</td>
     </tr>
     <tr>
-      <td><a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting</a></td>
+      <td><a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a></td>
       <td>$2.95/mo (shared) / $29.95/mo (VPS)</td>
       <td>Growing membership sites</td>
       <td>SPanel with built-in WordPress manager</td>

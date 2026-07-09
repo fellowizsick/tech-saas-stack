@@ -24,7 +24,7 @@ Last Updated: 2026-07-09
 - **Commission**: $30/sale + 7% recurring
 - **Affiliate Link**: https://www.cloudways.com/en/?id=2179745
 - **Cookie Duration**: 90 days
-- **Status**: ✅ Verified (HTTP 200 — link now directly reachable; Cloudflare WAF no longer blocking automated checks as of Jul 9. Affiliate tracking ID `2179745` active. Known $11/mo starting price.)
+- **Status**: ✅ Verified (HTTP 200/403 — Cloudflare WAF intermittently allows/blocks automated checks (returned 200 then 403 within same session on Jul 9). Affiliate tracking ID `2179745` active. Known $11/mo starting price.)
 
 ### Bluehost
 - **Starting Price**: $3.79/mo (exclusive affiliate pricing)

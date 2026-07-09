@@ -8,7 +8,7 @@
 - **Fallback:** https://fellowizsick.github.io/tech-saas-stack/
 - **Repo:** https://github.com/fellowizsick/tech-saas-stack
 - **Framework:** Jekyll (GitHub Pages native)
-- **Local path:** `C:\Users\1990j\blog\`
+- **Local path:** `C:\Users\1990j\tech-saas-stack\`
 - **Owner:** Jon Brown / fellowizsick
 
 ## Commands

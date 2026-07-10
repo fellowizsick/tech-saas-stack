@@ -65,8 +65,17 @@
 | Cloudways | `2179745` | `https://www.cloudways.com/en/?id=2179745` |
 | SiteGround | `/go/affiliate` | `https://www.siteground.com/go/affiliate` |
 | ScalaHosting | `?aid=7ff57600` | `https://scalahosting.com/?aid=7ff57600` |
-| Bluehost | Impact Radius | `https://bluehost.sjv.io/c/7392811/1376228/11352` |
-|
+| Bluehost | Impact Radius | `https://bluehost.sjv.io/c/7392811/795082/11352` |
+
+## 🔒 SACRED AFFILIATE LINK RULE (user, Jul 2026 — HARD)
+
+**NEVER modify a WORKING affiliate link.** If a link resolves (HTTP 200, or a real Cloudflare 403 bot-block that still carries the valid affiliate ID), it is SACRED — leave it byte-for-byte as-is.
+
+- Do NOT "improve", rearrange, reformat, or swap working links.
+- Only ever touch a link if it is genuinely BROKEN (dead/404) or MISSING its affiliate ID.
+- When adding a new program, use the exact ID from the table above. Do not invent or alter IDs.
+- Rationale: a working link = live commission. One wrong character = lost money, silently.
+
 ## Known Issues
 
 - 🔴 Hostinger/WP Engine — reapplying with custom domain

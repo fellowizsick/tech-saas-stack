@@ -43,14 +43,54 @@ Elementor remains the top page builder in 2026. With 85+ widgets, theme builder 
 
 ### Essential Plugins
 
-| Plugin | Purpose | Starting Price | Why I Use It |
-|--------|---------|---------------|--------------|
-| **Yoast SEO** | On-page SEO optimization | Free / $99/yr Premium | Industry standard, readable content analysis |
-| **Wordfence** | Security & firewall | Free / $99/yr Premium | Catches 99% of common attacks out of the box |
-| **UpdraftPlus** | Automated backups | Free / $42/yr Premium | Set-and-forget cloud backups to Google Drive |
-| **WP Rocket** | Caching & performance | $59/yr | Best caching plugin — 30-50% speed improvement |
-| **Fluent Forms** | Form builder | Free / $35/yr Pro | Lightweight, fast, feature-rich alternative to WPForms |
-| **MonsterInsights** | Google Analytics | Free / $99/yr Plus | Simplest way to connect Google Analytics to WordPress |
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>Plugin</th>
+      <th>Purpose</th>
+      <th>Starting Price</th>
+      <th>Why I Use It</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Yoast SEO</strong></td>
+      <td>On-page SEO optimization</td>
+      <td>Free / $99/yr Premium</td>
+      <td>Industry standard, readable content analysis</td>
+    </tr>
+    <tr>
+      <td><strong>Wordfence</strong></td>
+      <td>Security & firewall</td>
+      <td>Free / $99/yr Premium</td>
+      <td>Catches 99% of common attacks out of the box</td>
+    </tr>
+    <tr>
+      <td><strong>UpdraftPlus</strong></td>
+      <td>Automated backups</td>
+      <td>Free / $42/yr Premium</td>
+      <td>Set-and-forget cloud backups to Google Drive</td>
+    </tr>
+    <tr>
+      <td><strong>WP Rocket</strong></td>
+      <td>Caching & performance</td>
+      <td>$59/yr</td>
+      <td>Best caching plugin — 30-50% speed improvement</td>
+    </tr>
+    <tr>
+      <td><strong>Fluent Forms</strong></td>
+      <td>Form builder</td>
+      <td>Free / $35/yr Pro</td>
+      <td>Lightweight, fast, feature-rich alternative to WPForms</td>
+    </tr>
+    <tr>
+      <td><strong>MonsterInsights</strong></td>
+      <td>Google Analytics</td>
+      <td>Free / $99/yr Plus</td>
+      <td>Simplest way to connect Google Analytics to WordPress</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Design Tools
 
@@ -198,14 +238,47 @@ If you need a budget-friendly starting point for client hosting, <a href="https:
 
 Here's the business software stack I recommend:
 
-| Tool | Purpose | Price |
-|------|---------|-------|
-| **Hello Bonsai** | Proposals, contracts, invoicing | $25/mo |
-| **Wave** | Free accounting & invoicing | Free (payment processing 2.9% + $0.60) |
-| **Calendly** | Client scheduling | Free / $12/mo Pro |
-| **Notion** | Project management, SOPs, client docs | Free / $10/mo Team |
-| **Google Workspace** | Professional email ($6/mo/user) | $6/mo/user |
-| **Toggl Track** | Time tracking | Free / $10/mo Premium |
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Purpose</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Hello Bonsai</strong></td>
+      <td>Proposals, contracts, invoicing</td>
+      <td>$25/mo</td>
+    </tr>
+    <tr>
+      <td><strong>Wave</strong></td>
+      <td>Free accounting & invoicing</td>
+      <td>Free (payment processing 2.9% + $0.60)</td>
+    </tr>
+    <tr>
+      <td><strong>Calendly</strong></td>
+      <td>Client scheduling</td>
+      <td>Free / $12/mo Pro</td>
+    </tr>
+    <tr>
+      <td><strong>Notion</strong></td>
+      <td>Project management, SOPs, client docs</td>
+      <td>Free / $10/mo Team</td>
+    </tr>
+    <tr>
+      <td><strong>Google Workspace</strong></td>
+      <td>Professional email ($6/mo/user)</td>
+      <td>$6/mo/user</td>
+    </tr>
+    <tr>
+      <td><strong>Toggl Track</strong></td>
+      <td>Time tracking</td>
+      <td>Free / $10/mo Premium</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Final Thoughts
 

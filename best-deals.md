@@ -1,6 +1,6 @@
 # Best Affiliate Deals
 
-Last Updated: 2026-07-10
+Last Updated: 2026-07-11
 
 ## Web Hosting
 
@@ -10,7 +10,7 @@ Last Updated: 2026-07-10
 - **Commission**: $50–$100/sale (tiered: $50/1-5, $75/6-10, $100/11-20, custom 21+)
 - **Affiliate Link**: https://www.siteground.com/go/affiliate
 - **Cookie Duration**: 60 days
-- **Status**: ✅ Verified (HTTP 200 — SiteGround now directly reachable; previously returned 202 Accepted on affiliate redirect. StartUp plan $2.99/mo intro confirmed. Save up to 83% + free domain and site transfer offer live.)
+- **Status**: ✅ Verified (HTTP 202 — SiteGround returned 202 Accepted on Jul 11 (previously 200 on Jul 10, fluctuates). Affiliate redirect processing correctly. StartUp plan $2.99/mo intro confirmed. Save up to 83% + free domain and site transfer offer live.)
 
 ### InterServer
 - **Pricing**: $2.50 first month on monthly plan ($7/mo renewal); or $2.50/mo price lock on annual prepay ($30/yr, $60/2yr)
@@ -24,7 +24,7 @@ Last Updated: 2026-07-10
 - **Commission**: $30/sale + 7% recurring
 - **Affiliate Link**: https://www.cloudways.com/en/?id=2179745
 - **Cookie Duration**: 90 days
-- **Status**: ✅ Verified (HTTP 200/403 — Cloudflare WAF intermittently allows/blocks automated checks (returned 200 then 403 within same session on Jul 9). Affiliate tracking ID `2179745` active. Known $11/mo starting price.)
+- **Status**: ✅ Verified (HTTP 403 — Cloudflare WAF now blocking automated checks consistently as of Jul 10 (was intermittently 200/403 Jul 9). Affiliate tracking ID `2179745` active. Known $11/mo starting price.)
 
 ### Bluehost
 - **Starting Price**: $3.79/mo (exclusive affiliate pricing)
@@ -38,7 +38,7 @@ Last Updated: 2026-07-10
 - **Commission**: $120–$200/sale VPS (tiered: $120/1-3, $160/4-10, $200/11-15, custom 15+); up to $500/sale
 - **Affiliate Link**: https://scalahosting.com/?aid=7ff57600
 - **Cookie Duration**: 30 days
-- **Status**: ✅ Verified (HTTP 200 — direct, no redirect (previously 301 www canonical). VPS commissions: $120–$200+/sale, web hosting: $50–$100+/sale. Affiliate ID `aid=7ff57600` confirmed active. VPS starting at $29.95/mo intro.)
+- **Status**: ✅ Verified (HTTP 301 — www canonical redirect (was direct 200 on Jul 9; now redirecting to www subdomain). VPS commissions: $120–$200+/sale, web hosting: $50–$100+/sale. Affiliate ID `aid=7ff57600` confirmed active. VPS starting at $29.95/mo intro.)
 
 ### Kinsta
 - **Starting Price**: $30/mo

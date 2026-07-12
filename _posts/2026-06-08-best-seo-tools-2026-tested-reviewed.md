@@ -27,6 +27,8 @@ faq:
     a: "Yes, Google Search Console is completely free and is the only direct source of Google's internal search performance data. Every website owner should set it up immediately. It shows your actual clicks, impressions, average position, and click-through rates for every keyword your site ranks for."
   - q: "Which SEO tool is best for beginners in 2026?"
     a: "Semrush offers the best beginner experience with its guided setup wizard, educational content, and the most intuitive dashboard. Moz Pro is also beginner-friendly with its simplified metrics. Start with Semrush's free trial, pair it with Google Search Console, and add more specialized tools as your skills grow."
+cta_url: "https://www.interserver.net/r/1155259"
+cta_text: "Host your SEO site on InterServer"
 ---
 <div class="affiliate-disclosure">
   <strong>Disclosure:</strong> Some links in this post are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.

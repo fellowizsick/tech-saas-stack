@@ -9,6 +9,8 @@ review:
   product: "Managed WordPress Hosting"
   description: "Comparison of WP Engine, Kinsta, and SiteGround managed WordPress hosting services"
   rating: 4.5
+cta_url: "https://www.siteground.com/go/affiliate"
+cta_text: "See SiteGround Plans"
 ---
 
 Choosing the right managed WordPress hosting can make or break your website. Slow hosting costs you visitors, kills SEO rankings, and frustrates your users. Fast hosting does the opposite — it grows your business.

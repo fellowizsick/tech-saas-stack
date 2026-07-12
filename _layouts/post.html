@@ -27,6 +27,13 @@ layout: default
     🤝 <strong>Affiliate Disclosure:</strong> Some links in this post are affiliate links. If you purchase through them, I earn a commission at no extra cost to you. I only recommend products I've personally tested and trust.
   </div>
 
+  {% if page.cta_url and page.cta_text %}
+  <!-- Above-fold affiliate CTA (conversion uplift) -->
+  <div class="cta-wrapper" style="margin: 1.2rem 0; padding: 1rem 1.2rem; background: linear-gradient(135deg, rgba(10,140,255,0.12), rgba(10,140,255,0.04)); border: 1px solid var(--primary, #0a8cff); border-radius: 12px; text-align: center;">
+    <a href="{{ page.cta_url }}" target="_blank" rel="nofollow sponsored" style="display: inline-block; padding: 0.7rem 1.4rem; background: var(--primary, #0a8cff); color: #fff; font-weight: 700; text-decoration: none; border-radius: 8px; font-size: 1rem;">{{ page.cta_text }} →</a>
+  </div>
+  {% endif %}
+
   <!-- Table of Contents (auto-generated) - Fixed Sidebar -->
   {% if page.toc != false %}
   <div class="toc-sidebar collapsed" id="tocSidebar">

@@ -4,6 +4,11 @@ description: Data-driven reviews of web hosting, SaaS tools, and software for de
 url: "https://techsaasstack.com"
 baseurl: ""
 
+# Default social/Open Graph image — unblocks Pinterest/social thumbnails for
+# ALL posts (was missing -> blank thumbnails -> 0 impressions). 2026-07-11.
+og_image: /assets/images/og-default.png
+logo: /assets/images/og-default.png
+
 # Current year for dynamic titles (update annually)
 current_year: 2026
 

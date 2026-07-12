@@ -11,6 +11,8 @@ review:
   product: "Managed WordPress Hosting"
   description: "Premium managed WordPress hosting with EverCache technology, StudioPress themes, and 60-day money-back guarantee."
   rating: 4.8
+cta_url: "https://www.interserver.net/r/1155259"
+cta_text: "Get InterServer from $2.50/mo"
 ---
 
 <div class="verdict-box">

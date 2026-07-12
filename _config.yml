@@ -4,6 +4,14 @@ description: Data-driven reviews of web hosting, SaaS tools, and software for de
 url: "https://techsaasstack.com"
 baseurl: ""
 
+# Author — used by Review/Article structured data. Google Review rich results
+# require author as a Person with a name (org-only author => "Missing field
+# author" warning). 2026-07-12 fix for Search Console review-snippet issue.
+author:
+  name: "Jon Brown"
+  url: "https://techsaasstack.com"
+  logo: /assets/images/og-default.png
+
 # Default social/Open Graph image — unblocks Pinterest/social thumbnails for
 # ALL posts (was missing -> blank thumbnails -> 0 impressions). 2026-07-11.
 og_image: /assets/images/og-default.png

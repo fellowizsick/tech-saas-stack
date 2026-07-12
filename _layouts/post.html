@@ -82,8 +82,8 @@ layout: default
       }
     },
     "author": {
-      "@type": "Organization",
-      "name": "{{ site.title }}"
+      "@type": "Person",
+      "name": "{{ site.author.name | default: site.title }}"
     },
     "reviewRating": {
       "@type": "Rating",

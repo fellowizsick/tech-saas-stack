@@ -62,7 +62,7 @@
 }
 
 /* Widen content on desktop for a more professional layout */
-@media (min-width: 1025px) {
+@media (min-width: 768px) {
   :root {
     --container-max: 1320px;
   }
@@ -212,9 +212,11 @@ html[data-theme="dark"] body {
 }
 
 .container {
+  width: 100%;
   max-width: var(--container-max);
   margin: 0 auto;
   padding: 0 calc(var(--space-unit) * 6);
+  box-sizing: border-box;
 }
 
 /* Navigation — Glass morphism */

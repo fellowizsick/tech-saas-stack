@@ -802,7 +802,8 @@ html[data-theme="dark"] .nav-brand::after {
   color: var(--text);
 }
 .page-content {
-  background: var(--bg-glass);
+  background: var(--bg-glass), var(--bg-solid, #0f1117);
+  background-color: #0f1117;
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   border: 1px solid var(--border);
@@ -810,6 +811,8 @@ html[data-theme="dark"] .nav-brand::after {
   padding: calc(var(--space-unit) * 8);
   box-shadow: var(--shadow);
   animation: fade-up var(--transition-slow) ease-out var(--transition-fast) both;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 

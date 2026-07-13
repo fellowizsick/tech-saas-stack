@@ -217,6 +217,20 @@ html[data-theme="dark"] body {
   background-blend-mode: normal, normal, normal, normal, normal, normal, normal, overlay;
 }
 
+/* DARK THEME variable overrides — fix invisible dark-on-dark text (2026-07-13) */
+html[data-theme="dark"] {
+  --bg: oklch(0.16 0.02 260);
+  --bg-elevated: oklch(0.2 0.02 260);
+  --bg-card: oklch(0.2 0.02 260);
+  --bg-glass: oklch(0.2 0.02 260 / 0.7);
+  --bg-glass-hover: oklch(0.24 0.02 260 / 0.85);
+  --text: oklch(0.95 0.01 260);
+  --text-muted: oklch(0.75 0.02 260);
+  --text-faint: oklch(0.6 0.02 260);
+  --border: oklch(0.32 0.02 260);
+  --border-strong: oklch(0.4 0.02 260);
+}
+
 .container {
   width: 100%;
   max-width: var(--container-max);

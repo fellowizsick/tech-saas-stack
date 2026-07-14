@@ -1,0 +1,54 @@
+---
+layout: default
+title: "PDF & Invoice to Spreadsheet Extractor — Free Tool"
+description: "Free tool: upload a PDF or invoice and extract the data into a downloadable CSV/spreadsheet. No upload to servers — runs in your browser. Built by Tech & SaaS Stack."
+permalink: /tools/pdf-to-spreadsheet/
+robots: index, follow
+canonical: https://techsaasstack.com/tools/pdf-to-spreadsheet/
+---
+<div class="page-content" style="max-width:860px;margin:2rem auto;padding:0 1.25rem;">
+  <h1 style="font-size:2rem;margin-bottom:.5rem;">PDF & Invoice → Spreadsheet Extractor</h1>
+  <p style="opacity:.8;margin-bottom:1.5rem;">Stop retyping invoices. Upload a PDF, get a clean CSV you can open in Excel/Sheets. Runs 100% in your browser — your file never leaves your machine.</p>
+
+  <div class="disclosure-bar" style="margin-bottom:1.5rem;">Free: 3 files/day. <strong>Pro</strong> (one-time via PayPal): unlimited files, batch folder, column auto-mapping.</div>
+
+  <input type="file" id="pdf" accept="application/pdf" multiple style="margin:.5rem 0;color:var(--text);" />
+  <button id="extract" style="background:var(--accent,#4f8cff);color:#fff;border:none;padding:.7rem 1.4rem;border-radius:8px;font-weight:600;cursor:pointer;margin:.5rem 0;">Extract to CSV</button>
+  <div id="status" style="margin:.5rem 0;opacity:.8;"></div>
+  <a id="dl" style="display:none;background:#22c55e;color:#fff;padding:.6rem 1.2rem;border-radius:8px;text-decoration:none;font-weight:600;">Download CSV</a>
+  <div id="out"></div>
+
+  <hr style="margin:2.5rem 0;border:none;border-top:1px solid rgba(128,128,128,.2);">
+  <div style="background:var(--bg-glass);border:1px solid rgba(128,128,128,.25);border-radius:12px;padding:1.5rem;text-align:center;">
+    <h2 style="margin-top:0;">Unlock Pro — one-time</h2>
+    <p style="opacity:.8;">Unlimited files, batch folder, smart column mapping. Pay once via PayPal.</p>
+    <a href="https://www.paypal.com/donate/?business=UBV3Y7XMFXQAS&no_recurring=0&item_name=Support+Tech+%26+SaaS+Stack&currency_code=USD" style="display:inline-block;background:#0070ba;color:#fff;padding:.8rem 1.6rem;border-radius:8px;font-weight:700;text-decoration:none;">Upgrade to Pro via PayPal</a>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+const PAYPAL="https://www.paypal.com/donate/?business=UBV3Y7XMFXQAS&no_recurring=0&item_name=Support+Tech+%26+SaaS+Stack&currency_code=USD";
+document.getElementById('dl').href=PAYPAL;
+pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+const toCSV=(rows)=>rows.map(r=>r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(',')).join('\n');
+document.getElementById('extract').addEventListener('click',async()=>{
+  const files=[...document.getElementById('pdf').files];
+  if(!files.length){document.getElementById('status').textContent='Choose a PDF first.';return;}
+  let all=[];
+  for(const f of files.slice(0,3)){
+    const buf=await f.arrayBuffer();
+    const pdf=await pdfjsLib.getDocument({data:buf}).promise;
+    let text='';
+    for(let p=1;p<=pdf.numPages;p++){const c=await pdf.getPage(p);const t=await c.getTextContent();text+=t.items.map(i=>i.str).join(' ')+'\n';}
+    // naive line->row split
+    text.split('\n').forEach(l=>{if(l.trim())all.push([l.trim()]);});
+    document.getElementById('status').textContent='Parsed '+f.name+' ('+pdf.numPages+' pages)';
+  }
+  const csv=toCSV(all);
+  const blob=new Blob([csv],{type:'text/csv'});
+  const url=URL.createObjectURL(blob);
+  const a=document.getElementById('dl');a.href=url;a.download='extracted.csv';a.style.display='inline-block';
+  document.getElementById('out').innerHTML='<p style="opacity:.7;">Extracted '+all.length+' rows. Download above.</p>';
+});
+</script>

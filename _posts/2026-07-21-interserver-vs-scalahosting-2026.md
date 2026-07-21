@@ -314,14 +314,14 @@ SShield's primary advantage is its **proactive approach**. It doesn't just block
 <div class="verdict-box">
   <h3>InterServer: Top Pick for Pure Value Seekers</h3>
   <p>If your priority is the absolute lowest predictable price for reliable shared hosting, InterServer's $2.50/mo price-lock is unmatched. No other host offers a locked-in rate that stays flat for the life of your account. It's ideal for personal sites, small blogs, and side projects where every dollar counts.</p>
-  <p>Check out our <a href="/tech-saas-stack/deals/">Deals page</a> for the latest InterServer promo rates, or see how InterServer compares in our <a href="/tech-saas-stack/2026/07/interserver-vs-siteground-vs-cloudways-2026/">InterServer vs SiteGround vs Cloudways</a> comparison.</p>
+  <p>Check out our <a href="https://techsaasstack.com/deals/">Deals page</a> for the latest InterServer promo rates, or see how InterServer compares in our <a href="https://techsaasstack.com/2026/07/interserver-vs-siteground-vs-cloudways-2026/">InterServer vs SiteGround vs Cloudways</a> comparison.</p>
   <a href="https://www.interserver.net/r/1155259" class="cta-btn" rel="nofollow sponsored" target="_blank">Visit InterServer →</a>
 </div>
 
 <div class="verdict-box">
   <h3>ScalaHosting: Top Pick for Feature-Rich Budget Hosting</h3>
   <p>If you want more than just cheap hosting — modern tools, real security, staging, and a path to VPS without switching providers — ScalaHosting delivers more value per dollar than almost any competitor in its price bracket. SPanel alone saves you the $15-20/mo cPanel licensing fee that many hosts charge you indirectly.</p>
-  <p>For more context on how ScalaHosting compares to other providers, see our <a href="/tech-saas-stack/2026/07/siteground-vs-cloudways-vs-scalahosting-2026/">SiteGround vs Cloudways vs ScalaHosting</a> breakdown and the <a href="/tech-saas-stack/2026/07/cloudways-vs-scalahosting-vs-interserver-managed-hosting-2026/">Cloudways vs ScalaHosting vs InterServer</a> managed hosting comparison.</p>
+  <p>For more context on how ScalaHosting compares to other providers, see our <a href="https://techsaasstack.com/2026/07/siteground-vs-cloudways-vs-scalahosting-2026/">SiteGround vs Cloudways vs ScalaHosting</a> breakdown and the <a href="https://techsaasstack.com/2026/07/cloudways-vs-scalahosting-vs-interserver-managed-hosting-2026/">Cloudways vs ScalaHosting vs InterServer</a> managed hosting comparison.</p>
   <a href="https://scalahosting.com/" class="cta-btn" rel="nofollow sponsored" target="_blank">Explore ScalaHosting's Plans →</a>
 </div>
 
@@ -334,20 +334,20 @@ The answer depends on where your site is today and where you expect it to be in 
 - Your site has modest traffic (under 10K visitors/month)
 - You already know cPanel and don't want to learn a new panel
 - You don't need staging or a CDN out of the box
-- You want to start a blog or small business site on a tight budget — our <a href="/tech-saas-stack/2026/07/how-to-start-blog-2026/">guide to starting a blog</a> walks through the whole process
+- You want to start a blog or small business site on a tight budget — our <a href="https://techsaasstack.com/2026/07/how-to-start-blog-2026/">guide to starting a blog</a> walks through the whole process
 
 **Pick ScalaHosting if:**
 - You want modern hosting features (staging, caching, CDN, AI security) at a budget price
 - You might need to upgrade to VPS within 1-2 years
 - You want to avoid cPanel licensing fees
 - Your site runs WordPress and would benefit from LiteSpeed caching
-- You're building sites for clients and need staging and isolation — read our <a href="/tech-saas-stack/2026/07/best-web-hosting-for-agencies-freelancers-2026/">guide to hosting for agencies and freelancers</a> for more context
+- You're building sites for clients and need staging and isolation — read our <a href="https://techsaasstack.com/2026/07/best-web-hosting-for-agencies-freelancers-2026/">guide to hosting for agencies and freelancers</a> for more context
 
 If you're just starting out and want to minimize upfront costs, <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer's $2.50/mo plan</a> gives you a risk-free way to get online. You can always upgrade to a more feature-rich platform like <a href="https://scalahosting.com/" rel="nofollow sponsored" target="_blank">ScalaHosting's managed VPS</a> later as your site grows.
 
-For more help choosing the right hosting plan, check our <a href="/tech-saas-stack/hosting-checklist/">Hosting Decision Checklist</a> — a free resource that walks you through every factor: budget, traffic, technical skill, and growth plans.
+For more help choosing the right hosting plan, check our <a href="https://techsaasstack.com/hosting-checklist/">Hosting Decision Checklist</a> — a free resource that walks you through every factor: budget, traffic, technical skill, and growth plans.
 
-And don't forget to browse the <a href="/tech-saas-stack/deals/">Deals page</a> for any active coupons or discounts on these and other hosting providers.
+And don't forget to browse the <a href="https://techsaasstack.com/deals/">Deals page</a> for any active coupons or discounts on these and other hosting providers.
 
 ## Frequently Asked Questions
 
@@ -357,11 +357,11 @@ InterServer's Standard plan includes unlimited storage, bandwidth, and email acc
 
 ### Does ScalaHosting offer a free domain?
 
-ScalaHosting occasionally runs promotions that include a free domain name on annual plans. Check their current offers on the <a href="/tech-saas-stack/deals/">Deals page</a> for the latest bundle deals.
+ScalaHosting occasionally runs promotions that include a free domain name on annual plans. Check their current offers on the <a href="https://techsaasstack.com/deals/">Deals page</a> for the latest bundle deals.
 
 ### Can I use my own domain with InterServer?
 
-Yes. InterServer supports custom domains. You can either register a new domain through InterServer or point an existing domain from another registrar. Their free site migration service handles the domain configuration as part of the transfer process. See our <a href="/tech-saas-stack/2026/07/how-to-point-domain-to-web-hosting-dns-guide/">DNS and domain pointing guide</a> for step-by-step instructions.
+Yes. InterServer supports custom domains. You can either register a new domain through InterServer or point an existing domain from another registrar. Their free site migration service handles the domain configuration as part of the transfer process. See our <a href="https://techsaasstack.com/2026/07/how-to-point-domain-to-web-hosting-dns-guide/">DNS and domain pointing guide</a> for step-by-step instructions.
 
 ### Which host handles traffic spikes better?
 

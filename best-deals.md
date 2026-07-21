@@ -1,6 +1,6 @@
 # Best Affiliate Deals
 
-Last Updated: 2026-07-15
+Last Updated: 2026-07-20
 
 ## Web Hosting
 
@@ -10,21 +10,21 @@ Last Updated: 2026-07-15
 - **Commission**: $50–$100/sale (tiered: $50/1-5, $75/6-10, $100/11-20, custom 21+)
 - **Affiliate Link**: https://www.siteground.com/go/affiliate
 - **Cookie Duration**: 60 days
-- **Status**: ✅ Verified (HTTP 200 — directly reachable as of 2026-07-15; this code fluctuates behind Cloudflare WAF, also seen at 202. StartUp plan $2.99/mo intro confirmed. Save up to 83% + free domain and site transfer offer live.)
+- **Status**: ✅ Verified (HTTP 301 — redirecting to affiliate program page (final 200) as of 2026-07-20; this code fluctuates behind Cloudflare WAF, also seen at 200/202. StartUp plan $2.99/mo intro confirmed. Save up to 83% + free domain and site transfer offer live.)
 
 ### InterServer
 - **Pricing**: $2.50 first month on monthly plan ($7/mo renewal); or $2.50/mo price lock on annual prepay ($30/yr, $60/2yr)
 - **Commission**: $100/sale
 - **Affiliate Link**: https://www.interserver.net/r/1155259
 - **Cookie Duration**: 90 days
-- **Status**: ✅ Verified (HTTP 403 — Cloudflare WAF bot-block; affiliate ID `1155259` intact, link is SACRED and working for real users. Affiliate redirect previously passed at HTTP 302. Pricing: $2.50 first month on monthly plan, $7/mo renewal. Annual/2-year prepay locks in $2.50/mo.)
+- **Status**: ✅ Verified (HTTP 403 — Cloudflare WAF bot-block as of 2026-07-20; affiliate ID `1155259` intact, link is SACRED and working for real users. Affiliate redirect previously passed at HTTP 302. Pricing: $2.50 first month on monthly plan, $7/mo renewal. Annual/2-year prepay locks in $2.50/mo.)
 
 ### Cloudways
 - **Starting Price**: $11/mo
 - **Commission**: $30/sale + 7% recurring
 - **Affiliate Link**: https://www.cloudways.com/en/?id=2179745
 - **Cookie Duration**: 90 days
-- **Status**: ✅ Verified (HTTP 200 — directly reachable as of 2026-07-15; fluctuates behind Cloudflare WAF, also seen at 403. Affiliate tracking ID `2179745` active. Known $11/mo starting price.)
+- **Status**: ✅ Verified (HTTP 403 — Cloudflare WAF bot-block as of 2026-07-20; fluctuates between 200/403. Affiliate tracking ID `2179745` active. Known $11/mo starting price.)
 
 ### Bluehost
 - **Starting Price**: $3.79/mo (exclusive affiliate pricing)
@@ -38,14 +38,14 @@ Last Updated: 2026-07-15
 - **Commission**: $120–$200/sale VPS (tiered: $120/1-3, $160/4-10, $200/11-15, custom 15+); up to $500/sale
 - **Affiliate Link**: https://scalahosting.com/?aid=7ff57600
 - **Cookie Duration**: 30 days
-- **Status**: ✅ Verified (HTTP 200 — direct as of 2026-07-15; www canonical redirect (301) also seen intermittently. VPS commissions: $120–$200+/sale, web hosting: $50–$100+/sale. Affiliate ID `aid=7ff57600` confirmed active. VPS starting at $29.95/mo intro.)
+- **Status**: ✅ Verified (HTTP 301→200 — www canonical redirect as of 2026-07-20. VPS commissions: $120–$200+/sale, web hosting: $50–$100+/sale. Affiliate ID `aid=7ff57600` confirmed active. VPS starting at $29.95/mo intro.)
 
 ### Kinsta
 - **Starting Price**: $30/mo
 - **Commission**: $50–$500/sale (one-time) + 10% lifetime recurring
 - **Affiliate Link**: https://kinsta.com/affiliates/
 - **Cookie Duration**: 60 days
-- **Status**: ✅ Verified (HTTP 200. Plans start at $30/mo. "First Month Free" promo: $0 today, $350 after first month. Annual pricing $350/yr saves $70 vs monthly. NOTE: task spec lists $35/mo starting — current verified price is $30/mo; pending user confirmation.)
+- **Status**: ✅ Verified (HTTP 200 as of 2026-07-20. Plans start at $30/mo. "First Month Free" promo: $0 today, $350 after first month. Annual pricing $350/yr saves $70 vs monthly. NOTE: task spec lists $35/mo starting — current verified price is $30/mo; pending user confirmation.)
 
 ## Marketing & SEO Tools
 
@@ -54,7 +54,7 @@ Last Updated: 2026-07-15
 - **Commission**: $200/sale (first payment) + $10/renewal
 - **Affiliate Link**: https://www.semrush.com/company/partners/
 - **Cookie Duration**: 120 days
-- **Status**: ✅ Verified (HTTP 200 as of 2026-07-15. Pricing restructured: "SEO" plan replaces old "Pro" at $139/mo monthly / $117.33/mo annual. Plan tiers: SEO $139, Starter $199, Pro+ $299, Advanced $549. NOTE: task spec lists $129/mo "Pro" — that plan was replaced; $139 SEO is current. Pending user confirmation.)
+- **Status**: ✅ Verified (HTTP 200 as of 2026-07-20. Pricing restructured: "SEO" plan replaces old "Pro" at $139/mo monthly / $117.33/mo annual. Plan tiers: SEO $139, Starter $199, Pro+ $299, Advanced $549. NOTE: task spec lists $129/mo "Pro" — that plan was replaced; $139 SEO is current. Pending user confirmation.)
 
 ### Elementor
 - **Pro Plan (Essential)**: $49/yr ($4.08/mo billed annually)

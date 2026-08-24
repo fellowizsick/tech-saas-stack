@@ -47,6 +47,13 @@ Last Updated: 2026-08-24
 - **Cookie Duration**: 60 days
 - **Status**: ✅ Verified (HTTP 200. $35/mo monthly billing re-confirmed Aug 24 — pricing page shows $35/mo dominant (13× $35 fragments vs 4× $30/mo annual-effective). Annual $350/yr saves $70 vs monthly ($420). Task spec $35/mo CONFIRMED; "$30/month" on pricing page is the annual-effective rate, not the monthly price.)
 
+### Ultra Web Hosting
+- **Pricing**: See ultrawebhosting.com (link live — canonical redirect)
+- **Commission**: Per Awin program terms (newly approved)
+- **Affiliate Link**: https://www.awin1.com/cread.php?awinmid=87691&awinaffid=2938057&ued=https%3A%2F%2Fultrawebhosting.com%2F
+- **Cookie Duration**: Per Awin program terms
+- **Status**: ✅ Newly approved on Awin (Aug 24, 2026) — link resolves HTTP 200. Program launched 18/08/25; avg payment time 249 days; no stats yet (n/a).
+
 ## Marketing & SEO Tools
 
 ### Semrush
@@ -80,6 +87,16 @@ Last Updated: 2026-08-24
 - **Cookie Duration**: 30 days
 - **Status**: ✅ Verified (HTTP 200 as of Aug 24. Pricing restructured — old $9/mo Creator plan replaced. Now: Free/Newsletter, Creator $33/mo/$390yr, Pro $66/mo/$790yr for 1k subs. "$99" fragment on pricing page = free SparkLoop add-on worth $99/mo, NOT a plan price.)
 
+## Website Builders
+
+### Brizy
+- **Free Plan**: Available (Brizy Free)
+- **Paid Plans**: Via brizy.io (pricing page JS-rendered — verify before promoting)
+- **Commission**: Per Awin program terms (newly approved)
+- **Affiliate Link**: https://www.awin1.com/cread.php?awinmid=26663&awinaffid=2938057&ued=https%3A%2F%2Fwww.brizy.io%2F
+- **Cookie Duration**: Per Awin program terms
+- **Status**: ✅ Newly approved on Awin (Aug 24, 2026) — link resolves HTTP 200. Awin stats: 2.33% conversion, 75% approval rate, EPC USD 0.08, avg payment 90 days.
+
 ---
 
 ## Notes
@@ -98,5 +115,7 @@ Last Updated: 2026-08-24
 - **Discrepancies resolved Jul 31**: Task spec vs live — Kinsta $35/mo CONFIRMED (live monthly billing), Ahrefs $99/mo CONFIRMED on pricing page (still no affiliate program — unlisted), Semrush stays $139 SEO (task spec $129 outdated), Elementor stays $49/yr (task spec $59 outdated).
 - **Aug 23 re-verification pass**: All 10 affiliate links re-checked — SiteGround 301, InterServer 403 (WAF), Cloudways 403 (WAF re-engaged), Bluehost 302, ScalaHosting 301→200, Kinsta 200, Semrush 200 (GET), Elementor 200, ActiveCampaign 200, Kit 200. No links broken; no URL changes made (Sacred Affiliate Link Rule respected). No new approved programs to add — Cloudways `id=2179745` and ScalaHosting `aid=7ff57600` already listed and confirmed live on techsaasstack.com/best-deals/ (grep-verified Aug 23); Awin still pending onboarding (no affiliate ID available), Bluehost already listed with active Impact link.
 - **Aug 24 re-verification pass**: All 10 affiliate links re-checked — SiteGround 301 (HEAD) / final 200 on GET (redirect lands on affiliate_program.htm with afcode param intact), InterServer 403 (WAF), Cloudways 403 (WAF), Bluehost 302 (Impact), ScalaHosting 301→200 (www canonical), Kinsta 200, Semrush 200 (GET), Elementor 200, ActiveCampaign 200, Kit 200. No links broken; no URL changes made (Sacred Affiliate Link Rule respected). Pricing re-verified unchanged: Kinsta $35/mo monthly dominant ($30/mo = annual-effective), Ahrefs $99/mo Lite confirmed on pricing page (still no affiliate program — unlisted), Semrush/Elementor/ActiveCampaign pricing pages JS-rendered (kept documented values). No new approved programs — Awin still pending onboarding (no affiliate ID in awin.txt), Cloudways `id=2179745` and ScalaHosting `aid=7ff57600` already listed. Live deals page techsaasstack.com/best-deals/ returns 200 OK; /deals/ still 404s (rename pending).
+
+- **Aug 24 Awin onboarding COMPLETE**: Awin account active (publisher ID 2938057, account "Techsaasstack", signed in via ui.awin.com). **Brizy (awinmid 26663) and Ultra Web Hosting (awinmid 87691) APPROVED** — affiliate links generated via Awin Link Builder and added to this page (both resolve HTTP 200). Still pending on Awin: WPForms, Asset CleanUp Pro, ThemeIsle WordPress Themes, Hide My WP Ghost, Revive Social, WP Buffs, SeedProd, Nicepage. Rejected: MailPoet, Ultahost, WP Rocket. No blog posts mention Brizy/Ultra Web Hosting yet — links live here and ready to embed when posts are written. (Supersedes the "Awin pending onboarding" line in the Aug 24 pass above.)
 
 *Auto-updated daily via cron job at 3 AM UTC*

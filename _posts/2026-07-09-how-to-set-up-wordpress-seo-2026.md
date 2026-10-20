@@ -51,7 +51,7 @@ Here's how the recommended providers stack up for SEO performance, based on prov
       <td>$14/mo</td>
     </tr>
     <tr>
-      <td><a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
+      <td><a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
       <td>150-300ms</td>
       <td>NGINX FastCGI + dynamic caching</td>
       <td>8.x</td>

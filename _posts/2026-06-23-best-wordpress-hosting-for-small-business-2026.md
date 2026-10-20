@@ -160,7 +160,7 @@ The user area (Site Tools) is custom-built and way more intuitive than tradition
 
 **Who it's for:** The small business that wants a professional-grade host with great support, doesn't want to fiddle with server settings, and is willing to pay a fair price after the intro period.
 
-<a href="https://siteground.com/go/affiliate" rel="sponsored nofollow" target="_blank" class="cta-btn">Visit SiteGround →</a>
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="sponsored nofollow" target="_blank" class="cta-btn">Visit SiteGround →</a>
 
 ## 2. Cloudways — Best for Growing Businesses
 

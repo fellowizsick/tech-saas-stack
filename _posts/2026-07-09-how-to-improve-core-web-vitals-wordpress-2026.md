@@ -83,7 +83,7 @@ Your server's Time to First Byte (TTFB) directly inflates LCP. If your shared ho
       <td>$14/mo (DigitalOcean)</td>
     </tr>
     <tr>
-      <td><a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
+      <td><a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
       <td>NGINX + custom Speed Optimizer plugin</td>
       <td>NGINX FastCGI Cache + dynamic caching</td>
       <td>Cloudflare included</td>

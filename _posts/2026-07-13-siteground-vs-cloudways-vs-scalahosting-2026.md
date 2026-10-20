@@ -493,7 +493,7 @@ The SPanel dashboard is designed to feel familiar to cPanel users while being mo
 - **Your budget is tight for year one** — $2.99/mo intro for the StartUp plan is the best entry price for premium managed hosting.
 - **You only need one site** — The StartUp plan covers a single WordPress site at $2.99/mo intro.
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">Get SiteGround →</a>
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">Get SiteGround →</a>
 
 ### Choose Cloudways If:
 
@@ -637,7 +637,7 @@ ScalaHosting's SShield AI is the most proactive security system of the three —
 
 SiteGround, Cloudways, and ScalaHosting all deliver genuine value — but for different site owners at different stages.
 
-If you're launching your first WordPress site and want the most supportive onboarding experience, <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> at $2.99/mo intro is the obvious choice. The support, the included features (free domain, email, CDN, SSL), and the clean Site Tools dashboard make it the most beginner-friendly managed option.
+If you're launching your first WordPress site and want the most supportive onboarding experience, <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> at $2.99/mo intro is the obvious choice. The support, the included features (free domain, email, CDN, SSL), and the clean Site Tools dashboard make it the most beginner-friendly managed option.
 
 If your site is growing and you want cloud flexibility with flat pricing, <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> from ~$14/mo offers the best long-term value. The ThunderStack (Nginx + Varnish + Redis) delivers excellent performance, and the 3-day free trial lets you test drive with no commitment required.
 

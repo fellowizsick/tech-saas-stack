@@ -144,7 +144,7 @@ That's it. The Cloudflare Enterprise CDN activates within minutes with zero DNS 
   </thead>
   <tbody>
     <tr><td><strong><a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a></strong></td><td>✅ Yes</td><td>Cloudflare Enterprise</td><td>$14/mo</td><td>One-click CDN, no DNS changes needed</td></tr>
-    <tr><td><strong><a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a></strong></td><td>✅ Yes</td><td>Cloudflare integration</td><td>$2.99/mo intro</td><td>SG Optimizer + Cloudflare plugin</td></tr>
+    <tr><td><strong><a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a></strong></td><td>✅ Yes</td><td>Cloudflare integration</td><td>$2.99/mo intro</td><td>SG Optimizer + Cloudflare plugin</td></tr>
     <tr><td><strong><a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a></strong></td><td>⚡ Optional add-on</td><td>Third-party CDN</td><td>$2.50/mo</td><td>Budget-friendly, price-lock guarantee</td></tr>
     <tr><td><strong><a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a></strong></td><td>✅ Included</td><td>SPanel-powered caching + CDN</td><td>$29.95/mo intro</td><td>Managed VPS with built-in performance tools</td></tr>
   </tbody>
@@ -268,7 +268,7 @@ Here's a quick decision guide:
 
 Setting up a CDN is one of the highest-ROI performance improvements you can make for your WordPress site. The free tier of Cloudflare alone can cut your page load time in half, improve your Core Web Vitals, and protect against basic attacks — all in under 30 minutes.
 
-If you're looking for a hosting provider that includes CDN out of the box, I'd start with <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> (Cloudflare Enterprise included on all plans) or <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> (free Cloudflare integration via SG Optimizer). For budget-conscious users, <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a>'s price-lock hosting at $2.50/mo pairs well with Cloudflare's free CDN for a total cost under $5/mo.
+If you're looking for a hosting provider that includes CDN out of the box, I'd start with <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> (Cloudflare Enterprise included on all plans) or <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> (free Cloudflare integration via SG Optimizer). For budget-conscious users, <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a>'s price-lock hosting at $2.50/mo pairs well with Cloudflare's free CDN for a total cost under $5/mo.
 
 ### Related Reading
 

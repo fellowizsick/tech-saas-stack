@@ -47,7 +47,7 @@ Most managed WordPress hosts offer a free migration plugin that handles the enti
 
 **Who should use this:** Anyone who wants a hands-off experience. No technical skills required.
 
-**Best provider for this method:** <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> offers a dedicated Cloudways Migrator plugin that's one of the most reliable in the industry. It handles sites up to 5GB without rate limits, preserves all plugin and theme settings, and provides real-time progress tracking. <a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> also provides a free WordPress migration plugin that works well for smaller sites, though it can time out on sites over 2GB.
+**Best provider for this method:** <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> offers a dedicated Cloudways Migrator plugin that's one of the most reliable in the industry. It handles sites up to 5GB without rate limits, preserves all plugin and theme settings, and provides real-time progress tracking. <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> also provides a free WordPress migration plugin that works well for smaller sites, though it can time out on sites over 2GB.
 
 ## Method 2: Professional Migration Support (Best for Large or Complex Sites)
 
@@ -189,7 +189,7 @@ The goal is a seamless transition where visitors don't notice anything changed. 
 
 ## When to Use Each Method
 
-**Use a host migration plugin if:** You're moving to Cloudways, SiteGround, or another host that provides one — and your site is under 5GB. This is the fastest approach, and the plugin handles URL replacements and serialized data automatically. Both <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> and <a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> offer reliable migration plugins with detailed progress tracking.
+**Use a host migration plugin if:** You're moving to Cloudways, SiteGround, or another host that provides one — and your site is under 5GB. This is the fastest approach, and the plugin handles URL replacements and serialized data automatically. Both <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> and <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> offer reliable migration plugins with detailed progress tracking.
 
 **Request professional migration if:** Your site is over 5GB, runs ecommerce (WooCommerce, Easy Digital Downloads), has custom post types or complex query loops, or you just don't want to risk breaking anything. <a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a> includes free professional migration on all managed VPS plans — their team handles the transfer end-to-end and verifies the site works on the new server before handing it over.
 

@@ -9,7 +9,7 @@ review:
   product: "Managed WordPress Hosting"
   description: "Comparison of WP Engine, Kinsta, and SiteGround managed WordPress hosting services"
   rating: 4.5
-cta_url: "https://www.siteground.com/go/affiliate"
+cta_url: "https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4"
 cta_text: "See SiteGround Plans"
 ---
 
@@ -229,7 +229,7 @@ Kinsta is the best choice for **performance-critical sites** — high-traffic bl
 
 <img src="/assets/images/providers/siteground.png" alt="SiteGround homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
 
-[SiteGround](https://siteground.com/go/affiliate/){:rel="sponsored nofollow" target="_blank"} offers the best entry-level pricing while maintaining excellent uptime (99.99% average) and support quality. It's officially recommended by WordPress.org.
+[SiteGround](https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4){:rel="sponsored nofollow" target="_blank"} offers the best entry-level pricing while maintaining excellent uptime (99.99% average) and support quality. It's officially recommended by WordPress.org.
 
 ### Performance & Speed
 
@@ -288,7 +288,7 @@ SiteGround is perfect for **beginners and small budgets** — new site owners, s
 
 <div class="cta-wrapper">
   <p><strong>Start with SiteGround's low introductory pricing</strong></p>
-  <a class="cta-btn" href="https://siteground.com/go/affiliate/" rel="nofollow sponsored">Visit SiteGround →</a>
+  <a class="cta-btn" href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored">Visit SiteGround →</a>
 </div>
 
 ## Head-to-Head Comparison

@@ -167,7 +167,7 @@ Different hosting providers make pointing a domain slightly different. Here's ho
 
 ### SiteGround — The Best Managed Experience
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> makes domain pointing as simple as possible. Once you sign up for a hosting plan, Site Ground's Site Tools dashboard has a dedicated "Websites" section where you add your domain. Their system walks you through the nameserver change step by step, and once propagation completes, everything is configured automatically — SSL, email, caching, and CDN included.
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> makes domain pointing as simple as possible. Once you sign up for a hosting plan, Site Ground's Site Tools dashboard has a dedicated "Websites" section where you add your domain. Their system walks you through the nameserver change step by step, and once propagation completes, everything is configured automatically — SSL, email, caching, and CDN included.
 
 SiteGround also offers free Cloudflare CDN integration on all plans, which means you can optionally manage DNS through Cloudflare instead and still get the same smooth setup.
 
@@ -225,7 +225,7 @@ If you previously set up DNS records at your registrar (for email forwarding, a 
 
 Once your domain is pointed to a host, the real work begins. Here's a quick guide to choosing based on your needs:
 
-- **<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a>** — Best for beginners who want everything handled. Managed WordPress setup, automatic updates, built-in caching, and free CDN. Starts at $2.99/mo intro pricing.
+- **<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a>** — Best for beginners who want everything handled. Managed WordPress setup, automatic updates, built-in caching, and free CDN. Starts at $2.99/mo intro pricing.
 
 - **<a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a>** — Best if you need cloud hosting power but want managed simplicity. Choose your cloud provider (DO, Vultr, Linode, AWS, GCP), get ThunderStack performance, and scale vertically. Starts at $14/mo.
 

@@ -119,7 +119,7 @@ Customer support is solid for hosting-level issues but not specialized for WordP
 
 ## 2. SiteGround — The Premium Shared Host
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> has built its reputation around one thing: doing shared hosting right. Their custom Site Tools platform replaces cPanel with a clean, fast interface. Their support team is consistently rated among the best in the industry. And their feature set — built-in caching, free Cloudflare CDN, free email hosting, daily backups — covers everything a typical WordPress site needs.
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> has built its reputation around one thing: doing shared hosting right. Their custom Site Tools platform replaces cPanel with a clean, fast interface. Their support team is consistently rated among the best in the industry. And their feature set — built-in caching, free Cloudflare CDN, free email hosting, daily backups — covers everything a typical WordPress site needs.
 
 ### What Makes SiteGround Stand Out
 
@@ -148,7 +148,7 @@ Staging is only available on GrowBig+ plans. For a provider that positions itsel
 - Users who value support quality above all else
 - Small business sites where the renewal price is a manageable operating expense
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">Explore SiteGround's plans →</a>
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">Explore SiteGround's plans →</a>
 
 ## 3. Cloudways — Managed Cloud Without the Complexity
 

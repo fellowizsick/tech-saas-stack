@@ -101,7 +101,7 @@ The downside is the learning curve. Setting up WordPress is not hard — our <a 
 
 **Who it is for:** bloggers who want SEO control, small businesses that plan to scale, anyone selling products long-term, and anyone who wants to own their site instead of renting it.
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">Get started with SiteGround managed WordPress hosting →</a>
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">Get started with SiteGround managed WordPress hosting →</a>
 
 ## Wix — The Most Flexible Drag-and-Drop Builder
 

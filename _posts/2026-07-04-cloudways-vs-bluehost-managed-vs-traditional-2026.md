@@ -247,7 +247,7 @@ Cloudways also has an extensive knowledge base and a community forum. The differ
 
 ### Go somewhere else if:
 
-- You want managed WordPress without touching server config — get <a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a>
+- You want managed WordPress without touching server config — get <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a>
 - You want a price-lock guarantee and don't need cloud resources — get <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a>
 - You want managed VPS with SPanel (cPanel alternative at half the cost) — get <a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a>
 

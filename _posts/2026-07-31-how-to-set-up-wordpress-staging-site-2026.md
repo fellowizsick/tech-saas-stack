@@ -56,7 +56,7 @@ SiteGround includes one-click staging on every WordPress plan. From your Site To
 
 SiteGround creates the staging site as a subdirectory (for example, `yoursite.com/mystaging/`) and protects it with a password prompt by default. To push changes back, open the Staging menu and click **Push to Production**, choosing whether to push files, the database, or both. SiteGround is one of the most beginner-friendly hosts for this workflow — you can see how it compares against other providers in our <a href="/2026/07/siteground-vs-cloudways-vs-bluehost-wordpress-hosting-2026/">SiteGround vs Cloudways vs BlueHost comparison</a>.
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">Start with SiteGround's one-click staging →</a>
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">Start with SiteGround's one-click staging →</a>
 
 ### Cloudways Staging
 

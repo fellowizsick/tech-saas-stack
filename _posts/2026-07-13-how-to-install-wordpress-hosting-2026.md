@@ -22,7 +22,7 @@ Once you've signed up for hosting and pointed your domain to it, you're ready to
 
 ## Method 1: Install WordPress on SiteGround via Site Tools
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> is one of the most beginner-friendly hosting providers, and their custom Site Tools dashboard makes WordPress installation genuinely simple. If you're new to website building, this is the easiest path.
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> is one of the most beginner-friendly hosting providers, and their custom Site Tools dashboard makes WordPress installation genuinely simple. If you're new to website building, this is the easiest path.
 
 ### Step 1: Log into Your Site Tools Dashboard
 
@@ -48,7 +48,7 @@ Click **Install** and wait 30-60 seconds. SiteGround configures the database, cr
 
 SiteGround's Site Tools includes built-in caching (SG Optimizer), automatic updates, and daily backups right out of the box. You don't need to install separate caching or backup plugins — the platform handles it at the server level. This makes it an excellent choice if you want your site to run well without manually configuring performance tools.
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">Get started with SiteGround →</a>
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">Get started with SiteGround →</a>
 
 ## Method 2: Install WordPress on InterServer via Softaculous (cPanel)
 
@@ -171,7 +171,7 @@ ScalaHosting's SPanel includes SShield — a real-time AI-powered security syste
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
+      <td><a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
       <td>Site Tools Auto Installer</td>
       <td>~30 seconds</td>
       <td>$2.99/mo intro</td>

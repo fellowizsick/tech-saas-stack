@@ -57,7 +57,7 @@ Here's what the major providers offer:
       <td>✅ Via cPanel</td>
     </tr>
     <tr>
-      <td><a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
+      <td><a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
       <td>Daily</td>
       <td>30 days</td>
       <td>1-click in Site Tools</td>
@@ -92,7 +92,7 @@ SiteGround runs automatic daily backups with 30-day retention on all plans. The 
 
 SiteGround's backup system is fully automated — you don't need to configure anything after signing up. The trade-off is that you can't download individual backup files for off-site storage through Site Tools alone; you'd need a plugin for that.
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround's WordPress hosting plans</a> start at $2.99/mo (promo pricing) and include the daily backup system plus their custom caching plugin, SG Optimizer.
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround's WordPress hosting plans</a> start at $2.99/mo (promo pricing) and include the daily backup system plus their custom caching plugin, SG Optimizer.
 
 ### Cloudways — Configurable Hourly Backups
 
@@ -263,7 +263,7 @@ A backup that fails when you need it is worse than no backup at all because you 
 2. **Test a file restore** — Download a single backup file, extract it, and confirm the contents look like your real site files.
 3. **Do a dry-run restore** — Restore a backup to a staging environment (not the live site) and confirm the site loads correctly. Most managed hosts offer a staging feature for exactly this purpose.
 
-For sites managed through <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a>, the staging environment serves double duty: you can test the backup restore on staging before applying it to production. <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> offers a similar staging feature with one-click cloning.
+For sites managed through <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a>, the staging environment serves double duty: you can test the backup restore on staging before applying it to production. <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> offers a similar staging feature with one-click cloning.
 
 ## Best Practices for Your Backup Strategy
 
@@ -355,4 +355,4 @@ A properly executed restore has no SEO impact because the URL structure and cont
 
 The best backup strategy is the one you actually maintain. A simple setup — daily backups from your hosting provider plus a weekly plugin backup to cloud storage — covers 95% of disaster scenarios. The remaining 5% (hardware failure, account suspension, catastrophic plugin conflict) is covered by having that off-site copy you can restore to any host.
 
-Start by checking what your current host already provides. If you're on <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a>, <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a>, <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a>, or <a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a>, you already have automated backups included. Add a free UpdraftPlus backup to Google Drive for off-site storage, schedule a quarterly restore test, and you're covered for virtually any scenario that comes up.
+Start by checking what your current host already provides. If you're on <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a>, <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a>, <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a>, or <a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a>, you already have automated backups included. Add a free UpdraftPlus backup to Google Drive for off-site storage, schedule a quarterly restore test, and you're covered for virtually any scenario that comes up.

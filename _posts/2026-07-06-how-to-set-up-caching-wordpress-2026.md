@@ -59,7 +59,7 @@ SiteGround includes its own caching system called SuperCacher, managed through t
 6. Set **Auto-Flush Cache** to enable cache clearing when you update content
 7. **Save Changes**
 
-SiteGround users get this fully configured with no additional cost or maintenance. <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">All SiteGround hosting plans</a> include SuperCacher across three caching layers.
+SiteGround users get this fully configured with no additional cost or maintenance. <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">All SiteGround hosting plans</a> include SuperCacher across three caching layers.
 
 ### Cloudways Breeze + Varnish
 
@@ -137,7 +137,7 @@ W3 Total Cache (W3TC) is the most configurable caching plugin for WordPress. It'
 8. Enable **CDN** if you're using one
 9. **Save All Settings**
 
-W3TC can be resource-intensive — it needs a host with adequate PHP workers and memory limits. For budget-friendly performance, <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> and <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> both handle W3TC well with their respective server configurations.
+W3TC can be resource-intensive — it needs a host with adequate PHP workers and memory limits. For budget-friendly performance, <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> and <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> both handle W3TC well with their respective server configurations.
 
 ## Method 3: Browser Caching via .htaccess (Quick Win)
 
@@ -270,7 +270,7 @@ Cloudflare's free + APO ($5/mo) combination works well for most WordPress sites.
       <td>Redis (via plugin)</td>
     </tr>
     <tr>
-      <td><a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
+      <td><a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
       <td>Apache + Nginx</td>
       <td>Yes (SuperCacher)</td>
       <td>SG Optimizer</td>
@@ -363,7 +363,7 @@ Logged-out visitors see the cached version. Logged-in users (including you as ad
 Your hosting provider determines which caching methods are available. Here's a quick breakdown:
 
 - <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> — LiteSpeed servers with the free LiteSpeed Cache plugin. Their price-lock guarantee means caching performance stays consistent regardless of traffic growth. Starting at $2.50/mo.
-- <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> — SuperCacher with three layers (static, dynamic, Memcached), managed through the SG Optimizer plugin. Starting at $2.99/mo intro.
+- <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> — SuperCacher with three layers (static, dynamic, Memcached), managed through the SG Optimizer plugin. Starting at $2.99/mo intro.
 - <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> — Varnish + Breeze + optional Redis, plus Cloudflare Enterprise CDN with edge caching. Starting at $14/mo.
 - <a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a> — LiteSpeed servers with SPanel-managed caching and Redis support. Their managed VPS plans start at $2.95/mo intro.
 

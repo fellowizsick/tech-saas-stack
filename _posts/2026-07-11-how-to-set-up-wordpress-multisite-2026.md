@@ -52,7 +52,7 @@ Here's how four hosting providers compare for running a WordPress Multisite netw
   <thead>
     <tr>
       <th>Feature</th>
-      <th><a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a></th>
+      <th><a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a></th>
       <th><a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a></th>
       <th><a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a></th>
       <th><a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a></th>
@@ -127,7 +127,7 @@ Here's how four hosting providers compare for running a WordPress Multisite netw
 
 ## Method 1: Setting Up Multisite via SiteGround Site Tools
 
-<a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> is one of the most Multisite-friendly shared hosts. Their custom Site Tools dashboard gives you a streamlined interface for managing multiple websites, and their GrowBig and GoGeek plans include staging environments — helpful for testing a Multisite config before going live.
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> is one of the most Multisite-friendly shared hosts. Their custom Site Tools dashboard gives you a streamlined interface for managing multiple websites, and their GrowBig and GoGeek plans include staging environments — helpful for testing a Multisite config before going live.
 
 **Step 1: Install a fresh WordPress site**
 

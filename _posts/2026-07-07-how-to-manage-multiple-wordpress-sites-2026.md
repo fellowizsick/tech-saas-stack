@@ -110,7 +110,7 @@ Some hosting providers include multi-site management right in their control pane
 
 <h3 id="siteground-site-tools">SiteGround — Site Tools Multi-Site Dashboard</h3>
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> replaced cPanel with their proprietary Site Tools control panel, which includes a centralized site management view for all accounts under one billing profile.
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> replaced cPanel with their proprietary Site Tools control panel, which includes a centralized site management view for all accounts under one billing profile.
 
 **What you get:**
 
@@ -124,7 +124,7 @@ Some hosting providers include multi-site management right in their control pane
 **Best for:** Freelancers who prefer a shared hosting entry point with room to scale, and those who want white-label reselling capabilities for client billing.
 
 <div class="cta-wrapper">
-  <a href="https://siteground.com/go/affiliate" class="cta-btn" rel="nofollow sponsored" target="_blank">Try SiteGround →</a>
+  <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" class="cta-btn" rel="nofollow sponsored" target="_blank">Try SiteGround →</a>
   <p class="cta-caption">Shared hosting from $2.99/mo with multi-site tools included</p>
 </div>
 

@@ -107,11 +107,11 @@ SiteGround currently offers three shared/managed WordPress plans, and the right 
 
 **My recommendation:** choose **StartUp** for a single personal blog or portfolio, **GrowBig** if you manage more than one site or expect steady growth (the staging environment alone is worth the upgrade), and **GoGeek** if you build sites for clients or run a resource-hungry site with heavy plugins.
 
-You can <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">sign up for SiteGround here</a> — the plan selector is the first thing you'll see on the page.
+You can <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">sign up for SiteGround here</a> — the plan selector is the first thing you'll see on the page.
 
 ## Step 2: Sign Up and Enter Your Account
 
-1. Go to <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround's pricing page</a> and click **Get Plan** on your chosen plan.
+1. Go to <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround's pricing page</a> and click **Get Plan** on your chosen plan.
 2. On the checkout page, choose your billing period. Longer terms (12 or 24 months) lower the monthly introductory rate, but you commit upfront — and renewals will be at the standard rate.
 3. Enter your email and create a password, or sign up with Google for a faster start.
 4. Add your billing details. SiteGround also asks for your business/company info; for a personal site, you can select "Individual" and leave the company fields blank.

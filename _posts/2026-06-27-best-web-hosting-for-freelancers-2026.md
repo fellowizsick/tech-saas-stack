@@ -167,7 +167,7 @@ The collaboration tools are another highlight. You can create separate WordPress
 
 SiteGround is best for freelancers who prioritize support quality and managed tools and are willing to pay renewal premiums for the peace of mind.
 
-<a class="cta-btn" href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">Get SiteGround GrowBig Plan →</a>
+<a class="cta-btn" href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">Get SiteGround GrowBig Plan →</a>
 
 <h2 id="3-cloudways-managed-cloud">3. Cloudways — Best for Multi-Site Client Management</h2>
 

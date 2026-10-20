@@ -62,7 +62,7 @@ The setup process is just as simple:
 
 SiteGround's Dynamic Cache is built on NGINX FastCGI Cache with a persistent memory layer — it's not Redis specifically, but it achieves the same outcome for WordPress sites: database queries are cached in memory and served in under a millisecond on repeat requests.
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank" class="cta-btn">Get SiteGround with Dynamic Cache →</a>
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank" class="cta-btn">Get SiteGround with Dynamic Cache →</a>
 
 The main difference from Cloudways' Redis implementation is that SiteGround's Dynamic Cache is a server-level feature you can't configure — the memory allocation, cache expiration, and flush behavior are handled automatically by SiteGround's infrastructure. For 95% of WordPress sites, this works perfectly. If you're running a custom Redis application that needs direct Redis access (like a queue system or real-time notifications), you'll want a host that gives you direct Redis control.
 

@@ -211,7 +211,7 @@ InterServer offers VPS plans starting at $6/month, making it a natural upgrade p
 - You're willing to **pay more at renewal** for a better experience
 - You want a **modern control panel** that makes server management approachable
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank" class="cta-btn">Get SiteGround at $2.99/mo →</a>
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank" class="cta-btn">Get SiteGround at $2.99/mo →</a>
 
 ### Choose Hostinger if:
 

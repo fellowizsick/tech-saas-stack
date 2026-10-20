@@ -133,7 +133,7 @@ Don't cheap out on hosting for your business site. If your site is slow or goes 
       <td>Pay-as-you-go, auto-healing servers, staging environment</td>
     </tr>
     <tr>
-      <td><a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
+      <td><a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
       <td>Managed WordPress for small agencies</td>
       <td>$2.99/mo (intro)</td>
       <td>SG Optimizer plugin, 24/7 support, free SSL + CDN</td>
@@ -155,7 +155,7 @@ Don't cheap out on hosting for your business site. If your site is slow or goes 
 
 From our testing, <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> is the best option for web designers who plan to host multiple client sites — you can spin up separate servers per client, clone staging sites, and scale resources as clients grow. See our full <a href="/2026/06/cloudways-vs-digitalocean-managed-cloud-vps-2026/">Cloudways vs DigitalOcean comparison</a> for a deeper dive.
 
-For designers just starting out with a single portfolio site, <a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> offers fantastic managed WordPress hosting with a user-friendly dashboard and excellent support team.
+For designers just starting out with a single portfolio site, <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> offers fantastic managed WordPress hosting with a user-friendly dashboard and excellent support team.
 
 ## Step 3: Define Your Services & Pricing
 
@@ -203,7 +203,7 @@ One of the biggest mistakes new web designers make is being vague about what the
 ### Pricing Strategy Tips
 
 - **Start lower, raise fast** — Your first 2-3 clients can be discounted ($500-800 for a 5-page site). Once you have a portfolio, double your rates.
-- **Offer hosting as a recurring service** — Resell hosting through a provider like <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> or <a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> with a markup. This creates predictable monthly revenue.
+- **Offer hosting as a recurring service** — Resell hosting through a provider like <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> or <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> with a markup. This creates predictable monthly revenue.
 - **Always use contracts** — Use a simple web design contract template (Hello Bonsai, Pandadoc, or a lawyer-reviewed template). Specify scope, revisions, timeline, and payment schedule.
 
 I cover pricing in more detail in the <a href="/2026/06/how-to-start-affiliate-marketing-website-2026/">affiliate marketing website guide</a>, which also applies to service businesses.
@@ -315,7 +315,7 @@ Starting a web design business in 2026 is genuinely achievable with a laptop, Wo
 
 **My recommendation for getting started today:**
 
-1. Buy your domain and set up your portfolio site on <a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> (start at $2.99/mo)
+1. Buy your domain and set up your portfolio site on <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> (start at $2.99/mo)
 2. Build 2-3 sample sites to showcase your range
 3. Reach out to 10 local businesses this week with a redesign offer
 4. Land your first paying client — even at a discount — and use their testimonial to get the next one at full price

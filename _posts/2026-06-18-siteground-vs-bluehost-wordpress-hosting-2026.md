@@ -231,9 +231,9 @@ The EIG ownership matters: Bluehost shares infrastructure, support stacks, and u
 
 | Host | Plan | Intro Price | My Link |
 |------|------|-------------|---------|
-| **SiteGround** | StartUp (1 site) | $2.99/mo (12 mo) | [Get SiteGround StartUp →](https://www.siteground.com/go/affiliate){:rel="sponsored nofollow" target="_blank"} |
-| **SiteGround** | GrowBig (unlimited) | $4.99/mo (12 mo) | [Get SiteGround GrowBig →](https://www.siteground.com/go/affiliate){:rel="sponsored nofollow" target="_blank"} |
-| **SiteGround** | GoGeek (agency) | $7.99/mo (12 mo) | [Get SiteGround GoGeek →](https://www.siteground.com/go/affiliate){:rel="sponsored nofollow" target="_blank"} |
+| **SiteGround** | StartUp (1 site) | $2.99/mo (12 mo) | [Get SiteGround StartUp →](https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4){:rel="sponsored nofollow" target="_blank"} |
+| **SiteGround** | GrowBig (unlimited) | $4.99/mo (12 mo) | [Get SiteGround GrowBig →](https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4){:rel="sponsored nofollow" target="_blank"} |
+| **SiteGround** | GoGeek (agency) | $7.99/mo (12 mo) | [Get SiteGround GoGeek →](https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4){:rel="sponsored nofollow" target="_blank"} |
 | **Bluehost** | Basic (1 site) | $2.95/mo (36 mo) | [Get Bluehost Basic →](https://bluehost.sjv.io/c/7392811/1376228/11352){:rel="sponsored nofollow" target="_blank"} |
 | **Bluehost** | Choice Plus (unlimited) | $5.45/mo (36 mo) | [Get Bluehost Choice Plus →](https://bluehost.sjv.io/c/7392811/1376228/11352){:rel="sponsored nofollow" target="_blank"} |
 

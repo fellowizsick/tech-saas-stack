@@ -45,7 +45,7 @@ Your hosting choice matters more for a membership site than for a regular blog. 
       <td>Price-lock guarantee (renewal = intro price)</td>
     </tr>
     <tr>
-      <td><a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
+      <td><a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
       <td>$2.99/mo</td>
       <td>Beginners and small memberships</td>
       <td>Managed WordPress with staging + SG Optimizer</td>
@@ -65,7 +65,7 @@ Your hosting choice matters more for a membership site than for a regular blog. 
   </tbody>
 </table>
 
-**Quick recommendation:** If you're just starting out and want the lowest risk, go with <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> — their GrowBig plan includes staging, which is huge for testing your membership setup before going live. If you expect rapid growth, <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> scales vertically without the migration headache.
+**Quick recommendation:** If you're just starting out and want the lowest risk, go with <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> — their GrowBig plan includes staging, which is huge for testing your membership setup before going live. If you expect rapid growth, <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> scales vertically without the migration headache.
 
 ## Step 2: Install WordPress and a Membership Plugin
 
@@ -243,7 +243,7 @@ For ongoing growth:
 
 ### How much does it cost to run a membership site?
 
-The baseline is hosting ($3-14/mo) + domain ($10-15/yr) + a membership plugin (free to $199/yr). With a $2.99/mo <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> plan and the free Paid Memberships Pro plugin, you can launch for under $50 in the first year.
+The baseline is hosting ($3-14/mo) + domain ($10-15/yr) + a membership plugin (free to $199/yr). With a $2.99/mo <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> plan and the free Paid Memberships Pro plugin, you can launch for under $50 in the first year.
 
 ### Do I need a developer to build a membership site?
 
@@ -251,7 +251,7 @@ No. WordPress membership plugins handle the technical side — payment processin
 
 ### Can I migrate my membership site to a new host later?
 
-Yes, but it's more involved than a standard WordPress migration because you also need to transfer subscription data and payment records. Use a migration plugin like All-in-One WP Migration or ask your new host to handle it. <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> and <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> both offer free migration services.
+Yes, but it's more involved than a standard WordPress migration because you also need to transfer subscription data and payment records. Use a migration plugin like All-in-One WP Migration or ask your new host to handle it. <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> and <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> both offer free migration services.
 
 ### What's the best membership plugin for beginners?
 
@@ -277,4 +277,4 @@ Building a membership site with WordPress in 2026 is more accessible than ever. 
 
 Start small. Pick one membership plugin, set up one pricing tier, protect your best content, and launch to a small audience. Iterate from there based on what your members actually use and ask for.
 
-If you're deciding on hosting, here's the short version: <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> is the easiest place to start, <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> is the cheapest long-term bet with its price-lock guarantee, and <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> lets you scale without changing hosts. Pick the one that matches where you are today — you can always upgrade later.
+If you're deciding on hosting, here's the short version: <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> is the easiest place to start, <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> is the cheapest long-term bet with its price-lock guarantee, and <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> lets you scale without changing hosts. Pick the one that matches where you are today — you can always upgrade later.

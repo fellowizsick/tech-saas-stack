@@ -43,7 +43,7 @@ If you don't have a WordPress site yet, most hosting providers include a WordPre
       <td>Budget sites with price-lock guarantee</td>
     </tr>
     <tr>
-      <td><a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
+      <td><a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a></td>
       <td>Site Tools WordPress installer with setup wizard</td>
       <td>$2.99/mo (intro)</td>
       <td>Managed WordPress with excellent support</td>
@@ -286,7 +286,7 @@ The best theme in the world won't save a site hosted on slow infrastructure. You
 Here's how each of the recommended hosting providers contributes to a good theme experience:
 
 - **InterServer** — Standard shared hosting with SSD storage and CDN. Plenty fast for most WordPress themes. The price-lock guarantee means you won't get a renewal shock if your site grows and you need to upgrade. Starting at <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">$2.50/mo</a>.
-- **SiteGround** — Built-in caching (SG Optimizer) and a custom PHP setup that loads themes noticeably faster than generic shared hosting. The staging feature is useful for testing theme changes before going live. Starting at <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">$2.99/mo (intro)</a>.
+- **SiteGround** — Built-in caching (SG Optimizer) and a custom PHP setup that loads themes noticeably faster than generic shared hosting. The staging feature is useful for testing theme changes before going live. Starting at <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">$2.99/mo (intro)</a>.
 - **Cloudways** — Your choice of cloud provider (DigitalOcean, Linode, Vultr, AWS, or Google Cloud) with dedicated resources. Themes on Cloudways load fast because you're not sharing CPU with noisy neighbors. Includes Cloudflare Enterprise CDN at no extra cost. Starting at <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">$14/mo</a>.
 - **ScalaHosting** — SPanel-managed VPS with dedicated CPU cores and NVMe SSD storage. Themes load quickly and the isolated environment means consistent performance. Starting at <a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">$2.95/mo (intro)</a>.
 

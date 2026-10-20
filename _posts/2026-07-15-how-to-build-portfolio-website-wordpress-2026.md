@@ -40,7 +40,7 @@ Here's how the top options stack up for portfolio sites:
   </tbody>
 </table>
 
-**My recommendation:** If you're new to WordPress and want the simplest setup, <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> includes everything you need — SSL, CDN, and email — at a low intro price. If your portfolio has lots of high-resolution images and you want the fastest load times, <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> gives you a CDN and dedicated server resources that keep image-heavy galleries snappy. If budget is your main concern, <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> locks in its $2.50/mo price as long as the account stays active — no renewal surprises.
+**My recommendation:** If you're new to WordPress and want the simplest setup, <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> includes everything you need — SSL, CDN, and email — at a low intro price. If your portfolio has lots of high-resolution images and you want the fastest load times, <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> gives you a CDN and dedicated server resources that keep image-heavy galleries snappy. If budget is your main concern, <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> locks in its $2.50/mo price as long as the account stays active — no renewal surprises.
 
 ## Step 2: Install WordPress
 
@@ -231,7 +231,7 @@ Before sharing your portfolio with the world:
 ## FAQ
 
 ### Do I need a separate hosting plan for a portfolio site, or can I use a cheap shared plan?
-A standard shared hosting plan works perfectly for most portfolio sites. Even entry-level plans from providers like <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> or <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> handle image-heavy portfolios well. You only need a VPS or dedicated server if you're getting 50,000+ monthly visitors.
+A standard shared hosting plan works perfectly for most portfolio sites. Even entry-level plans from providers like <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> or <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> handle image-heavy portfolios well. You only need a VPS or dedicated server if you're getting 50,000+ monthly visitors.
 
 ### How much does a WordPress portfolio site cost per year?
 Roughly $50-150/year: domain ($10-15/yr), hosting ($30-180/yr depending on provider and plan), premium theme ($0-60 one-time), and plugins ($0-100/yr if you choose premium versions). Starting with free themes and free plugins keeps it at the lower end.

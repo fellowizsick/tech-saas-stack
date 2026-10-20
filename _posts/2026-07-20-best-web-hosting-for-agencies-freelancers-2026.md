@@ -59,7 +59,7 @@ In my experience testing various hosting plans designed for agencies and freelan
 
 ### SiteGround GoGeek — Best for Small Agencies
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround's GoGeek plan</a> is one of the best options for small agencies and freelancers just starting to manage multiple client sites.
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround's GoGeek plan</a> is one of the best options for small agencies and freelancers just starting to manage multiple client sites.
 
 **Key agency features:**
 - **Up to 40 websites** on the GoGeek plan — enough for most small agencies
@@ -259,13 +259,13 @@ A staging environment is a private copy of your live site where you can test cha
 
 **Which provider is best for WordPress multisite?**
 
-From my testing, <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> offers the most WordPress-optimized multisite experience, with automatic updates and server-level caching tuned for WordPress. <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> is also excellent if you need more granular control over each site in the network.
+From my testing, <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> offers the most WordPress-optimized multisite experience, with automatic updates and server-level caching tuned for WordPress. <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> is also excellent if you need more granular control over each site in the network.
 
 ## Final Verdict
 
 Picking the right hosting for your agency or freelance business comes down to where you are in your growth journey:
 
-**Starting out (1–15 sites):** <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround GoGeek</a> — low friction, excellent support, and all the features you need to manage client sites professionally.
+**Starting out (1–15 sites):** <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround GoGeek</a> — low friction, excellent support, and all the features you need to manage client sites professionally.
 
 **Scaling up (15–50 sites):** <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> — resource isolation and scalability without the complexity of unmanaged cloud servers.
 

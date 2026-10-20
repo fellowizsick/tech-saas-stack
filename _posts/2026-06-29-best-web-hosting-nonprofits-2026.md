@@ -127,7 +127,7 @@ SiteGround's support team is among the most responsive in the industry. Phone, c
 
 SiteGround also runs a grant program for nonprofit organizations, offering free hosting to qualifying groups. Applications are competitive but worth pursuing if you're a registered 501(c)(3) with an existing web presence.
 
-<a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">Visit SiteGround →</a>
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">Visit SiteGround →</a>
 
 ## 2. InterServer — Best Budget Pick With Price Lock
 

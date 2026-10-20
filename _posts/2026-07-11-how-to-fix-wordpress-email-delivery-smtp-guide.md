@@ -66,7 +66,7 @@ If you're on a host that includes email service, this is the simplest method —
 
 ### SiteGround (Free Email)
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> offers free unlimited email accounts with all plans. Their SMTP credentials:
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> offers free unlimited email accounts with all plans. Their SMTP credentials:
 
 - **SMTP Host:** `send.siteground.com`
 - **Port:** 465 (SSL)
@@ -273,7 +273,7 @@ Most hosting providers auto-configure these in cPanel or the hosting dashboard. 
 
 Here's a quick decision guide based on your site's needs:
 
-- **Personal blog under 100 emails/month** — Use your hosting provider's SMTP. <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> includes free email at $2.50/mo (per their price-lock policy), or <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> at $2.99/mo intro.
+- **Personal blog under 100 emails/month** — Use your hosting provider's SMTP. <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> includes free email at $2.50/mo (per their price-lock policy), or <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> at $2.99/mo intro.
 - **Business site, 100–300 emails/month** — Use Gmail or Outlook SMTP. Free, reliable, and easy to set up with WP Mail SMTP.
 - **Growing site, 300–3,000 emails/month** — Use Brevo's free tier (300/day). Setup takes 10 minutes and deliverability is excellent.
 - **WooCommerce store, membership site, or LMS** — Use a transactional service (SendGrid, Mailgun, Postmark). The free tier usually covers your first few hundred orders.
@@ -315,4 +315,4 @@ If your hosting includes email, it's free — just configure your SMTP plugin an
 
 WordPress email delivery issues are frustrating, but the fix is straightforward. Pick the SMTP method that matches your site's volume, configure it with WP Mail SMTP, add your SPF/DKIM DNS records, and test. Once it's set up, you'll never think about it again — password resets will arrive, WooCommerce orders will confirm, and contact forms will actually reach your inbox.
 
-If you're starting a new WordPress site and want to avoid email headaches from day one, choose a host that includes quality email services. <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> at $2.50/mo with a price-lock guarantee is the most budget-friendly option, while <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> and <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> offer premium email solutions with their managed hosting plans.
+If you're starting a new WordPress site and want to avoid email headaches from day one, choose a host that includes quality email services. <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> at $2.50/mo with a price-lock guarantee is the most budget-friendly option, while <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> and <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> offer premium email solutions with their managed hosting plans.

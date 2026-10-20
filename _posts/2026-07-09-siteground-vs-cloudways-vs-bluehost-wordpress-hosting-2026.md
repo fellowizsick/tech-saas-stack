@@ -108,7 +108,7 @@ None of these approaches is wrong — they just match different user types.
 
 ## 1. SiteGround — The Premium All-in-One
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> has built a reputation as the shared hosting provider that doesn't feel like shared hosting. Their custom Site Tools platform replaces the old cPanel interface with a clean, fast dashboard. Everything — caching, SSL, CDN, email, backups — is built in and managed from one place.
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> has built a reputation as the shared hosting provider that doesn't feel like shared hosting. Their custom Site Tools platform replaces the old cPanel interface with a clean, fast dashboard. Everything — caching, SSL, CDN, email, backups — is built in and managed from one place.
 
 ### What Makes SiteGround Stand Out
 
@@ -135,7 +135,7 @@ Only one site on the entry plan. If you plan to run multiple WordPress installs,
 - Anyone who wants built-in email, CDN, and caching without managing separate services
 - Sites that don't expect to outgrow shared hosting limits
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">Check SiteGround's current plans →</a>
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">Check SiteGround's current plans →</a>
 
 ---
 
@@ -313,7 +313,7 @@ If you're launching a new site and want the best mix of features, support, and p
 
 The hosting companies on this list have affiliate programs. Here's where to find their current plans:
 
-- <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround — current plans and pricing</a>
+- <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround — current plans and pricing</a>
 - <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways — cloud hosting plans</a>
 - <a href="https://bluehost.sjv.io/c/7392811/1376228/11352" rel="nofollow sponsored" target="_blank">Bluehost — WordPress hosting plans</a>
 

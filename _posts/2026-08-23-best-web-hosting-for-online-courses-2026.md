@@ -117,7 +117,7 @@ Pricing starts at **$2.99/mo on the intro term** for the StartUp plan (one site,
 
 If you are building a course with a membership component, SiteGround's managed setup also plays well with MemberPress and similar plugins — see our membership site guide for the architecture. For most course creators, this is the safest all-round choice.
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">Start with SiteGround's managed WordPress hosting →</a>
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">Start with SiteGround's managed WordPress hosting →</a>
 
 ## Cloudways — Best for Scaling and Performance
 

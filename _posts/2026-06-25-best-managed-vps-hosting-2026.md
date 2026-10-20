@@ -243,7 +243,7 @@ Unmanaged VPS (like DigitalOcean droplets or Linode instances) costs less but re
 
 <img src="/assets/images/providers/siteground.png" alt="SiteGround homepage screenshot" style="width:100%;max-width:800px;border-radius:8px;border:1px solid #e0e0e0;margin:1.5rem 0;" />
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> doesn't offer traditional VPS plans. Instead, their GoGeek tier is a high-end shared hosting account with 4 GB memory, 40 GB storage, and 100,000 monthly visits — enough resources for sites that would run comfortably on a low-tier VPS.
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> doesn't offer traditional VPS plans. Instead, their GoGeek tier is a high-end shared hosting account with 4 GB memory, 40 GB storage, and 100,000 monthly visits — enough resources for sites that would run comfortably on a low-tier VPS.
 
 **What You Get:**
 
@@ -274,7 +274,7 @@ Unmanaged VPS (like DigitalOcean droplets or Linode instances) costs less but re
 
 **Best for:** Users who want premium managed hosting with top-tier support and don't need VPS-level resource isolation.
 
-<a class="cta-btn" href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">Visit SiteGround →</a>
+<a class="cta-btn" href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">Visit SiteGround →</a>
 
 ## 5. WP Engine — Managed WordPress on a VPS Infrastructure
 

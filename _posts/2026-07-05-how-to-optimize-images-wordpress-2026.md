@@ -57,7 +57,7 @@ Imagify integrates tightly with WP Rocket's caching system, so if you're already
 
 ### SG Optimizer (for SiteGround Users)
 
-If you're hosted on <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a>, their SG Optimizer plugin handles image compression natively. It's free, pre-installed on SiteGround plans, and includes WebP conversion, lazy loading, and CSS/JS optimization alongside image compression — all in one plugin. No separate subscription needed.
+If you're hosted on <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a>, their SG Optimizer plugin handles image compression natively. It's free, pre-installed on SiteGround plans, and includes WebP conversion, lazy loading, and CSS/JS optimization alongside image compression — all in one plugin. No separate subscription needed.
 
 <table class="comparison-table">
   <thead>
@@ -271,7 +271,7 @@ Yes — but indirectly. Search engines use page speed (including Core Web Vitals
 Your hosting provider affects how well image optimization works in practice. A host with strong server‑side caching, CDN integration, and sufficient memory limits makes optimization smoother:
 
 - <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> — Standard web hosting includes unlimited storage, so large media libraries won't bump against limits. Their price‑lock guarantee means you don't pay more as your image‑heavy site grows.
-- <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> — SG Optimizer plugin handles image compression automatically. The built‑in caching layers mean optimized images are served from cache immediately.
+- <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> — SG Optimizer plugin handles image compression automatically. The built‑in caching layers mean optimized images are served from cache immediately.
 - <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> — Cloudflare Enterprise CDN on most plans handles automatic image optimization at the edge. The Breeze caching plugin includes image compression and lazy loading.
 - <a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a> — Free staging environment for testing plugin combos before pushing live. SPanel's built‑in caching works alongside image plugins without conflict.
 
@@ -288,4 +288,4 @@ Image optimization doesn't have to be complicated. For most WordPress site owner
 
 If you want to squeeze out every last kilobyte, combine a plugin with a CDN (Cloudflare's free plan works well for most sites), and resize images before upload when you have the time. The setup takes under 20 minutes and the performance gains are immediate — better Core Web Vitals, faster pages, and a noticeable improvement on mobile connections.
 
-The best approach is the one you'll actually stick with. A good plugin running on <a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> or <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> requires zero ongoing effort once configured. Set it up once, and every image from that point forward is automatically optimized.
+The best approach is the one you'll actually stick with. A good plugin running on <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> or <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> requires zero ongoing effort once configured. Set it up once, and every image from that point forward is automatically optimized.

@@ -72,7 +72,7 @@ That's it. Your email is live immediately. You can access it via:
 
 ### Method 1b: SiteGround (Free Email with All Plans)
 
-<a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> also includes free email accounts with all hosting plans — up to 10GB of total email storage depending on your plan tier.
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> also includes free email accounts with all hosting plans — up to 10GB of total email storage depending on your plan tier.
 
 **Step-by-step setup on SiteGround:**
 
@@ -266,7 +266,7 @@ Every business has different needs. Here's a quick decision guide:
     <tr><th>Your Situation</th><th>Best Option</th><th>Monthly Cost</th></tr>
   </thead>
   <tbody>
-    <tr><td>Solo freelancer, one email account</td><td>Free hosting email (<a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> or <a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a>)</td><td>$0 (included with hosting)</td></tr>
+    <tr><td>Solo freelancer, one email account</td><td>Free hosting email (<a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> or <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a>)</td><td>$0 (included with hosting)</td></tr>
     <tr><td>Small team (2-5 people)</td><td>Google Workspace Starter ($6/user/mo)</td><td>$6-30/mo</td></tr>
     <tr><td>Medium team (5-50 people)</td><td>Microsoft 365 Business Basic ($6/user/mo)</td><td>$30-300/mo</td></tr>
     <tr><td>Developer / agency on cloud hosting</td><td><a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a> + Rackspace or Gmail via IMAP</td><td>$1-6/user/mo</td></tr>
@@ -280,7 +280,7 @@ Every business has different needs. Here's a quick decision guide:
 
 ### How much does a professional email address cost?
 
-It can cost $0 if your web hosting includes email (most shared hosting plans do, like <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> and <a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a>). Dedicated services like Google Workspace cost ~$6/user/month. Cloudways' Rackspace addon costs ~$1/user/month.
+It can cost $0 if your web hosting includes email (most shared hosting plans do, like <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> and <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a>). Dedicated services like Google Workspace cost ~$6/user/month. Cloudways' Rackspace addon costs ~$1/user/month.
 
 ### Can I keep my professional email if I change hosting?
 
@@ -306,7 +306,7 @@ Free hosting email (included with your hosting plan) is the most practical free 
 
 ## Final Thoughts
 
-Setting up professional email for your business website doesn't have to be expensive or complicated. For most people starting out, the free email accounts included with hosting from <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> or <a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> are more than sufficient — unlimited accounts, no extra monthly cost, and full IMAP support for use with any email client.
+Setting up professional email for your business website doesn't have to be expensive or complicated. For most people starting out, the free email accounts included with hosting from <a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a> or <a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> are more than sufficient — unlimited accounts, no extra monthly cost, and full IMAP support for use with any email client.
 
 As you grow, Google Workspace or Microsoft 365 add collaboration features that free hosting email can't match. And if you're on <a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a>, the cheap Rackspace email addon fills the gap at just $1/month per mailbox.
 

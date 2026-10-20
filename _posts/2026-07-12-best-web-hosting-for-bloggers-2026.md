@@ -107,7 +107,7 @@ The trade-off is interface polish. InterServer's control panel (a custom cPanel 
 
 ## 2. SiteGround — Best Support for New Bloggers
 
-<a href="https://siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> is the host you pick when you want someone to hold your hand. Their support team is widely considered the best in shared hosting — fast, technical, and actually helpful rather than reading from a script.
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> is the host you pick when you want someone to hold your hand. Their support team is widely considered the best in shared hosting — fast, technical, and actually helpful rather than reading from a script.
 
 **What you get at $2.99/mo (StartUp plan):**
 - 10GB web space (enough for a text-heavy blog with images)
@@ -129,7 +129,7 @@ SiteGround's staging tool is the best on this list bar none. Click "Create Stagi
 
 **Best for:** First-time bloggers who want premium support, WordPress users who value staging and caching automation, anyone willing to pay more at renewal for a polished experience.
 
-<a href="https://siteground.com/go/affiliate" class="cta-btn" rel="nofollow sponsored" target="_blank">Get SiteGround at $2.99/mo →</a>
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" class="cta-btn" rel="nofollow sponsored" target="_blank">Get SiteGround at $2.99/mo →</a>
 
 ## 3. ScalaHosting — Best for Bloggers Who Plan to Scale
 

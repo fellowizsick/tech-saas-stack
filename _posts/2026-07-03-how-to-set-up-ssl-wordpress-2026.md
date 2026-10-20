@@ -78,7 +78,7 @@ Let's Encrypt is a free, automated, and open certificate authority. It's the mos
 
 ### Method 1a: SiteGround (One-Click SSL)
 
-<a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a> includes free Let's Encrypt SSL with all hosting plans through their custom Site Tools dashboard. It takes about 30 seconds to enable.
+<a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a> includes free Let's Encrypt SSL with all hosting plans through their custom Site Tools dashboard. It takes about 30 seconds to enable.
 
 **Step-by-step:**
 
@@ -142,7 +142,7 @@ Cloudways also offers **Cloudflare Enterprise CDN** integration, which includes 
     <tr><th>Hosting Provider</th><th>SSL Method</th><th>Setup Time</th><th>Auto-Renewal</th><th>Wildcard Support</th><th>Starting Price</th></tr>
   </thead>
   <tbody>
-    <tr><td><a href="https://www.siteground.com/go/affiliate" rel="nofollow sponsored" target="_blank">SiteGround</a></td><td>Site Tools SSL Manager</td><td>30 seconds</td><td>Yes</td><td>Yes (on GrowBig+)</td><td>$2.99/mo</td></tr>
+    <tr><td><a href="https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4" rel="nofollow sponsored" target="_blank">SiteGround</a></td><td>Site Tools SSL Manager</td><td>30 seconds</td><td>Yes</td><td>Yes (on GrowBig+)</td><td>$2.99/mo</td></tr>
     <tr><td><a href="https://www.interserver.net/r/1155259" rel="nofollow sponsored" target="_blank">InterServer</a></td><td>cPanel AutoSSL</td><td>60 seconds</td><td>Yes (daily cron)</td><td>Yes</td><td>$2.50/mo</td></tr>
     <tr><td><a href="https://scalahosting.com/?aid=7ff57600" rel="nofollow sponsored" target="_blank">ScalaHosting</a></td><td>SPanel SSL Manager</td><td>60 seconds</td><td>Yes (auto)</td><td>Yes</td><td>$2.95/mo</td></tr>
     <tr><td><a href="https://www.cloudways.com/en/?id=2179745" rel="nofollow sponsored" target="_blank">Cloudways</a></td><td>Application SSL</td><td>60 seconds</td><td>Yes (auto)</td><td>Yes (via Cloudflare)</td><td>$14.00/mo</td></tr>

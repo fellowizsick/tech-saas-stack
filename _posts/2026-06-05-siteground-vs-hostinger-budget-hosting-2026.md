@@ -17,7 +17,7 @@ faq:
     a: "SiteGround has better performance thanks to its custom SG Optimizer, SuperCacher technology, and choice of data center locations. Hostinger uses LiteSpeed caching which is also fast, but SiteGround's overall speed and consistency edge ahead in independent benchmarks."
   - q: "Which is better for WordPress beginners?"
     a: "SiteGround is better for WordPress beginners because of its expert support team, WordPress-specific tools, and the SG Site Scanner for security. Hostinger is also beginner-friendly with its hPanel dashboard but doesn't offer the same level of WordPress-specific guidance."
-cta_url: "https://www.siteground.com/go/affiliate"
+cta_url: "https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4"
 cta_text: "Compare on SiteGround"
 ---
 
@@ -234,7 +234,7 @@ SiteGround and Hostinger are both excellent budget web hosting providers in 2026
 
 **SiteGround is the better premium budget option** — its support is legendary, security features are top-tier, and the custom Site Tools panel is a pleasure to use. If you value hand-holding and stability over cutting costs, SiteGround is worth the premium.
 
-For most users in 2026, I'd recommend **Hostinger** for the sheer value-to-price ratio. But if customer support is your top priority, [**SiteGround**](https://siteground.com/go/affiliate/){:rel="sponsored nofollow" target="_blank"} won't let you down.
+For most users in 2026, I'd recommend **Hostinger** for the sheer value-to-price ratio. But if customer support is your top priority, [**SiteGround**](https://www.siteground.com/go/96f9670c42eeb47962be1fd4735f2bf4){:rel="sponsored nofollow" target="_blank"} won't let you down.
 
 <table class="comparison-table">
 <thead>
